@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   parent: index.md
   icon: powah:wrench
   position: 0
@@ -12,14 +12,14 @@ item_ids:
   - powah:uraninite_ore_poor
 ---
 
-# <Color id="yellow">Getting Started</Color>
+# <Color id="yellow">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="yellow">Getting Started</Color>
+  # <Color id="yellow">Начало работы</Color>
 
   <ItemImage id="wrench" scale="2" />
 
-  Everything you need to know to start generating, storing, and transferring power with Powah.
+  Всё необходимое для начала генерации, хранения и передачи энергии с помощью Powah.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -27,38 +27,38 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier System</Color>
+  ## <Color id="gold">Система уровней</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Almost every Powah machine and item comes in 7 tiers. Higher tiers have more capacity and throughput but cost more to craft. Each tier upgrades from the previous one.
+Почти все механизмы и предметы Powah имеют 7 уровней. У высоких уровней больше вместимость и пропускная способность, но их сложнее создавать. Каждый уровень улучшается из предыдущего.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-- <Color id="aqua">Starter</Color> — Cheapest entry point
+- <Color id="aqua">Starter</Color> — самый доступный начальный уровень
 - <Color id="aqua">Basic</Color>
 - <Color id="aqua">Hardened</Color>
 - <Color id="aqua">Blazing</Color>
 - <Color id="aqua">Niotic</Color>
 - <Color id="aqua">Spirited</Color>
-- <Color id="aqua">Nitro</Color> — Maximum power
+- <Color id="aqua">Nitro</Color> — максимальная мощность
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Your First Power Setup</Color>
+  ## <Color id="gold">Первая энергетическая система</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The basic Powah workflow is simple: **generate** power, **move** it through cables, and **use** it in machines.
+Основной принцип работы Powah прост: **вырабатывайте** энергию, **передавайте** её по кабелям и **используйте** в механизмах.
 
-1. Craft a Starter-tier generator — the <ItemLink id="furnator_starter" /> (burns solid fuel) or <ItemLink id="magmator_starter" /> (burns lava) are the easiest to start with.
-2. Connect it with <ItemLink id="energy_cable_starter" /> to your machines or an <ItemLink id="energy_cell_starter" /> for storage.
-3. Use the <ItemLink id="wrench" /> in Config Mode to set cable sides to input or output as needed.
+1. Создайте генератор уровня Starter — <ItemLink id="furnator_starter" /> (сжигает твёрдое топливо) или <ItemLink id="magmator_starter" /> (использует лаву).
+2. Подключите его с помощью <ItemLink id="energy_cable_starter" /> к механизмам или к <ItemLink id="energy_cell_starter" /> для хранения энергии.
+3. Используйте <ItemLink id="wrench" /> в режиме Config Mode, чтобы настроить стороны кабеля как вход или выход.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
