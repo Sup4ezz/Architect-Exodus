@@ -1,0 +1,25 @@
+{
+  "name": "Руна увеличенной вместимости",
+  "icon": "bloodmagic:bettercapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна увеличенной вместимости$() Каждая руна увеличенной вместимости мультипликативно повышает вместимость кровавого алтаря на 7,5%. Этот бонус применяется после обычных рун вместимости."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_aug_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_aug_capacity_2",
+      "text": "Незеритовый лом и замысловатые адские детали, добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве демонов$(), позволяют удвоить силу этой руны."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/aug_capacity",
+      "text": "Передумали? Этот рецепт можно отменить в ARC."
+    }
+  ]
+}
