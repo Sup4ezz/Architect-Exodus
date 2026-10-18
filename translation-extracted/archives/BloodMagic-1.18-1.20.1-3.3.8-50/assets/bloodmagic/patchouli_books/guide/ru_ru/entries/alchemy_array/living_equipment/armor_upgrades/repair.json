@@ -1,0 +1,15 @@
+{
+  "name": "Починка",
+  "icon": "minecraft:anvil",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: каждые 100 тактов чинит случайную часть надетой брони.$(br2)Как развивается: когда вы чините нагрудник — например, на наковальне или с помощью зачарования $(thing)«Починка»$().$(br2)Максимальный уровень: 1."
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:repair"
+    }
+  ]
+}
