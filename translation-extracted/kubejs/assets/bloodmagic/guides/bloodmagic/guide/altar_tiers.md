@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Altar Tiers
+  title: Уровни алтаря
   icon: bloodmagic:blankrune
   parent: index.md
   position: 3
@@ -11,21 +11,21 @@ item_ids:
   - bloodmagic:accelerationrune
   - bloodmagic:chargingrune
 ---
-# <Color id="red">Altar Tiers</Color>
+# <Color id="red">Уровни алтаря</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Altar Tiers</Color>
+  # <Color id="red">Уровни алтаря</Color>
   <ItemImage id="bloodmagic:blankrune" scale="2" />
-  The Blood Altar can be upgraded into <Color id="gold">5 tiers</Color> by placing certain Runes and blocks around it. Higher tiers are required for certain crafting recipes.
+  Blood Altar можно улучшить до <Color id="gold">5 tiers</Color> уровней, размещая вокруг него определённые руны и блоки. Для некоторых рецептов нужны более высокие уровни.
 </Column>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Rune Types</Color>
+  ## <Color id="gold">Типы рун</Color>
 </Column>
 
-Runes serve dual purposes — they are both required for tier upgrades and provide bonuses to the altar's functionality:
+Руны нужны и для повышения уровня алтаря, и для улучшения его функций:
 
 <ItemGrid>
   <ItemIcon id="bloodmagic:blankrune" />
@@ -35,12 +35,12 @@ Runes serve dual purposes — they are both required for tier upgrades and provi
   <ItemIcon id="bloodmagic:chargingrune" />
 </ItemGrid>
 
-Choose your runes carefully based on what you need your altar to do. Speed runes increase crafting speed, while capacity runes increase LP storage.
+Выбирайте руны в зависимости от задач алтаря. Руны скорости ускоряют создание предметов, а руны вместимости увеличивают запас LP.
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier 2</Color>
+  ## <Color id="gold">Уровень 2</Color>
 </Column>
 
 <GameScene zoom="3" background="#222222" interactive={true}>
@@ -50,7 +50,7 @@ Choose your runes carefully based on what you need your altar to do. Speed runes
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier 3</Color>
+  ## <Color id="gold">Уровень 3</Color>
 </Column>
 
 <GameScene zoom="2" background="#222222" interactive={true}>
@@ -60,7 +60,7 @@ Choose your runes carefully based on what you need your altar to do. Speed runes
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier 4</Color>
+  ## <Color id="gold">Уровень 4</Color>
 </Column>
 
 <GameScene zoom="2" background="#222222" interactive={true}>
@@ -70,10 +70,10 @@ Choose your runes carefully based on what you need your altar to do. Speed runes
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier 5</Color>
+  ## <Color id="gold">Уровень 5</Color>
 </Column>
 
-<Color id="yellow">Note:</Color> The Tier 5 altar can only be assembled once you have access to <Color id="aqua">Niflheim</Color> — the required materials are gated behind that realm.
+<Color id="yellow">Примечание:</Color> The Уровень 5 altar can only be assembled once you have access to <Color id="aqua">Niflheim</Color>: необходимые материалы доступны только в этом измерении.
 
 <GameScene zoom="1.5" background="#222222" interactive={true}>
   <ImportStructure src="assets/tier_5.nbt" />
@@ -82,7 +82,7 @@ Choose your runes carefully based on what you need your altar to do. Speed runes
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier 6</Color>
+  ## <Color id="gold">Уровень 6</Color>
 </Column>
 
 <GameScene zoom="1" background="#222222" interactive={true}>
