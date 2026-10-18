@@ -1,32 +1,32 @@
 ---
 navigation:
-  title: Garden
+  title: Сад
   icon: minecraft:sugar_cane
   position: 5
 item_ids:
   - apotheosis:ender_lead
 ---
-# <Color id="dark_purple">Garden</Color>
+# <Color id="dark_purple">Сад</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Garden</Color>
+  # <Color id="dark_purple">Сад</Color>
   <ItemImage id="minecraft:sugar_cane" scale="2" />
 
-  The Garden module adjusts plant growth limits and adds the Ender Lead for capturing farm animals.
+  Модуль Garden изменяет ограничения роста растений и добавляет Ender Lead, позволяющий переносить сельскохозяйственных животных.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Plant Growth Changes</Color>
+  ## <Color id="gold">Изменения роста растений</Color>
 </Column>
 
-Apotheosis increases the maximum height for several plants. All values are configurable:
+Apotheosis увеличивает максимальную высоту некоторых растений. Все значения можно настроить:
 
-* <Color id="aqua">Sugar Cane</Color> — Max height increased to <Color id="green">255</Color> (vanilla: 3).
-* <Color id="aqua">Cactus</Color> — Max height increased to <Color id="green">5</Color> (vanilla: 3).
-* <Color id="aqua">Bamboo</Color> — Max height increased to <Color id="green">32</Color> (vanilla: 16).
+* <Color id="aqua">Sugar Cane</Color> — максимальная высота увеличена до <Color id="green">255</Color> (в ванильной игре: 3).
+* <Color id="aqua">Cactus</Color> — максимальная высота увеличена до <Color id="green">5</Color> (в ванильной игре: 3).
+* <Color id="aqua">Bamboo</Color> — максимальная высота увеличена до <Color id="green">32</Color> (в ванильной игре: 16).
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -40,5 +40,5 @@ Apotheosis increases the maximum height for several plants. All values are confi
   ### <Color id="aqua">Ender Lead</Color>
 </Row>
 
-The Ender Lead captures farm animals for easy transport. Punch a breedable animal to capture it, then right-click to release it at the new location. Works on any breedable animal.
+Ender Lead позволяет захватывать сельскохозяйственных животных для удобной транспортировки. Ударьте животное, которое можно разводить, чтобы захватить его, затем щёлкните ПКМ в новом месте, чтобы выпустить. Работает с любыми животными, которых можно разводить.
 
