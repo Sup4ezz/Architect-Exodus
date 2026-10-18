@@ -1,0 +1,17 @@
+{
+  "name": "Команды",
+  "icon": "minecraft:command_block",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:command_block",
+      "title": "Команды",
+      "text": "Для администраторов сервера и игроков с включёнными читами в $(6)Blood Magic$() есть полезные команды: $(li)$(l)/bloodmagic network <username> add [amount]$() добавляет указанное количество LP в $(l:bloodmagic:altar/soul_network)сеть души$() игрока. $(li)$(l)/bloodmagic network <username> query$() показывает текущий запас сети души игрока — аналог $(l:bloodmagic:alchemy_array/sigil/divination)сигила предсказания$(), привязанного к нему."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "сети души игрока. $(li)$(l)/bloodmagic network <username> reset$() опустошает сеть души. $(li)$(l)/bloodmagic network <username> set [amount]$() устанавливает в сети души указанное количество LP."
+    }
+  ]
+}
