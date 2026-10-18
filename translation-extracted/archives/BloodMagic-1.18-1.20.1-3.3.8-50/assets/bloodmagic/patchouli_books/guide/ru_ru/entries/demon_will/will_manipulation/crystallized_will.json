@@ -1,0 +1,37 @@
+{
+  "name": "Кристаллизованная Воля",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:demoncrucible": 1,
+    "bloodmagic:demoncrystallizer": 1,
+    "bloodmagic:rawdemoncrystal": 1,
+    "bloodmagic:defaultcrystal": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Теперь, когда в вашем $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарическом самоцвете$() накопилось достаточно $(l:bloodmagic:demon_will/will_manipulation/demon_will)демонической Воли$(), пора узнать, что произойдёт, если выпустить её в мир. Сначала нужно наполнить $(l:bloodmagic:demon_will/will_manipulation/aura)ауру$() Волей, а затем создать кристаллизатор демонов."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Кристаллизатор демонов",
+      "recipe": "bloodmagic:soulforge/demon_crystallizer",
+      "text": "Он постепенно расходует демоническую Волю из ауры, создавая кристаллы Воли. Для первого шпиля требуется 100 единиц Воли, для каждого следующего — 45. В демоническом тигле шпиль можно сжечь за 50 единиц, получив чистую прибыль в 5. Крупнейшая группа кристаллов может состоять из семи шпилей."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если в вашем инвентаре суммарно больше 512 единиц сырой Воли любого одного типа (в любых тартарических самоцветах), щёлкните пустой рукой по шпилю, чтобы собрать кристаллы, оставив центральный шпиль. $(br2)Если Воли недостаточно, центральный кристалл очень нужен или вы торопитесь, можно добыть всю группу киркой."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Связанные темы",
+      "entries": [
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "Пять единиц Воли за кристалл — не слишком много, но эти ритуалы и $(l:bloodmagic:demon_will/will_manipulation/will_catalysts)катализаторы Воли$() помогут увеличить добычу и автоматизировать производство."
+    }
+  ]
+}
