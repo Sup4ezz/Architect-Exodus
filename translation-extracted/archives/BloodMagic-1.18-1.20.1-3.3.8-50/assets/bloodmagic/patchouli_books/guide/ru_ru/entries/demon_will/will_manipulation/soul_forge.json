@@ -1,0 +1,19 @@
+{
+  "name": "Адская кузница",
+  "icon": "bloodmagic:soulforge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Адская кузница$() — одна из основных механик создания предметов в $(blood)Blood Magic$(), наряду с $(l:bloodmagic:altar/blood_altar)кровавым алтарём$(). Здесь используется добытая из существ $(l:bloodmagic:demon_will/will_manipulation/demon_will)демоническая Воля$(), чтобы создавать $(l:bloodmagic:demon_will/demonic_items/sentient_tools)разумные инструменты$(), $(l:bloodmagic:demon_will/demonic_items/sentient_sword)разумный меч$(), $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарические самоцветы$(), реагенты, $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)тайный пепел$() и многое другое."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:soul_forge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "К каждому слоту адской кузницы можно обратиться с любой стороны, но при вставке предметов с разных сторон действуют приоритеты. Каждая из четырёх сторон света направляет предмет в свой входной слот, а предметы сверху сначала пытаются попасть в слот самоцвета. Предметы никогда не помещаются в выходной слот, а снизу можно извлекать только из выходного слота."
+    }
+  ]
+}
