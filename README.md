@@ -58,6 +58,8 @@ https://github.com/Sup4ezz/Architect-Exodus/tree/translation-source
 
 ## Уже выполненные изменения
 
+- [Integrated Dynamics — перевод 287 интерфейсных строк, операторов, типов данных и названий аспектов](https://github.com/Sup4ezz/Architect-Exodus/commit/c5d3b21dbec19f634a3c31353964f3a5bd86e71f)
+
 Среди последних переводческих коммитов в ветке:
 - [Simply Swords — перевод настроек и рунических эффектов](https://github.com/Sup4ezz/Architect-Exodus/commit/99b41d086d43da5cb629530f7e22ca73beb504d6)
 - [Occultism — перевод сообщений ритуалов призыва](https://github.com/Sup4ezz/Architect-Exodus/commit/eebc141c1b59b7a7d252082ec1e52787b537526c)
