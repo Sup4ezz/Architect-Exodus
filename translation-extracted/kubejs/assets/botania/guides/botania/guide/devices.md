@@ -1,6 +1,6 @@
 ﻿---
 navigation:
-  title: Devices
+  title: Устройства
   icon: botania:hourglass
   parent: index.md
   position: 5
@@ -29,12 +29,12 @@ item_ids:
   - botania:incense_plate
   - botania:avatar
 ---
-# <Color id="green">Devices</Color>
+# <Color id="green">Устройства</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Devices</Color>
+  # <Color id="green">Устройства</Color>
   <ItemImage id="hourglass" scale="2" />
-  Botania offers a wide range of utility devices powered by Mana. From crafting stations to automation tools, these blocks form the backbone of any Botania setup.
+  Botania предлагает множество полезных устройств, работающих на Mana. От станций для создания предметов до инструментов автоматизации — эти блоки составляют основу любой системы Botania.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -42,7 +42,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Crafting & Infusion</Color>
+  ## <Color id="gold">Создание предметов и инфузия</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -52,7 +52,7 @@ item_ids:
   ### <Color id="aqua">Runic Altar</Color>
 </Row>
 
-The Runic Altar crafts Runes by placing ingredients on top and supplying Mana via a Mana Spreader. Drop a Livingrock on top, then the recipe ingredients, and supply Mana until the craft completes. Right-click with a Wand of the Forest to finish.
+Runic Altar создаёт Runes: разместите сверху ингредиенты и подавайте Mana с помощью Mana Spreader. Сначала бросьте Livingrock, затем ингредиенты рецепта и подавайте Mana до завершения процесса. Для завершения щёлкните ПКМ с Wand of the Forest.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
