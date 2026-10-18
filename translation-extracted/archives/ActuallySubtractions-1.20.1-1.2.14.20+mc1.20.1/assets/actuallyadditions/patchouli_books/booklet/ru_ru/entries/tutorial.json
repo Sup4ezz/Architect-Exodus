@@ -1,0 +1,11 @@
+{
+  "name": "Обучение",
+  "icon": "actuallyadditions:item_booklet",
+  "category": "actuallyadditions:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В этой книге собраны инструкции по основным механикам Actually Additions.$(p)Если вы не знаете, с чего начать, изучите вводные главы, а затем переходите к ресурсам и устройствам."
+    }
+  ]
+}
