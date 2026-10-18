@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: projecte:philosophers_stone
   parent: index.md
   position: 1
@@ -17,13 +17,13 @@ item_ids:
   - projecte:mobius_fuel
   - projecte:aeternalis_fuel
 ---
-# <Color id="dark_purple">Getting Started</Color>
+# <Color id="dark_purple">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Getting Started</Color>
+  # <Color id="dark_purple">Начало работы</Color>
   <ItemImage id="philosophers_stone" scale="2" />
 
-  Everything in ProjectE revolves around EMC — the energy that binds all matter together. Learn how to harness it and begin your journey into equivalent exchange.
+  Всё в ProjectE строится вокруг EMC — энергии, связывающей материю. Научитесь использовать её и начните путь эквивалентного обмена.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -31,12 +31,12 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">EMC Basics</Color>
+  ## <Color id="gold">Основы EMC</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Every item in Minecraft has an EMC (Energy-Matter Covalence) value. Items can be broken down into EMC and then rebuilt into other items of equal value. This is the core of equivalent exchange — matter is never created or destroyed, only transformed.
+У каждого предмета в Minecraft есть значение EMC (Energy-Matter Covalence). Предметы можно преобразовать в EMC, а затем создать из этой энергии другие предметы равной стоимости. В этом и заключается эквивалентный обмен: материя не создаётся и не уничтожается, а лишь преобразуется.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -53,7 +53,7 @@ Every item in Minecraft has an EMC (Energy-Matter Covalence) value. Items can be
   ### <Color id="aqua">Philosopher's Stone</Color>
 </Row>
 
-The starting item for ProjectE. Crafted from 4 glowstone dust, 4 redstone dust, and a diamond. Press the Extra Function key (default <KeyBind id="key.projecte.fire_projectile" />) while holding it to open a 3x3 crafting grid. It also performs World Transmutation: right-click blocks in the world to cycle them through transmutation chains (cobblestone -> stone -> grass, etc.). Shift-click for alternate outputs.
+Стартовый предмет ProjectE. Создаётся из 4 единиц светокаменной пыли, 4 единиц редстоуновой пыли и алмаза. Press the Extra Function key (default <KeyBind id="key.projecte.fire_projectile" />) while holding it to open a 3x3 crafting grid. It also performs World Transmutation: right-click blocks in the world to cycle them through transmutation chains (cobblestone -> stone -> grass, etc.). Shift-click for alternate outputs.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
