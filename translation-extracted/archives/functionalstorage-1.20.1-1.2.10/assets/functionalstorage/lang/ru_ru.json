@@ -84,7 +84,7 @@
   "item.utility.downgrade": "Ограничивает вместимость слотов до 64 предметов",
   "item.utility.slot": "Слот: ",
   "item.utility.slot.desc": "Нажмите ПКМ в интерфейсе, чтобы сменить слот",
-  "itemGroup.functionalstorage": "Functional Storage",
+  "itemGroup.functionalstorage": "Функциональное хранилище",
   "key.categories.storage": "Хранилище",
   "key.categories.utility": "Инструменты",
   "linkingtool.controller": "Контроллер: ",
