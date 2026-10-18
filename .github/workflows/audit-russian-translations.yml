@@ -44,7 +44,10 @@ jobs:
                       status = "INVALID_RU_JSON"
               else:
                   status = "MISSING_RU_FILE"
-              missing = sum(1 for k in en if k not in ru)
+              missing_keys = [k for k in en if k not in ru]
+              missing = len(missing_keys)
+              for key in missing_keys:
+                  print(f'MISSING_KEY\\t{en_path}\\t{key}\\t{str(en[key])[:500]}')
               present = len(en) - missing
               same = sum(1 for k,v in en.items() if k in ru and isinstance(v,str) and isinstance(ru[k],str) and v.strip() == ru[k].strip())
               diff = present - same
