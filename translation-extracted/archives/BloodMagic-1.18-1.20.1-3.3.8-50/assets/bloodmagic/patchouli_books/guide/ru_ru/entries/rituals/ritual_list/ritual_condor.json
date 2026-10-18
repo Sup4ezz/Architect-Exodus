@@ -1,0 +1,22 @@
+{
+  "name": "Благословение кондора",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Благословение кондора",
+      "multiblock_id": "bloodmagic:condor",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "condor"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "condor",
+      "page_type": "flightRange"
+    }
+  ]
+}
