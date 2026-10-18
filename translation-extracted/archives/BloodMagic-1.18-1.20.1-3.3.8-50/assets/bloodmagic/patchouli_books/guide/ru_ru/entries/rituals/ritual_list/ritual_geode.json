@@ -1,0 +1,62 @@
+{
+  "name": "Дар аметистовой жеоды",
+  "icon": "minecraft:amethyst_cluster",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Дар аметистовой жеоды",
+      "multiblock_id": "bloodmagic:geode",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "geode"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "harvest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "harm"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "acceleration"
+    }
+  ]
+}
