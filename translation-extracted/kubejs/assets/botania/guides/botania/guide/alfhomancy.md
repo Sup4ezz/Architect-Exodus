@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Alfhomancy
+  title: Эльфийская магия
   icon: botania:flight_tiara
   parent: index.md
   position: 7
@@ -56,10 +56,10 @@ item_ids:
   - mythicbotany:dragonstone_ore
   - mythicbotany:raw_elementium
 ---
-# <Color id="green">Alfhomancy</Color>
+# <Color id="green">Эльфийская магия</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Alfhomancy</Color>
+  # <Color id="green">Эльфийская магия</Color>
   <ItemImage id="flight_tiara" scale="2" />
   Alfhomancy is the art of trading with the Elves of Alfheim. By opening a portal and sending items through, you gain access to powerful Elven materials — and eventually face the ultimate Botania challenge: the Gaia Guardian.
 </Column>
