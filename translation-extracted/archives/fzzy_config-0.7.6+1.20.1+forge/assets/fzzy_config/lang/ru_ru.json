@@ -83,20 +83,17 @@
   "fc.validated_field.collapse.usage.focused": "Нажмите enter, чтобы свернуть",
   "fc.validated_field.collapse.usage.hovered": "Щёлкните ЛКМ, чтобы свернуть",
   "fc.validated_field.current": "Текущее значение: %s",
-
   "fc.validated_field.default": "Восстановить [%1$s] значение по умолчанию [%2$s]",
   "fc.validated_field.update.error": "Ошибка обновления для [%1$s], [%2$s] до [%3$s]: %4$s",
   "fc.validated_field.revert.error": "Исправить ошибку для [%1$s]: %2$s",
   "fc.validated_field.update": "[%1$s], [%2$s] до [%3$s]",
   "fc.validated_field.revert": "Вернуть [%1$s], [%2$s] обратно до [%3$s]",
-
   "fc.tristate.default": "По умолчанию",
   "fc.tristate.default.desc": "умолчанию",
   "fc.tristate.true": "Да",
   "fc.tristate.true.desc": "Истина",
   "fc.tristate.false": "Нет",
   "fc.tristate.false.desc": "Ложь",
-
   "fc.keybind.ctrl": "Ctrl %s",
   "fc.keybind.ctrl.shift": "Ctrl Shift %s",
   "fc.keybind.ctrl.shift.alt": "Ctrl Shift Alt %s",
@@ -108,13 +105,10 @@
   "fc.keybind.narrate": "Привязка клавиши %s",
   "fc.keybind.resetting": "§e>§r %s §e<§r",
   "fc.keybind.resetting.narrate": "Выберите новую привязку клавиши. Сейчас: %s",
-
   "test.walkable.testChildDave.testChildBool": "Логическое значение тестового дочернего элемента Дэйва",
   "test.walkable.testChildDave.testChildBool.desc": "Любимое логическое выражение Дэйва. Пожалуйста, относитесь к нему хорошо.",
-
   "fc.networking.permission.cheat": "Игрок [%1$s], возможно, пытался смошенничать при изменении конфигурации сервера!",
   "fc.networking.restart": "Конфигурации требуют перезагрузки.",
-
   "fc.search.indirect": "Результат содержит соответствующие вложенные записи:",
   "fc.search.indirect.group": "Группа содержит соответствующие вложенные записи:",
   "fc.search.title": "Настройки панели поиска",
@@ -140,12 +134,10 @@
   "fc.search.behavior.NEVER.desc": "Поисковый запрос не передан",
   "fc.search.clearSearch": "Очищать поиск",
   "fc.search.clearSearch.desc": "Да = Графический интерфейс очищает свой поисковый запрос при открытии\nНет = Графический интерфейс отобразит запрос при повторном открытии.",
-
   "fc.narrator.position.list": "Запись списка %1$s из %2$s",
   "fc.narrator.position.config": "Настройка %1$s из %2$s",
   "fc.narrator.position.entry": "Элемент %1$s из %2$s",
   "fc.narrator.position.child": "Подэлемент %1$s из %2$s",
-
   "fc.command.config": "§6§lЗатронутая конфигурация:§r",
   "fc.command.player": "§6§lОтветственный игрок:§r",
   "fc.command.history": "§6§lИстория изменений на момент инцидента:§r",
@@ -155,7 +147,6 @@
   "fc.command.rejected": "Обновление отклонено: %s",
   "fc.command.inspect": "[Проверить обновление]",
   "fc.command.error.no_id": "Недействительный код обновления, помещенного на карантин",
-
   "fc.config.generic.section": "Раздел конфигурации",
   "fc.config.generic.section.desc": "В этом разделе конфигурации не реализован ключ перевода. Экран не знает, как его назвать!",
   "fc.config.generic.field": "Настройка",
@@ -207,7 +198,6 @@
   "fc.config.reload_resources.update.client.prompt": "[Перезагрузить наборы ресурсов]",
   "fc.config.reload_resources.update.server": "Вы внесли изменения в конфигурацию(и), которые требуют от клиентов перезагрузки ресурсов (F3 + T). Подключенные клиенты были автоматически обновлены и уведомлены об этом; пожалуйста, свяжитесь с игроками, если возникнут какие-либо вопросы.",
   "fc.config.prompt.hover": "Нажмите, чтобы выполнить команду",
-
   "fc.button.accept": "Принять",
   "fc.button.deny": "Отклонить",
   "fc.button.apply": "Применить изменения",
@@ -259,7 +249,6 @@
   "fc.button.click.open_file": "Открывает файл: %s",
   "fc.button.click.run_command": "Запускает команду \"%s\"",
   "fc.button.click.copy_to_clipboard": "Копирует \"%s\" в ваш буфер обмена",
-
   "fc.button.info": "Информация об использовании экрана",
   "fc.button.info.fc": "§oЭта конфигурация работает на базе %s§r",
   "fc.button.info.fc.tip": "Откройте страницу на CurseForge",
@@ -279,7 +268,6 @@
   "fc.button.info.search": "Перейти к",
   "fc.button.info.info": "Информация",
   "fc.button.info.full_exit": "Полный выход",
-
   "fc.button.info.page_up.desc": "Прокручивает вверх на одну 'страницу' настроек",
   "fc.button.info.page_down.desc": "Прокручивает вниз на одну 'страницу' настроек",
   "fc.button.info.home.desc": "Прокручивает до верхней части конфигурации",
@@ -294,5 +282,8 @@
   "fc.button.info.back.desc": "Возвращает к предыдущему экрану настройки",
   "fc.button.info.search.desc": "Открывает меню 'Перейти к'",
   "fc.button.info.info.desc": "Открывает это всплывающее окно",
-  "fc.button.info.full_exit.desc": "Завершает работу со всеми открытыми графическими интерфейсами конфигурации и сохраняет их, если это применимо"
+  "fc.button.info.full_exit.desc": "Завершает работу со всеми открытыми графическими интерфейсами конфигурации и сохраняет их, если это применимо",
+  "fzzy_config.text.or_2": "%1$s или %2$s",
+  "fzzy_config.text.or_3": "%1$s, %2$s",
+  "fzzy_config.text.and_2": "%1$s и %2$s"
 }
