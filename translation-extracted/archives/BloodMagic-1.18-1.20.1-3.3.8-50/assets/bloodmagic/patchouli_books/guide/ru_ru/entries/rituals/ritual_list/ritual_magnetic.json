@@ -1,0 +1,26 @@
+{
+  "name": "Ритуал магнетизма",
+  "icon": "minecraft:iron_ore",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал магнетизма",
+      "multiblock_id": "bloodmagic:magnetism",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "magnetism"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "По умолчанию ритуал магнетизма ищет руды вплоть до коренной породы в радиусе трёх блоков от $(item)главного ритуального камня$(). Радиус можно увеличить, поместив под камень дорогой блок: $(li)$(item)железный блок$() — 7 блоков; $(li)$(item)золотой блок$() — 15 блоков; $(li)$(item)алмазный блок$() — 31 блок."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "magnetism",
+      "page_type": "placementRange"
+    }
+  ]
+}
