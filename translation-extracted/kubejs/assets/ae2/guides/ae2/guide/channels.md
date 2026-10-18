@@ -27,7 +27,7 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Set in `config/ae2/common.json`:
+Настройка находится в `config/ae2/common.json`:
 
 ```
 "channels": "infinite"
@@ -35,7 +35,7 @@ Set in `config/ae2/common.json`:
 
 Это означает, что:
 
-- Вам <Color id="green">not</Color> не нужен Controller для работы сети.
+- Для работы сети вам <Color id="green">не</Color> нужен Controller.
 - Dense Smart Cables не дают преимущества по числу каналов по сравнению с обычными кабелями — они нужны лишь для удобства визуального разделения.
 - P2P-туннели полезны для разделения логических сетей и передачи больших потоков предметов или жидкостей, но обходить ими ограничения каналов не требуется.
 
@@ -44,7 +44,7 @@ Set in `config/ae2/common.json`:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Re-enabling Каналы (Optional)</Color>
+  ## <Color id="gold">Возврат каналов (необязательно)</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
