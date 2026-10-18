@@ -1,0 +1,6 @@
+{
+  "name": "Исследование подземелий",
+  "description": "Проведите ритуал $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)«Край скрытого мира»$(), чтобы получить доступ в $(thing)Мир демонов$(). Это опасное место полно угроз, ловушек и сокровищ!",
+  "icon": "bloodmagic:simplekey",
+  "sortnum": 7
+}
