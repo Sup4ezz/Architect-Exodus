@@ -5,7 +5,7 @@
   "_comment3": "Copying English entries will cause them to become outdated when the main English lang file changes",
   "_comment4": "Untranslated entries will automatically be inherited from en_us",
   "_comment5": "Once again, don't copy from English, and THANK YOU for your hard work!",
-  "itemGroup.botania": "Botania",
+  "itemGroup.botania": "Ботания",
   "botania.landing": "Магия и технология, природа и естество.$(br2)Ботания — это технический мод, посвящённый магии и природе. Создавайте магические цветы и устройства, использующие $(thing)ману$(), — форму силы земли.",
   "botania.desc": "Магия и технология, природа и естество.",
   "attribute.name.botania.pixieSpawnChance": "Шанс появления пикси",
