@@ -1,11 +1,22 @@
 {
-  "name": "Empowerer",
-  "icon": "actuallyadditions:empowerer",
   "category": "actuallyadditions:getting_started",
+  "icon": "actuallyadditions:booklet",
+  "name": "booklet.actuallyadditions.chapter.empowerer",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Empowerer — устройство, которое усиливает определённые предметы с помощью энергии и подходящих компонентов.$(p)Разместите необходимые материалы вокруг устройства и обеспечьте его энергией, чтобы запустить процесс."
+      "text": "booklet.actuallyadditions.chapter.empowerer.text.1"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "actuallyadditions:textures/gui/booklet/page_empowerer.png"
+      ],
+      "text": "booklet.actuallyadditions.chapter.empowerer.text.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "booklet.actuallyadditions.chapter.empowerer.text.4"
     }
   ]
 }
