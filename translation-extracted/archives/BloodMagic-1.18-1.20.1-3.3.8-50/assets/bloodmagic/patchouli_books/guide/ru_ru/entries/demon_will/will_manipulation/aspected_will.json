@@ -1,0 +1,55 @@
+{
+  "name": "Аспекты демонической Воли",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:steadfastdemoncrystal": 2,
+    "bloodmagic:corrosivedemoncrystal": 2,
+    "bloodmagic:destructivedemoncrystal": 2,
+    "bloodmagic:vengefuldemoncrystal": 2,
+    "bloodmagic:steadfastcrystal": 2,
+    "bloodmagic:corrosivecrystal": 2,
+    "bloodmagic:destructivecrystal": 2,
+    "bloodmagic:vengefulcrystal": 2,
+    "bloodmagic:basemonstersoul_vengeful": 2,
+    "bloodmagic:basemonstersoul_corrosive": 2,
+    "bloodmagic:basemonstersoul_steadfast": 2,
+    "bloodmagic:basemonstersoul_destructive": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Высвобождать $(l:bloodmagic:demon_will/will_manipulation/demon_will)демоническую Волю$() в воздух оказалось отличной идеей. Она не только усиливает $(item)ритуалы$(), но и позволяет собирать её в $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)кластеры кристаллов$(). Однако кристаллы словно содержат противоречивые свойства. Возможно, $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)ритуал$() поможет разделить их на более чистые формы."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "title": "Аспекты Воли",
+      "border": true,
+      "text": "Ритуал $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)«Резонанс огранённого кристалла»$() в действии."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Теперь у нас есть кристаллизованная Воля четырёх новых видов! $(water)Руна воды$() даёт $(steadfast)стойкую Волю$(), $(air)руна воздуха$() — $(destructive)разрушительную Волю$(), $(fire)руна огня$() — $(vengeful)мстительную Волю$(), а $(earth)руна земли$() — $(corrosive)разъедающую Волю$(). Их можно сжигать в $(item)демоническом тигле$(), как и сырую Волю, а затем направлять в ритуалы для разнообразных эффектов."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sentient_aspects",
+      "text": "Эти аспекты также меняют свойства разумных инструментов, делая их мощнее: $(li)$(raw)сырая Воля$() повышает урон; $(li)$(corrosive)разъедающая Воля$() даёт атакам шанс отравить противника или наложить иссушение, иначе действует как сырая; $(li)$(vengeful)мстительная Воля$() повышает урон слабее сырой, ускоряет атаки и увеличивает скорость передвижения в зависимости от запаса Воли."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(steadfast)$(li)Стойкая Воля$() повышает урон слабее сырой и даёт поглощение после убийства. $(destructive)$(li)Разрушительная Воля$() увеличивает урон сильнее всех остальных аспектов, но снижает скорость атаки."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы придать Воле нужную форму, поместите пустой $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарический самоцвет$() в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)адскую кузницу$() в том же чанке, где стоит $(item)демонический тигель$(), и подавайте в тигель кристаллы нужного аспекта. Чтобы сменить аспект разумного инструмента, нажмите [$(k:use)], держа его в руке."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Разумные инструменты выбирают тот аспект, которого больше всего в вашем инвентаре. Если в одном самоцвете 10 единиц $(corrosive)разъедающей Воли$(), а в другом 1000 единиц $(raw)сырой Воли$(), меч останется сырым. Адская кузница принимает любой тип Воли, поэтому не нужно держать отдельные самоцветы для каждого аспекта."
+    }
+  ]
+}
