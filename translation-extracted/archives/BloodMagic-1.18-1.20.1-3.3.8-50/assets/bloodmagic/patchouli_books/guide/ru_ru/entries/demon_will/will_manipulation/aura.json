@@ -1,0 +1,58 @@
+{
+  "name": "Аура демонической Воли",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Как мы уже выяснили, $(raw)демоническая Воля$() скапливается вокруг некоторых существ и движет ими с разрушительной силой. Но Воля может существовать не только в них. Сжигая её в $(item)демоническом тигле$(), можно высвободить Волю в $(thing)ауру$() и добиться впечатляющих эффектов."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Демонический тигель",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "Поместите внутрь заряженный $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарический самоцвет$(), любой аспект $(item)демонической Воли$() или $(item)демонический кристалл$() и запустите тигель. Кристаллы расходуются, когда запас Воли в чанке падает ниже 50; Воля в виде предметов или из самоцвета расходуется постепенно, по мере необходимости."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "Демонический тигель",
+      "border": true,
+      "text": "Демонический тигель с помещённым внутрь тартарическим самоцветом."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Теперь в воздухе есть $(raw)сырая Воля$(). Что с ней делать? Некоторые $(thing)ритуалы$() получают пользу от сырой Воли, но главное — с её помощью создавать $(item)кристаллы демонической Воли$(), а затем $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)разделять их$() на $(l:bloodmagic:demon_will/will_manipulation/aspected_will)аспекты$(). Кристаллы аспектов можно снова сжигать в тигле, выпуская их Волю в ауру."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Аура привязана к чанкам. Сжигаемая Воля наполняет чанк, в котором находится тигель, — максимум до 100 единиц каждого типа. Количество можно измерять с помощью $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)индикатора ауры Воли$(). Чтобы перемещать Волю, установите $(item)демонический пилон$() в соседнем чанке: Воля будет притягиваться к нему."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Демонический пилон",
+      "recipe": "bloodmagic:soulforge/demon_pylon",
+      "anchor": "pylon",
+      "text": "Пилон притягивает все виды Воли из соседних чанков, кроме расположенных по диагонали. Несколько пилонов можно соединить цепочкой, чтобы переносить Волю на большие расстояния."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если поместить $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарический самоцвет$() в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)адскую кузницу$(), он быстро начнёт поглощать Волю из чанка. Если в чанке присутствует определённый аспект — например, $(raw)сырой$() или $(corrosive)разъедающий$(), — пустой самоцвет можно наполнить именно им. Это позволяет изменять свойства $(l:bloodmagic:demon_will/demonic_items/sentient_tools)разумных инструментов$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)меча$(); эффекты описаны $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)здесь$()."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Связанные темы",
+      "entries": [
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:demon_will/will_manipulation/crystallized_will",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "Я чувствую, что могу добиться ещё большего..."
+    }
+  ]
+}
