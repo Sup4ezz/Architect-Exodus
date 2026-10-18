@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: naturesaura:gold_fiber
   parent: index.md
   position: 1
@@ -14,14 +14,14 @@ item_ids:
   - naturesaura:vacuum_bottle
 ---
 
-# <Color id="green">Getting Started</Color>
+# <Color id="green">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Getting Started</Color>
+  # <Color id="green">Начало работы</Color>
 
   <ItemImage id="gold_fiber" scale="2" />
 
-  The gateway to Nature's Aura begins with Brilliant Fiber and the golden leaves it produces.
+  Путь в Nature's Aura начинается с Brilliant Fiber и золотых листьев, которые она создаёт.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -39,7 +39,7 @@ item_ids:
   ### <Color id="aqua">Brilliant Fiber</Color>
 </Row>
 
-Brilliant Fiber is the first item you need to craft. Use it on tree leaves and wait for the fiber's energies to spread throughout the canopy. Once the leaves turn fully golden, harvest them for Gold Leaf.
+Brilliant Fiber — первый предмет, который нужно создать. Используйте его на листве дерева и дождитесь, пока энергия распространится по кроне. Когда листья полностью позолотятся, соберите Gold Leaf.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -57,7 +57,7 @@ Brilliant Fiber is the first item you need to craft. Use it on tree leaves and w
   ### <Color id="aqua">Gold Leaf</Color>
 </Row>
 
-Gold Leaf is the fundamental crafting ingredient for Nature's Aura. Harvest it from leaves that have been fully converted by Brilliant Fiber. You will need plenty of it throughout your progression.
+Gold Leaf — основной ингредиент для создания предметов Nature's Aura. Собирайте его с листвы, полностью преобразованной Brilliant Fiber. По мере развития понадобится много таких листьев.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
