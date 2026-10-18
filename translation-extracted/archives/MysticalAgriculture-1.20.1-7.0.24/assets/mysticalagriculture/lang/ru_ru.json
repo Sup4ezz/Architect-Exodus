@@ -1,5 +1,5 @@
 {
-  "itemGroup.mysticalagriculture": "Mystical Agriculture",
+  "itemGroup.mysticalagriculture": "Мистическое земледелие",
   "block.mysticalagriculture.prosperity_block": "Блок процветания",
   "block.mysticalagriculture.inferium_block": "Инфериевый блок",
   "block.mysticalagriculture.prudentium_block": "Прудентиевый блок",
@@ -501,7 +501,7 @@
   "augment.mysticalagriculture.mining_aoe_iv": "Область копания IV",
   "augment.mysticalagriculture.attack_aoe_iii": "Область атаки III",
   "augment.mysticalagriculture.tilling_aoe_iv": "Область вспахивания IV",
-  "book.mysticalagriculture.name": "Mystical Agriculture",
+  "book.mysticalagriculture.name": "Мистическое земледелие",
   "book.mysticalagriculture.landing_text": "Mystical Agriculture - это мод, основанный на концепции выращивания ресурсов. Эта книга станет вашим руководством по использованию всех возможностей Mystical Agriculture. $(br2)$(l:https://blakesmods.com/guides/mysticalagriculture)Нажмите здесь для более подробного руководства.$()",
   "book.mysticalagriculture.crafting": "Создание",
   "book.mysticalagriculture.category.basics.name": "Основы",
