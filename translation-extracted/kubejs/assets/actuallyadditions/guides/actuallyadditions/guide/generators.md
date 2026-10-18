@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Generators
+  title: Генераторы
   icon: actuallyadditions:coal_generator
   parent: index.md
   position: 2
@@ -11,12 +11,12 @@ item_ids:
   - actuallyadditions:heat_collector
   - actuallyadditions:bio_reactor
 ---
-# <Color id="green">Generators</Color>
+# <Color id="green">Генераторы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Generators</Color>
+  # <Color id="green">Генераторы</Color>
   <ItemImage id="coal_generator" scale="2" />
-  Generators produce Crystal Flux (CF) to power your machines. Each generator has different fuel sources and output rates.
+  Генераторы производят Crystal Flux (CF) — энергию для ваших механизмов. У каждого генератора свой источник топлива и своя мощность.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -27,7 +27,7 @@ item_ids:
   ## <Color id="gold">Crystal Flux</Color>
 </Column>
 
-Crystal Flux (CF) is the energy system used by all Actually Additions machines. It is fully compatible with Forge Energy (FE) and Redstone Flux (RF), so any energy source from other mods can also power Actually Additions machines. You do not need a dedicated CF generator to get started. Simply connect any CF, FE, or RF power source.
+Crystal Flux (CF) — система энергии, используемая всеми механизмами Actually Additions. Она полностью совместима с Forge Energy (FE) и Redstone Flux (RF), поэтому механизмы могут питаться от источников энергии из других модов. Для начала не обязательно создавать отдельный генератор CF: просто подключите любой источник CF, FE или RF.
 ***
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -38,7 +38,7 @@ Crystal Flux (CF) is the energy system used by all Actually Additions machines. 
   <ItemImage id="coal_generator" scale="1" />
   ### <Color id="aqua">Coal Generator</Color>
 </Row>
-Burns any furnace fuel to generate CF. Apply a redstone signal to stop it from burning fuel. A comparator can read the amount of energy currently stored.
+Сжигает любое топливо для печи, производя CF. Подайте сигнал редстоуна, чтобы остановить расход топлива. Компаратор позволяет считывать количество накопленной энергии.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -46,7 +46,7 @@ Burns any furnace fuel to generate CF. Apply a redstone signal to stop it from b
   <ItemImage id="leaf_generator" scale="1" />
   ### <Color id="aqua">Leaf Generator</Color>
 </Row>
-Destroys nearby leaves to generate CF. The range is configurable. A simple early-game generator; place it near trees.
+Уничтожает листья поблизости, чтобы производить CF. Радиус работы можно настроить. Это простой генератор для начала игры — установите его рядом с деревьями.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -54,7 +54,7 @@ Destroys nearby leaves to generate CF. The range is configurable. A simple early
   <ItemImage id="heat_collector" scale="1" />
   ### <Color id="aqua">Heat Collector</Color>
 </Row>
-Generates CF from nearby lava blocks. Requires a minimum number of lava source blocks surrounding it to function. Be aware that it will occasionally consume a lava block.
+Производит CF за счёт блоков лавы поблизости. Для работы вокруг него должно находиться определённое минимальное количество источников лавы. Учтите: иногда он поглощает один из блоков лавы.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -62,7 +62,7 @@ Generates CF from nearby lava blocks. Requires a minimum number of lava source b
   <ItemImage id="bio_reactor" scale="1" />
   ### <Color id="aqua">Bio Reactor</Color>
 </Row>
-Generates CF from organic materials such as seeds, food, and plants. The more <Color id="green">variety</Color> of items you feed it, the more power it produces. Fill it with many different types of organic items for maximum output.
+Производит CF из органических материалов: семян, еды и растений. Чем <Color id="green">разнообразнее</Color> предметы, которыми вы его снабжаете, тем больше энергии он вырабатывает. Для максимальной мощности используйте разные виды органики.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -71,10 +71,10 @@ Generates CF from organic materials such as seeds, food, and plants. The more <C
   ### <Color id="aqua">Oil Generator</Color>
 </Row>
 
-Burns Canola Oil and its upgraded variants for CF. The oil production chain works as follows:
+Сжигает Canola Oil и его улучшенные варианты, производя CF. Производственная цепочка выглядит так:
 
-1. Harvest Canola and process it in the <ItemLink id="canola_press" /> to get Canola Oil.
-2. Use the <ItemLink id="fermenting_barrel" /> to upgrade it to Refined Canola Oil.
-3. Further tiers include Crystallized Oil and Empowered Oil (created via in-world crafting).
+1. Соберите Canola и переработайте её в <ItemLink id="canola_press" />, чтобы получить Canola Oil.
+2. Используйте <ItemLink id="fermenting_barrel" />, чтобы получить Refined Canola Oil.
+3. Следующие ступени — Crystallized Oil и Empowered Oil (создаются с помощью крафта в игровом мире).
 
-Higher tier oils produce significantly more CF per bucket.
+Масла более высокого уровня производят значительно больше CF на ведро.
