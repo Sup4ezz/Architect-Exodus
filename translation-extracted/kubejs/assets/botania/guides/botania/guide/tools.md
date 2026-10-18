@@ -1,6 +1,6 @@
 ﻿---
 navigation:
-  title: Tools & Baubles
+  title: Инструменты и аксессуары
   icon: botania:terra_sword
   parent: index.md
   position: 6
@@ -44,10 +44,10 @@ item_ids:
   - mythicbotany:fire_ring
   - mythicbotany:ice_ring
 ---
-# <Color id="green">Tools & Baubles</Color>
+# <Color id="green">Инструменты и аксессуары</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Tools & Baubles</Color>
+  # <Color id="green">Инструменты и аксессуары</Color>
   <ItemImage id="terra_sword" scale="2" />
   Botania provides a full suite of tools, weapons, armor, and baubles — all powered by Mana. From basic Manasteel gear to endgame Terrasteel equipment and specialty weapons.
 </Column>
