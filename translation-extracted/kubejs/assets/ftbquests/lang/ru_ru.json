@@ -2669,5 +2669,8 @@
   "ftbquests.loot_table.7377968576412286786.title": "Благословение духов",
   "ftbquests.loot_table.7717620885184417875.title": "Оружия: Уровень S",
   "ftbquests.loot_table.8721787916292516836.title": "Щедрое благословение",
-  "ftbquests.loot_table.8905686862890819616.title": "Мешочек с лепестками"
+  "ftbquests.loot_table.8905686862890819616.title": "Мешочек с лепестками",
+  "ftbquests.chapter.asgard.quest6631336E93242739.description5": "&7&oИзменение сборки: этот страж не отключит полёт и не запрёт вас на своей арене. Остерегайтесь пустоты — теперь вас ничто не поймает.",
+  "ftbquests.chapter.asgard.quest6631336E93242739.rich_description5": "Прочитайте руководство по Хранителю Хаоса",
+  "ftbquests.chapter.asgard.quest6631336E93242739.rich_description6": "Открывает руководство по Draconic Evolution"
 }
