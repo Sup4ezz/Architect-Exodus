@@ -28,7 +28,7 @@ item_ids:
 
   <ItemImage id="blank_glyph" scale="2" />
 
-  Ars Nouveau normally starts with a tree and a crafting table. Here it starts in Helheim, so its early recipes have been rerouted through <Color id="dark_purple">Malum</Color> and <Color id="red">Blood Magic</Color>, two glyphs are gone, and a second way to learn glyphs has been added.
+  Ars Nouveau normally starts with a tree и a crafting table. Here it starts in Helheim, so its early recipes have been rerouted through <Color id="dark_purple">Malum</Color> и <Color id="red">Blood Magic</Color>, two glyphs are gone, и a second way to learn glyphs has been added.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -41,9 +41,9 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-<Color id="red">Break</Color> and <Color id="red">Rewind</Color> have had their recipes removed and are hidden from JEI. They are not in the Codex Glyph pools either, so there is no way to learn them.
+<Color id="red">Break</Color> и <Color id="red">Rewind</Color> have had their recipes removed и are hidden from JEI. They are not in the Codex Glyph pools either, so there is no way to learn them.
 
-Break is the one you will feel. It is the general purpose mining spell, so without it your block glyphs are limited to <Color id="green">Harvest</Color> for crops, <Color id="green">Fell</Color> for trees, <Color id="green">Cut</Color> for shearable blocks, and <Color id="green">Crush</Color> for stone to gravel to sand.
+Break is the one you will feel. It is the general purpose mining spell, so without it your block glyphs are limited to <Color id="green">Harvest</Color> for crops, <Color id="green">Fell</Color> for trees, <Color id="green">Cut</Color> for shearable blocks, и <Color id="green">Crush</Color> for stone to gravel to sand.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -77,7 +77,7 @@ Two glyphs were moved down a tier so they are usable from the Novice book:
   ### <Color id="aqua">Random Codex Glyph</Color>
 </Row>
 
-A pack addition. These are handed out as rewards across the <Color id="light_purple">General Magic</Color> quest chapter, and using one immediately unlocks a random glyph of the matching tier without visiting a Scribe's Table.
+A pack addition. These are handed out as rewards across the <Color id="light_purple">General Magic</Color> quest chapter, и using one immediately unlocks a random glyph of the matching tier without visiting a Scribe's Table.
 
 <ItemGrid>
   <ItemIcon id="ftb:codex_glyph_1" />
@@ -85,7 +85,7 @@ A pack addition. These are handed out as rewards across the <Color id="light_pur
   <ItemIcon id="ftb:codex_glyph_3" />
 </ItemGrid>
 
-The pools include glyphs from Ars Elemental and Starbuncle Mania as well as the base mod. A codex never rolls something you already know, and if there is nothing left in that tier it pays out experience instead.
+pools include glyphs from Ars Elemental и Starbuncle Mania as well as the base mod. A codex never rolls something you already know, и if there is nothing left in that tier it pays out experience instead.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -102,8 +102,8 @@ Most of the Ars Nouveau starter kit has been rerouted so it can be built from wh
 | Item | How it is made here |
 |---|---|
 | <Color id="green">Imbuement Chamber</Color> | Runewood Planks around two gold nuggets |
-| <Color id="green">Scribe's Table</Color> | Archwood slabs, logs and gold nuggets |
-| <Color id="green">Arcane Pedestal</Color> | Sourcestone, a Source Gem and gold nuggets |
+| <Color id="green">Scribe's Table</Color> | Archwood slabs, logs и gold nuggets |
+| <Color id="green">Arcane Pedestal</Color> | Sourcestone, a Source Gem и gold nuggets |
 | <Color id="green">Dominion Wand</Color> | Malum spirit infusion on a stick, using Cthonic Gold |
 | <Color id="green">Storage Lectern</Color> | Malum spirit infusion on a vanilla Lectern |
 | <Color id="green">Bookwyrm Charm</Color> | Malum spirit infusion on a Book |
@@ -117,7 +117,7 @@ Most of the Ars Nouveau starter kit has been rerouted so it can be built from wh
   ### <Color id="aqua">Source Gems</Color>
 </Row>
 
-The <Color id="red">Lapis imbuement recipe has been removed</Color>. Amethyst still works, and the pack adds <ItemLink id="malum:arcane_spirit" /> as a second route.
+<Color id="red">Lapis imbuement recipe has been removed</Color>. Amethyst still works, и the pack adds <ItemLink id="malum:arcane_spirit" /> as a second route.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -126,7 +126,7 @@ The <Color id="red">Lapis imbuement recipe has been removed</Color>. Amethyst st
   ### <Color id="aqua">Ars Ocultas Transmutation</Color>
 </Row>
 
-Both of Ars Ocultas' gold and silver transmutations were removed and replaced with a single pack recipe. Imbue a <ItemLink id="minecraft:gold_ingot" /> with Manipulation Essence, Datura and a Spirit Attuned Gem on the pedestals to get <ItemLink id="ftbmaterials:silver_ingot" />. There is no route back from silver to gold.
+Both of Ars Ocultas' gold и silver transmutations were removed и replaced with a single pack recipe. Imbue a <ItemLink id="minecraft:gold_ingot" /> with Manipulation Essence, Datura и a Spirit Attuned Gem on the pedestals to get <ItemLink id="ftbmaterials:silver_ingot" />. There is no route back from silver to gold.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -138,7 +138,7 @@ Both of Ars Ocultas' gold and silver transmutations were removed and replaced wi
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Only four things in Ars Nouveau are locked behind progression. Everything else, including all five Sourcelinks, is available as soon as you can craft it.
+Only four things in Ars Nouveau are locked behind progression. Everything else, including all five Источники Source, is available as soon as you can craft it.
 
 | Item | Requirement |
 |---|---|
@@ -147,7 +147,7 @@ Only four things in Ars Nouveau are locked behind progression. Everything else, 
 | <ItemLink id="ars_nouveau:mob_jar" /> | Reach <Color id="aqua">Niflheim</Color> |
 | <ItemLink id="ars_nouveau:warp_scroll" /> | Reach <Color id="red">Muspelheim</Color> |
 
-The Warp Scroll is gated at the recipe rather than the item, so one given to you by a teammate still works.
+Warp Scroll is gated at the recipe rather than the item, so one given to you by a teammate still works.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -159,9 +159,9 @@ The Warp Scroll is gated at the recipe rather than the item, so one given to you
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The pack also connects Ars Nouveau to the rest of the tech tree:
+pack also connects Ars Nouveau to the rest of the tech tree:
 
-- The four coloured <Color id="green">Archwood Saplings</Color> can be made by Malum spirit infusion on an Oak Sapling with the matching Mystical Agriculture essence, so you do not have to find the trees.
-- The <Color id="green">Crush</Color> glyph and the Crushing recipe type gain entries for blackstone, deepslate, stone to gravel and amethyst blocks to dust.
-- The Imbuement Chamber gains recipes for the four Archwood fruit pods and Purple Archwood Saplings.
-- Sourcestone gets slab, stair and stonecutter recipes.
+- four coloured <Color id="green">Archwood Saplings</Color> can be made by Malum spirit infusion on an Oak Sapling with the matching Mystical Agriculture essence, so you do not have to find the trees.
+- <Color id="green">Crush</Color> glyph и the Crushing recipe type gain entries for blackstone, deepslate, stone to gravel и amethyst blocks to dust.
+- Imbuement Chamber gains recipes for the four Archwood fruit pods и Purple Archwood Saplings.
+- Sourcestone gets slab, stair и stonecutter recipes.
