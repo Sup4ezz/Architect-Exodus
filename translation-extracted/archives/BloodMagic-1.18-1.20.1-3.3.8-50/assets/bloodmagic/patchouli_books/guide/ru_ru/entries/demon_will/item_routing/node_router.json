@@ -1,0 +1,18 @@
+{
+  "name": "Маршрутизатор узлов",
+  "icon": "bloodmagic:noderouter",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Маршрутизатор узлов$() соединяет узлы в сеть. Наведитесь на узел и, удерживая [$(k:sneak)], нажмите [$(k:use)], затем повторите действие на другом узле в пределах 16 блоков. Узлы будут связаны. Чтобы отменить выбор узла, нажмите [$(k:use)] на любом другом блоке. Подробнее — в статье о $(l:bloodmagic:demon_will/item_routing/routing_nodes)узлах маршрутизации$()."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Маршрутизатор узлов",
+      "recipe": "bloodmagic:soulforge/node_router",
+      "text": "$(italic)Палочка с небольшим магическим потенциалом.$()"
+    }
+  ]
+}
