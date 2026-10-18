@@ -11,7 +11,7 @@ navigation:
 
   <ItemImage id="novice_spell_book" scale="2" />
 
-  Ars Nouveau is a spell-crafting magic mod. Build custom spells from modular glyphs, power them with <Color id="light_purple">Source</Color> energy, and automate your world with magical creatures like Starbuncles and Wixies. Features three tiers of spell books, enchantable armor with threads, familiars, rituals, and a full Source energy network for powering magical devices.
+  Ars Nouveau — магический мод, посвящённый созданию заклинаний. Собирайте собственные заклинания из отдельных глифов, подпитывайте их энергией <Color id="light_purple">Source</Color> и автоматизируйте процессы с помощью магических существ, таких как Starbuncles и Wixies. В моде есть три уровня книг заклинаний, зачаруемая броня с нитями, фамильяры, ритуалы и полноценная сеть энергии Source для питания магических устройств.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -19,34 +19,34 @@ navigation:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Page Links</Color>
+  ## <Color id="gold">Разделы руководства</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
 <Row>
   <Column>
-    * <ItemImage id="source_gem" scale="0.75" /> [Getting Started](getting_started.md)
+    * <ItemImage id="source_gem" scale="0.75" /> [Начало работы](getting_started.md)
   </Column>
   <Column>
-    * <ItemImage id="glyph_projectile" scale="0.75" /> [Spell Crafting](spells.md)
+    * <ItemImage id="glyph_projectile" scale="0.75" /> [Создание заклинаний](spells.md)
   </Column>
   <Column>
-    * <ItemImage id="source_jar" scale="0.75" /> [Source & Energy](source.md)
+    * <ItemImage id="source_jar" scale="0.75" /> [Source и энергия](source.md)
   </Column>
   <Column>
-    * <ItemImage id="enchanters_sword" scale="0.75" /> [Equipment](equipment.md)
+    * <ItemImage id="enchanters_sword" scale="0.75" /> [Снаряжение](equipment.md)
   </Column>
   <Column>
-    * <ItemImage id="amulet_of_mana_boost" scale="0.75" /> [Trinkets & Utilities](trinkets.md)
+    * <ItemImage id="amulet_of_mana_boost" scale="0.75" /> [Аксессуары и утилиты](trinkets.md)
   </Column>
   <Column>
-    * <ItemImage id="starbuncle_charm" scale="0.75" /> [Automation](automation.md)
+    * <ItemImage id="starbuncle_charm" scale="0.75" /> [Автоматизация](automation.md)
   </Column>
   <Column>
-    * <ItemImage id="enchanting_apparatus" scale="0.75" /> [Machines](machines.md)
+    * <ItemImage id="enchanting_apparatus" scale="0.75" /> [Механизмы](machines.md)
   </Column>
   <Column>
-    * <ItemImage id="ritual_brazier" scale="0.75" /> [Rituals & Familiars](rituals.md)
+    * <ItemImage id="ritual_brazier" scale="0.75" /> [Ритуалы и фамильяры](rituals.md)
   </Column>
 </Row>
