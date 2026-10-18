@@ -107,13 +107,10 @@
   "item.simplyswords.righteous_relic": "Праведная реликвия",
   "item.simplyswords.tainted_relic": "Порченая реликвия",
   "item.simplyswords.harbinger": "Предвестник",
-
   "item.simplyswords.runic_tablet": "Руническая Скрижаль",
   "item.simplyswords.runefused_gem": "Руноплавленная Руна",
   "item.simplyswords.netherfused_gem": "Незеритоплавленная Руна",
   "item.simplyswords.empowered_remnant": "Усиливающий остаток",
-
-
   "item.simplyswords.mythicmetals_compat.adamantite.adamantite_claymore": "Адамантитовый Клеймор",
   "item.simplyswords.mythicmetals_compat.adamantite.adamantite_cutlass": "Адамантитовая Сабля",
   "item.simplyswords.mythicmetals_compat.adamantite.adamantite_glaive": "Адамантитовая Глефа",
@@ -129,8 +126,6 @@
   "item.simplyswords.mythicmetals_compat.adamantite.adamantite_chakram": "Адамантитовый Чакрам",
   "item.simplyswords.mythicmetals_compat.adamantite.adamantite_scythe": "Адамантитовая Коса",
   "item.simplyswords.mythicmetals_compat.adamantite.adamantite_halberd": "Адамантитовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.aquarium.aquarium_claymore": "Акваривый Клеймор",
   "item.simplyswords.mythicmetals_compat.aquarium.aquarium_cutlass": "Акваривая Сабля",
   "item.simplyswords.mythicmetals_compat.aquarium.aquarium_glaive": "Акваривая Глефа",
@@ -146,9 +141,6 @@
   "item.simplyswords.mythicmetals_compat.aquarium.aquarium_chakram": "Акваривый Чакрам",
   "item.simplyswords.mythicmetals_compat.aquarium.aquarium_scythe": "Акваривая Коса",
   "item.simplyswords.mythicmetals_compat.aquarium.aquarium_halberd": "Акваривая Алебарда",
-
-
-
   "item.simplyswords.mythicmetals_compat.banglum.banglum_claymore": "Банглиевый Клеймор",
   "item.simplyswords.mythicmetals_compat.banglum.banglum_cutlass": "Банглиевая Сабля",
   "item.simplyswords.mythicmetals_compat.banglum.banglum_glaive": "Банглиевая Глефа",
@@ -164,8 +156,6 @@
   "item.simplyswords.mythicmetals_compat.banglum.banglum_chakram": "Банглиевый Чакрам",
   "item.simplyswords.mythicmetals_compat.banglum.banglum_scythe": "Банглиевая Коса",
   "item.simplyswords.mythicmetals_compat.banglum.banglum_halberd": "Банглиевая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.carmot.carmot_claymore": "Кармотовый Клеймор",
   "item.simplyswords.mythicmetals_compat.carmot.carmot_cutlass": "Кармотовая Сабля",
   "item.simplyswords.mythicmetals_compat.carmot.carmot_glaive": "Кармотовая Глефа",
@@ -181,8 +171,6 @@
   "item.simplyswords.mythicmetals_compat.carmot.carmot_chakram": "Кармотовый Чакрам",
   "item.simplyswords.mythicmetals_compat.carmot.carmot_scythe": "Кармотовая Коса",
   "item.simplyswords.mythicmetals_compat.carmot.carmot_halberd": "Кармотовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.kyber.kyber_claymore": "Кьюберевый Клеймор",
   "item.simplyswords.mythicmetals_compat.kyber.kyber_cutlass": "Кьюберевая Сабля",
   "item.simplyswords.mythicmetals_compat.kyber.kyber_glaive": "Кьюберевая Глефа",
@@ -198,8 +186,6 @@
   "item.simplyswords.mythicmetals_compat.kyber.kyber_chakram": "Кьюберевый Чакрам",
   "item.simplyswords.mythicmetals_compat.kyber.kyber_scythe": "Кьюберевая Коса",
   "item.simplyswords.mythicmetals_compat.kyber.kyber_halberd": "Кьюберевая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.mythril.mythril_claymore": "Мифриловый Клеймор",
   "item.simplyswords.mythicmetals_compat.mythril.mythril_cutlass": "Мифриловая Сабля",
   "item.simplyswords.mythicmetals_compat.mythril.mythril_glaive": "Мифриловая Глефа",
@@ -215,8 +201,6 @@
   "item.simplyswords.mythicmetals_compat.mythril.mythril_chakram": "Мифриловый Чакрам",
   "item.simplyswords.mythicmetals_compat.mythril.mythril_scythe": "Мифриловая Коса",
   "item.simplyswords.mythicmetals_compat.mythril.mythril_halberd": "Мифриловая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.orichalcum.orichalcum_claymore": "Орихалковый Клеймор",
   "item.simplyswords.mythicmetals_compat.orichalcum.orichalcum_cutlass": "Орихалковая Сабля",
   "item.simplyswords.mythicmetals_compat.orichalcum.orichalcum_glaive": "Орихалковая Глефа",
@@ -232,8 +216,6 @@
   "item.simplyswords.mythicmetals_compat.orichalcum.orichalcum_chakram": "Орихалковый Чакрам",
   "item.simplyswords.mythicmetals_compat.orichalcum.orichalcum_scythe": "Орихалковая Коса",
   "item.simplyswords.mythicmetals_compat.orichalcum.orichalcum_halberd": "Орихалковая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.osmium.osmium_claymore": "Осмиевый Клеймор",
   "item.simplyswords.mythicmetals_compat.osmium.osmium_cutlass": "Осмиевая Сабля",
   "item.simplyswords.mythicmetals_compat.osmium.osmium_glaive": "Осмиевая Глефа",
@@ -249,8 +231,6 @@
   "item.simplyswords.mythicmetals_compat.osmium.osmium_chakram": "Осмиевый Чакрам",
   "item.simplyswords.mythicmetals_compat.osmium.osmium_scythe": "Осмиевая Коса",
   "item.simplyswords.mythicmetals_compat.osmium.osmium_halberd": "Осмиевая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.prometheum.prometheum_claymore": "Прометиумовый Клеймор",
   "item.simplyswords.mythicmetals_compat.prometheum.prometheum_cutlass": "Прометиумовая Сабля",
   "item.simplyswords.mythicmetals_compat.prometheum.prometheum_glaive": "Прометиумовая Глефа",
@@ -266,8 +246,6 @@
   "item.simplyswords.mythicmetals_compat.prometheum.prometheum_chakram": "Прометиумовый Чакрам",
   "item.simplyswords.mythicmetals_compat.prometheum.prometheum_scythe": "Прометиумовая Коса",
   "item.simplyswords.mythicmetals_compat.prometheum.prometheum_halberd": "Прометиумовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.quadrillum.quadrillum_claymore": "Квадриливый Клеймор",
   "item.simplyswords.mythicmetals_compat.quadrillum.quadrillum_cutlass": "Квадриливая Сабля",
   "item.simplyswords.mythicmetals_compat.quadrillum.quadrillum_glaive": "Квадриливая Глефа",
@@ -283,8 +261,6 @@
   "item.simplyswords.mythicmetals_compat.quadrillum.quadrillum_chakram": "Квадриливый Чакрам",
   "item.simplyswords.mythicmetals_compat.quadrillum.quadrillum_scythe": "Квадриливая Коса",
   "item.simplyswords.mythicmetals_compat.quadrillum.quadrillum_halberd": "Квадриливая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.runite.runite_claymore": "Рунитовый Клеймор",
   "item.simplyswords.mythicmetals_compat.runite.runite_cutlass": "Рунитовая Сабля",
   "item.simplyswords.mythicmetals_compat.runite.runite_glaive": "Рунитовая Глефа",
@@ -300,8 +276,6 @@
   "item.simplyswords.mythicmetals_compat.runite.runite_chakram": "Рунитовый Чакрам",
   "item.simplyswords.mythicmetals_compat.runite.runite_scythe": "Рунитовая Коса",
   "item.simplyswords.mythicmetals_compat.runite.runite_halberd": "Рунитовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.star_platinum.star_platinum_claymore": "Звёздный Клеймор",
   "item.simplyswords.mythicmetals_compat.star_platinum.star_platinum_cutlass": "Звёздная Сабля",
   "item.simplyswords.mythicmetals_compat.star_platinum.star_platinum_glaive": "Звёздная Глефа",
@@ -317,8 +291,6 @@
   "item.simplyswords.mythicmetals_compat.star_platinum.star_platinum_chakram": "Звёздный Чакрам",
   "item.simplyswords.mythicmetals_compat.star_platinum.star_platinum_scythe": "Звёздная Коса",
   "item.simplyswords.mythicmetals_compat.star_platinum.star_platinum_halberd": "Звёздная Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.bronze.bronze_claymore": "Бронзовый Клеймор",
   "item.simplyswords.mythicmetals_compat.bronze.bronze_cutlass": "Бронзовая Сабля",
   "item.simplyswords.mythicmetals_compat.bronze.bronze_glaive": "Бронзовая Глефа",
@@ -334,8 +306,6 @@
   "item.simplyswords.mythicmetals_compat.bronze.bronze_chakram": "Бронзовый Чакрам",
   "item.simplyswords.mythicmetals_compat.bronze.bronze_scythe": "Бронзовая Коса",
   "item.simplyswords.mythicmetals_compat.bronze.bronze_halberd": "Бронзовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.palladium.palladium_claymore": "Палладиевый Клеймор",
   "item.simplyswords.mythicmetals_compat.palladium.palladium_cutlass": "Палладиевая Сабля",
   "item.simplyswords.mythicmetals_compat.palladium.palladium_glaive": "Палладиевая Глефа",
@@ -351,8 +321,6 @@
   "item.simplyswords.mythicmetals_compat.palladium.palladium_chakram": "Палладиевый Чакрам",
   "item.simplyswords.mythicmetals_compat.palladium.palladium_scythe": "Палладиевая Коса",
   "item.simplyswords.mythicmetals_compat.palladium.palladium_halberd": "Палладиевая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.stormyx.stormyx_claymore": "Штормиксовый Клеймор",
   "item.simplyswords.mythicmetals_compat.stormyx.stormyx_cutlass": "Штормиксовая Сабля",
   "item.simplyswords.mythicmetals_compat.stormyx.stormyx_glaive": "Штормиксовая Глефа",
@@ -368,8 +336,6 @@
   "item.simplyswords.mythicmetals_compat.stormyx.stormyx_chakram": "Штормиксовый Чакрам",
   "item.simplyswords.mythicmetals_compat.stormyx.stormyx_scythe": "Штормиксовая Коса",
   "item.simplyswords.mythicmetals_compat.stormyx.stormyx_halberd": "Штормиксовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.steel.steel_claymore": "Стальной Клеймор",
   "item.simplyswords.mythicmetals_compat.steel.steel_cutlass": "Стальная Сабля",
   "item.simplyswords.mythicmetals_compat.steel.steel_glaive": "Стальная Глефа",
@@ -385,8 +351,6 @@
   "item.simplyswords.mythicmetals_compat.steel.steel_chakram": "Стальной Чакрам",
   "item.simplyswords.mythicmetals_compat.steel.steel_scythe": "Стальная Коса",
   "item.simplyswords.mythicmetals_compat.steel.steel_halberd": "Стальная Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.celestium.celestium_claymore": "Селестиумовый Клеймор",
   "item.simplyswords.mythicmetals_compat.celestium.celestium_cutlass": "Селестиумовая Сабля",
   "item.simplyswords.mythicmetals_compat.celestium.celestium_glaive": "Селестиумовая Глефа",
@@ -402,8 +366,6 @@
   "item.simplyswords.mythicmetals_compat.celestium.celestium_chakram": "Селестиумовый Чакрам",
   "item.simplyswords.mythicmetals_compat.celestium.celestium_scythe": "Селестиумовая Коса",
   "item.simplyswords.mythicmetals_compat.celestium.celestium_halberd": "Селестиумовая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.metallurgium.metallurgium_claymore": "Металлургиевый Клеймор",
   "item.simplyswords.mythicmetals_compat.metallurgium.metallurgium_cutlass": "Металлургиевая Сабля",
   "item.simplyswords.mythicmetals_compat.metallurgium.metallurgium_glaive": "Металлургиевая Глефа",
@@ -419,12 +381,8 @@
   "item.simplyswords.mythicmetals_compat.metallurgium.metallurgium_chakram": "Металлургиевый Чакрам",
   "item.simplyswords.mythicmetals_compat.metallurgium.metallurgium_scythe": "Металлургиевая Коса",
   "item.simplyswords.mythicmetals_compat.metallurgium.metallurgium_halberd": "Металлургиевая Алебарда",
-
-
   "item.simplyswords.mythicmetals_compat.copper.copper_longsword": "Медный Длинный меч",
   "item.simplyswords.mythicmetals_compat.durasteel.durasteel_greathammer": "Дюрасталевой Большой молот",
-
-
   "item.simplyswords.gobber_compat.gobber.gobber_claymore": "Gobber Клеймор",
   "item.simplyswords.gobber_compat.gobber.gobber_cutlass": "Gobber Сабля",
   "item.simplyswords.gobber_compat.gobber.gobber_glaive": "Gobber Глефа",
@@ -439,7 +397,6 @@
   "item.simplyswords.gobber_compat.gobber.gobber_greataxe": "Gobber Большой топор",
   "item.simplyswords.gobber_compat.gobber.gobber_chakram": "Gobber Чакрам",
   "item.simplyswords.gobber_compat.gobber.gobber_scythe": "Gobber Коса",
-
   "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_claymore": "Nether Клеймор",
   "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_cutlass": "Nether Сабля",
   "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_glaive": "Nether Глефа",
@@ -454,7 +411,6 @@
   "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_greataxe": "Nether Большой топор",
   "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_chakram": "Nether Чакрам",
   "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_scythe": "Nether Коса",
-
   "item.simplyswords.gobber_compat.gobber_end.gobber_end_claymore": "End Gobber Клеймор",
   "item.simplyswords.gobber_compat.gobber_end.gobber_end_cutlass": "End Gobber Сабля",
   "item.simplyswords.gobber_compat.gobber_end.gobber_end_glaive": "End Gobber Глефа",
@@ -469,8 +425,6 @@
   "item.simplyswords.gobber_compat.gobber_end.gobber_end_greataxe": "End Gobber Большой топор",
   "item.simplyswords.gobber_compat.gobber_end.gobber_end_chakram": "End Gobber Чакрам",
   "item.simplyswords.gobber_compat.gobber_end.gobber_end_scythe": "End Gobber Коса",
-
-
   "itemGroup.simplyswords.simplyswords": "Simply Swords",
   "item.simplyswords.awakening": "Awakening LV: %d ",
   "item.simplyswords.awakening.exp": "Awakening XP: %d%% ",
@@ -486,7 +440,6 @@
   "item.simplyswords.empty_runic_slot": "[ пустое гнездо для руны ]",
   "item.simplyswords.empty_nether_slot": "[ пустое гнездо для адских рун ]",
   "item.simplyswords.filled_runic_slot": "[ runefused gem ]",
-
   "effect.simplyswords.burn": "Пламенный Шар",
   "effect.simplyswords.electric": "Зарница",
   "effect.simplyswords.freeze": "Заморозка",
@@ -498,22 +451,18 @@
   "effect.simplyswords.ward": "Вард",
   "effect.simplyswords.immolation": "Жертвоприношение",
   "effect.simplyswords.onslaught": "Натиск",
-
   "item.simplyswords.onrightclick": "По Щелчку ПКМ:",
   "item.simplyswords.firesworditem.tooltip1": "Уникальный эффект: Пламенный Шар",
   "item.simplyswords.firesworditem.tooltip2": "Шанс при попадании извергнуть пламенный шар.",
-
   "item.simplyswords.bramblesworditem.tooltip1": "Уникальный эффект: Еживика",
   "item.simplyswords.bramblesworditem.tooltip2": "Шанс при попадании выпустить облако токсичных",
   "item.simplyswords.bramblesworditem.tooltip3": "спор, замедляющих и отравляющих все, что находится поблизости.",
-
   "item.simplyswords.stormsworditem.tooltip1": "Уникальный эффект: Гроза",
   "item.simplyswords.stormsworditem.tooltip2": "Когда идет дождь / мокро: шанс при попадании",
   "item.simplyswords.stormsworditem.tooltip3": "обрушить молнию с неба на ваших врагов.",
   "item.simplyswords.stormsworditem.tooltip4": "Во время действия заклинания вы получаете сопротивление",
   "item.simplyswords.stormsworditem.tooltip5": "и создаете локальную бурю, которая обрушивает молнии",
   "item.simplyswords.stormsworditem.tooltip6": "на ближайших врагов.",
-
   "item.simplyswords.watchersworditem.tooltip1": "Уникальный эффект: Примета",
   "item.simplyswords.watchersworditem.tooltip2": "Шанс при попадании заберает жизнь из",
   "item.simplyswords.watchersworditem.tooltip3": "цели у которой ниже %d%% HP и дает",
@@ -521,17 +470,14 @@
   "item.simplyswords.watchersworditem.tooltip5": "Уникальный эффект: Страж",
   "item.simplyswords.watchersworditem.tooltip6": "Шанс при попадании выкачать здоровье",
   "item.simplyswords.watchersworditem.tooltip7": "ближайших врагов, исцеляя владельца.",
-
   "item.simplyswords.plaguesworditem.tooltip1": "Уникальный эффект: Чума",
   "item.simplyswords.plaguesworditem.tooltip2": "Шанс при попадании преобразовать положительные эффекты",
   "item.simplyswords.plaguesworditem.tooltip3": "в их отрицательный аналог.",
-
   "item.simplyswords.emberiresworditem.tooltip1": "Уникальный эффект: Гнев Эмбера",
   "item.simplyswords.emberiresworditem.tooltip2": "Шанс при попадании окутать владельца",
   "item.simplyswords.emberiresworditem.tooltip3": "пламенем, нанося ему урон и придавая силу.",
   "item.simplyswords.emberiresworditem.tooltip4": "Поглощайте пламя, теряя силу и",
   "item.simplyswords.emberiresworditem.tooltip5": "вызывая огненный шар.",
-
   "item.simplyswords.volcanicfurysworditem.tooltip1": "Уникальный эффект: Вулканическая Ярость",
   "item.simplyswords.volcanicfurysworditem.tooltip2": "Шанс при попадании воспламенить вашу цель",
   "item.simplyswords.volcanicfurysworditem.tooltip3": "и отправить ее в полет.",
@@ -541,28 +487,24 @@
   "item.simplyswords.volcanicfurysworditem.tooltip7": "Активируйтесь снова, чтобы высвободить свою ярость,",
   "item.simplyswords.volcanicfurysworditem.tooltip8": "запуская, воспламеняя и нанося тем больше",
   "item.simplyswords.volcanicfurysworditem.tooltip9": "урона, чем длиннее канал.",
-
   "item.simplyswords.ferocitysworditem.tooltip1": "Уникальный эффект: Свирепость",
   "item.simplyswords.ferocitysworditem.tooltip2": "Шанс при попадании увеличить",
   "item.simplyswords.ferocitysworditem.tooltip3": "скорость вашей атаки до 15 раз.",
   "item.simplyswords.ferocitysworditem.tooltip4": "Потребляйте все складывания, набирая силу,",
   "item.simplyswords.ferocitysworditem.tooltip5": "в течение времени, равного количеству",
   "item.simplyswords.ferocitysworditem.tooltip6": "потребленных сложений.",
-
   "item.simplyswords.rendsworditem.tooltip1": "Уникальный эффект: Разрыв Души",
   "item.simplyswords.rendsworditem.tooltip2": "Шанс при попадании нанести несколько ослабляющих",
   "item.simplyswords.rendsworditem.tooltip3": "эффектов.",
   "item.simplyswords.rendsworditem.tooltip4": "Потребляйте все сложения у окружающих врагов,",
   "item.simplyswords.rendsworditem.tooltip5": "нанося им урон и исцеляя вас относительно",
   "item.simplyswords.rendsworditem.tooltip6": "израсходованных сложений.",
-
   "item.simplyswords.soulsworditem.tooltip1": "Уникальный эффект: Слияние душ",
   "item.simplyswords.soulsworditem.tooltip2": "Шанс при попадании поглотить близлежащие души, усиливая",
   "item.simplyswords.soulsworditem.tooltip3": "и замедляя скорость атаки владельца.",
   "item.simplyswords.soulsworditem.tooltip4": "Высвобождайте душами, перенося дебафф",
   "item.simplyswords.soulsworditem.tooltip5": "скорости атаки на ближайших врагов и",
   "item.simplyswords.soulsworditem.tooltip6": "регенерируя владельца.",
-
   "item.simplyswords.stealsworditem.tooltip1": "Уникальный эффект: Кража Души",
   "item.simplyswords.stealsworditem.tooltip2": "Шанс при попадании поглотить душу вашего противника,",
   "item.simplyswords.stealsworditem.tooltip3": "ускоряя вас, одновременно замедляя и помечая вашу",
@@ -573,7 +515,6 @@
   "item.simplyswords.stealsworditem.tooltip8": "от вас, вы притянитесь к цели силой,",
   "item.simplyswords.stealsworditem.tooltip9": "ослепляя и нанося ей урон.",
   "item.simplyswords.stealsworditem.tooltip10": " ",
-
   "item.simplyswords.soulpyresworditem.tooltip1": "Уникальный эффект: Нет",
   "item.simplyswords.soulpyresworditem.tooltip2": "Спровоцируйте привязывание душ, меняясь местами",
   "item.simplyswords.soulpyresworditem.tooltip3": "со своей целью и замораживая ее, одновременно вызывая",
@@ -583,14 +524,12 @@
   "item.simplyswords.soulpyresworditem.tooltip7": "После %d сек. ваша привязь души разрывается",
   "item.simplyswords.soulpyresworditem.tooltip8": "в результате чего вы меняетесь местами со своей целью",
   "item.simplyswords.soulpyresworditem.tooltip9": "во второй раз.",
-
   "item.simplyswords.frostfallsworditem.tooltip1": "Уникальный эффект: Ледяная Ярость",
   "item.simplyswords.frostfallsworditem.tooltip2": "Шанс при попадании заковать ближайших врагов в",
   "item.simplyswords.frostfallsworditem.tooltip3": "лед, не нанося им никакого урона.",
   "item.simplyswords.frostfallsworditem.tooltip4": "После %d сек. лед разбивается вдребезги, нанося %d урона.",
   "item.simplyswords.frostfallsworditem.tooltip5": "Заключите себя в лед на %d сек., что сделает вас",
   "item.simplyswords.frostfallsworditem.tooltip6": "невосприимчивым к урону и даст вам регенерацию.",
-
   "item.simplyswords.moltenedgesworditem.tooltip1": "Уникальный эффект: Расплавленный Рёв",
   "item.simplyswords.moltenedgesworditem.tooltip2": "Шанс при попадании воспламенить вашего врага или вас самих.",
   "item.simplyswords.moltenedgesworditem.tooltip3": "Если мало HP, вместо этого получите регенерацию.",
@@ -598,21 +537,18 @@
   "item.simplyswords.moltenedgesworditem.tooltip5": "Издайте мощный рев, отбрасывая назад и",
   "item.simplyswords.moltenedgesworditem.tooltip6": "воспламеняя ближайших врагов. Получайте накопление поглощения",
   "item.simplyswords.moltenedgesworditem.tooltip7": "и скорости за каждый вражеский удар на %d сек.",
-
   "item.simplyswords.livyatansworditem.tooltip1": "Уникальный эффект: Ледяной Осколок",
   "item.simplyswords.livyatansworditem.tooltip2": "Шанс при попадании заковать ближайших врагов в",
   "item.simplyswords.livyatansworditem.tooltip3": "лед, не нанося им никакого урона.",
   "item.simplyswords.livyatansworditem.tooltip4": "После %d сек. лед разбивается вдребезги, нанося %d урон.",
   "item.simplyswords.livyatansworditem.tooltip5": "Упреждающе разбейте лед, окружающий ваших",
   "item.simplyswords.livyatansworditem.tooltip6": "врагов, нанося тем больше урона, чем раньше вы разобьете лед.",
-
   "item.simplyswords.icewhispersworditem.tooltip1": "Уникальный эффект: Вечная Мерзлота",
   "item.simplyswords.icewhispersworditem.tooltip2": "Во время владения получите ледяную ауру, которая наносит",
   "item.simplyswords.icewhispersworditem.tooltip3": "урон и замедляет врагов в пределах %d блоков.",
   "item.simplyswords.icewhispersworditem.tooltip4": "Откажитесь от своей ледяной ауры и вместо этого вызовите",
   "item.simplyswords.icewhispersworditem.tooltip5": "снежную бурю в вашем местоположении, замедляя и нанося",
   "item.simplyswords.icewhispersworditem.tooltip6": "увеличенный урон врагам в пределах %d блоков.",
-
   "item.simplyswords.arcanethystsworditem.tooltip1": "Уникальный эффект: Тайное Нападение",
   "item.simplyswords.arcanethystsworditem.tooltip2": "Шанс при попадании получить тайный заряд.",
   "item.simplyswords.arcanethystsworditem.tooltip3": "Расходуйте свои тайные заряды, чтобы атаковать",
@@ -620,7 +556,6 @@
   "item.simplyswords.arcanethystsworditem.tooltip5": "1 Заряд: Поднимает врагов в воздух.",
   "item.simplyswords.arcanethystsworditem.tooltip6": "2 Заряд: Наносит урон с течением времени.",
   "item.simplyswords.arcanethystsworditem.tooltip7": "3 Заряд: Телепортирует врагов на землю.",
-
   "item.simplyswords.thunderbrandsworditem.tooltip1": "Уникальный эффект: Громовой Удар",
   "item.simplyswords.thunderbrandsworditem.tooltip2": "Шанс при попадании обновить время восстановления способности.",
   "item.simplyswords.thunderbrandsworditem.tooltip3": "На мгновение замедлите себя и зарядите свое",
@@ -628,13 +563,11 @@
   "item.simplyswords.thunderbrandsworditem.tooltip5": "После атаки бросайтесь вперед, набирая скорость",
   "item.simplyswords.thunderbrandsworditem.tooltip6": "и нанося огромный урон врагам на",
   "item.simplyswords.thunderbrandsworditem.tooltip7": "своем пути.",
-
   "item.simplyswords.stormsedgesworditem.tooltip1": "Уникальный эффект: Штормовой Толчок",
   "item.simplyswords.stormsedgesworditem.tooltip2": "Шанс при попадании обновить время восстановления способности.",
   "item.simplyswords.stormsedgesworditem.tooltip3": "Бросайтесь вперед, как молния, обретая",
   "item.simplyswords.stormsedgesworditem.tooltip4": "мгновенную неуязвимость, а",
   "item.simplyswords.stormsedgesworditem.tooltip5": "также сохраняющуюся скорость и спешку.",
-
   "item.simplyswords.levitationsworditem.tooltip1": "Руническая Сила: Левитация",
   "item.simplyswords.uniquesworditem.runefused_power.float": "[ Руна: Левитация ]",
   "item.simplyswords.levitationsworditem.tooltip2": "Шанс при попадании нанести эффект",
@@ -683,7 +616,6 @@
   "item.simplyswords.frostwardsworditem.tooltip1": "Руническая Сила: Олединение",
   "item.simplyswords.frostwardsworditem.tooltip2": "Регулярно запускает снежки, ухудшающие",
   "item.simplyswords.frostwardsworditem.tooltip3": "скорость предвижения противника.",
-
   "item.simplyswords.momentumsworditem.tooltip1": "Руническая Сила: Мгновение",
   "item.simplyswords.uniquesworditem.runefused_power.momentum": "[ Руна: Мгновение ]",
   "item.simplyswords.momentumsworditem.tooltip2": "Получите краткий момент сильного",
@@ -706,25 +638,20 @@
   "item.simplyswords.immolationsworditem.tooltip2": "Получите ауру Жертвоприношения, которая периодически",
   "item.simplyswords.immolationsworditem.tooltip3": "наносит урон вам и ближайшим врагам. Исходящий ",
   "item.simplyswords.immolationsworditem.tooltip4": "урон зависит от вашего текущего HP.",
-
   "item.simplyswords.unidentifiedsworditem.tooltip1": "Руническая Сила: ????",
   "item.simplyswords.unidentifiedsworditem.tooltip2": "Нажмите, чтобы узнать силу.",
-
   "item.simplyswords.uniquesworditem.netherfused_power.echo": "[ Незер-руна: Эхо ]",
   "item.simplyswords.uniquesworditem.netherfused_power.echo.description": "Ваше оружие эхом раскачивается, нанося",
   "item.simplyswords.uniquesworditem.netherfused_power.echo.description2": "дополнительный урон ",
   "item.simplyswords.uniquesworditem.netherfused_power.echo.description3": "после небольшой задержки.",
-
   "item.simplyswords.uniquesworditem.netherfused_power.berserk": "[ Незер-руна: Берсерк ]",
   "item.simplyswords.uniquesworditem.netherfused_power.berserk.description": "Когда у вас значение брони меньше",
   "item.simplyswords.uniquesworditem.netherfused_power.berserk.description2": "10, ваши взмахи оружием высасывают ",
   "item.simplyswords.uniquesworditem.netherfused_power.berserk.description3": "здоровье из цели.",
-
   "item.simplyswords.uniquesworditem.netherfused_power.radiance": "[ Незер-руна: Сияние ]",
   "item.simplyswords.uniquesworditem.netherfused_power.radiance.description": "При ударе по цели, страдающей",
   "item.simplyswords.uniquesworditem.netherfused_power.radiance.description2": "от слабости, на короткое",
   "item.simplyswords.uniquesworditem.netherfused_power.radiance.description3": "время получаете эффект жертвоприношение.",
-
   "item.simplyswords.uniquesworditem.netherfused_power.onslaught": "[ Незер-руна: Натиск ]",
   "item.simplyswords.uniquesworditem.netherfused_power.onslaught.description": "При ударе по цели, страдающей",
   "item.simplyswords.uniquesworditem.netherfused_power.onslaught.description2": "от замедления, на короткое",
@@ -732,18 +659,14 @@
   "item.simplyswords.uniquesworditem.netherfused_power.onslaught.description4": "(Натиск даёт вам пульсирующий",
   "item.simplyswords.uniquesworditem.netherfused_power.onslaught.description5": "эффект спешки, но вызывает",
   "item.simplyswords.uniquesworditem.netherfused_power.onslaught.description6": "слабость когда срок действия истекает).",
-
   "item.simplyswords.uniquesworditem.netherfused_power.nullification": "[ Незер-руна: Нуллификация ]",
   "item.simplyswords.uniquesworditem.netherfused_power.nullification.description": "Вызывает Боевой символ при попадании",
   "item.simplyswords.uniquesworditem.netherfused_power.nullification.description2": "который периодически очищает",
   "item.simplyswords.uniquesworditem.netherfused_power.nullification.description3": "дебаффы с союзных игроков,",
   "item.simplyswords.uniquesworditem.netherfused_power.nullification.description4": "так же снимает баффы с",
   "item.simplyswords.uniquesworditem.netherfused_power.nullification.description5": "врагов в непосредственной близости от него.",
-
   "item.simplyswords.common.blacklisteffect": "СПОСОБНОСТЬ ОТКЛЮЧЕНА",
-
   "entity.simplyswords.battlestandard.name": "%d's Боевой Символ",
-
   "item.simplyswords.stormbringersworditem.tooltip1": "Уникальный эффект: Отражение удара",
   "item.simplyswords.stormbringersworditem.tooltip2": "Сосредоточьте энергию в одной точке вашего",
   "item.simplyswords.stormbringersworditem.tooltip3": "клинка, что позволит вам на мгновение блокировать",
@@ -755,7 +678,6 @@
   "item.simplyswords.stormbringersworditem.tooltip9": "сокращая время действия способности.",
   "item.simplyswords.stormbringersworditem.tooltip10": "Последовательное выполнение парирования",
   "item.simplyswords.stormbringersworditem.tooltip11": "увеличивает урон способности и ее кулдаун.",
-
   "item.simplyswords.lichbladesworditem.tooltip1": "Уникальный эффект: Душевная Боль I",
   "item.simplyswords.lichbladesworditem.tooltip1.2": "Уникальный эффект: Душевная Боль II",
   "item.simplyswords.lichbladesworditem.tooltip1.3": "Уникальный эффект: Душевная Боль III",
@@ -767,27 +689,113 @@
   "item.simplyswords.lichbladesworditem.tooltip7": "После того как атака стихнет, ваши души",
   "item.simplyswords.lichbladesworditem.tooltip8": "вернутся к вам и, достигнув вас,",
   "item.simplyswords.lichbladesworditem.tooltip9": "дадут вам Поглощение.",
-
   "item.simplyswords.shadowmistsworditem.tooltip1": "Уникальный Эффект: Туман теней",
   "item.simplyswords.shadowmistsworditem.tooltip2": "Шанс при попадании нанести магический урон,",
   "item.simplyswords.shadowmistsworditem.tooltip3": "зависящий от величины брони цели.",
   "item.simplyswords.shadowmistsworditem.tooltip4": "Создайте ослепительный теневой туман у своих ног",
   "item.simplyswords.shadowmistsworditem.tooltip5": "и сделайте теневой шаг вперед на небольшое расстояние.",
-
   "item.simplyswords.dormantrelicsworditem.tooltip2": "Кажется, что из него исходит слабая сила.",
   "item.simplyswords.poweredrelicsworditem.tooltip2": "Нарастающая сила, кажется, вырывается изнутри.",
-
   "item.simplyswords.sunfiresworditem.tooltip1": "Уникальный Эффект: Праведный Символ",
   "item.simplyswords.sunfiresworditem.tooltip2": "Шанс восстановить здоровье при попадании.",
   "item.simplyswords.sunfiresworditem.tooltip3": "Вызывает Праведный боевой символ, который",
   "item.simplyswords.sunfiresworditem.tooltip4": "поджигает, наносит урон и замедляет врагов,",
   "item.simplyswords.sunfiresworditem.tooltip5": "а также периодически дарит силу и здоровье",
   "item.simplyswords.sunfiresworditem.tooltip6": "дружественным игрокам, находящимся рядом.",
-
   "item.simplyswords.harbingersworditem.tooltip1": "Уникальный Эффект: Символ Бездны",
   "item.simplyswords.harbingersworditem.tooltip2": "Шанс при попадании наложить слабость.",
   "item.simplyswords.harbingersworditem.tooltip3": "Призывает боевой символ Бездны, который",
   "item.simplyswords.harbingersworditem.tooltip4": "притягивает, наносит урон и замедляет врагов,",
   "item.simplyswords.harbingersworditem.tooltip5": "а также периодически наделяет спешкой",
-  "item.simplyswords.harbingersworditem.tooltip6": "дружественных игроков, находящихся поблизости"
+  "item.simplyswords.harbingersworditem.tooltip6": "дружественных игроков, находящихся поблизости",
+  "item.simplyswords.whisperwind": "Шёпот ветра",
+  "item.simplyswords.emberlash": "Угольный хлыст",
+  "item.simplyswords.waxweaver": "Ткач воска",
+  "item.simplyswords.hiveheart": "Сердце улья",
+  "item.simplyswords.stars_edge": "Край звезды",
+  "item.simplyswords.wickpiercer": "Пронзатель фитиля",
+  "item.simplyswords.dreadtide": "Волна ужаса",
+  "item.simplyswords.tempest": "Буря",
+  "item.simplyswords.flamewind": "Огненный ветер",
+  "item.simplyswords.ribboncleaver": "Ленточный тесак",
+  "item.simplyswords.decaying_relic": "Тлеющая реликвия",
+  "item.simplyswords.magiscythe": "Магическая коса",
+  "item.simplyswords.enigma": "Энигма",
+  "item.simplyswords.magispear": "Магическое копьё",
+  "item.simplyswords.magiblade": "Магический клинок",
+  "item.simplyswords.caelestis": "Небесный",
+  "item.simplyswords.contained_remnant": "Заключённый остаток",
+  "item.simplyswords.tampered_remnant": "Искажённый остаток",
+  "item.simplyswords.mythicmetals_compat.kyber.kyber_sai": "Кибер-сай",
+  "item.simplyswords.gobber_compat.gobber.gobber_halberd": "Гобберская алебарда",
+  "item.simplyswords.gobber_compat.gobber_nether.gobber_nether_halberd": "Адская гобберская алебарда",
+  "item.simplyswords.gobber_compat.gobber_end.gobber_end_halberd": "Краевая гобберская алебарда",
+  "item.simplyswords.contained_remnant_description": "Стабилизированная и заключённая энергия",
+  "item.simplyswords.contained_remnant_description2": "из остатков.",
+  "item.simplyswords.contained_remnant_description3": "Похоже, его форма меняется,",
+  "item.simplyswords.contained_remnant_description4": "когда вы находитесь рядом.",
+  "item.simplyswords.contained_remnant_description5": "Если держать этот предмет в инвентаре,",
+  "item.simplyswords.contained_remnant_description6": "можно узнать о нём больше.",
+  "item.simplyswords.contained_remnant_description7": "Попробуйте держать его в инвентаре",
+  "item.simplyswords.contained_remnant_description8": "вместе с рунической табличкой,",
+  "item.simplyswords.contained_remnant_description9": "исследуя измерение Края.",
+  "item.simplyswords.contained_remnant.event": "Остаток в вашем инвентаре, похоже, изменил форму",
+  "item.simplyswords.contained_remnant.event2": "Остаток в вашем инвентаре ведёт себя странно",
+  "item.simplyswords.tampered_remnant_description3": "Похоже, кто-то каким-то образом",
+  "item.simplyswords.tampered_remnant_description4": "исказил его...",
+  "item.simplyswords.decayingrelicsworditem.tooltip1": "Попробуйте держать этот предмет в инвентаре,",
+  "item.simplyswords.decayingrelicsworditem.tooltip2": "исследуя самые глубокие",
+  "item.simplyswords.decayingrelicsworditem.tooltip3": "и тёмные уголки Верхнего мира.",
+  "item.simplyswords.magicythe.event": "Ваша Тлеющая реликвия начала издавать звуки",
+  "item.simplyswords.magicythe.event2": "Похоже, Тлеющая реликвия реагирует на это место",
+  "item.simplyswords.magiblade.event": "Похоже, ваша Тлеющая реликвия дрожит",
+  "item.simplyswords.magiblade.event2": "Похоже, Тлеющую реликвию притягивает блок под вами",
+  "item.simplyswords.magispear.event": "Похоже, на вашу Тлеющую реликвию что-то повлияло",
+  "item.simplyswords.magispear.event2": "Похоже, Тлеющая реликвия реагирует на темноту",
+  "effect.simplyswords.smouldering": "Тление",
+  "effect.simplyswords.frenzy": "Безумие",
+  "effect.simplyswords.voidcloak": "Покров пустоты",
+  "effect.simplyswords.void_assault": "Натиск пустоты",
+  "effect.simplyswords.voidhunger": "Голод пустоты",
+  "effect.simplyswords.fire_vortex": "Огненный вихрь",
+  "effect.simplyswords.frost_vortex": "Ледяной вихрь",
+  "effect.simplyswords.elemental_vortex": "Стихийный вихрь",
+  "effect.simplyswords.flameseed": "Семя пламени",
+  "effect.simplyswords.ribbonwrath": "Ярость лент",
+  "effect.simplyswords.ribboncleave": "Ленточный разрез",
+  "effect.simplyswords.resilience": "Стойкость",
+  "effect.simplyswords.battle_fatigue": "Боевая усталость",
+  "effect.simplyswords.pain": "Боль",
+  "effect.simplyswords.spore_swarm": "Рой спор",
+  "effect.simplyswords.magistorm": "Магический шторм",
+  "effect.simplyswords.magislam": "Магический удар",
+  "effect.simplyswords.astral_shift": "Астральный сдвиг",
+  "effect.simplyswords.fatal_flicker": "Смертельное мерцание",
+  "item.simplyswords.onrightclickheld": "Удерживайте ПКМ:",
+  "item.simplyswords.bramblesworditem.tooltip4": "разрушительные эффекты на ближайших врагов.",
+  "item.simplyswords.bramblesworditem.tooltip5": "Споры остаются активными, пока",
+  "item.simplyswords.bramblesworditem.tooltip6": "в радиусе действия есть цель, и могут",
+  "item.simplyswords.bramblesworditem.tooltip7": "продолжать действовать слабее, даже",
+  "item.simplyswords.bramblesworditem.tooltip8": "если вы смените оружие.",
+  "item.simplyswords.emberiresworditem.tooltip6": "Если отпустить кнопку в последнюю секунду",
+  "item.simplyswords.emberiresworditem.tooltip7": "зарядки, можно выпустить ещё один",
+  "item.simplyswords.emberiresworditem.tooltip8": "осколок.",
+  "item.simplyswords.emberiresworditem.tooltip9": "При выпуске осколков есть шанс,",
+  "item.simplyswords.emberiresworditem.tooltip10": "зависящий от времени зарядки,",
+  "item.simplyswords.emberiresworditem.tooltip11": "получить скорость, спешку и силу.",
+  "item.simplyswords.whisperwindsworditem.tooltip1": "Уникальный эффект: Смертельное мерцание",
+  "item.simplyswords.whisperwindsworditem.tooltip2": "При попадании есть шанс сбросить перезарядку способности.",
+  "item.simplyswords.whisperwindsworditem.tooltip3": "Совершите быстрый рывок вперёд, получив",
+  "item.simplyswords.whisperwindsworditem.tooltip4": "сопротивление и поглощение, и наложите",
+  "item.simplyswords.whisperwindsworditem.tooltip5": "Эхо на врагов на пути.",
+  "item.simplyswords.whisperwindsworditem.tooltip6": "За каждую цель, поражённую рывком,",
+  "item.simplyswords.whisperwindsworditem.tooltip7": "сила наложенного Эха увеличивается.",
+  "item.simplyswords.emberlashsworditem.tooltip1": "Уникальный эффект: Тление",
+  "item.simplyswords.emberlashsworditem.tooltip2": "Ваши атаки накладывают Тление.",
+  "item.simplyswords.emberlashsworditem.tooltip3": "Атака врагов, на которых наложено",
+  "item.simplyswords.emberlashsworditem.tooltip4": "Тление, наносит дополнительный урон",
+  "item.simplyswords.emberlashsworditem.tooltip5": "в размере %d за каждый уровень эффекта.",
+  "item.simplyswords.emberlashsworditem.tooltip6": "Отскочите назад, прижигая",
+  "item.simplyswords.emberlashsworditem.tooltip7": "раны и восстанавливая %d%% от макс. здоровья.",
+  "item.simplyswords.waxweaversworditem.tooltip1": "Уникальный эффект: Ткачество воска"
 }
