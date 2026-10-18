@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Schools of Magic
+  title: Школы магии
   icon: irons_spellbooks:lightning_bottle
   parent: index.md
   position: 2
@@ -12,14 +12,14 @@ item_ids:
   - irons_spellbooks:eldritch_manuscript
   - irons_spellbooks:blank_rune
 ---
-# <Color id="light_purple">Schools of Magic</Color>
+# <Color id="light_purple">Школы магии</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="light_purple">Schools of Magic</Color>
+  # <Color id="light_purple">Школы магии</Color>
 
   <ItemImage id="lightning_bottle" scale="2" />
 
-  Each spell belongs to a school of magic. Every school has a theme, a Focus item used as a crafting ingredient at the Scroll Forge, and dedicated armor that empowers that school's spells.
+  Каждое заклинание относится к определённой школе магии. У каждой школы есть своя специализация, предмет Focus для создания заклинаний в Scroll Forge и особая броня, усиливающая заклинания этой школы.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -27,7 +27,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Magic Schools</Color>
+  ## <Color id="gold">Школы магии</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -39,7 +39,7 @@ item_ids:
 
 **Focus:** <ItemLink id="minecraft:blaze_rod" />
 
-Centered around damage and damage over time. Fire spells burn enemies and leave lingering flames in their wake.
+Специализируется на прямом уроне и уроне со временем. Огненные заклинания поджигают врагов и оставляют за собой пламя.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -50,7 +50,7 @@ Centered around damage and damage over time. Fire spells burn enemies and leave 
 
 **Focus:** <ItemLink id="frozen_bone" />
 
-Centered around damage and crowd control. Ice spells slow, freeze, and shatter your foes.
+Специализируется на уроне и контроле противников. Ледяные заклинания замедляют, замораживают и разбивают врагов.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -61,7 +61,7 @@ Centered around damage and crowd control. Ice spells slow, freeze, and shatter y
 
 **Focus:** <ItemLink id="lightning_bottle" />
 
-Centered around concentrated damage. Lightning spells strike fast and hit hard.
+Специализируется на концентрированном уроне. Молнии бьют быстро и очень сильно.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -72,7 +72,7 @@ Centered around concentrated damage. Lightning spells strike fast and hit hard.
 
 **Focus:** <ItemLink id="divine_pearl" />
 
-Centered around support, healing, and buffing allies. Holy spells keep you and your companions alive.
+Специализируется на поддержке, лечении и усилении союзников. Священная магия помогает вам и вашим спутникам выжить.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -83,7 +83,7 @@ Centered around support, healing, and buffing allies. Holy spells keep you and y
 
 **Focus:** <ItemLink id="minecraft:ender_pearl" />
 
-Themed around arcane and mystical effects, ranging from damage to utility to mobility. Ender spells bend space and reality.
+Основана на тайных и мистических эффектах: от нанесения урона до полезных способностей и перемещения. Заклинания Ender искажают пространство and reality.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
