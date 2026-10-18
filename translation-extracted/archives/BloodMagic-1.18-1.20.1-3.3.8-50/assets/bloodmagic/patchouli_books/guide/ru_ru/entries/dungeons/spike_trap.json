@@ -1,0 +1,15 @@
+{
+  "name": "Шипастая ловушка",
+  "icon": "bloodmagic:dungeon_spike_trap",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:spike_trap": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_spike_trap",
+      "text": "$(thing)Шипастые ловушки$() выглядят лишь немного подозрительно — пока не получают редстоун-сигнал. Тогда из них выскакивают жестокие лезвия, пронзающие всё на пути. Создатель явно хотел не пускать незваных гостей."
+    }
+  ]
+}
