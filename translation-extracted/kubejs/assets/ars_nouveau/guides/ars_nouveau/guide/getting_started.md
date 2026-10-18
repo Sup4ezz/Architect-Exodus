@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: ars_nouveau:source_gem
   parent: index.md
   position: 1
@@ -16,33 +16,34 @@ item_ids:
   - ars_nouveau:magebloom_fiber
   - ars_nouveau:blank_parchment
 ---
-# <Color id="light_purple">Getting Started</Color>
+# <Color id="light_purple">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="light_purple">Getting Started</Color>
+  # <Color id="light_purple">Начало работы</Color>
   <ItemImage id="source_gem" scale="2" />
 
-  Welcome to Ars Nouveau. This guide covers everything you need to begin your journey into spell crafting, from finding natural resources to building your first magical workstations.
+  Добро пожаловать в Ars Nouveau! Это руководство поможет начать создавать заклинания: от поиска природных ресурсов до постройки первых магических механизмов.
 
-  To get started with this mod, you'll need to clear the <CommandLink command="/ftbquests open_book 00770A59B8189794" title="Go to Maze Quest" close={true}><Color id="red">Helheim Maze</Color></CommandLink>.
+  Чтобы приступить к изучению мода, сначала пройдите <CommandLink command="/ftbquests open_book 00770A59B8189794" title="Перейти к квесту о лабиринте" close={true}><Color id="red">лабиринт Хельхейма</Color></CommandLink>.
 </Column>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">World Generation</Color>
+  ## <Color id="gold">Генерация мира</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Several resources spawn naturally in realms other than <Color id="red">Helheim</Color>. <Color id="green">Archwood Trees</Color> come in decorative variants and are used for crafting Casting Wands. <Color id="green">Source Berries</Color> do NOT spawn in the world, but can be crafted using <CommandLink command="/guideme open @s bloodmagic:guide bloodmagic:crafting.md" title="Open GuideMe Page" close={true}><Color id="red">Blood Magic Alchemy Arrays</Color></CommandLink> and can be used to craft Mana Regen potions. <ItemLink id="source_gem" />s are obtained by imbuing Amethyst or Lapis in an <ItemLink id="imbuement_chamber" />, which can be sped up with Source.
+Некоторые ресурсы естественным образом появляются в измерениях, отличных от <Color id="red">Хельхейма</Color>. <Color id="green">Archwood Trees</Color> имеют несколько декоративных вариантов и используются для создания Casting Wands. <Color id="green">Source Berries</Color> не растут в мире: их можно получить с помощью <CommandLink command="/guideme open @s bloodmagic:guide bloodmagic:crafting.md" title="Открыть страницу руководства" close={true}><Color id="red">алхимических кругов Blood Magic</Color></CommandLink>. Ягоды используются для создания зелий восстановления маны. <ItemLink id="source_gem" /> получают, наделяя аметист или лазурит энергией Source в <ItemLink id="imbuement_chamber" />. Процесс можно ускорить, подавая Source.
+</Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Obtaining Source Gems</Color>
+  ## <Color id="gold">Получение Source Gems</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -52,16 +53,16 @@ Several resources spawn naturally in realms other than <Color id="red">Helheim</
   ### <Color id="aqua">Imbuement Chamber</Color>
 </Row>
 
-Build an <Color id="green">Imbuement Chamber</Color> and place Amethyst or Lapis inside. The chamber will imbue the item with Source to create <ItemLink id="source_gem" />. It passively accumulates Source or draws from nearby Source Jars.
+Создайте <Color id="green">Imbuement Chamber</Color> и поместите внутрь аметист или лазурит. Камера наполнит предмет энергией Source и создаст <ItemLink id="source_gem" />. Source накапливается пассивно; также камера может получать энергию из ближайших Source Jars.
 
-The <Color id="green">Imbuement Chamber</Color> can be crafted in <Color id="red">Helheim</Color> using Cthonic Gold.
+<Color id="green">Imbuement Chamber</Color> можно создать в <Color id="red">Хельхейме</Color>, используя Cthonic Gold.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Spell Books</Color>
+  ## <Color id="gold">Книги заклинаний</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -71,16 +72,16 @@ The <Color id="green">Imbuement Chamber</Color> can be crafted in <Color id="red
   ### <Color id="aqua">Ars Spell Books</Color>
 </Row>
 
-Three tiers of spell books unlock progressively more powerful glyphs. The <Color id="green">Novice Spell Book</Color> grants access to Tier 1 spells, the <Color id="green">Apprentice Spell Book</Color> unlocks Tier 2, and the <Color id="green">Archmage Spell Book</Color> unlocks Tier 3.
+Три уровня книг открывают доступ к всё более мощным глифам. <Color id="green">Novice Spell Book</Color> открывает заклинания первого уровня, <Color id="green">Apprentice Spell Book</Color> — второго, а <Color id="green">Archmage Spell Book</Color> — третьего.
 
-Higher tier books provide more spell slots, additional mana, and increased mana regeneration. Upgrading your spell book transfers all learned spells. Books can also be dyed to customize their appearance.
+Книги более высокого уровня дают больше ячеек для заклинаний, увеличивают запас маны и скорость её восстановления. При улучшении книги все изученные заклинания переносятся в новую. Книги также можно окрашивать, меняя их внешний вид.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Learning New Glyphs</Color>
+  ## <Color id="gold">Изучение новых глифов</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -90,33 +91,32 @@ Higher tier books provide more spell slots, additional mana, and increased mana 
   ### <Color id="aqua">Scribe's Table</Color>
 </Row>
 
-The <Color id="green">Scribe's Table</Color> is used to learn new glyphs. Use a spell book on the table to open the codex. Each glyph requires a specific set of items (check JEI for each Glyph) and experience points.
+<Scribe's Table> используется для изучения новых глифов. Примените книгу заклинаний к столу, чтобы открыть кодекс. Для каждого глифа требуются определённые предметы (рецепты можно посмотреть в JEI) и очки опыта.
 
-Select a glyph, throw the required items onto the table, and the table scribes a new glyph into your spell book. The Scribe's Table is also used for inscribing spells onto [Equipment, Wand, and Spell Parchments](equipment.md).
-
+Выберите глиф и бросьте необходимые предметы на стол. После этого стол запишет новый глиф в книгу заклинаний. Scribe's Table также используется для нанесения заклинаний на [снаряжение, жезлы и пергаменты заклинаний](equipment.md).
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Mana</Color>
+  ## <Color id="gold">Мана</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Spell Mana is consumed when casting spells. Your maximum mana and regeneration rate can be increased in several ways:
+При сотворении заклинаний расходуется мана. Её максимальный запас и скорость восстановления можно увеличить несколькими способами:
 
-- Wearing <Color id="green">Mage Armor</Color> sets
-- Applying <Color id="green">Mana Boost</Color> and <Color id="green">Mana Regen</Color> enchantments to your gear
-- Unlocking more glyphs in your spell book
+- Носить комплекты <Color id="green">Mage Armor</Color>.
+- Накладывать на снаряжение зачарования <Color id="green">Mana Boost</Color> и <Color id="green">Mana Regen</Color>.
+- Изучать новые глифы в книге заклинаний.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Materials</Color>
+  ## <Color id="gold">Материалы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -126,7 +126,7 @@ Spell Mana is consumed when casting spells. Your maximum mana and regeneration r
   ### <Color id="aqua">Magebloom</Color>
 </Row>
 
-Using the Enchanting Apparatus, you can craft <Color id="light_purple">Magebloom Seeds</Color>. When harvested, Magebloom can be turned into <ItemLink id="magebloom_fiber" />, the key ingredient for crafting magical armor.
+С помощью Enchanting Apparatus можно создать семена <Color id="light_purple">Magebloom</Color>. После сбора урожая растение даёт <ItemLink id="magebloom_fiber" /> — ключевой ингредиент для создания магической брони.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -135,6 +135,4 @@ Using the Enchanting Apparatus, you can craft <Color id="light_purple">Magebloom
   ### <Color id="aqua">Blank Parchment</Color>
 </Row>
 
-Magebloom Fiber can also be used to craft <Color id="green">Blank Parchment</Color>. To inscribe a spell, use the parchment on a Scribe's Table, select the spell in your Spell Book, then sneak-right click the parchment. Spell Parchment is used for spell turrets, reactive enchantments, item filters, and crafting Warp Scrolls.
-
-<ItemImage id="minecraft:air" scale="0.25"/>
+Из Magebloom Fiber также можно изготовить <Color id="green">Blank Parchment</Color>. Чтобы записать заклинание, примените пергамент к Scribe's Table, выберите заклинание в книге, затем зажмите Shift и щёлкните ПКМ по пергаменту. Spell Parchment используется для создания турелей заклинаний и других устройств.
