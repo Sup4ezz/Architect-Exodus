@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Generators
+  title: Генераторы
   parent: index.md
   icon: powah:furnator_starter
   position: 1
@@ -36,14 +36,14 @@ item_ids:
   - powah:dry_ice
 ---
 
-# <Color id="yellow">Generators</Color>
+# <Color id="yellow">Генераторы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="yellow">Generators</Color>
+  # <Color id="yellow">Генераторы</Color>
 
   <ItemImage id="furnator_starter" scale="2" />
 
-  Powah generators produce FE from various fuel sources. All generators come in 7 tiers from Starter to Nitro.
+  Генераторы Powah производят FE из разных источников топлива. Все генераторы представлены в 7 уровнях — от Starter до Nitro.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -51,7 +51,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Fuel Generators</Color>
+  ## <Color id="gold">Топливные генераторы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -61,7 +61,7 @@ item_ids:
   ### <Color id="aqua">Furnator</Color>
 </Row>
 
-Generates FE from solid furnace fuel like coal and wood. High tiers generate more FE/t but burn fuel faster while keeping the same energy per fuel tick.
+Производит FE из твёрдого топлива для печей, например угля и древесины. Высокие уровни вырабатывают больше FE/т, но сжигают топливо быстрее; количество энергии на один тик горения не меняется.
 
 ![](./generators/furnator.png)
 
@@ -72,7 +72,7 @@ Generates FE from solid furnace fuel like coal and wood. High tiers generate mor
   ### <Color id="aqua">Magmator</Color>
 </Row>
 
-Generates FE from high-temperature fluids like lava. Same tier values as the Furnator.
+Производит FE из высокотемпературных жидкостей, например лавы. Значения по уровням такие же, как у Furnator.
 
 ![](./generators/magmator.png)
 
