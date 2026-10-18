@@ -21,7 +21,7 @@ item_ids:
   # <Color id="aqua">Процессоры</Color>
   <ItemImage id="ae2:logic_processor" scale="2" />
 
-  Процессоры are crafted very differently here than in vanilla AE2. <Color id="red">В сборке нет Inscriber и его пресс-форм.</Color> Всё выполняется через <Color id="green">Thermal Component Assembly</Color>; также доступен запасной вариант через <Color id="green">Ender IO Slicing</Color> для резервного способа. Остальные этапы прежние: изготовьте Printed Silicon, напечатайте пластину процессора и объедините компоненты.
+  В этой сборке процессоры создаются иначе, чем в обычной AE2. <Color id="red">В сборке нет Inscriber и его пресс-форм.</Color> Всё выполняется через <Color id="green">Thermal Component Assembly</Color>; также доступен запасной вариант через <Color id="green">Ender IO Slicing</Color> для резервного способа. Остальные этапы прежние: изготовьте Printed Silicon, напечатайте пластину процессора и объедините компоненты.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -43,7 +43,7 @@ item_ids:
 
 В качестве альтернативы <ItemLink id="enderio:slice_and_splice" /> превращает 3 кремния в 3 Printed Silicon за один цикл (20 000 FE) — удобно при массовом производстве.
 
-<RecipeFor id="ae2:printed_silicon" fallbackText="Check JEI for the Thermal Press recipe." />
+<RecipeFor id="ae2:printed_silicon" fallbackText="Рецепт Thermal Press смотрите в JEI." />
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -57,7 +57,7 @@ item_ids:
 
 Для каждого процессора нужна соответствующая печатная пластина. Она создаётся прессованием нужного материала в Thermal Press:
 
-| Plate | Base Material |
+| Печатная пластина | Основной материал |
 |---|---|
 | <ItemImage id="ae2:printed_logic_processor" scale="0.5" /> <Color id="aqua">Printed Logic Processor</Color> | forge:ingots/gold |
 | <ItemImage id="ae2:printed_engineering_processor" scale="0.5" /> <Color id="aqua">Printed Engineering Processor</Color> | forge:gems/diamond |
@@ -84,7 +84,7 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-<RecipeFor id="ae2:logic_processor" fallbackText="Check JEI for the Component Assembler recipe — input the Printed Logic Processor, Printed Silicon, and Redstone fluid." />
+<RecipeFor id="ae2:logic_processor" fallbackText="Рецепт Component Assembler смотрите в JEI. Нужны Printed Logic Processor, Printed Silicon и Redstone fluid." />
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -100,4 +100,4 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-<Color id="yellow">Note:</Color> Механизм vanilla Inscriber, all four AE2 Presses (silicon, logic, calculation, engineering), and MEGACells Accumulation Press are <Color id="red">removed</Color> удалены из сборки: их нельзя создать, и они скрыты в JEI.
+<Color id="yellow">Примечание:</Color> Vanilla Inscriber, все четыре пресса AE2 (silicon, logic, calculation, engineering) и Accumulation Press из MEGACells <Color id="red">удалены</Color> из сборки: их нельзя создать, и они скрыты в JEI.
