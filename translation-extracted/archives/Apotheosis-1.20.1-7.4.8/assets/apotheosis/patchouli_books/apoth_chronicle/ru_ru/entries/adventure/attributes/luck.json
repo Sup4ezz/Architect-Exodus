@@ -1,17 +1,17 @@
 {
-    "name": "Удача",
-    "icon": "minecraft:rabbit_foot",
-    "category": "apotheosis:adventure/attributes",
-	"flag": "apotheosis:adventure",
-	"sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(9)Удача$() это делает тебя везунчиком!  Ну, то есть, это увеличивает вероятность того, что вы получите больше выпадений добычи.$(p)Все может даровать удачу."
-        },
-		{
-			"type": "patchouli:text",
-			"text": "Вам может не повезти, что еще больше затруднит получение лучшего лута."
-		}
-	]
+  "name": "Luck",
+  "icon": "minecraft:rabbit_foot",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)Luck$() делает вас удачливее! Точнее, повышает вероятность получить более ценную добычу.$(p)Удачу может давать что угодно."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Удача может быть и отрицательной — тогда получить хорошую добычу станет ещё сложнее."
+    }
+  ]
 }
