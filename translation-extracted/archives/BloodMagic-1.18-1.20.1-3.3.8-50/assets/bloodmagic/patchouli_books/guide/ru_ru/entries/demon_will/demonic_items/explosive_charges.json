@@ -1,0 +1,214 @@
+{
+  "name": "Взрывные заряды",
+  "icon": "bloodmagic:shaped_charge",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Добывать руду и рубить лес — занятие для тех, кто не умеет мечтать по-крупному. Какой уважающий себя сангвимант станет так утруждаться? $(br2)Вы изобрели хитрые устройства: бросьте их в надоедливые деревья, скалы или другие объекты, которые хотите уничтожить, и дождитесь автоматического подрыва."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Их возможности можно улучшить, нанеся $(item)анамнез$() с определёнными ингредиентами и небольшим количеством $(raw)Воли$(). Доступны такие анамнезы: $(li)Удачливый — блоки добываются с эффектом «Удача». $(li)Раскалённый инструмент — блоки переплавляются. $(li)Шёлковое касание — блоки добываются с «Шёлковым касанием». $(li)Пустотный — ненужные блоки исчезают, не выпадая предметами."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Направленный заряд",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor": "shaped_charge",
+      "text": "$(item)Направленный заряд$() уничтожает куб 5×5×5 в направлении стороны блока, на которую он приземлился, и выбрасывает все блоки так, словно они добыты киркой. Он справляется даже с обсидианом — и сопровождает работу весьма приятным $(o)БА-БАХ$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_smelting",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Удачливый",
+      "recipe": "bloodmagic:soulforge/shaped_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Усиленный направленный заряд",
+      "recipe": "bloodmagic:soulforge/aug_shaped_charge",
+      "anchor": "shaped_charge_2",
+      "text": "The $(item)Augmented Shaped Charge$() is a direct upgrade from the standard Shaped Charge. It will destroy a 7x7x7 cube facing whichever side of a block it lands on, dropping all blocks as though mined with a pickaxe. It can also be anointed with $(thing)Fortune II$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_smelting_l",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/aug_shaped_charge_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Удачливый",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_1_l",
+      "b.heading": "Удачливый II",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Туннельный заряд",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor": "shaped_charge_tunneling",
+      "text": "The $(item)Tunnelling Shaped Charge$() will destroy a 5x5x20 tunnel facing whichever side of a block it lands on, dropping all blocks as though mined with a pickaxe. Good for mining."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_smelting_l",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_deep_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Удачливый",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_1_l",
+      "b.heading": "Удачливый II",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Лесорубный заряд",
+      "recipe": "bloodmagic:soulforge/deforester_charge",
+      "anchor": "deforester_charge",
+      "text": "$(item)Усиленный направленный заряд$() — улучшенная версия обычного заряда. Он уничтожает куб 7×7×7 в направлении стороны блока, на которую приземлился, и может получить анамнез «Удача II»."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_smelting",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Удачливый",
+      "recipe": "bloodmagic:soulforge/deforester_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Лесорубный заряд II",
+      "recipe": "bloodmagic:soulforge/deforester_charge_2",
+      "anchor": "deforester_charge_2",
+      "text": "The $(item)Deforester Charge II$(), much like the standard Deforester Charge, is for breaking wood and trees. It can break up to 8x64 logs, clearing away any connecting leaves. Excellent for making yourself a nice clearing in any Dark Oak Forest or Jungle you might happen to like the look of."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_smelting_l",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Удачливый",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_1_l",
+      "b.heading": "Удачливый II",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Управляемый заряд",
+      "recipe": "bloodmagic:soulforge/vein_charge",
+      "anchor": "controlled_charge",
+      "text": "The $(item)Controlled Charge$() only destroys blocks $(thing)identical to the block it lands on$(). It will destroy up to 3 stacks of blocks, seeking out from the original point. As with other charges, all mined blocks will be dropped."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_smelting",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Удачливый",
+      "recipe": "bloodmagic:soulforge/vein_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Управляемый заряд II",
+      "recipe": "bloodmagic:soulforge/vein_charge_2",
+      "anchor": "controlled_charge_2",
+      "text": "$(item)Туннельный заряд$() прокладывает туннель размером 5×5×20 в направлении стороны блока, на которую приземлился, и выбрасывает все добытые блоки. Идеален для горных работ."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_smelting_l",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Удачливый",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_1_l",
+      "b.heading": "Удачливый II",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Грибной заряд",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor": "fungal_charge",
+      "text": "The $(item)Fungal Charge$() is for felling giant mushrooms, both in the Overworld and the Nether. Although doubtful that you will ever reach this in a single charge, it can break up to $(item)three stacks of blocks$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_smelting",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Удачливый",
+      "recipe": "bloodmagic:soulforge/fungal_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Грибной заряд II",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor": "fungal_charge_2",
+      "text": "The $(item)Fungal Charge II$() is for felling giant mushrooms, both in the Overworld and the Nether. It can destroy up to 8 stacks of mushroomy goodness per charge. $(br2)Why would you ever need this?"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Пустотный",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_voiding",
+      "b.heading": "Раскалённый инструмент",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_smelting_l",
+      "c.heading": "Шёлковое касание",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Удачливый",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_1_l",
+      "b.heading": "Удачливый II",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_2_l"
+    }
+  ]
+}
