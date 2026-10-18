@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: Mechanics
+  title: Механики
   icon: minecraft:writable_book
   position: 20
 ---
 
-# Boss Mechanics
+# Механики боссов
 
-Detailed breakdowns of each boss's phases, attacks, and combat mechanics.
+Подробный разбор фаз, атак и боевых механик каждого босса.
 
 <SubPages icons={true} />
