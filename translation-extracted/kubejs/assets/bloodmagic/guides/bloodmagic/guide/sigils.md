@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Sigils
+  title: Сигилы
   icon: bloodmagic:divinationsigil
   parent: index.md
   position: 6
@@ -20,19 +20,19 @@ item_ids:
   - bloodmagic:bloodlightsigil
   - bloodmagic:telepositionsigil
 ---
-# <Color id="red">Sigils</Color>
+# <Color id="red">Сигилы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Sigils</Color>
+  # <Color id="red">Сигилы</Color>
   <ItemImage id="bloodmagic:divinationsigil" scale="2" />
-  Sigils use LP from your Soul Network to perform a variety of functions and tasks. They are crafted using Arcane Ashes and Alchemy Arrays.
+  Сигилы use LP from your Soul Network to perform a variety of functions and tasks. They are crafted using Arcane Ashes and Alchemy Arrays.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Utility Sigils</Color>
+  ## <Color id="gold">Utility Сигилы</Color>
 </Column>
 
 <Row>
@@ -41,7 +41,7 @@ item_ids:
     ### <Color id="aqua">Divination Sigil</Color>
   </Column>
 </Row>
-Right-click the Blood Altar to see its current LP level and tier. Right-click in the air to see your Soul Network's LP.
+Щёлкните ПКМ по Blood Altar, чтобы увидеть текущий запас LP и уровень алтаря. Щёлкните ПКМ в воздухе, чтобы посмотреть запас LP в Soul Network.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -52,12 +52,12 @@ Right-click the Blood Altar to see its current LP level and tier. Right-click in
     ### <Color id="aqua">Seer's Sigil</Color>
   </Column>
 </Row>
-An upgraded Divination Sigil that shows more detailed information about the Blood Altar, including crafting progress.
+Улучшенная версия Divination Sigil, показывающая больше сведений о Blood Altar, включая прогресс создания предмета.
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Elemental Sigils</Color>
+  ## <Color id="gold">Elemental Сигилы</Color>
 </Column>
 
 <Row>
@@ -67,7 +67,7 @@ An upgraded Divination Sigil that shows more detailed information about the Bloo
   </Column>
 </Row>
 
-Places water source blocks. Useful for farming and general utility.
+Создаёт источник воды. Полезно для ферм и других задач.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -78,7 +78,7 @@ Places water source blocks. Useful for farming and general utility.
   </Column>
 </Row>
 
-Places lava source blocks. Handle with care!
+Создаёт источник лавы. Используйте осторожно!
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -89,7 +89,7 @@ Places lava source blocks. Handle with care!
   </Column>
 </Row>
 
-Launches you in the direction you are looking. Great for traversal.
+Запускает вас в направлении взгляда. Удобно для быстрого перемещения.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -100,12 +100,12 @@ Launches you in the direction you are looking. Great for traversal.
   </Column>
 </Row>
 
-Freezes nearby water and extinguishes fire.
+Замораживает ближайшую воду и тушит огонь.
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Other Sigils</Color>
+  ## <Color id="gold">Other Сигилы</Color>
 </Column>
 
 <Row>
@@ -115,7 +115,7 @@ Freezes nearby water and extinguishes fire.
   </Column>
 </Row>
 
-Accelerates crop growth nearby.
+Ускоряет рост ближайших культур.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -126,7 +126,7 @@ Accelerates crop growth nearby.
   </Column>
 </Row>
 
-Gives Haste effect.
+Накладывает эффект Спешки.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -137,7 +137,7 @@ Gives Haste effect.
   </Column>
 </Row>
 
-Attracts nearby items.
+Притягивает ближайшие предметы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -148,7 +148,7 @@ Attracts nearby items.
   </Column>
 </Row>
 
-Holds multiple sigils in one slot.
+Позволяет хранить несколько сигилов в одном слоте.
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 <Row>
@@ -158,7 +158,7 @@ Holds multiple sigils in one slot.
   </Column>
 </Row>
 
-Pushes back fluids in an area.
+Отталкивает жидкости в области действия.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -169,7 +169,7 @@ Pushes back fluids in an area.
   </Column>
 </Row>
 
-Places invisible light sources.
+Размещает невидимые источники света.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -180,7 +180,7 @@ Places invisible light sources.
   </Column>
 </Row>
 
-Teleports to a bound location.
+Телепортирует к привязанной точке.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -191,4 +191,4 @@ Teleports to a bound location.
   </Column>
 </Row>
 
-Removes fluid source blocks.
+Удаляет источники жидкости.
