@@ -1,0 +1,27 @@
+{
+  "name": "Первая демоническая воля",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ловушка для душ",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)Ловушки для душ$() открывают путь к изучению $(l:bloodmagic:demon_will/will_manipulation/demon_will)демонической воли$() — одной из областей $(blood)Кровавой магии$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использовать ловушку просто: изготовьте несколько штук и бросайте их в $(thing)враждебных существ$(). Вокруг поражённых целей появятся белые частицы — это знак, что пора атаковать. После смерти существо оставит $(l:bloodmagic:demon_will/will_manipulation/demon_will)демоническую волю$(). И да, зачарование «Добыча» увеличивает её количество. Собрав несколько порций воли, вы сможете создать $(l:bloodmagic:demon_will/demonic_items/sentient_sword)разумный меч$() и $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарический самоцвет$() — с ними собирать демоническую волю станет намного проще."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "Скелет под действием ловушки",
+      "border": true,
+      "text": "Скелет, окружённый белыми частицами после попадания ловушки."
+    }
+  ]
+}
