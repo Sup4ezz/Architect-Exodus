@@ -78,5 +78,22 @@
   "message.rftoolsbuilder.mover_control3.gold": "Установите это в свой транспорт!",
   "message.rftoolsbuilder.mover_control4.header": "Экран управления перемещателем (страница 4). Позволяет управлять движением платформы.",
   "message.rftoolsbuilder.mover_control4.gold": "Установите это в свой транспорт!",
-  "message.rftoolsbuilder.mover_status.header": "Экран состояния перемещателя. Показывает дополнительную информацию о платформе."
+  "message.rftoolsbuilder.mover_status.header": "Экран состояния перемещателя. Показывает дополнительную информацию о платформе.",
+  "message.rftoolsbuilder.mover_status.gold": "Поместите это в транспорт!",
+  "message.rftoolsbuilder.vehicle_builder.header": "Используя космическую карту, связанную с космической камерой, этот блок может записать транспорт в карту транспорта.",
+  "message.rftoolsbuilder.vehicle_card.header": "Карта транспорта. Используйте сборщик транспорта, чтобы записать транспорт на эту карту.",
+  "message.rftoolsbuilder.vehicle_card.name": "Название: ",
+  "message.rftoolsbuilder.vehicle_card.contents": "Содержимое: ",
+  "message.rftoolsbuilder.space_chamber_card.header": "Используйте эту карту для связи с космической камерой",
+  "message.rftoolsbuilder.space_chamber_card.gold": "Присядьте и щёлкните ПКМ по контроллеру космической камеры, чтобы задать канал карты. Щёлкните ПКМ по воздуху, чтобы просмотреть содержимое области. Вставьте карту в строитель, чтобы скопировать или переместить связанную область.",
+  "message.rftoolsbuilder.space_chamber_card.cost": "Базовая стоимость: ",
+  "message.rftoolsbuilder.space_chamber_card.channel": "Канал: ",
+  "message.rftoolsbuilder.space_chamber_card.extra": "(итоговая стоимость зависит от уровня насыщения)",
+  "message.rftoolsbuilder.shape_card.warning": "Отключено в конфигурации!",
+  "message.rftoolsbuilder.shape_card.header": "Эта карта описывает область, которую можно использовать со щитом или строителем. Присядьте и щёлкните ПКМ по строителю, чтобы включить режим разметки, затем отметьте два угла нужной области.",
+  "message.rftoolsbuilder.shape_card.shape": "Форма: ",
+  "message.rftoolsbuilder.shape_card.dimension": "Измерение: ",
+  "message.rftoolsbuilder.shape_card.offset": "Смещение: ",
+  "message.rftoolsbuilder.shape_card.formulas": "Формулы: ",
+  "message.rftoolsbuilder.shape_card.scan": "ID сканирования: "
 }
