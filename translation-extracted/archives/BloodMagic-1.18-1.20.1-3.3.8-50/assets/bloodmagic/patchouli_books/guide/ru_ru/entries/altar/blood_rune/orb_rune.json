@@ -1,0 +1,25 @@
+{
+  "name": "Руна кровавой сферы",
+  "icon": "bloodmagic:orbcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна кровавой сферы$() Пока кровавая сфера находится в алтаре, каждая такая руна аддитивно увеличивает её вместимость на 2%."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb_2",
+      "text": "Незеритовый лом и замысловатые адские детали, добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве демонов$(), позволяют удвоить силу этой руны."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/orb_rune",
+      "text": "Передумали? Этот рецепт можно отменить в ARC."
+    }
+  ]
+}
