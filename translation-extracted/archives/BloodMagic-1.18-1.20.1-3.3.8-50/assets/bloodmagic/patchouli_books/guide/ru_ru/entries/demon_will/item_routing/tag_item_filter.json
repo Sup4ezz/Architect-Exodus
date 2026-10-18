@@ -1,0 +1,27 @@
+{
+  "name": "Фильтр предметов по тегам",
+  "icon": "bloodmagic:itemrouterfilteroredict",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Фильтр предметов по тегам$() позволяет выбрать до девяти предметов и фильтровать по связанным с ними $(thing)тегам$(). Как и стандартный фильтр, он имеет настройку количества и режимы разрешения/запрета. Пустое поле количества означает «всё». Для каждого предмета можно выбрать совпадение по $(thing)одному конкретному тегу$() или $(thing)любому из его тегов$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Фильтр предметов по тегам",
+      "recipe": "bloodmagic:alchemytable/tag_router_filter",
+      "text": "Можно разрешать или запрещать целые категории предметов. Например, отправлять в печь все предметы с тегом $(thing)forge:ores$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/tag_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/tag_item_filter_mouseover.png"
+      ],
+      "title": "Интерфейс фильтра по тегам",
+      "border": true,
+      "text": "Интерфейс и подсказка настроенного фильтра."
+    }
+  ]
+}
