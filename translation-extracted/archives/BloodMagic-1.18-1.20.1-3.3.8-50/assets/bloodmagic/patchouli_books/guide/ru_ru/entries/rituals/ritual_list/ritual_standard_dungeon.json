@@ -1,0 +1,24 @@
+{
+  "name": "Путь в Бесконечное царство",
+  "icon": "bloodmagic:ingot_hellforged",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Бесконечное царство",
+      "multiblock_id": "bloodmagic:standard_dungeon",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner)ритуальный указатель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "standard_dungeon",
+      "text_overrides": [
+        [
+          "Demon Realm",
+          "thing"
+        ]
+      ],
+      "text": "Будьте осторожны: Царство демонов чрезвычайно опасно. Хорошо подготовьтесь!"
+    }
+  ]
+}
