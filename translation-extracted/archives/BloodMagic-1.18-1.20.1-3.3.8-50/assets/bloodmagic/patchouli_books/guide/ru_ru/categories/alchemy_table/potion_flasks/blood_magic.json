@@ -1,0 +1,6 @@
+{
+  "name": "Эффекты Кровавой магии",
+  "description": "Эти эффекты можно создать только прикосновением истинного кровавого мага.",
+  "icon": "bloodmagic:simplecatalyst",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}
