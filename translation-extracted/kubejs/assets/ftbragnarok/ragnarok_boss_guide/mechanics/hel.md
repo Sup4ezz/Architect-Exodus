@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: mechanics/mechanics-index.md
-  title: Hel - Queen of the Underworld
+  title: Хель — королева подземного мира
   icon: ftbragnarok:dead_heart
   position: 1
 item_ids:
@@ -10,14 +10,14 @@ item_ids:
 
 <Column alignItems="center" fullWidth={true}>
 
-# <Color id="light_purple">Hel</Color> - Queen of the Underworld
+# <Color id="light_purple">Hel</Color> — королева подземного мира
 <ItemImage id="ftbragnarok:dead_heart" scale="2" />
 
-Hel is the goddess of the underworld and serves as the entry boss for the Ragnarok boss progression. She is an elusive spellcaster who prefers to fight from a distance.
+Hel — богиня подземного мира и первый босс в цепочке Рагнарёка. Это неуловимая волшебница, предпочитающая сражаться на расстоянии.
 </Column>
 
 <Column alignItems="center" fullWidth={true}>
-### <ItemImage id="ftbragnarok:dead_heart" scale="0.75" /> <Color id="aqua">Boss Stats</Color> <ItemImage id="ftbragnarok:dead_heart" scale="0.75" />
+### <ItemImage id="ftbragnarok:dead_heart" scale="0.75" /> <Color id="aqua">Характеристики босса</Color> <ItemImage id="ftbragnarok:dead_heart" scale="0.75" />
 </Column>
 
 * <Color id="red">Health:</Color> 350 HP
@@ -26,35 +26,35 @@ Hel is the goddess of the underworld and serves as the entry boss for the Ragnar
 
 ***
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Combat Behavior</Color>
+## <Color id="gold">Поведение в бою</Color>
 </Column>
 
-Hel is a <Color id="light_purple">flying boss</Color> who hovers above the ground and teleports frequently to avoid melee combat. She excels at ranged magical attacks.
+Hel — <Color id="light_purple">летающий босс</Color>, парящий над землёй и часто телепортирующийся, чтобы избегать ближнего боя. Особенно опасна её дальняя магия.
 
-### <Color id="aqua">Phase Transitions</Color>
+### <Color id="aqua">Смена фаз</Color>
 
-| Phase | Health Threshold | New Abilities |
+| Фаза | Уровень здоровья | Новые способности |
 |-------|-----------------|---------------|
 | 1 | 100% - 70% | Basic attacks |
 | 2 | 70% - 40% | Summons Hel Clones |
 | 3 | 40% - 15% | Sculk Tentacles, Starfall |
 | 4 | Below 15% | All abilities enhanced |
 
-### <Color id="aqua">Evasion Mechanics</Color>
-* <Color id="green">Dodge Chance:</Color> 65% chance to phase through attacks
-* <Color id="green">Teleportation:</Color> Teleports away when players get within 6 blocks
-* <Color id="green">Shield:</Color> Casts a magical shield when hit by projectiles
+### <Color id="aqua">Уклонение</Color>
+* <Color id="green">Шанс уклонения:</Color> 65% chance to phase through attacks
+* <Color id="green">Телепортация:</Color> Teleports away when players get within 6 blocks
+* <Color id="green">Щит:</Color> Casts a magical shield when hit by projectiles
 
 ***
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Attacks</Color>
+## <Color id="gold">Атаки</Color>
 </Column>
 
 ### <Color id="red">Soul Fireballs</Color>
-Hel fires homing soul fireballs at all players in range. These projectiles track their targets.
+Hel выпускает самонаводящиеся огненные шары душ во всех игроков поблизости. Снаряды преследуют выбранные цели.
 
 ### <Color id="red">Wither Skulls</Color>
-Dark skulls that apply the Wither effect on hit.
+Тёмные черепа, накладывающие эффект иссушения on hit.
 
 ### <Color id="red">Sculk Tentacles</Color>
 A telegraphed ground attack - watch for purple particles and MOVE! Deals heavy damage if caught.
