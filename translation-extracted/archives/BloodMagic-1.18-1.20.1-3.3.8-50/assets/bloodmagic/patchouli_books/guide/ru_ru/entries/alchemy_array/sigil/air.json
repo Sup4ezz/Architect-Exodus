@@ -1,0 +1,19 @@
+{
+  "name": "Сигил воздуха",
+  "icon": "bloodmagic:airsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Отбрасывает вас в направлении взгляда за $(blood)50 LP$() при каждом использовании. Сигил не защищает от урона при падении, так что осторожнее при приземлении! Отличный способ быстро перемещаться, пусть и рискованный. Не один неосторожный маг погиб, когда его $(l:bloodmagic:altar/soul_network)сеть души$() опустела, пока он парил высоко над землёй."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент воздуха",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_air",
+      "array.heading": "Сигил воздуха",
+      "array.recipe": "bloodmagic:array/airsigil",
+      "array.text": "$(italic)Уже чувствую себя легче...$()"
+    }
+  ]
+}
