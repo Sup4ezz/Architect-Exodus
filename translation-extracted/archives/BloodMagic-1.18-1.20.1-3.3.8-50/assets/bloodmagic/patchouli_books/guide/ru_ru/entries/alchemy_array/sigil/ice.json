@@ -1,0 +1,19 @@
+{
+  "name": "Сигил ледяного озера",
+  "icon": "bloodmagic:icesigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы слышали о древних ботинках, зачарованных на $(thing)Ледоход$(), которые замораживают воду и землю под ногами владельца. Отличная идея для сигила! Его можно включать и выключать, так что поля не замёрзнут случайно, стоит вам лишь подойти к ним."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Морозный реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_frost",
+      "array.heading": "Сигил мороза",
+      "array.recipe": "bloodmagic:array/frostsigil",
+      "array.text": "$(italic)Скользкий ледяной мир!$(/italic)"
+    }
+  ]
+}
