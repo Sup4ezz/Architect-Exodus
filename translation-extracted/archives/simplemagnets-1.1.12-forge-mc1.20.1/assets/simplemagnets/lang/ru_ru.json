@@ -33,5 +33,8 @@
   "simplemagnets.gui.demagnetization_coil.range.decrease": "Уменьшить дальность",
   "simplemagnets.gui.demagnetization_coil.range": "Дальность (%1$dx%1$dx%1$d блоков)",
   "simplemagnets.keys.category": "Simple Magnets",
-  "simplemagnets.keys.toggle": "Включить магнит"
+  "simplemagnets.keys.toggle": "Включить магнит",
+  "simplemagnets.gui.demagnetization_coil.show_range": "Подсветить область: %s",
+  "simplemagnets.gui.demagnetization_coil.show_range.on": "Да",
+  "simplemagnets.gui.demagnetization_coil.show_range.off": "Нет"
 }
