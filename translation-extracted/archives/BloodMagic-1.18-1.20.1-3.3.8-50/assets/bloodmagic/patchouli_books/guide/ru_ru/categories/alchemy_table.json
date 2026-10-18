@@ -1,0 +1,6 @@
+{
+  "name": "Алхимический стол",
+  "description": "$(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() — крайне универсальный инструмент кровавого мага. Он позволяет удваивать руды, получать базовые ингредиенты из других, менее полезных предметов и даже создавать $(l:bloodmagic:alchemy_table/anointments)настои$()!",
+  "icon": "bloodmagic:alchemytable",
+  "sortnum": 1
+}
