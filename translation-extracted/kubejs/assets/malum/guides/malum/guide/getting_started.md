@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: malum:spirit_altar
   parent: index.md
   position: 1
@@ -14,13 +14,13 @@ item_ids:
   - malum:spirit_pouch
   - malum:crude_scythe
 ---
-# <Color id="dark_purple">Getting Started</Color>
+# <Color id="dark_purple">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Getting Started</Color>
+  # <Color id="dark_purple">Начало работы</Color>
   <ItemImage id="spirit_altar" scale="2" />
 
-  Malum begins with gathering natural materials and crafting your first tools for harvesting spirits. This page covers the essentials you need to begin your journey into soul magic.
+  Malum начинается со сбора природных материалов и создания первых инструментов для добычи духов. Здесь описаны основы, необходимые для знакомства с магией душ.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -39,9 +39,9 @@ item_ids:
   ### <Color id="aqua">Runewood</Color>
 </Row>
 
-Runewood Trees are found naturally in the world. Their wood is the basic building material for most Malum devices and structures. Runewood Planks, Runewood Slabs, and other variants are used throughout. Harvest <ItemLink id="runewood_log" /> to get started.
+Runewood Trees встречаются в обычном мире. Их древесина — основной строительный материал для большинства устройств и сооружений Malum. Runewood Planks, Runewood Slabs и другие варианты древесины используются во многих рецептах. Для начала добудьте <ItemLink id="runewood_log" />.
 
-You will also see <Color id="dark_purple">Exposed Runewood logs</Color> in the trees once the sapling grows. You can harvest other materials from these logs.
+Когда саженец вырастет, на деревьях также появятся <Color id="dark_purple">Exposed Runewood logs</Color>. Из этих брёвен можно добывать дополнительные материалы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -58,8 +58,8 @@ You will also see <Color id="dark_purple">Exposed Runewood logs</Color> in the t
   ### <Color id="aqua">Soulstone</Color>
 </Row>
 
-Soulstone doesn't naturally generate in Helheim. You will need to seek out Enderslime Crystals <ItemImage id="tconstruct:ender_slime_crystal"/> and throw it into the void. Rising from the void you will get the raw soulstone you seek.
-Once you have the raw soulstone, you can be smelt into <ItemLink id="processed_soulstone" />. Soulstone is used in many crafting recipes and is a core material alongside Runewood.
+Soulstone не генерируется естественным образом в Helheim. Найдите Enderslime Crystals <ItemImage id="tconstruct:ender_slime_crystal"/> и бросьте кристалл в пустоту. Из пустоты поднимется нужный вам Raw Soulstone.
+Переплавьте Raw Soulstone, чтобы получить <ItemLink id="processed_soulstone" />. Soulstone используется во множестве рецептов и наряду с Runewood является одним из основных материалов.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
