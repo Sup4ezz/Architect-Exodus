@@ -1,0 +1,51 @@
+{
+  "name": "Камера алхимической реакции",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Камера алхимической реакции$() позволяет соединять алхимические ингредиенты и создавать полезные смеси. Поместите необходимые предметы в устройство и обеспечьте его нужными ресурсами, чтобы запустить реакцию."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Sanguine Reverter",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+      "anchor": "blood_shard",
+      "text": "Режущая жидкость повышает скорость обработки. Более продвинутые варианты действуют дольше и дают дополнительные преимущества."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Weak Blood Shard",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "Revert Weak Blood Orb",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "Revert Apprentice Orb",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Revert Magician Orb",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "Revert Master Orb",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "c.heading": "Revert netherrite",
+      "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Revert Reinforced Rune",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "All Reinforced Runes can be reverted in this way - this is just a demonstration."
+    },
+    {
+      "type": "patchouli:text",
+      "heading": "Automation",
+      "text": "Should you wish to automate the ARC, perhaps as part of an $(l:bloodmagic:utility/ore_processing)Ore-Tripling$() chain, you may want to know that it is $(thing)sided$(), much like a $(item)furnace$(). Tools can only be inserted or extracted from the top, inputs from the sides, and outputs from the bottom. Keep this in mind when placing your $(item)Hoppers$() or $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Nodes$()."
+    }
+  ]
+}
