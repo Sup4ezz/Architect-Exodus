@@ -1,0 +1,56 @@
+{
+  "name": "Сигил предсказания",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил предсказания$() — один из первых сигилов, которые стоит создать в Кровавой магии. Для его изготовления подготовьте $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)алхимическую матрицу$(/l), используя $(item)редстоуновую пыль$() в качестве основы, а $(item)пустой сланец$() — в качестве катализатора."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Сигил предсказания",
+      "recipe": "bloodmagic:array/divinationsigil",
+      "text": "$(italic)Загляни в душу.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil.png"
+      ],
+      "title": "Матрица сигила предсказания",
+      "border": true,
+      "text": "Сигил предсказания рядом с матрицей, в которой он создаётся."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "У сигила предсказания два основных применения:$(br)$(li)Если игрок нажмёт [$(k:use)], направив сигил в воздух, он увидит количество $(blood)LP$() в $(l:bloodmagic:altar/soul_network)сети души$(/l) владельца.$(li)Если нажать [$(k:use)] на $(l:bloodmagic:altar/blood_altar)кровавом алтаре$(/l), сигил покажет его текущий уровень, запас $(blood)эссенции жизни$() и максимальную вместимость. Он также пригодится при работе с $(l:bloodmagic:utility/incense_altar)алтарём благовоний$(/l)."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+      ],
+      "title": "Информация сигила предсказания",
+      "border": true,
+      "text": "Такой интерфейс сигил показывает, когда вы смотрите на кровавый алтарь."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если зажать клавишу приседания и нажать [$(k:use)], откроется интерфейс настройки всех доступных элементов HUD Кровавой магии. Элемент можно выбрать, перетащить мышью в нужное место и нажать «Сохранить». Кнопка «По умолчанию» возвращает элементы на исходные позиции."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/gui_editing.png"
+      ],
+      "title": "Настройка интерфейса",
+      "border": true,
+      "text": "Различные элементы интерфейса Кровавой магии."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Сверху вниз, затем слева направо:$(li)$(l:bloodmagic:utility/incense_altar)Алтарь благовоний$() (светло-серый)$(li)$(l:bloodmagic:alchemy_array/sigil/seer)Сигил провидца$() (фиолетовый)$(li)$(item)Сигил предсказания$() (лавандовый)$(li)$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Индикатор ауры демонической воли$() (оранжевый)$(li)$(l:bloodmagic:alchemy_array/sigil/holding)Сигил-хранилище$() (зелёный)"
+    }
+  ]
+}
