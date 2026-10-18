@@ -1,0 +1,16 @@
+{
+  "name": "Жажда",
+  "icon": "minecraft:glass_bottle",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В этой броне вы не сможете пить зелья."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/quenched",
+      "b.upgrade": "bloodmagic:quenched"
+    }
+  ]
+}
