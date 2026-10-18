@@ -1,5 +1,6 @@
 {
-	"akashictome.sudo_name": "Том Акаши (%s)",
-	"akashictome.click_morph": "Shift-ПКМ, чтобы изменить",
-	"item.akashictome.tome": "Том Акаши"
+  "akashictome.sudo_name": "Том Акаши (%s)",
+  "akashictome.click_morph": "Shift-ПКМ, чтобы изменить",
+  "item.akashictome.tome": "Том Акаши",
+  "akashictome.misc.shift_for_info": "§7Удерживайте §bSHIFT§7, чтобы узнать больше"
 }
