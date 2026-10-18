@@ -1,27 +1,27 @@
 ---
 navigation:
-  title: Ragnarok Boss Guide
+  title: Руководство по боссам Рагнарёка
   icon: ftbragnarok:destruction_heart
   position: 0
 ---
 
 <Column alignItems="center" fullWidth={true}>
 
-# <Color id="light_purple">Ragnarok Boss Guide</Color>
+# <Color id="light_purple">Боссы Рагнарёка</Color>
 <ItemImage id="ftbragnarok:destruction_heart" scale="2" />
 
-The forces of chaos and destruction from Norse mythology stand in your path. Each boss drops a unique <Color id="aqua">heart</Color> that grants powerful abilities.
+На вашем пути стоят силы хаоса и разрушения из скандинавской мифологии. С каждого босса выпадает уникальное <Color id="aqua">сердце</Color>, дарующее могущественные способности.
 </Column>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Boss Progression</Color>
+## <Color id="gold">Порядок прохождения боссов</Color>
 </Column>
 
-| Order | Boss | Realm | Heart |
+| Порядок | Босс | Мир | Сердце |
 |-------|------|-------|-------|
-| 1 | <Color id="light_purple">Hel</Color> - Queen of the Underworld | Helheim | <ItemLink id="ftbragnarok:dead_heart" /> |
+| 1 | <Color id="light_purple">Hel</Color> - Королева подземного мира | Helheim | <ItemLink id="ftbragnarok:dead_heart" /> |
 | 2 | <Color id="light_purple">Ymir</Color> - The Primordial Giant | Jotunheim | <ItemLink id="ftbragnarok:frost_heart" /> |
 | 2 | <Color id="light_purple">Jormungandr</Color> - The World Serpent | Niflheim | <ItemLink id="ftbragnarok:venom_heart" /> |
 | 3 | <Color id="light_purple">Surtr</Color> - Lord of the Fire Giants | Muspelheim | <ItemLink id="ftbragnarok:flame_heart" /> |
@@ -31,10 +31,10 @@ The forces of chaos and destruction from Norse mythology stand in your path. Eac
 ***
 
 <Column alignItems="center" fullWidth={true}>
-## <Color id="green">General Tips</Color>
+## <Color id="green">Общие советы</Color>
 </Column>
 
-* All bosses have a <Color id="gold">damage cap</Color> of 10% max health per hit.
-* Bosses will <Color id="red">reset</Color> if you leave their arena for too long.
-* Each boss has unique <Color id="aqua">phase transitions</Color> that unlock new abilities.
-* Boss <Color id="light_purple">music</Color> will play during the fight - collect music discs from defeated bosses!
+* У всех боссов есть <Color id="gold">ограничение урона</Color>: не более 10% максимального здоровья за удар.
+* Боссы <Color id="red">сбрасывают бой</Color>, если слишком надолго покинуть арену.
+* У каждого босса есть уникальные <Color id="aqua">фазы боя</Color>, в которых открываются новые способности.
+* Во время боя играет особая <Color id="light_purple">музыка</Color> — собирайте музыкальные пластинки с побеждённых боссов!
