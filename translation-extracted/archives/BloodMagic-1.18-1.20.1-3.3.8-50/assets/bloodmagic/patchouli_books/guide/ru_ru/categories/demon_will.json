@@ -1,0 +1,6 @@
+{
+  "name": "Демоническая воля",
+  "description": "$(item)Демоническая воля$() — один из первых ресурсов, которые можно создать с помощью $(blood)Кровавой магии$(). Собрав её при помощи $(l:bloodmagic:demon_will/will_manipulation/soul_snare)ловушки для душ$(), вы сможете изготовить $(l:bloodmagic:demon_will/will_manipulation/soul_gem)малый тартарический самоцвет$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)разумный меч$(/l)$().",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}
