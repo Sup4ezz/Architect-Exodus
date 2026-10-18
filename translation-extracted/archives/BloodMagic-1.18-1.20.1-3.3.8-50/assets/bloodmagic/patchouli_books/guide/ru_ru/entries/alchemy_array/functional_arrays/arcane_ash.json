@@ -1,0 +1,39 @@
+{
+  "name": "Основы алхимических кругов",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Тайный пепел$() необходим для создания алхимических кругов. Его можно изготовить на $(l:bloodmagic:alchemy_table/alchemy_table)алхимическом столе$() из простых предметов, доступных в начале игры."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Тайный пепел",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать алхимический круг, возьмите $(item)тайный пепел$() в руку и нажмите [$(k:use)], глядя на блок. При этом пепел потеряет 1 единицу прочности из 20, а на земле появится простой $(thing)алхимический круг$() без эффекта. $(br2)Нажмите на круг, чтобы поместить в него один предмет из стопки в руке. Эти предметы определяют эффект $(thing)алхимического круга$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "Алхимический круг",
+      "border": true,
+      "text": "$(thing)Алхимический круг$() в трёх состояниях: без ингредиентов; только с $(item)основным предметом$(); с $(item)основным предметом$() и $(item)катализатором$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для каждого эффекта нужны два предмета: $(item)основа$() и $(item)катализатор$(). Основа — первый предмет, которым вы нажимаете на начерченный круг; катализатор — второй. Если основа подходит, рисунок круга изменится, а после добавления катализатора круг активируется."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Пока реализовано лишь несколько кругов, но со временем появятся самые разные варианты: от простых $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)кругов для создания предметов$(/l) до кругов телепортации."
+    }
+  ]
+}
