@@ -1,0 +1,20 @@
+{
+  "name": "Эфирные мимики",
+  "icon": "bloodmagic:ethereal_mimic",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Эфирные мимики$() — блоки, способные принимать внешний вид любого другого блока, оставаясь при этом нематериальными. Они отлично подходят для маскировки ям-ловушек и тайных проходов. Ищите их в $(l:bloodmagic:dungeons/endless_realm)Бесконечном царстве$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ethereal_mimic",
+      "text": "Щёлкните правой кнопкой по установленному мимику, держа любой другой блок, чтобы он принял его облик."
+    }
+  ]
+}
