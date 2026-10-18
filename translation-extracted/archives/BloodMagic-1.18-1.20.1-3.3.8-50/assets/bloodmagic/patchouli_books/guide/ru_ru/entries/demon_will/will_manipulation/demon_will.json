@@ -1,0 +1,30 @@
+{
+  "name": "Демоническая Воля",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:basemonstersoul": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Когда у вас появится $(l:bloodmagic:altar/blood_altar)кровавый алтарь$(), пора добыть демоническую Волю. Есть два способа: $(br)$(li)Убить существо, поражённое $(l:bloodmagic:demon_will/will_manipulation/soul_snare)ловушкой души$(), пока вокруг него не появятся белые частицы. $(li)Убить враждебное существо $(l:bloodmagic:demon_will/demonic_items/sentient_sword)разумным мечом$(). $(br)Поскольку вы только начинаете изучать мод, разумного меча у вас ещё нет."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поэтому пока используйте ловушки души. $(item)Демоническая Воля$() — возобновляемый ресурс $(blood)Blood Magic$(), необходимый для работы $(l:bloodmagic:demon_will/will_manipulation/soul_forge)адской кузницы$(). Согласно истории мира Blood Magic, демоническая Воля — остаточный след, возникающий, когда демон вкладывает свою волю в тела мёртвых или других существ."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will.png"
+      ],
+      "title": "Демоническая Воля",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Собранную $(raw)Волю$() можно использовать для создания полезных инструментов в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)адской кузнице$(). Если фрагменты занимают слишком много места в инвентаре, храните их в $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарическом самоцвете$()."
+    }
+  ]
+}
