@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Machines
+  title: Механизмы
   icon: thermal:machine_pulverizer
   parent: index.md
   position: 2
@@ -21,24 +21,24 @@ item_ids:
   - thermal_extra:device_harvester
   - thermal_extra:device_lava_gen
 ---
-# <Color id="red">Machines</Color>
+# <Color id="red">Механизмы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Machines</Color>
+  # <Color id="red">Механизмы</Color>
   <ItemImage id="thermal:machine_pulverizer" scale="2" />
-  Thermal Expansion machines process items using Redstone Flux (FE). Every machine is built from a <ItemLink id="thermal:machine_frame" /> and can be upgraded with [Augments](augments.md) for improved performance.
+  Механизмы Thermal Expansion перерабатывают предметы, используя Redstone Flux (FE). Каждый механизм собирается из <ItemLink id="thermal:machine_frame" /> и может быть улучшен с помощью [модулей](augments.md).
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-<Color id="gold">Tip:</Color> All machines accept Integral Component upgrades and specialized Augments. See [Augments](augments.md) for the full upgrade system.
+<Color id="gold">Совет:</Color> Все механизмы поддерживают улучшения Integral Component и специализированные Augments. Полное описание системы улучшений см. в разделе [Augments](augments.md).
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Processing Machines</Color>
+  ## <Color id="gold">Перерабатывающие механизмы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
