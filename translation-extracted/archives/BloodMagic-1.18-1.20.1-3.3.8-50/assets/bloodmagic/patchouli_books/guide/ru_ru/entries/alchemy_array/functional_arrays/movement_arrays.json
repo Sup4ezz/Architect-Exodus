@@ -1,0 +1,20 @@
+{
+  "name": "Круги перемещения",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Круги перемещения — это пара кругов, которые отбрасывают игроков, существ, предметы и другие объекты в заданном направлении. Один перемещает объекты по горизонтали, другой — по вертикали."
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "Круг скорости",
+      "a.recipe": "bloodmagic:array/movement",
+      "a.image": "movementarray.png",
+      "b.heading": "Восходящий поток",
+      "b.recipe": "bloodmagic:array/updraft",
+      "b.image": "updraftarray.png"
+    }
+  ]
+}
