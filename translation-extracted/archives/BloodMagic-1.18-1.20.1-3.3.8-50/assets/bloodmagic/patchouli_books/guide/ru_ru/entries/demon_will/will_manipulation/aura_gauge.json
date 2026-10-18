@@ -1,0 +1,29 @@
+{
+  "name": "Индикатор ауры демонической Воли",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если индикатор ауры демонической Воли находится в инвентаре игрока, он показывает на экране количество $(raw)демонической Воли$() в местной $(l:bloodmagic:demon_will/will_manipulation/aura)ауре$(). Сверху вниз отображаются аспекты Воли: $(li)$(raw)Сырая$() $(li)$(corrosive)Разъедающая$() $(li)$(steadfast)Стойкая$() $(li)$(destructive)Разрушительная$() $(li)$(vengeful)Мстительная$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "Индикатор ауры демонической Воли",
+      "text": "На следующей странице показан элемент интерфейса индикатора."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "Индикатор ауры",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Индикатор появляется в левом верхнем углу экрана. Цветные полосы приблизительно показывают количество каждого аспекта Воли в текущем чанке. $(br2)Удерживайте [$(k:sneak)], чтобы увидеть точные значения от 1 до 100 для каждого аспекта. Максимум одного аспекта Воли в чанке — 100."
+    }
+  ]
+}
