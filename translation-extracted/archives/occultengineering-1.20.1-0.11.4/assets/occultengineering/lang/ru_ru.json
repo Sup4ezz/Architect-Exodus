@@ -176,5 +176,17 @@
   "ritual.occultengineering.craft_otherworld_detector.conditions": "Не выполнены все условия ритуала.",
   "ritual.occultengineering.craft_otherworld_detector.finished": "Обнаружитель Иного мира успешно создан.",
   "ritual.occultengineering.craft_otherworld_detector.interrupted": "Связывание пуки прервано.",
-  "ritual.occultengineering.craft_otherworld_detector.started": "Начато связывание пуки с обнаружителем Иного мира."
+  "ritual.occultengineering.craft_otherworld_detector.started": "Начато связывание пуки с обнаружителем Иного мира.",
+  "book.occultengineering.encyclopedia_of_souls.getting_started.phlogiston.uses.text": "- [*Серебряный флогистат*](entry://occultengineering:encyclopedia_of_souls/getting_started/silver_phlogistate)\n",
+  "book.occultengineering.encyclopedia_of_souls.getting_started.puca_book.uses.text": "- [*Детектор потустороннего*](entry://occultengineering:encyclopedia_of_souls/getting_started/otherworld_detector)\n",
+  "book.occultengineering.encyclopedia_of_souls.getting_started.silver_phlogistate.uses.text": "- [*Флогипорт*](entry://occultengineering:encyclopedia_of_souls/getting_started/phlogiport)\n",
+  "book.occultengineering.encyclopedia_of_souls.getting_started.sterling_silver.uses.text": "- [*Механическая камера*](entry://occultengineering:encyclopedia_of_souls/getting_started/mechanical_chamber)\n- [*Механический измельчитель*](entry://occultengineering:encyclopedia_of_souls/getting_started/mechanical_pulverizer)\n",
+  "command.occultengineering.brain.not_dynamic": "Созданная сущность не имеет динамического разума",
+  "command.occultengineering.brain.not_for_this": "Найден динамический разум с ID $1, но он не принадлежит этой сущности",
+  "command.occultengineering.brain.not_found": "Динамический разум с ID $1 не найден",
+  "command.occultengineering.multiblock.failure": "Не удалось разместить многоблочную конструкцию",
+  "command.occultengineering.multiblock.not_found": "Многоблочная конструкция с ID $1 не найдена",
+  "command.occultengineering.multiblock.success": "Многоблочная конструкция успешно размещена",
+  "command.occultengineering.no_permission": "У вас нет разрешения на выполнение этой команды",
+  "entity.occultengineering.puca": "Пука"
 }
