@@ -1,0 +1,66 @@
+{
+  "name": "Зевота пустоты",
+  "icon": "minecraft:black_stained_glass",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Зевота пустоты",
+      "multiblock_id": "bloodmagic:yawning_void",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "yawning_void"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "Raw Will",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "corrosive",
+      "text_overrides": [
+        [
+          "filter",
+          "item"
+        ]
+      ],
+      "text": "Чтобы задать фильтр, поместите любой $(item)фильтр предметов$() в подключённый $(item)сундук$(). Ритуал использует только первый найденный фильтр, но поддерживает $(l:bloodmagic:demon_will/item_routing/standard_item_filter)стандартный$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)по тегам$(), $(l:bloodmagic:demon_will/item_routing/mod_item_filter)по моду$() и $(l:bloodmagic:demon_will/item_routing/composite_item_filter)составной$() фильтры. Чёрный список тоже работает!"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "quarryRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "chest",
+      "text_overrides": [
+        [
+          "Item Filter",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "placementRange"
+    }
+  ]
+}
