@@ -1,0 +1,34 @@
+{
+  "name": "Основы живого снаряжения",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать $(item)живое снаряжение$(), сначала подготовьте $(item)железную броню$(), немного $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)тайного пепла$(/l) и $(item)связующий реагент$(). Также вам понадобится как минимум $(l:bloodmagic:demon_will/will_manipulation/soul_gem)обычный тартарический самоцвет$(), способный хранить необходимую для ритуала $(item)демоническую волю$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Связующий реагент",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)Оно крепко держится за меня...$()$(br2)По прочности $(item)живое снаряжение$() не уступает $(item)алмазной броне$(). Его можно чинить на $(thing)наковальне$(), используя дополнительный $(item)связующий реагент$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Как и при работе с любой другой алхимической матрицей, возьмите $(item)тайный пепел$() в руку и нажмите [$(k:use)], глядя на блок, а затем нанесите $(item)связующий реагент$(). После этого поместите в матрицу $(item)железный шлем$(), $(item)железный нагрудник$(), $(item)железные поножи$() или $(item)железные ботинки$(), отойдите и наблюдайте за происходящим.$(br2)Изначально живое снаряжение по характеристикам сравнимо с железным, но у него есть $(thing)очки улучшений$(), которые можно осторожно распределять, развивая нужные свойства. В начале доступно 100 очков, однако, возможно, существуют способы превысить этот предел..."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Ритуал связывания",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "Оно и правда живое... и учится у вас. Будьте осторожны с тем, чему его обучаете.$(br2)Чтобы узнать, чему оно уже научилось, наведите на него взгляд, зажав [$(k:sneak)]."
+    }
+  ]
+}
