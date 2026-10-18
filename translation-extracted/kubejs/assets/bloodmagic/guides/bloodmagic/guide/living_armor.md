@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Living Armor
+  title: Живая броня
   icon: bloodmagic:livinghelmet
   parent: index.md
   position: 8
@@ -11,25 +11,25 @@ item_ids:
   - bloodmagic:livingboots
   - bloodmagic:upgradetrainer
 ---
-# <Color id="red">Living Armor</Color>
+# <Color id="red">Живая броня</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Living Armor</Color>
+  # <Color id="red">Живая броня</Color>
   <ItemImage id="bloodmagic:livinghelmet" scale="2" />
-  Living Armor is an incredibly powerful armor set that <Color id="light_purple">upgrades itself as you use it</Color>. The more you fight, mine, run, and take damage while wearing it, the stronger it becomes.
+  Живая броня is an incredibly powerful armor set that <Color id="light_purple">самостоятельно улучшается по мере использования</Color>. Чем больше вы сражаетесь, добываете руду, бегаете и получаете урон в этой броне, тем сильнее она становится.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Crafting Living Armor</Color>
+## <Color id="gold">Crafting Живая броня</Color>
 </Column>
 
-Living Armor is crafted using <ItemLink id="bloodmagic:reagentbinding" /> in an Alchemy Array. You will need a set of iron armor as the base and Binding Reagent for each piece.
+Живая броня is crafted using <ItemLink id="bloodmagic:reagentbinding" /> в Alchemy Array. Вам понадобится комплект железной брони и Binding Reagent для каждой части.
 <ItemImage id="minecraft:air" scale="0.05" />
 
-### <Color id="aqua">Full Set</Color>
+### <Color id="aqua">Полный комплект</Color>
 
 <ItemGrid>
   <ItemIcon id="bloodmagic:livinghelmet" />
@@ -40,32 +40,32 @@ Living Armor is crafted using <ItemLink id="bloodmagic:reagentbinding" /> in an 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Upgrade System</Color>
+## <Color id="gold">Система улучшений</Color>
 </Column>
 
-Living Armor has a point-based upgrade system. As you perform various activities while wearing the armor, you will unlock and level up different upgrades:
+Живая броня has a point-based upgrade system. As you perform various activities while wearing the armor, you will unlock and level up different upgrades:
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
-* <Color id="aqua">Taking damage</Color> improves armor toughness
-* <Color id="aqua">Sprinting</Color> improves speed
-* <Color id="aqua">Mining</Color> improves mining speed
-* <Color id="aqua">Fighting</Color> improves attack damage
-* <Color id="aqua">Taking fall damage</Color> improves fall protection
+* <Color id="aqua">Получение урона</Color> повышает прочность брони
+* <Color id="aqua">Бег</Color> повышает скорость
+* <Color id="aqua">Добыча руды</Color> повышает скорость добычи
+* <Color id="aqua">Сражения</Color> увеличивает урон атаки
+* <Color id="aqua">Урон от падения</Color> усиливает защиту от падения
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
-The armor starts with <Color id="red">100 upgrade points</Color> and each upgrade costs a certain number of points. Choose wisely which upgrades to invest in!
+В начале у брони есть <Color id="red">100 upgrade points</Color> and each upgrade costs a certain number of points. Choose wisely which upgrades to invest in!
 
 <ItemImage id="minecraft:air" scale="0.5" />
 
 <Row>
   <ItemImage id="bloodmagic:upgradetrainer"/>
   <Column>
-    ### <Color id="aqua">Training Bracelet</Color>
+    ### <Color id="aqua">Браслет тренировок</Color>
   </Column>
 </Row>
 
-When Right-clicked, the <ItemLink id="bloodmagic:upgradetrainer"/> opens a menu that allows you to select which abilities to focus your attention on and which ones to avoid. You can only use one of these at a time, but it can track up to 16 <Color id="green">Tomes</Color> at once.
+При щелчке ПКМ <ItemLink id="bloodmagic:upgradetrainer"/> открывает меню, где можно выбрать, какие способности развивать, а какие игнорировать. Одновременно можно использовать только один такой предмет, но он способен отслеживать до 16 <Color id="green">Tomes</Color> одновременно.
 
-You can randomly find or craft specific tomes to use with your [Living Armor](living_armor.md).
+You can randomly find or craft specific tomes to use with your [Живая броня](living_armor.md).
