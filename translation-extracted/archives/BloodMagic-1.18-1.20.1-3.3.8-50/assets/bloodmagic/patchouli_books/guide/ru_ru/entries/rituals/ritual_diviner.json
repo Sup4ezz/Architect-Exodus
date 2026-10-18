@@ -1,0 +1,57 @@
+{
+  "name": "Ритуальный указатель",
+  "icon": "bloodmagic:ritualdiviner",
+  "category": "bloodmagic:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Создание ритуалов требует точности: даже с правильными $(item)инструментами для нанесения рун$() нельзя просто как попало расставить руны и ждать результата. На помощь приходит $(item)ритуальный указатель$(). Удерживайте [$(k:sneak)] и нажимайте [$(k:use)] или [$(k:attack)], чтобы переключаться между доступными ритуалами в обоих направлениях."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Нажатием [$(k:use)] также можно менять направление, в котором будет ориентирован завершённый ритуал. Это влияет лишь на некоторые ритуалы, например $(l:bloodmagic:rituals/ritual_list/ritual_speed)«Ритуал скорости»$(), поскольку большинство ритуалов симметричны."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_0",
+      "text": "Глядя на $(item)главный ритуальный камень$(), нажмите [$(k:use)], чтобы указатель построил выбранный ритуал из имеющихся у вас $(item)ритуальных камней$(). Почти настоящая магия!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Указатель может ломать заменяемые блоки — высокую траву, снег и подобные, — но не камень или землю. Освободите площадку заранее, иначе $(l:bloodmagic:rituals/activation_crystals)кристалл активации$() не сможет запустить ритуал. Базовый указатель строит только простые ритуалы; для полного доступа улучшите его с помощью $(dusk)сумеречных инструментов для рун$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_1",
+      "anchor": "dusk",
+      "text": "В отличие от стихийных инструментов для рун, ритуальный указатель и его сумеречная версия не ломаются."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для базового указателя нужны четыре $(item)стихийных инструмента для рун$(), поэтому требуется кровавый алтарь III уровня. Каждый из четырёх инструментов создаётся в алтаре за $(blood)1000 LP$(). Для версии «Сумерки» нужен алтарь IV уровня; каждый из двух сумеречных инструментов стоит $(blood)2000 LP$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этими инструментами можно наносить руны вручную, но это медленно и неточно — такой способ лучше оставить для декора."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Inscription Tool: Air",
+      "a.recipe": "bloodmagic:altar/air_tool",
+      "b.heading": "Inscription Tool: Fire",
+      "b.recipe": "bloodmagic:altar/fire_tool"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Inscription Tool: Water",
+      "a.recipe": "bloodmagic:altar/water_tool",
+      "b.heading": "Inscription Tool: Earth",
+      "b.recipe": "bloodmagic:altar/earth_tool"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Инструмент для рун: сумерки",
+      "recipe": "bloodmagic:altar/dusk_tool"
+    }
+  ]
+}
