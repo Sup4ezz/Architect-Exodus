@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: integrateddynamics:squeezer
   parent: index.md
   position: 1
@@ -12,13 +12,13 @@ item_ids:
   - integrateddynamics:mechanical_squeezer
   - integrateddynamics:mechanical_drying_basin
 ---
-# <Color id="aqua">Getting Started</Color>
+# <Color id="aqua">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="aqua">Getting Started</Color>
+  # <Color id="aqua">Начало работы</Color>
   <ItemImage id="squeezer" scale="2" />
 
-  Before you can start building logic networks, you need to gather resources from Menril Trees and process them into usable materials.
+  Прежде чем строить логические сети, соберите ресурсы с Menril Trees и переработайте их в пригодные материалы.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -36,16 +36,16 @@ item_ids:
   ### <Color id="aqua">Menril Log</Color>
 </Row>
 
-You may occasionally encounter tall blue trees. Such trees are called Menril Trees, and have some very interesting properties. The leaves give off light due to illuminating berries, which are also very tasty. The wood contains a lot of resin, which can be used for crafting most of the things in this mod.
+Иногда вам будут встречаться высокие синие деревья — Menril Trees. Их листья светятся благодаря светящимся ягодам, которые к тому же очень вкусны. Древесина содержит много смолы, используемой для создания большинства предметов этого мода.
 
-Menril Trees are most commonly found in Meneglin Biomes. Use a <ItemLink id="naturescompass:naturescompass" /> to find one.
+Чаще всего Menril Trees встречаются в биомах Meneglin. Найдите такой биом с помощью <ItemLink id="naturescompass:naturescompass" />.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Processing</Color>
+  ## <Color id="gold">Переработка</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -55,9 +55,9 @@ Menril Trees are most commonly found in Meneglin Biomes. Use a <ItemLink id="nat
   ### <Color id="aqua">Squeezer</Color>
 </Row>
 
-The Squeezer is an early-game machine that allows you to jump on blocks and items to break or squeeze them. Not only players, but any entity can jump or fall on it. Resulting items will either fall into any adjacent inventory or on the ground. Resulting fluids will remain in the machine and will flow to one of the two sides when there is a target tank. The machine contains a small suspension that can be enabled with a redstone pulse to reset it.
+Squeezer — механизм для ранних этапов игры, который дробит или выжимает блоки и предметы под давлением. На него могут прыгать или падать не только игроки, но и любые существа. Полученные предметы попадают в соседнее хранилище или выпадают на землю. Жидкости остаются внутри и перетекают в одну из сторон, если там есть резервуар. Пружинный механизм можно сбросить импульсом редстоуна.
 
-Use it to squeeze <ItemLink id="menril_log" /> to obtain Menril Resin.
+Используйте его, чтобы выжать Menril Resin из <ItemLink id="menril_log" />.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
