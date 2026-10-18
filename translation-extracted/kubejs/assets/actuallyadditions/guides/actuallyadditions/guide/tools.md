@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Tools & Items
+  title: Инструменты и предметы
   icon: actuallyadditions:drill_light_blue
   parent: index.md
   position: 3
@@ -18,13 +18,13 @@ item_ids:
   - actuallyadditions:advanced_leaf_blower
   - actuallyadditions:handheld_filler
 ---
-# <Color id="green">Tools & Items</Color>
+# <Color id="green">Инструменты и предметы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Tools & Items</Color>
+  # <Color id="green">Инструменты и предметы</Color>
   <ItemImage id="drill_light_blue" scale="2" />
 
-  Actually Additions provides a variety of CF-powered tools, rings, and gadgets for mining, mobility, and utility.
+  Actually Additions предлагает инструменты, кольца и устройства на энергии CF для добычи ресурсов, передвижения и других задач.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -32,20 +32,20 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Main Tools</Color>
+  ## <Color id="gold">Основные инструменты</Color>
 </Column>
 
 ### <Color id="aqua">Drills</Color>
 <ItemImage id="drill_light_blue" />
-Drills are a powered mining tool that functions as both a pickaxe and a shovel. Sneak-right-click to open its upgrade GUI. Upgrades include Mining (3x3, 5x5), Speed, Fortune, and Placement. Higher mining tiers require lower tiers to be installed first. The Drill can also be dyed any of 16 colors.
+Drills — энергетические инструменты для добычи, совмещающие функции кирки и лопаты. Щёлкните ПКМ с зажатым Shift, чтобы открыть меню улучшений. Доступны улучшения добычи (3×3, 5×5), скорости, Fortune и размещения блоков. Для установки улучшений добычи высокого уровня сначала нужны предыдущие уровни. Drill можно перекрасить в любой из 16 цветов.
 
-Note: Tiered upgrades require the previous tier to be installed for them to work.
+Примечание: для работы улучшений с уровнями сначала необходимо установить предыдущий уровень.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
 ### <Color id="aqua">Batteries</Color>
 
-Batteries store Crystal Flux and can be charged in an Energizer. Sneak-right-click to toggle discharge mode, which causes the battery to charge other CF-powered items in your inventory.
+Batteries хранят Crystal Flux и заряжаются в Energizer. Щёлкните ПКМ с зажатым Shift, чтобы включить или выключить режим разрядки: в этом режиме батарея заряжает другие предметы на CF в вашем инвентаре.
 
 <ItemGrid>
   <ItemIcon id="single_battery" />
