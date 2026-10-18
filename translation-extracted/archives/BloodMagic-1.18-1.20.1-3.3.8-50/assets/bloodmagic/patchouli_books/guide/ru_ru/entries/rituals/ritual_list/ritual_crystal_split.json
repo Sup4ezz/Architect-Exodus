@@ -1,0 +1,40 @@
+{
+  "name": "Резонанс огранённого кристалла",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Резонанс огранённого кристалла",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        [
+          "Raw crystal cluster",
+          "l:bloodmagic:demon_will/will_manipulation/crystallized_will"
+        ],
+        [
+          "aspected crystal clusters",
+          "l:bloodmagic:demon_will/will_manipulation/aspected_will"
+        ]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для ритуала нужен хорошо выросший кластер сырого кристалла Воли (не менее пяти шпилей), расположенный на два блока выше $(item)главного ритуального камня$(). Он разделится на отдельные шпили кристаллов аспектов Воли над четырьмя элементальными ритуальными камнями. Такая расстановка оставляет место для $(item)кристаллизатора демонов$() над главным камнем. О выращивании кристаллов см. $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)«Кристаллизованная Воля»$(/l)."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Расположение ритуала",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "border": true,
+      "text": "Рекомендуемая схема для ритуала «Резонанс огранённого кристалла»."
+    }
+  ]
+}
