@@ -2,7 +2,6 @@
   "itemGroup.iceandfire.items": "Предметы Ice And Fire",
   "itemGroup.iceandfire.blocks": "Блоки Ice And Fire",
   "iceandfire.empty": "Пусто",
-
   "block.iceandfire.lectern": "Кафедра для бестиария",
   "block.iceandfire.podium": "Подиум",
   "block.iceandfire.podium_oak": "Подиум из дуба",
@@ -513,7 +512,6 @@
   "item.iceandfire.banner_pattern_troll.desc": "Голова Тролля",
   "item.iceandfire.banner_pattern_dread": "Узор флага",
   "item.iceandfire.banner_pattern_dread.desc": "Ужас",
-
   "entity.iceandfire.dragon_multipart": "Часть дракона",
   "entity.iceandfire.multipart": "Часть",
   "entity.iceandfire.hydra_multipart": "Шея Гидры",
@@ -690,7 +688,6 @@
   "amphithere.command.0": "Эта амфитера может перемещаться.",
   "amphithere.command.1": "Эта амфитера остаётся на месте.",
   "amphithere.command.2": "Эта амфитера следует за вами.",
-
   "container.lectern.no_bestiary": "Нельзя добавить страницы",
   "container.lectern.costs": "Включает:",
   "container.lectern.manuscript.many": "%s Манускриптов",
@@ -749,7 +746,6 @@
   "message.iceandfire.dragonGrown": "Этот дракон перешел на новую стадию",
   "message.iceandfire.dragonGrownEnd": "!",
   "message.iceandfire.dragonGrownName": "перешел на стадию",
-
   "death.attack.dragon.0": "%s был разорван надвое драконом",
   "death.attack.dragon.1": "%s был порван на клочки драконом",
   "death.attack.dragon.2": "%s был поглощен драконом",
@@ -780,15 +776,12 @@
   "death.attack.dragon_lightning.attacker_0": "%s был заряжен %s",
   "death.attack.dragon_lightning.attacker_1": "%s поражен разрядом %s",
   "death.attack.dragon_lightning.attacker_2": "%s шокирован %s",
-
   "key.dragon_strike": "Драконий Удар",
   "key.dragon_fireAttack": "Драконье Дыхание",
   "key.dragon_down": "Слезть с дракона/Снять малыша дракона",
   "key.dragon_change_view": "Изменить камеру от третьего лица",
-
   "tc.aspect.mythus": "Мифологическое, легендарное, жуткое существо",
   "tc.aspect.draco": "Дракон",
-
   "advancements.iceandfire.root.title": "Лёд и Пламя",
   "advancements.iceandfire.root.description": "Войдите в мир, полный мистических созданий",
   "advancements.iceandfire.bestiary.title": "Книга о чудовищах",
@@ -941,7 +934,6 @@
   "block.minecraft.banner.fire.green": "Зелёный огненный дракон",
   "block.minecraft.banner.fire.red": "Красный огненный дракон",
   "block.minecraft.banner.fire.black": "Чёрный огненный дракон",
-
   "block.minecraft.banner.ice.white": "Белый ледяной дракон",
   "block.minecraft.banner.ice.orange": "Оранжевый ледяной дракон",
   "block.minecraft.banner.ice.magenta": "Пурпурный ледяной дракон",
@@ -958,7 +950,6 @@
   "block.minecraft.banner.ice.green": "Зелёный ледяной дракон",
   "block.minecraft.banner.ice.red": "Красный ледяной дракон",
   "block.minecraft.banner.ice.black": "Чёрный ледяной дракон",
-
   "block.minecraft.banner.lightning.white": "Белый грозовой дракон",
   "block.minecraft.banner.lightning.orange": "Оранжевый грозовой дракон",
   "block.minecraft.banner.lightning.magenta": "Пурпурный грозовой дракон",
@@ -975,7 +966,6 @@
   "block.minecraft.banner.lightning.green": "Зеленый грозовой дракон",
   "block.minecraft.banner.lightning.red": "Красный грозовой дракон",
   "block.minecraft.banner.lightning.black": "Чёрный грозовой дракон",
-
   "block.minecraft.banner.fire_head.white": "Белая голова огненного дракона",
   "block.minecraft.banner.fire_head.orange": "Оранжевая голова огненного дракона",
   "block.minecraft.banner.fire_head.magenta": "Пурпурная голова огненного дракона",
@@ -992,7 +982,6 @@
   "block.minecraft.banner.fire_head.green": "Зелёная голова огненного дракона",
   "block.minecraft.banner.fire_head.red": "Красная голова огненного дракона",
   "block.minecraft.banner.fire_head.black": "Чёрная голова огненного дракона",
-
   "block.minecraft.banner.ice_head.white": "Белая голова ледяного дракона",
   "block.minecraft.banner.ice_head.orange": "Оранжевая голова ледяного дракона",
   "block.minecraft.banner.ice_head.magenta": "Пурпурная голова ледяного дракона",
@@ -1009,7 +998,6 @@
   "block.minecraft.banner.ice_head.green": "Зелёная голова ледяного дракона",
   "block.minecraft.banner.ice_head.red": "Красная голова ледяного дракона",
   "block.minecraft.banner.ice_head.black": "Чёрная голова ледяного дракона",
-
   "block.minecraft.banner.lightning_head.white": "Белая голова Грозового дракона",
   "block.minecraft.banner.lightning_head.orange": "Оранжевая голова Грозового дракона",
   "block.minecraft.banner.lightning_head.magenta": "Пурпурная голова Грозового дракона",
@@ -1026,7 +1014,6 @@
   "block.minecraft.banner.lightning_head.green": "Зелёная голова Грозового дракона",
   "block.minecraft.banner.lightning_head.red": "Красная голова Грозового дракона",
   "block.minecraft.banner.lightning_head.black": "Чёрная голова Грозового дракона",
-
   "block.minecraft.banner.gorgon.white": "Белая горгона",
   "block.minecraft.banner.gorgon.orange": "Оранжевая горгона",
   "block.minecraft.banner.gorgon.magenta": "Пурпурная горгона",
@@ -1043,7 +1030,6 @@
   "block.minecraft.banner.gorgon.green": "Зелёная горгона",
   "block.minecraft.banner.gorgon.red": "Красная горгона",
   "block.minecraft.banner.gorgon.black": "Чёрная горгона",
-
   "block.minecraft.banner.fae.white": "Белая фея",
   "block.minecraft.banner.fae.orange": "Оранжевая фея",
   "block.minecraft.banner.fae.magenta": "Пурпурная фея",
@@ -1060,7 +1046,6 @@
   "block.minecraft.banner.fae.green": "Зелёная фея",
   "block.minecraft.banner.fae.red": "Красная фея",
   "block.minecraft.banner.fae.black": "Чёрная фея",
-
   "block.minecraft.banner.hippogryph_head.white": "Белая голова гиппогрифа",
   "block.minecraft.banner.hippogryph_head.orange": "Оранжевая голова гиппогрифа",
   "block.minecraft.banner.hippogryph_head.magenta": "Пурпурная голова гиппогрифа",
@@ -1077,7 +1062,6 @@
   "block.minecraft.banner.hippogryph_head.green": "Зелёная голова гиппогрифа",
   "block.minecraft.banner.hippogryph_head.red": "Красная голова гиппогрифа",
   "block.minecraft.banner.hippogryph_head.black": "Чёрная голова гиппогрифа",
-
   "block.minecraft.banner.hippocampus.white": "Белый гиппокамп",
   "block.minecraft.banner.hippocampus.orange": "Оранжевый гиппокамп",
   "block.minecraft.banner.hippocampus.magenta": "Пурпурный гиппокамп",
@@ -1094,7 +1078,6 @@
   "block.minecraft.banner.hippocampus.green": "Зелёный гиппокамп",
   "block.minecraft.banner.hippocampus.red": "Красный гиппокамп",
   "block.minecraft.banner.hippocampus.black": "Чёрный гиппокамп",
-
   "block.minecraft.banner.mermaid.white": "Белая русалка",
   "block.minecraft.banner.mermaid.orange": "Оранжевая русалка",
   "block.minecraft.banner.mermaid.magenta": "Пурпурная русалка",
@@ -1111,7 +1094,6 @@
   "block.minecraft.banner.mermaid.green": "Зелёная русалка",
   "block.minecraft.banner.mermaid.red": "Красная русалка",
   "block.minecraft.banner.mermaid.black": "Чёрная русалка",
-
   "block.minecraft.banner.troll.white": "Белый тролль",
   "block.minecraft.banner.troll.orange": "Оранжевый тролль",
   "block.minecraft.banner.troll.magenta": "Пурпурный тролль",
@@ -1128,7 +1110,6 @@
   "block.minecraft.banner.troll.green": "Зелёный тролль",
   "block.minecraft.banner.troll.red": "Красный тролль",
   "block.minecraft.banner.troll.black": "Чёрный тролль",
-
   "block.minecraft.banner.eye.white": "Белый глаз",
   "block.minecraft.banner.eye.orange": "Оранжевый глаз",
   "block.minecraft.banner.eye.magenta": "Пурпурный глаз",
@@ -1145,7 +1126,6 @@
   "block.minecraft.banner.eye.green": "Зелёный глаз",
   "block.minecraft.banner.eye.red": "Красный глаз",
   "block.minecraft.banner.eye.black": "Чёрный глаз",
-
   "block.minecraft.banner.feather.white": "Белое перо",
   "block.minecraft.banner.feather.orange": "Оранжевое перо",
   "block.minecraft.banner.feather.magenta": "Пурпурное перо",
@@ -1162,7 +1142,6 @@
   "block.minecraft.banner.feather.green": "Зелёное перо",
   "block.minecraft.banner.feather.red": "Красное перо",
   "block.minecraft.banner.feather.black": "Чёрное перо",
-
   "block.minecraft.banner.bird.white": "Белая птица",
   "block.minecraft.banner.bird.orange": "Оранжевая птица",
   "block.minecraft.banner.bird.magenta": "Пурпурная птица",
@@ -1179,7 +1158,6 @@
   "block.minecraft.banner.bird.green": "Зелёная птица",
   "block.minecraft.banner.bird.red": "Красная птица",
   "block.minecraft.banner.bird.black": "Чёрная птица",
-
   "block.minecraft.banner.amphithere.white": "Белая амфитера",
   "block.minecraft.banner.amphithere.orange": "Оранжевая амфитера",
   "block.minecraft.banner.amphithere.magenta": "Пурпурная амфитера",
@@ -1196,7 +1174,6 @@
   "block.minecraft.banner.amphithere.green": "Зелёная амфитера",
   "block.minecraft.banner.amphithere.red": "Красная амфитера",
   "block.minecraft.banner.amphithere.black": "Чёрная амфитера",
-
   "block.minecraft.banner.sea_serpent.white": "Белый Левиафан",
   "block.minecraft.banner.sea_serpent.orange": "Оранжевый Левиафан",
   "block.minecraft.banner.sea_serpent.magenta": "Пурпурный Левиафан",
@@ -1213,7 +1190,6 @@
   "block.minecraft.banner.sea_serpent.green": "Зелёный Левиафан",
   "block.minecraft.banner.sea_serpent.red": "Красный Левиафан",
   "block.minecraft.banner.sea_serpent.black": "Чёрный Левиафан",
-
   "block.minecraft.banner.weezer.white": "Белый Weezer",
   "block.minecraft.banner.weezer.orange": "Оранжевый Weezer",
   "block.minecraft.banner.weezer.magenta": "Пурпурный Weezer",
@@ -1230,7 +1206,6 @@
   "block.minecraft.banner.weezer.green": "Зелёный Weezer",
   "block.minecraft.banner.weezer.red": "Красный Weezer",
   "block.minecraft.banner.weezer.black": "Чёрный Weezer",
-
   "block.minecraft.banner.dread.white": "Белый череп ужаса",
   "block.minecraft.banner.dread.orange": "Оранжевый череп ужаса",
   "block.minecraft.banner.dread.magenta": "Пурпурный череп ужаса",
@@ -1247,7 +1222,6 @@
   "block.minecraft.banner.dread.green": "Зелёный череп ужаса",
   "block.minecraft.banner.dread.red": "Красный череп ужаса",
   "block.minecraft.banner.dread.black": "Чёрный череп ужаса",
-
   "iceandfire.sound.subtitle.ghost_attack": "Призрак атакует",
   "iceandfire.sound.subtitle.ghost_idle": "Призрак вздыхает",
   "iceandfire.sound.subtitle.ghost_hurt": "Призраку больно",
@@ -1340,5 +1314,11 @@
   "iceandfire.sound.subtitle.icedragon_hurt": "Ледяному дракону больно",
   "iceandfire.sound.subtitle.icedragon_death": "Ледяной дракон умирает",
   "iceandfire.sound.subtitle.dragonegg_hatch": "Драконье яйцо вылупилось",
-  "iceandfire.sound.subtitle.dragonflute": "Играет драконья флейта"
+  "iceandfire.sound.subtitle.dragonflute": "Играет драконья флейта",
+  "block.iceandfire.deepslate_silver_ore": "Серебряная руда в глубинном сланце",
+  "block.iceandfire.raw_silver_block": "Блок необработанного серебра",
+  "item.iceandfire.raw_silver": "Необработанное серебро",
+  "entity.iceandfire.lightning_dragon_charge": "Молниевый заряд дракона",
+  "entity.iceandfire.amphithere_arrow": "Стрела амфитерии",
+  "bestiary_gui": "Бестиарий"
 }
