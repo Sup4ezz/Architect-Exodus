@@ -1,6 +1,6 @@
 ﻿---
 navigation:
-  title: Functional Flora
+  title: Функциональная флора
   icon: botania:hopperhock
   parent: index.md
   position: 4
@@ -28,12 +28,12 @@ item_ids:
   - mythicbotany:feysythia
   - mythicbotany:petrunia
 ---
-# <Color id="green">Functional Flora</Color>
+# <Color id="green">Функциональная флора</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Functional Flora</Color>
+  # <Color id="green">Функциональная флора</Color>
   <ItemImage id="hopperhock" scale="2" />
-  Functional Flora use Mana to perform various tasks. They must be near a Mana Pool to draw power.
+  Functional Flora используют Mana для выполнения различных задач. Для получения энергии они должны находиться рядом с Mana Pool.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -41,7 +41,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Automation Flowers</Color>
+  ## <Color id="gold">Цветы автоматизации</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -51,7 +51,7 @@ item_ids:
   ### <Color id="aqua">Hopperhock</Color>
 </Row>
 
-Picks up items in range and places them in nearby inventories. The most important automation flower in Botania.
+Подбирает предметы в радиусе действия и помещает их в ближайшие хранилища. Один из важнейших цветов для автоматизации в Botania.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -60,7 +60,7 @@ Picks up items in range and places them in nearby inventories. The most importan
   ### <Color id="aqua">Rannuncarpus</Color>
 </Row>
 
-Places blocks from nearby inventories into the world. Useful for crop farms and automated building.
+Размещает блоки из ближайших хранилищ в мире. Полезен для ферм и автоматического строительства.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -69,7 +69,7 @@ Places blocks from nearby inventories into the world. Useful for crop farms and 
   ### <Color id="aqua">Clayconia</Color>
 </Row>
 
-Converts sand and gravel nearby into clay blocks.
+Превращает находящиеся поблизости песок и гравий в блоки глины.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -120,7 +120,7 @@ Feeds nearby animals to breed them automatically.
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Combat Flowers</Color>
+  ## <Color id="gold">Боевые цветы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -199,7 +199,7 @@ Freezes mobs in place when given a redstone signal.
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Utility Flowers</Color>
+  ## <Color id="gold">Полезные цветы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
