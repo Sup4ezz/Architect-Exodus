@@ -1,0 +1,40 @@
+{
+  "name": "Железный наконечник",
+  "icon": "bloodmagic:bow_power_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "extra_recipe_mappings": {
+    "bloodmagic:bow_power_anointment_strong": 0
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment",
+      "text": "Увеличивает урон стрел на 25%. Эффект суммируется с обычными зачарованиями Minecraft.$(br2)Подходит для: луков и арбалетов.$(br2)Накладывает эффект «Тяжёлый выстрел I» (256 выстрелов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник L",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_l",
+      "text": "Эта улучшенная версия действует в четыре раза дольше.$(br2)Накладывает эффект «Тяжёлый выстрел I» (1024 выстрела)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник II",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_2",
+      "text": "Эта версия увеличивает урон на 50%.$(br2)Накладывает эффект «Тяжёлый выстрел II» (256 выстрелов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник XL",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_xl",
+      "text": "Эта улучшенная версия действует в шестнадцать раз дольше.$(br2)Накладывает эффект «Тяжёлый выстрел I» (4096 выстрелов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник III",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_3",
+      "text": "Эта версия увеличивает урон на 75%.$(br2)Накладывает эффект «Тяжёлый выстрел III» (256 выстрелов)."
+    }
+  ]
+}
