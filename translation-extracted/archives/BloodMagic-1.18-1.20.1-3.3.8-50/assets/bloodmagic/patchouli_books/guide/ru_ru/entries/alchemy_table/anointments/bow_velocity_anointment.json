@@ -1,0 +1,37 @@
+{
+  "name": "Полировка лучника",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Полировка лучника",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "Увеличивает скорость полёта стрел на 50%, пропорционально повышая и наносимый ими урон. Эффект суммируется с обычными зачарованиями Minecraft.$(br2)Подходит для: луков и арбалетов.$(br2)Накладывает эффект «Меткая стрельба I» (256 выстрелов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Полировка лучника L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "Эта улучшенная версия действует в четыре раза дольше.$(br2)Накладывает эффект «Меткая стрельба I» (1024 выстрела)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Полировка лучника II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "Эта версия увеличивает скорость полёта стрел на 100%.$(br2)Накладывает эффект «Меткая стрельба II» (256 выстрелов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Полировка лучника XL",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
+      "text": "Эта улучшенная версия действует в шестнадцать раз дольше.$(br2)Накладывает эффект «Меткая стрельба I» (4096 выстрелов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Полировка лучника III",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_3",
+      "text": "Эта версия увеличивает скорость полёта стрел на 150%.$(br2)Накладывает эффект «Меткая стрельба III» (256 выстрелов)."
+    }
+  ]
+}
