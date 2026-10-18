@@ -1,0 +1,31 @@
+{
+  "name": "Полёт",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)«Полёт»$() временно даёт цели возможность летать, как в творческом режиме. Эффект похож на действие ритуала $(l:bloodmagic:rituals/ritual_list/ritual_condor)«Благословение кондора»$(). Чем выше уровень, тем быстрее полёт. $(br2)Создаётся из флакона, содержащего эффекты $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)«Подвешенность»$() и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)«Левитация»$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Полёт (3:00)",
+      "a.recipe": "bloodmagic:flask/suspended_to_flight",
+      "b.heading": "Полёт (8:00)",
+      "b.recipe": "bloodmagic:flask/length_flight",
+      "c.heading": "Полёт II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_flight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_table/potions#average_potions)Стандартные катализаторы$() позволяют дополнительно усилить зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Полёт III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_flight",
+      "b.heading": "Полёт (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_flight"
+    }
+  ]
+}
