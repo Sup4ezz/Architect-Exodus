@@ -189,5 +189,14 @@
   "config.jade.plugin_expatternprovider.jade_chamber": "МЭ Восстановитель кристаллов",
   "config.jade.plugin_expatternprovider.jade_wireless": "Цвет беспроводного соединителя",
   "key.epp.viewpattern": "Посмотреть шаблон",
-  "key.epp.category": "Extended AE"
+  "key.epp.category": "Extended AE",
+  "item.expatternprovider.wireless_advanced_tool": "Комплект расширенной настройки беспроводной МЭ-сети",
+  "wireless_advanced.mode": "Текущий режим: %s",
+  "wireless_advanced.port_list": "Сохранённые подключения (%s/%s):",
+  "wireless_advanced.mode.add": "§bДобавление",
+  "wireless_advanced.mode.use": "§dИспользование",
+  "wireless_advanced.mode.swapped": "Режим переключён на: %s",
+  "chat.wireless_added": "Добавлено в список: X: %s, Y: %s, Z: %s",
+  "chat.wireless_advanced_queue_limit": "Нельзя добавить в очередь больше %s записей",
+  "chat.wireless_advanced_duplicate": "§4Нельзя добавить дублирующий разъём"
 }
