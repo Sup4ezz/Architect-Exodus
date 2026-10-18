@@ -1,18 +1,18 @@
 ---
 navigation:
-  title: Potions
+  title: Зелья
   icon: apotheosis:potion_charm
   position: 4
 item_ids:
   - apotheosis:potion_charm
 ---
-# <Color id="dark_purple">Potions</Color>
+# <Color id="dark_purple">Зелья</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Potions</Color>
+  # <Color id="dark_purple">Зелья</Color>
   <ItemImage id="potion_charm" scale="2" />
 
-  Apotheosis expands the potion system with Potion Charms for persistent effects, new brewing recipes, and several new status effects.
+  Apotheosis расширяет систему зелий: добавляет Potion Charms для длительных эффектов, новые рецепты варки и несколько новых эффектов состояния.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -23,24 +23,24 @@ item_ids:
 </Column>
 <ItemImage id="minecraft:air" scale="0.25" />
 
-Potion Charms are crafted from <Color id="aqua">3 potions</Color> and <Color id="aqua">Blaze Powder</Color>. A charm lasts longer than all three potions combined.
+Potion Charms создаются из <Color id="aqua">3 зелий</Color> и <Color id="aqua">Blaze Powder</Color>. Один амулет действует дольше, чем все три зелья вместе.
 
-Right-click to activate a charm — it will glow when enabled. While active and anywhere in your inventory, the charm continuously applies its potion effect, consuming durability over time. Charms also work in the <Color id="aqua">Curios charm slot</Color>.
+Щёлкните ПКМ, чтобы активировать амулет: во включённом состоянии он будет светиться. Пока амулет активен и находится в любом месте инвентаря, он постоянно накладывает свой эффект зелья и постепенно теряет прочность. Амулеты также работают в слоте <Color id="aqua">Curios для амулетов</Color>.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
-### <Color id="aqua">Unbreakable Charms</Color>
+### <Color id="aqua">Неразрушимые амулеты</Color>
 
-Through <Color id="aqua">Infusion Enchanting</Color>, Potion Charms can be made Unbreakable. This requires high enchanting stats to achieve, but grants unlimited duration of any potion effect — a permanent passive buff as long as the charm is active in your inventory.
+С помощью <Color id="aqua">Infusion Enchanting</Color> Potion Charms можно сделать неразрушимыми. Для этого нужны высокие характеристики зачарования, но результат позволяет бесконечно поддерживать любой эффект зелья — постоянный пассивный бонус, пока амулет активен в инвентаре.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">New Potion Recipes</Color>
+  ## <Color id="gold">Новые рецепты зелий</Color>
 </Column>
 
-Apotheosis adds brewing recipes for effects that vanilla does not support:
+Apotheosis добавляет рецепты варки для эффектов, которых нет в ванильной игре:
 
 * <Color id="aqua">Absorption</Color> — Grants golden absorption hearts.
 * <Color id="aqua">Haste</Color> — Increases mining speed.
