@@ -1,0 +1,16 @@
+{
+  "name": "Кровавокаменные кирпичи",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Кровавокаменные кирпичи$() — прочный декоративный строительный материал, необходимый для создания кровавого алтаря высокого уровня. Для получения кровавого камня исследуйте $(thing)Царство демонов$() и собирайте редкие ресурсы."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}
