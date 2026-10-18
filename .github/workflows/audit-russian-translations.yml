@@ -1,0 +1,77 @@
+name: Audit Russian Translation Coverage
+on:
+  push:
+    branches:
+      - translation-source
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Audit all language files
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib, csv, os
+          root = pathlib.Path("translation-extracted")
+          en_files = sorted(root.rglob("en_us.json"))
+          rows = []
+          total_en = total_present = total_missing = total_same = total_diff = 0
+          for en_path in en_files:
+              ru_path = en_path.with_name("ru_ru.json")
+              try:
+                  en = json.loads(en_path.read_text(encoding="utf-8-sig"))
+              except Exception as e:
+                  rows.append([str(en_path), "INVALID_EN", 0, 0, 0, 0, str(e)])
+                  continue
+              if not isinstance(en, dict):
+                  rows.append([str(en_path), "INVALID_EN_FORMAT", 0, 0, 0, 0, ""])
+                  continue
+              ru = {}
+              status = "OK"
+              if ru_path.exists():
+                  try:
+                      ru = json.loads(ru_path.read_text(encoding="utf-8-sig"))
+                      if not isinstance(ru, dict):
+                          ru = {}; status = "INVALID_RU_FORMAT"
+                  except Exception as e:
+                      status = "INVALID_RU_JSON"
+              else:
+                  status = "MISSING_RU_FILE"
+              missing = sum(1 for k in en if k not in ru)
+              present = len(en) - missing
+              same = sum(1 for k,v in en.items() if k in ru and isinstance(v,str) and isinstance(ru[k],str) and v.strip() == ru[k].strip())
+              diff = present - same
+              total_en += len(en); total_present += present; total_missing += missing; total_same += same; total_diff += diff
+              rows.append([str(en_path), status, len(en), present, missing, same, diff])
+          with open("translation-audit.csv","w",newline="",encoding="utf-8-sig") as f:
+              w=csv.writer(f); w.writerow(["english_file","status","english_keys","present_ru_keys","missing_keys","identical_to_english","different_from_english"]); w.writerows(rows)
+          coverage = 100*total_present/total_en if total_en else 0
+          diff_rate = 100*total_diff/total_en if total_en else 0
+          missing_files = sum(1 for r in rows if r[1] == "MISSING_RU_FILE")
+          invalid = sum(1 for r in rows if str(r[1]).startswith("INVALID"))
+          summary = f"""## Russian translation audit
+          - English language files scanned: **{len(en_files)}**
+          - Total English keys: **{total_en:,}**
+          - Russian keys present: **{total_present:,} / {total_en:,}** (**{coverage:.2f}% key coverage**)
+          - Missing Russian keys: **{total_missing:,}**
+          - Values different from English: **{total_diff:,} / {total_en:,}** (**{diff_rate:.2f}%**; this is only a heuristic, not proof of translation quality)
+          - Values identical to English: **{total_same:,}** (includes names, technical terms, and valid unchanged strings)
+          - Missing ru_ru.json files: **{missing_files}**
+          - Invalid JSON/format files: **{invalid}**
+          - Full per-file report is attached as the workflow artifact `translation-audit.csv`.
+          """
+          print(summary)
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as f: f.write(summary)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: translation-audit
+          path: translation-audit.csv
+          if-no-files-found: error
