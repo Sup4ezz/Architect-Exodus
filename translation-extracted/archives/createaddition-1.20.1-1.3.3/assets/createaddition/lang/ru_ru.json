@@ -253,5 +253,9 @@
   "statusbar.createaddition.wire.long": "Провод слишком длинный",
   "statusbar.createaddition.wire.no_connection": "Здесь нет соединения",
   "statusbar.createaddition.wire.removed": "Соединение разорвано",
-  "statusbar.createaddition.wire.requires_high_current": "Для этого соединения требуется высоковольтный провод."
+  "statusbar.createaddition.wire.requires_high_current": "Для этого соединения требуется высоковольтный провод.",
+  "attack.death.createaddition.barbed_wire": "%1$s попытался пересечь колючую проволоку",
+  "attack.death.createaddition.barbed_wire.player": "%1$s попытался пересечь колючую проволоку во время боя с %2$s",
+  "attack.death.createaddition.tesla_coil": "%1$s получил смертельный удар током",
+  "attack.death.createaddition.tesla_coil.player": "%1$s получил смертельный удар током во время боя с %2$s"
 }
