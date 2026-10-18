@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: bloodmagic:altar
   parent: index.md
   position: 1
@@ -10,12 +10,12 @@ item_ids:
   - bloodmagic:blankslate
   - bloodmagic:daggerofsacrifice
 ---
-# <Color id="red">Getting Started</Color>
+# <Color id="red">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Getting Started</Color>
+  # <Color id="red">Начало работы</Color>
   <ItemImage id="bloodmagic:altar" scale="2" />
-  The core of Blood Magic begins with the Blood Altar. Place it down, grab a Sacrificial Knife, and start generating LP by right-clicking to sacrifice your own health.
+  Основа Blood Magic — Blood Altar. Установите его, возьмите Sacrificial Knife и начните получать LP, жертвуя собственным здоровьем: для этого щёлкните ПКМ.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -28,17 +28,19 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The Blood Altar stores Life Points (LP) that can be used to craft items within the Altar.
+Blood Altar хранит Life Points (LP), которые используются для создания предметов непосредственно в алтаре.
 
-For now, use a Sacrificial Knife to fill it using your own health. Simply right-click while holding the knife to sacrifice health and generate LP.
+На первых порах наполняйте его с помощью Sacrificial Knife, жертвуя собственным здоровьем. Возьмите нож в руку и щёлкните ПКМ, чтобы получить LP.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Gaining LP</Color>
+  ## <Color id="gold">Получение LP</Color>
 </Column>
+
+<ItemImage id="minecraft:air" scale="0.25"/>
 
 <Row>
   <ItemImage id="bloodmagic:sacrificialdagger" />
@@ -47,36 +49,34 @@ For now, use a Sacrificial Knife to fill it using your own health. Simply right-
   </Column>
 </Row>
 
-The <Color id="green">Sacrificial Knife</Color> is your first tool for generating <Color id="red">LP</Color>. Right-click to sacrifice health and fill the Blood Altar with Life Points.
+<Color id="green">Sacrificial Knife</Color> — ваш первый инструмент для получения <Color id="red">LP</Color>. Щёлкните ПКМ, чтобы пожертвовать здоровьем и наполнить Blood Altar Life Points.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
 <Row>
   <ItemImage id="bloodmagic:daggerofsacrifice" />
   <Column>
-    ### <Color id="aqua"> Dagger of Sacrifice </Color>
+    ### <Color id="aqua">Dagger of Sacrifice</Color>
   </Column>
 </Row>
 
-Upon reaching [Altar Tier 2](altar_tiers.md), you can craft the <Color id="green">Dagger of Sacrifice</Color> which allows you to use a mob's life energy instead of your own to generate LP. This is much more efficient than using the Sacrificial Knife on yourself, especially at higher tiers.
+Достигнув [второго уровня алтаря](altar_tiers.md), вы сможете создать <Color id="green">Dagger of Sacrifice</Color>. Он позволяет использовать жизненную энергию мобов вместо собственного здоровья и получать LP гораздо эффективнее, особенно на высоких уровнях алтаря.
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Slates</Color>
+  ## <Color id="gold">Сланцы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-You'll be able to craft different slates as you level up your [Altar Tiers](altar_tiers.md).
+По мере улучшения [уровня алтаря](altar_tiers.md) вам станут доступны рецепты разных сланцев.
 
-The <Color id="green"><ItemLink id="bloodmagic:blankslate" /></Color> is the most basic slate in Blood Magic. Place Stone in a Blood Altar with at least <Color id="red">1,000 LP</Color> in it to craft some.
+<Color id="green"><ItemLink id="bloodmagic:blankslate" /></Color> — самый простой сланец в Blood Magic. Чтобы создать его, поместите Stone в Blood Altar, содержащий не менее <Color id="red">1 000 LP</Color>.
 
-><Color id="red">Important:</Color> If you insert more than 1 Stone, it will try to craft them all at the same time. If you do not have enough LP, the craft will fail.
+><Color id="red">Важно:</Color> Если положить больше одного Stone, алтарь попытается обработать их все одновременно. Если LP не хватит, создание предметов не удастся.
 
-
-
-Other tiers will be unlocked later:
+Следующие уровни сланцев откроются позднее:
 
 <ItemGrid>
   <ItemIcon id="bloodmagic:blankslate" />
