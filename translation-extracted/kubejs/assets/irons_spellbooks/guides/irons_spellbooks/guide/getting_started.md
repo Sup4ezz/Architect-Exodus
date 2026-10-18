@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: irons_spellbooks:inscription_table
   parent: index.md
   position: 1
@@ -14,14 +14,14 @@ item_ids:
   - irons_spellbooks:wandering_magician_leggings
   - irons_spellbooks:wandering_magician_boots
 ---
-# <Color id="light_purple">Getting Started</Color>
+# <Color id="light_purple">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="light_purple">Getting Started</Color>
+  # <Color id="light_purple">Начало работы</Color>
 
   <ItemImage id="inscription_table" scale="2" />
 
-  Your journey into magic begins with exploration. Seek out magical structures, defeat the mages within, and claim their scrolls, inks, and materials for yourself.
+  Путь в магию начинается с исследования мира. Находите магические сооружения, побеждайте обитающих внутри магов и забирайте их свитки, чернила и материалы.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -29,12 +29,12 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Exploration</Color>
+  ## <Color id="gold">Исследование</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Early game is dominated by exploring and looting. The world is full of magic loot, especially in new magic structures dotted across the lands. Each magic structure is home to a powerful mage who will not take kindly to you. Explore and defeat mages for scrolls, inks, and materials.
+В начале игры главное — исследовать мир и собирать добычу. Особенно много магических предметов можно найти в новых магических сооружениях, разбросанных по миру. Каждое из них охраняет могущественный маг, который не обрадуется вашему появлению. Побеждайте магов, чтобы получить свитки, чернила и материалы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -43,7 +43,7 @@ Early game is dominated by exploring and looting. The world is full of magic loo
   ### <Color id="aqua">Scrolls</Color>
 </Row>
 
-Scrolls are your first taste of magic. They can be consumed to cast the spell they hold as a one-time use with no mana cost, but it is better to save them until you can inscribe them into a spell book. Scrolls can be found in chests, looted from mobs, or crafted at the Scroll Forge.
+Свитки позволяют впервые воспользоваться магией. Их можно израсходовать, чтобы однократно применить записанное заклинание без затрат маны, но лучше сохранить их до появления возможности записать заклинание в книгу. Свитки встречаются в сундуках, выпадают с мобов или создаются в Scroll Forge.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -52,7 +52,7 @@ Scrolls are your first taste of magic. They can be consumed to cast the spell th
   ### <Color id="aqua">Inscription Table</Color>
 </Row>
 
-To use a Spell Book, you must inscribe spells into it using the <Color id="green">Inscription Table</Color> with scrolls. Place a spell book in the table, then add scrolls to inscribe their spells. Scrolls can be retrieved from spell books, but doing so removes the spell.
+Чтобы пользоваться Spell Book, запишите в неё заклинания с помощью свитков и <Color id="green">Inscription Table</Color>. Положите книгу на стол, затем добавьте свитки. Свитки можно извлечь обратно, но при этом заклинание будет удалено из книги.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -60,7 +60,7 @@ To use a Spell Book, you must inscribe spells into it using the <Color id="green
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Starting Gear</Color>
+  ## <Color id="gold">Начальное снаряжение</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
