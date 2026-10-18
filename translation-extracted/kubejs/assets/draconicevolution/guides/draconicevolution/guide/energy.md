@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Energy Systems
+  title: Энергетические системы
   icon: draconicevolution:energy_core
   parent: index.md
   position: 4
@@ -18,13 +18,13 @@ item_ids:
   - draconicevolution:flux_gate
   - draconicevolution:generator
 ---
-# <Color id="red">Energy Systems</Color>
+# <Color id="red">Энергетические системы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Energy Systems</Color>
+  # <Color id="red">Энергетические системы</Color>
   <ItemImage id="energy_core" scale="2" />
 
-  Draconic Evolution provides a suite of powerful energy storage, transfer, and generation tools capable of handling massive amounts of RF.
+  Draconic Evolution предлагает мощные средства генерации, передачи и хранения энергии, способные работать с огромными объёмами RF.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -42,11 +42,11 @@ item_ids:
   ### <Color id="aqua">Energy Core</Color>
 </Row>
 
-The Energy Core is a massive multiblock RF storage structure. It comes in tiers (1 through 8) with exponentially increasing capacity. Tier 1 is compact and accessible early on, while Tier 8 can store quintillions of RF.
+Energy Core — масштабная многоблочная структура для хранения RF. Она имеет уровни с 1-го по 8-й, причём вместимость растёт экспоненциально. Первый уровень компактен и доступен относительно рано, а восьмой способен хранить квинтиллионы RF.
 
-The multiblock is built from <ItemLink id="energy_core" /> blocks, <ItemLink id="energy_core_stabilizer" /> blocks, and Draconium or Awakened Draconium blocks. Use the GUI to toggle the build guide overlay, assemble the structure, and tier up or down.
+Структура собирается из блоков <ItemLink id="energy_core" />, блоков <ItemLink id="energy_core_stabilizer" />, а также Draconium или Awakened Draconium. В интерфейсе включите схему постройки, соберите структуру и выберите нужный уровень.
 
-Higher tiers require <ItemLink id="draconic_energy_core" /> or <ItemLink id="chaotic_energy_core" /> controllers.
+Для высоких уровней требуются контроллеры <ItemLink id="draconic_energy_core" /> или <ItemLink id="chaotic_energy_core" />.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -54,7 +54,7 @@ Higher tiers require <ItemLink id="draconic_energy_core" /> or <ItemLink id="cha
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Stabilizers & Pylons</Color>
+  ## <Color id="gold">Стабилизаторы и пилоны</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -64,7 +64,7 @@ Higher tiers require <ItemLink id="draconic_energy_core" /> or <ItemLink id="cha
   ### <Color id="aqua">Energy Core Stabilizers</Color>
 </Row>
 
-Stabilizers are placed at the edges of the Energy Core structure. They are required for the multiblock to form correctly. Advanced stabilizers are needed for higher tiers.
+Стабилизаторы размещаются по краям Energy Core и необходимы для правильной сборки многоблочной структуры. Для высоких уровней нужны улучшенные стабилизаторы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
