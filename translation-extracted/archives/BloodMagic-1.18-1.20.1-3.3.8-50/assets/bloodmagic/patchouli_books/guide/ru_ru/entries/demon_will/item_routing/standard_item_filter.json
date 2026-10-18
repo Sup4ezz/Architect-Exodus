@@ -1,0 +1,31 @@
+{
+  "name": "Стандартный фильтр предметов",
+  "icon": "bloodmagic:itemrouterfilterexact",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Стандартный фильтр предметов позволяет выбрать до девяти предметов, которые нужно извлекать из соседнего инвентаря или помещать в него при установке фильтра в $(l:bloodmagic:demon_will/item_routing/routing_nodes)узел маршрутизации$(). Для каждого предмета можно указать количество; если оставить поле пустым, будет выбрано «всё». У фильтра также есть режимы разрешения и запрета. В режиме запрета количество игнорируется."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Стандартный фильтр предметов",
+      "recipe": "bloodmagic:alchemytable/router_filter",
+      "text": "Во $(item)входном узле маршрутизации$() указанное количество означает, сколько предметов нужно оставить в выбранном инвентаре. Всё сверх этого количества будет забрано в сеть."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "В $(item)выходном узле маршрутизации$() количество означает, сколько предметов нужно положить в выбранный инвентарь. Излишки останутся в сети и будут направлены в другой подходящий инвентарь либо останутся на месте."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
+      ],
+      "title": "Интерфейс стандартного фильтра",
+      "border": true,
+      "text": "Интерфейс и подсказка настроенного фильтра."
+    }
+  ]
+}
