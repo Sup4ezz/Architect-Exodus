@@ -1,0 +1,17 @@
+{
+  "name": "Круг шипов",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Круг шипов — простой круг с единственной задачей. Когда живое существо наступает на него, оно получает урон в одно полное сердце. Такой круг полезен для ловушек на мобов или для защиты базы от незваных гостей."
+    },
+    {
+      "type": "bloodmagic:functional_array",
+      "heading": "Круг шипов",
+      "recipe": "bloodmagic:array/spike",
+      "image": "spikearray.png"
+    }
+  ]
+}
