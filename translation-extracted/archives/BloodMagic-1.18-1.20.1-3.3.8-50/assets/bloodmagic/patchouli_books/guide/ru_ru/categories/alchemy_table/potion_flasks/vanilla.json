@@ -1,0 +1,6 @@
+{
+  "name": "Обычные эффекты",
+  "description": "Эти эффекты можно воспроизвести с помощью обычной $(item)варочной стойки$(), хотя, разумеется, гораздо менее эффективно.",
+  "icon": "minecraft:brewing_stand",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}
