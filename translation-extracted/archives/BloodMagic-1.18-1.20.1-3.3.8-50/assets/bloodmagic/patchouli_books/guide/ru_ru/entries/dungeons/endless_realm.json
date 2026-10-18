@@ -1,0 +1,54 @@
+{
+  "name": "Бесконечное царство",
+  "icon": "bloodmagic:special_dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:bleedingedge": 0,
+    "bloodmagic:hellforgedparts": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Как и ритуал $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)«Край скрытого царства»$(), ритуал $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)«Путь в Бесконечное царство»$() открывает доступ в $(thing)Царство демонов$(). Вы снова окажетесь у $(thing)столпа инверсии$(). Как и в прихожей, здесь будет сундук с добычей, оставленный нерадивым демоном (или неудачливым сангвимантом), и несколько проходов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Также здесь находится ещё один столп инверсии, который вернёт вас домой. В этих комнатах обитают более опасные враги, чем в прихожей, но и добыча ценнее. Ищите $(thing)пространственные искажения$() и редкие $(l:bloodmagic:dungeons/keys)ключи$(), например $(item)ключ прораба$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "О пространственных искажениях сообщает сообщение в чате. Оно означает, что в комнате есть особая запертая дверь. Сейчас это может быть вход в $(thing)шахты$() или небольшая комната с $(thing)ключом прораба$(), которую открывает $(thing)железный ключ$(). Вход в шахты всегда появляется раньше комнаты с ключом, поэтому иногда придётся вернуться назад."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_key.png"
+      ],
+      "title": "Ключ прораба",
+      "border": true,
+      "text": "This door can be opened with an Iron Key, and hides the Foreman's Key behind it."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_entrance.png"
+      ],
+      "title": "Вход в шахты",
+      "border": true,
+      "text": "This door can only be opened with the Foreman's Key. You may need to backtrack!"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "mines",
+      "text": "$(item)Ключ прораба$() открывает путь в $(thing)шахты$() — там сложнее, но и награды лучше. Помимо $(l:bloodmagic:dungeons/demonite)демонитовой руды$(), необходимой для высокоуровневого $(l:bloodmagic:alchemy_table/potions)зельеварения$() и кровавого алтаря V уровня с соответствующей $(l:bloodmagic:altar/soul_network)сферой$(), вы найдёте обычную добычу, зачарованное оружие и инструменты, анамнезы, зелья и многое другое."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:hellforgedparts",
+      "title": "Замысловатые адские детали",
+      "anchor": "hellforged_parts",
+      "text": "Explore enough, and you may be lucky enough to find $(item)Intricate Hellforged Parts$(), which can be used to double the power of your existing $(item)Runes$(). It's like having two $(blood)Blood Altars$() in one!"
+    }
+  ]
+}
