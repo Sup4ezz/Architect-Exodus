@@ -1,0 +1,15 @@
+{
+  "name": "Позолота",
+  "icon": "minecraft:golden_chestplate",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: пиглины перестают проявлять к вам враждебность, как если бы вы носили золотую броню.$(br2)Как развивается: передайте пиглину $(item)золотой слиток$(). Его нужно вручить напрямую — просто выбросить на землю недостаточно.$(br2)Максимальный уровень: 1."
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:gilded"
+    }
+  ]
+}
