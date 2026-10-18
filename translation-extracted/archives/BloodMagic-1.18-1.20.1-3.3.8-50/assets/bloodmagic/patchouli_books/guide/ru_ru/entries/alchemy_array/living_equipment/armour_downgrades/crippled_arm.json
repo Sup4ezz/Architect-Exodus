@@ -1,0 +1,16 @@
+{
+  "name": "Повреждённая рука",
+  "icon": "minecraft:shield",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: вы не можете использовать предмет во второй руке. Например, нельзя ставить факелы или поднимать щит."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/crippled_arm",
+      "b.upgrade": "bloodmagic:crippled_arm"
+    }
+  ]
+}
