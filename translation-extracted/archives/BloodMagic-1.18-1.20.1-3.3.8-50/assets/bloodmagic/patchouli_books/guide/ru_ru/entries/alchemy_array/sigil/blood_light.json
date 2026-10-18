@@ -1,0 +1,19 @@
+{
+  "name": "Сигил кровавого фонаря",
+  "icon": "bloodmagic:bloodlightsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил кровавого фонаря$() пригодится шахтёрам, исследователям подземелий и всем сангвимантам, которых раздражают тёмные углы и мешающие факелы с блоками светокамня. При использовании сигил выпускает кровавый свет в направлении взгляда. При попадании в блок он создаёт почти невидимый источник света за $(blood)10 LP$()."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент кровавого фонаря",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_blood_light",
+      "array.heading": "Сигил кровавого фонаря",
+      "array.recipe": "bloodmagic:array/bloodlightsigil",
+      "array.text": "$(italic)Свет вижу!"
+    }
+  ]
+}
