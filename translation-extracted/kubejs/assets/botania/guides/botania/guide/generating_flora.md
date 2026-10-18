@@ -1,6 +1,6 @@
 ﻿---
 navigation:
-  title: Generating Flora
+  title: Производящая флора
   icon: botania:endoflame
   parent: index.md
   position: 3
@@ -23,12 +23,12 @@ item_ids:
   - mythicbotany:raindeletia
   - mythicbotany:wither_aconite
 ---
-# <Color id="green">Generating Flora</Color>
+# <Color id="green">Производящая флора</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Generating Flora</Color>
+  # <Color id="green">Производящая флора</Color>
   <ItemImage id="endoflame" scale="2" />
-  Generating Flora produce Mana from various resources. Place them near a Mana Spreader to collect the Mana they produce.
+  Generating Flora производят Mana из различных ресурсов. Размещайте их рядом с Mana Spreader, чтобы собирать произведённую Mana.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -36,7 +36,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Starter Generators</Color>
+  ## <Color id="gold">Начальные генераторы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -46,7 +46,7 @@ item_ids:
   ### <Color id="aqua">Endoflame</Color>
 </Row>
 
-Burns furnace fuels dropped nearby. The starter generator — simple and reliable. Drop coal or charcoal near it to begin producing Mana.
+Сжигает топливо для печи, брошенное поблизости. Это простой и надёжный генератор для начала игры. Бросьте рядом уголь или древесный уголь, чтобы начать производить Mana.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -55,14 +55,14 @@ Burns furnace fuels dropped nearby. The starter generator — simple and reliabl
   ### <Color id="aqua">Hydroangeas</Color>
 </Row>
 
-Absorbs water source blocks nearby for a small amount of Mana. Very slow, meant as early passive generation. Decays after a set time.
+Поглощает соседние блоки-источники воды и производит небольшое количество Mana. Работает очень медленно, подходит для пассивного производства в начале игры. Через некоторое время увядает.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Resource Consumers</Color>
+  ## <Color id="gold">Потребители ресурсов</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -159,7 +159,7 @@ Kills Shulkers near it for significant Mana. One of the highest Mana-per-kill ge
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Advanced Generators</Color>
+  ## <Color id="gold">Продвинутые генераторы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
