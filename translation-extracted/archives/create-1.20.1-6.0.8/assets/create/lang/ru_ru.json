@@ -3635,5 +3635,14 @@
   "tag.item.forge.stripped_logs": "Обтёсанные брёвна",
   "tag.item.forge.stripped_wood": "Обтёсанная древесина",
   "tag.item.forge.tools.wrench": "Гаечные ключи",
-  "tag.recipe_serializer.create.automation_ignore": "Неавтоматизируемые"
+  "tag.recipe_serializer.create.automation_ignore": "Неавтоматизируемые",
+  "create.schematic.tool.flip.description.3": "",
+  "create.schematic.tool.move.description.3": "",
+  "create.schematic.tool.move_y.description.2": "",
+  "create.schematic.tool.move_y.description.3": "",
+  "create.schematic.tool.print.description.3": "",
+  "create.schematic.tool.rotate.description.2": "",
+  "create.schematic.tool.rotate.description.3": "",
+  "create.track_signal.mode_controlled_by_computer": "Режим сигнала управляется компьютером",
+  "tag.item.create.casing": "Обшивки"
 }
