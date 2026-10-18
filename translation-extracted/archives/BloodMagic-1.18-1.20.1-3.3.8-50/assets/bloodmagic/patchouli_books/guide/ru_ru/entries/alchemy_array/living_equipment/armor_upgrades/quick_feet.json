@@ -1,0 +1,15 @@
+{
+  "name": "Лёгкая поступь",
+  "icon": "minecraft:sugar",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: увеличивает скорость передвижения персонажа — максимум на 150%.$(br2)Как развивается: когда вы бегаете.$(br2)Максимальный уровень: 10."
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:speed"
+    }
+  ]
+}
