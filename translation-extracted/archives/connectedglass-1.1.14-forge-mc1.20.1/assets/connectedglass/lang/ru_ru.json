@@ -16,7 +16,6 @@
   "block.connectedglass.borderless_glass_red": "Соединяемое красное стекло",
   "block.connectedglass.borderless_glass_white": "Соединяемое белое стекло",
   "block.connectedglass.borderless_glass_yellow": "Соединяемое жёлтое стекло",
-
   "block.connectedglass.borderless_glass_pane": "Соединяемая стеклянная панель",
   "block.connectedglass.borderless_glass_black_pane": "Соединяемая чёрная стеклянная панель",
   "block.connectedglass.borderless_glass_blue_pane": "Соединяемая синяя стеклянная панель",
@@ -34,7 +33,6 @@
   "block.connectedglass.borderless_glass_red_pane": "Соединяемая красная стеклянная панель",
   "block.connectedglass.borderless_glass_white_pane": "Соединяемая белая стеклянная панель",
   "block.connectedglass.borderless_glass_yellow_pane": "Соединяемая жёлтая стеклянная панель",
-
   "block.connectedglass.clear_glass": "Чистое стекло",
   "block.connectedglass.clear_glass_black": "Чистое чёрное стекло",
   "block.connectedglass.clear_glass_blue": "Чистое синее стекло",
@@ -52,7 +50,6 @@
   "block.connectedglass.clear_glass_red": "Чистое красное стекло",
   "block.connectedglass.clear_glass_white": "Чистое белое стекло",
   "block.connectedglass.clear_glass_yellow": "Чистое жёлтое стекло",
-
   "block.connectedglass.clear_glass_pane": "Чистая стеклянная панель",
   "block.connectedglass.clear_glass_black_pane": "Чистая чёрная стеклянная панель",
   "block.connectedglass.clear_glass_blue_pane": "Чистая синяя стеклянная панель",
@@ -70,7 +67,6 @@
   "block.connectedglass.clear_glass_red_pane": "Чистая красная стеклянная панель",
   "block.connectedglass.clear_glass_white_pane": "Чистая белая стеклянная панель",
   "block.connectedglass.clear_glass_yellow_pane": "Чистая жёлтая стеклянная панель",
-
   "block.connectedglass.scratched_glass": "Поцарапанное стекло",
   "block.connectedglass.scratched_glass_black": "Поцарапанное чёрное стекло",
   "block.connectedglass.scratched_glass_blue": "Поцарапанное синее стекло",
@@ -88,7 +84,6 @@
   "block.connectedglass.scratched_glass_red": "Поцарапанное красное стекло",
   "block.connectedglass.scratched_glass_white": "Поцарапанное белое стекло",
   "block.connectedglass.scratched_glass_yellow": "Поцарапанное жёлтое стекло",
-
   "block.connectedglass.scratched_glass_pane": "Поцарапанная стеклянная панель",
   "block.connectedglass.scratched_glass_black_pane": "Поцарапанная чёрная стеклянная панель",
   "block.connectedglass.scratched_glass_blue_pane": "Поцарапанная синяя стеклянная панель",
@@ -106,7 +101,6 @@
   "block.connectedglass.scratched_glass_red_pane": "Поцарапанная красная стеклянная панель",
   "block.connectedglass.scratched_glass_white_pane": "Поцарапанная белая стеклянная панель",
   "block.connectedglass.scratched_glass_yellow_pane": "Поцарапанная жёлтая стеклянная панель",
-
   "block.connectedglass.tinted_borderless_glass": "Тонированное соединяемое стекло",
   "block.connectedglass.tinted_borderless_glass_black": "Тонированное соединяемое чёрное стекло",
   "block.connectedglass.tinted_borderless_glass_blue": "Тонированное соединяемое синее стекло",
@@ -124,8 +118,7 @@
   "block.connectedglass.tinted_borderless_glass_red": "Тонированное соединяемое красное стекло",
   "block.connectedglass.tinted_borderless_glass_white": "Тонированное соединяемое белое стекло",
   "block.connectedglass.tinted_borderless_glass_yellow": "Тонированное соединяемое жёлтое стекло",
-
   "block.connectedglass.tinted_glass": "Тонированное стекло",
-
-  "itemGroup.connectedglass": "Соединяемые Стёкла"						  
+  "itemGroup.connectedglass": "Соединяемые Стёкла",
+  "connectedglass.item_group": "Соединённое стекло"
 }
