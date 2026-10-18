@@ -1,5 +1,5 @@
 {
-  "itemGroup.alexscaves": "Alex's Caves",
+  "itemGroup.alexscaves": "Пещеры Алекса",
   "itemGroup.alexscaves.magnetic_caves": "Магнитные пещеры",
   "itemGroup.alexscaves.primordial_caves": "Первобытные пещеры",
   "itemGroup.alexscaves.toxic_caves": "Токсичные пещеры",
@@ -847,7 +847,7 @@
   "key.special_ability": "Особая способность Alex's Caves",
   "key.special_ability.desc": "Активирует особую способность питомца или брони",
   "item.alexscaves.natures_compass_warning": "Используйте карту пещерного биома, чтобы найти этот биом...",
-  "advancements.alexscaves.root.title": "Alex's Caves",
+  "advancements.alexscaves.root.title": "Пещеры Алекса",
   "advancements.alexscaves.root.desc": "Существует тайный мир... отправляйтесь на его исследования!",
   "advancements.alexscaves.cave_tablet.title": "Летопись временных лет",
   "advancements.alexscaves.cave_tablet.desc": "Заполучите пещерную табличку из подземной хижины",
