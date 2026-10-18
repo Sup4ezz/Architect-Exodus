@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:zombie",
+    "minecraft:enderman",
+    "minecraft:stray",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:phantom",
+    "cataclysm:draugr",
+    "iceandfire:dread_thrall",
+    "iceandfire:dread_beast",
+    "tconstruct:ender_slime",
+    "minecraft:shulker",
+    "minecraft:ghast",
+    "quark:wraith",
+    "alexscaves:gloomoth"
+  ]
+}

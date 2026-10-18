@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "nullscape:void_barrens",
+  "features": ["scraps:metal_blackstone"],
+  "step": "top_layer_modification"
+}

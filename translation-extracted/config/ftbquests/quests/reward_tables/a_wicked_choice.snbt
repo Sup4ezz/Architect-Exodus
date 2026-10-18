@@ -1,0 +1,89 @@
+{
+	icon: {
+		Count: 1
+		id: "alexscaves:desolate_dagger"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "48869D94F0D83FE2"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:sacrificialdagger"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 0.25d
+							AttributeName: "attributeslib:healing_received"
+							Name: "cmd-generated-modif"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								-1677975842
+								585648498
+								-2049607388
+								1962026098
+							]
+						}
+						{
+							Amount: 2.0d
+							AttributeName: "animus:bonus_self_sacrifice"
+							Name: "cmd-generated-modif"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								272192196
+								456478303
+								-1477748205
+								-441181133
+							]
+						}
+					]
+					sacrifice: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "bloodmagic:daggerofsacrifice"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 2.0d
+							AttributeName: "animus:bonus_sacrifice"
+							Name: "cmd-generated-modif"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								-1350763080
+								171132147
+								-1439782217
+								321676021
+							]
+						}
+						{
+							Amount: 0.25d
+							AttributeName: "attributeslib:life_steal"
+							Name: "cmd-generated-modif"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								-567947633
+								-416854154
+								-1440720629
+								-684160844
+							]
+						}
+					]
+				}
+			}
+		}
+	]
+	title: "{ftbquests.loot_table.5226037680631463906.title}"
+	use_title: true
+}

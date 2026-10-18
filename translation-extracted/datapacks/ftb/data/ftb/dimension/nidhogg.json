@@ -1,0 +1,12 @@
+{
+  "type": "ftb:nidhogg",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "ftb:nidhogg",
+      "lakes": false,
+      "features": false,
+      "layers": []
+    }
+  }
+}

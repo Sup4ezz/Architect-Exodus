@@ -1,0 +1,19 @@
+{
+  "type": "thermal:smelter_recycle",
+  "ingredient": {
+    "tag": "forge:tools/silver"
+  },
+  "result": [
+    {
+      "item": "ftbmaterials:silver_ingot",
+      "count": 1
+    }
+  ],
+  "experience": 0.2,
+  "conditions": [
+    {
+      "tag": "forge:tools/silver",
+      "type": "cofh_core:tag_exists"
+    }
+  ]
+}

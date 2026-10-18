@@ -1,0 +1,6 @@
+{
+  "type": "forge:none",
+  "biomes": "#is_overworld",
+  "features": "mysticalagriculture:inferium_ore",
+  "step": "underground_ores"
+}

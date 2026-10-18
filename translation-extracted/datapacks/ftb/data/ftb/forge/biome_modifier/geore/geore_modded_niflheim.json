@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_niflheim",
+  "features": "ftb:geore_tin",
+  "step": "underground_decoration"
+}

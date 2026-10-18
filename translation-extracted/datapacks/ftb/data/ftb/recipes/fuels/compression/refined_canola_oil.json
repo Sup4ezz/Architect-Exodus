@@ -1,0 +1,8 @@
+{
+  "type": "thermal:compression_fuel",
+  "energy": 5000000,
+  "ingredient": {
+    "amount": 1000,
+    "fluid": "actuallyadditions:refined_canola_oil"
+  }
+}

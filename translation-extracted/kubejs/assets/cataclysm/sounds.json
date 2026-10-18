@@ -1,0 +1,20 @@
+{
+    "ignisshieldbreak": {
+        "sounds": [
+            {
+                "name": "minecraft:block.glass.break",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.cataclysm.ignisshieldbreak"
+    },
+    "super_lightning": {
+        "sounds": [
+            {
+                "name": "minecraft:entity.lightning_bolt.thunder",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.cataclysm.super_lightning"
+    }
+}

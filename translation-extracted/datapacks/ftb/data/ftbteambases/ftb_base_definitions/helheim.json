@@ -1,0 +1,12 @@
+{
+  "id": "ftbteambases:helheim",
+  "description": "ftb.teambases.helheim.description",
+  "preview_image": "ftb:textures/bases/helheim.png",
+  "construction": {
+    "pregen_template": "helheim"
+  },
+  "spawn_offset": [769, 1, 1],
+  "dimension": {
+    "private": true
+  }
+}

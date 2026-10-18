@@ -1,0 +1,43 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "ftb:unrefined_spirit"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:oak_sapling"
+    },
+    {
+      "output": "minecraft:spruce_sapling"
+    },
+    {
+      "output": "minecraft:birch_sapling"
+    },
+    {
+      "output": "minecraft:jungle_sapling"
+    },
+    {
+      "output": "minecraft:acacia_sapling"
+    },
+    {
+      "output": "minecraft:dark_oak_sapling"
+    },
+    {
+      "output": "minecraft:cherry_sapling"
+    },
+    {
+      "output": "minecraft:azalea"
+    },
+    {
+      "output": "minecraft:flowering_azalea"
+    },
+    {
+      "output": "minecraft:mangrove_propagule"
+    }
+  ]
+}

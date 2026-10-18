@@ -1,0 +1,20 @@
+{
+    "item.goat_horn.play": {
+        "sounds": [
+            {
+                "name": "minecraft:entity.goat.screaming.ram_impact",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.item.goat_horn.play"
+    },
+    "entity.goat.screaming.horn_break": {
+        "sounds": [
+            {
+                "name": "minecraft:entity.goat.screaming.death",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.entity.goat.screaming.horn_break"
+    }
+}

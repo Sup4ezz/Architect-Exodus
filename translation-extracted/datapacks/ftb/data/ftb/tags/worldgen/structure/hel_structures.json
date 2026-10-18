@@ -1,0 +1,13 @@
+{
+    "values": [
+        "ftb:hel/geore_clusters/coal",
+        "ftb:hel/geore_clusters/copper",
+        "ftb:hel/geore_clusters/diamond",
+        "ftb:hel/geore_clusters/emerald",
+        "ftb:hel/geore_clusters/gold",
+        "ftb:hel/geore_clusters/iron",
+        "ftb:hel/geore_clusters/lapis",
+        "ftb:hel/geore_clusters/quartz",
+        "ftb:hel/geore_clusters/redstone"
+    ]
+}

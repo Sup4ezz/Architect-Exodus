@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#ftb:is_arena",
+    "ftb:hel/maze",
+    "ftb:arena/valkyrie"
+  ]
+}

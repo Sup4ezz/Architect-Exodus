@@ -1,0 +1,18 @@
+{
+	icon: "malum:umbral_spirit"
+	id: "6663CF54810C7F42"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "malum:sacred_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:wicked_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:arcane_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:eldritch_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:aerial_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:aqueous_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:earthen_spirit", random_bonus: 8 }
+		{ count: 8, item: "malum:infernal_spirit", random_bonus: 8 }
+	]
+	title: "{ftbquests.loot_table.7377968576412286786.title}"
+	use_title: true
+}

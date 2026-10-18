@@ -1,0 +1,11 @@
+{
+    "echoing_ring_absorbs": {
+        "sounds": [
+            {
+                "name": "minecraft:entity.experience_orb.pickup",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.malum.echoing_ring_absorbs"
+    }
+}

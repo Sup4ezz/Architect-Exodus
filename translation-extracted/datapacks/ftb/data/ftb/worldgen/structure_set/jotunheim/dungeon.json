@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:jotunheim/dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 1304155318,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.152,
+    "spacing": 9,
+    "separation": 7
+  }
+}

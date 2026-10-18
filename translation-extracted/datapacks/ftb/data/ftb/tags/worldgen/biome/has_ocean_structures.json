@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "ftb:jotunheim/glacial_ocean",
+        "ftb:jotunheim/icy_river",
+        "ftb:jotunheim/icy_shore",
+        "ftb:jotunheim/ice_bog"
+    ]
+}

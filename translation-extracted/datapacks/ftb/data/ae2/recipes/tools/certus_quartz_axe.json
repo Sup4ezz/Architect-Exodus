@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NS",
+    " S"
+  ],
+  "result": {
+    "item": "ae2:certus_quartz_axe"
+  },
+  "show_notification": true
+}

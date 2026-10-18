@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "name": "tremorzilla_uraninite",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "powah:uraninite",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 20,
+                "max": 40
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tremorzilla_uraninite_shard",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "geore:uraninite_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 30,
+                "max": 50
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

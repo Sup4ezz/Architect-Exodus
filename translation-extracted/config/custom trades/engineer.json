@@ -1,0 +1,151 @@
+{
+  "profession": "actuallyadditions:engineer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:black_quartz_ore",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "actuallyadditions:engineer_black_quartz_ore_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:black_quartz",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "actuallyadditions:engineer_black_quartz_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:laser_wrench",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "actuallyadditions:engineer_laser_wrench_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:item_interface",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "actuallyadditions:engineer_item_interface_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:laser_relay",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "actuallyadditions:engineer_laser_relay_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:wood_casing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "actuallyadditions:engineer_wood_casing_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:iron_casing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "actuallyadditions:engineer_iron_casing_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "actuallyadditions:laser_relay_extreme",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 38,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "actuallyadditions:engineer_laser_relay_extreme_for_unrefined_spirit"
+    }
+  ]
+}

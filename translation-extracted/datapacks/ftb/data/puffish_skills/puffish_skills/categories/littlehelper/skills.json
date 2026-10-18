@@ -1,0 +1,332 @@
+{
+	"o59uqmoyjf9q9g1h": {
+		"definition": "hel_buff",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"ctu2vc5v2tg64vp1": {
+		"definition": "lh_spirit_shield_1",
+		"x": -32,
+		"y": 64,
+		"root": false
+	},
+	"57glwoj213dwz8ya": {
+		"definition": "lh_spirit_shield_2",
+		"x": -32,
+		"y": 128,
+		"root": false
+	},
+	"irqi9ydrxvhko5ll": {
+		"definition": "lh_spirit_shield_3",
+		"x": -32,
+		"y": 192,
+		"root": false
+	},
+	"vpskehscm7jexfol": {
+		"definition": "lh_soul_heal_1",
+		"x": -96,
+		"y": 64,
+		"root": false
+	},
+	"c20qmxno95whq2hb": {
+		"definition": "lh_soul_heal_2",
+		"x": -96,
+		"y": 128,
+		"root": false
+	},
+	"afi1ce1xdl53antv": {
+		"definition": "lh_soul_heal_3",
+		"x": -96,
+		"y": 192,
+		"root": false
+	},
+	"qnln1xstd9dsy9ze": {
+		"definition": "lh_spectral_phase_1",
+		"x": 32,
+		"y": 64,
+		"root": false
+	},
+	"094659qdmqisymra": {
+		"definition": "lh_spectral_phase_2",
+		"x": 32,
+		"y": 128,
+		"root": false
+	},
+	"fnpksmku4z8obg1h": {
+		"definition": "lh_spectral_phase_3",
+		"x": 32,
+		"y": 192,
+		"root": false
+	},
+	"aol535brlstclk86": {
+		"definition": "lh_spirit_release_1",
+		"x": 96,
+		"y": 64,
+		"root": false
+	},
+	"or7bradradw2r2ln": {
+		"definition": "lh_spirit_release_2",
+		"x": 96,
+		"y": 128,
+		"root": false
+	},
+	"4gyp3e8yz6mxwapn": {
+		"definition": "lh_spirit_release_3",
+		"x": 96,
+		"y": 192,
+		"root": false
+	},
+	"oth4jiz81hrh9qoq": {
+		"definition": "ymir_buff",
+		"x": -224,
+		"y": 160,
+		"root": false
+	},
+	"fbfj5hipjsqwt9wi": {
+		"definition": "lh_frost_aura_1",
+		"x": -288,
+		"y": 224,
+		"root": false
+	},
+	"1erv8rf9trxm4qun": {
+		"definition": "lh_frost_aura_2",
+		"x": -288,
+		"y": 288,
+		"root": false
+	},
+	"v3m9m3zz5gmssml4": {
+		"definition": "lh_frost_aura_3",
+		"x": -288,
+		"y": 352,
+		"root": false
+	},
+	"i6f6eszra5fiz2tb": {
+		"definition": "lh_frost_hex_1",
+		"x": -224,
+		"y": 224,
+		"root": false
+	},
+	"gclmzblobtmfwcug": {
+		"definition": "lh_frost_hex_2",
+		"x": -224,
+		"y": 288,
+		"root": false
+	},
+	"43917ushfnk1ha6m": {
+		"definition": "lh_frost_hex_3",
+		"x": -224,
+		"y": 352,
+		"root": false
+	},
+	"jr1rdip1c45tsgfu": {
+		"definition": "lh_shockwave_1",
+		"x": -160,
+		"y": 224,
+		"root": false
+	},
+	"avlp4f4qbfuyo6sv": {
+		"definition": "lh_shockwave_2",
+		"x": -160,
+		"y": 288,
+		"root": false
+	},
+	"b2pux9cmp13y0nia": {
+		"definition": "lh_shockwave_3",
+		"x": -160,
+		"y": 352,
+		"root": false
+	},
+	"wrx7vu8rkm1erhrk": {
+		"definition": "jormungandr_buff",
+		"x": 224,
+		"y": 160,
+		"root": false
+	},
+	"ym9gpb5159xkzqwi": {
+		"definition": "lh_serpents_gift_1",
+		"x": 192,
+		"y": 224,
+		"root": false
+	},
+	"j8wscttewp7z67p1": {
+		"definition": "lh_serpents_gift_2",
+		"x": 192,
+		"y": 288,
+		"root": false
+	},
+	"utdtj430s676647h": {
+		"definition": "lh_serpents_gift_3",
+		"x": 192,
+		"y": 352,
+		"root": false
+	},
+	"f1prl1pnv92jem3x": {
+		"definition": "lh_tidal_pull_1",
+		"x": 256,
+		"y": 224,
+		"root": false
+	},
+	"b0dy90d17ke0t5xg": {
+		"definition": "lh_tidal_pull_2",
+		"x": 256,
+		"y": 288,
+		"root": false
+	},
+	"zho6vw6gvqm2cxld": {
+		"definition": "lh_tidal_pull_3",
+		"x": 256,
+		"y": 352,
+		"root": false
+	},
+	"w2mtyhn3xj8c9lji": {
+		"definition": "surtr_buff",
+		"x": -128,
+		"y": 416,
+		"root": false
+	},
+	"1cl8iqw36hb7x885": {
+		"definition": "lh_inferno_armor_1",
+		"x": -192,
+		"y": 480,
+		"root": false
+	},
+	"cpvcsgkp254shcuo": {
+		"definition": "lh_inferno_armor_2",
+		"x": -192,
+		"y": 544,
+		"root": false
+	},
+	"gm270cxjubkex7ph": {
+		"definition": "lh_inferno_armor_3",
+		"x": -192,
+		"y": 608,
+		"root": false
+	},
+	"95v5npbjohpa6vbs": {
+		"definition": "lh_heat_surge_1",
+		"x": -128,
+		"y": 480,
+		"root": false
+	},
+	"ea5tulyx6un3nej6": {
+		"definition": "lh_heat_surge_2",
+		"x": -128,
+		"y": 544,
+		"root": false
+	},
+	"92kigcr4nlrejh0b": {
+		"definition": "lh_heat_surge_3",
+		"x": -128,
+		"y": 608,
+		"root": false
+	},
+	"t2peprxj6gwhhn1u": {
+		"definition": "lh_fire_ward_1",
+		"x": -64,
+		"y": 480,
+		"root": false
+	},
+	"869uagdp8t0efjpm": {
+		"definition": "lh_fire_ward_2",
+		"x": -64,
+		"y": 544,
+		"root": false
+	},
+	"ws4teh7vrndsui2a": {
+		"definition": "lh_fire_ward_3",
+		"x": -64,
+		"y": 608,
+		"root": false
+	},
+	"5oan8e1l2p004bes": {
+		"definition": "skoll_buff",
+		"x": 128,
+		"y": 416,
+		"root": false
+	},
+	"0c5f0bmyrqkpt6an": {
+		"definition": "lh_shadow_step_1",
+		"x": 64,
+		"y": 480,
+		"root": false
+	},
+	"hn4273cm58pvv2i4": {
+		"definition": "lh_shadow_step_2",
+		"x": 64,
+		"y": 544,
+		"root": false
+	},
+	"psj62e6qi1j95vsz": {
+		"definition": "lh_shadow_step_3",
+		"x": 64,
+		"y": 608,
+		"root": false
+	},
+	"t36ktpqr9mr3lhv9": {
+		"definition": "lh_eclipse_strike_1",
+		"x": 128,
+		"y": 480,
+		"root": false
+	},
+	"2esmllqf2w033dsy": {
+		"definition": "lh_eclipse_strike_2",
+		"x": 128,
+		"y": 544,
+		"root": false
+	},
+	"zxm163mih7pm22gz": {
+		"definition": "lh_eclipse_strike_3",
+		"x": 128,
+		"y": 608,
+		"root": false
+	},
+	"1lxr3bh15hdwbhk6": {
+		"definition": "lh_blood_needles_1",
+		"x": 192,
+		"y": 480,
+		"root": false
+	},
+	"p2vo2ddnx10kn1g0": {
+		"definition": "lh_blood_needles_2",
+		"x": 192,
+		"y": 544,
+		"root": false
+	},
+	"5qorcbqx03wc9s0z": {
+		"definition": "lh_blood_needles_3",
+		"x": 192,
+		"y": 608,
+		"root": false
+	},
+	"2p4gd2z10r9uuy0s": {
+		"definition": "nidhogg_buff",
+		"x": 0,
+		"y": 640,
+		"root": false
+	},
+	"zho1s53121oz45xj": {
+		"definition": "lh_soul_devour_1",
+		"x": 0,
+		"y": 704,
+		"root": false
+	},
+	"0sc17vlvf2gp8j16": {
+		"definition": "lh_soul_devour_2",
+		"x": 0,
+		"y": 768,
+		"root": false
+	},
+	"wush13r1m8is1wiq": {
+		"definition": "lh_soul_devour_3",
+		"x": 0,
+		"y": 832,
+		"root": false
+	},
+	"5icjkn41uvke0t9g": {
+		"definition": "lh_deaths_defiance",
+		"x": 0,
+		"y": 896,
+		"root": false
+	}
+}

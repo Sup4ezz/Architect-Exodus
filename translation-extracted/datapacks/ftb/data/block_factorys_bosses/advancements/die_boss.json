@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "block_factorys_bosses:textures/screens/blackstone.png",
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{CustomModelData:3}"
+    },
+    "title": {
+      "translate": "advancements.die_boss.title"
+    },
+    "description": {
+      "translate": "advancements.die_boss.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "die_to_boss": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "#block_factorys_bosses:bf_boss"
+        }
+      }
+    }
+  }
+}

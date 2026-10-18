@@ -1,0 +1,1500 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:red_mushroom",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 4
+    },
+    {
+      "item": "#minecraft:planks",
+      "emc": 0
+    },
+    {
+      "item": "#forge:stripped_logs",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sunflower",
+      "emc": 16
+    },
+    {
+      "item": "#minecraft:leaves",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:tall_flowers",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:bucket",
+      "emc": 0
+    },
+    {
+      "item": "createaddition:biomass",
+      "emc": 0
+    },
+    {
+      "item": "create:pulp",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:name_tag",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:earth_congealed_slime",
+      "emc": 0
+    },
+    {
+      "item": "create:wheat_flour",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 8
+    },
+    {
+      "item": "#forge:crops/potato",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:apple",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:flint",
+      "emc": 4
+    },
+    {
+      "item": "#iceandfire:mob_skulls",
+      "emc": 0
+    },
+    {
+      "item": "#forge:stripped_wood",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_acacia_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_birch_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_cherry_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_crimson_stem",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_dark_oak_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_jungle_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_mangrove_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_oak_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_spruce_log",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:stripped_warped_stem",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:calcite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:diorite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:granite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:lily_pad",
+      "emc": 8
+    },
+    {
+      "item": "#forge:crops/carrot",
+      "emc": 16
+    },
+    {
+      "item": "#forge:crops/onion",
+      "emc": 16
+    },
+    {
+      "item": "#forge:crops/beetroot",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:snowball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snow_block",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:slime_block",
+      "emc": 72
+    },
+    {
+      "item": "minecraft:egg",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:deepslate",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "emc": 256
+    },
+    {
+      "item": "#forge:crops/tomato",
+      "emc": 16
+    },
+    {
+      "item": "draconicevolution:small_chaos_frag",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:chaos_shard",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:medium_chaos_frag",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:music_discs",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cocoa_beans",
+      "emc": 16
+    },
+    {
+      "item": "#forge:ingots/copper",
+      "emc": 126
+    },
+    {
+      "item": "farmersdelight:straw",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:rich_soil",
+      "emc": 64
+    },
+    {
+      "item": "#forge:ingots/zinc",
+      "emc": 126
+    },
+    {
+      "item": "#forge:ingots/iesnium",
+      "emc": 504
+    },
+    {
+      "item": "#forge:ingots/nickel",
+      "emc": 1017
+    },
+    {
+      "item": "#forge:ingots/lead",
+      "emc": 504
+    },
+    {
+      "item": "#forge:ingots/bronze",
+      "emc": 153
+    },
+    {
+      "item": "#forge:ingots/aluminum",
+      "emc": 126
+    },
+    {
+      "item": "#forge:ingots/tin",
+      "emc": 252
+    },
+    {
+      "item": "#forge:ingots/silver",
+      "emc": 504
+    },
+    {
+      "item": "#forge:crops",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nature_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:awakened_supremium_essence",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fertilized_essence",
+      "emc": 0
+    },
+    {
+      "item": "#forge:ingots/iron",
+      "emc": 252
+    },
+    {
+      "item": "#forge:gems/diamond",
+      "emc": 8190
+    },
+    {
+      "item": "minecraft:tuff",
+      "emc": 1
+    },
+    {
+      "item": "#forge:ingots/cobalt",
+      "emc": 6138
+    },
+    {
+      "item": "experienceobelisk:transforming_focus",
+      "emc": 8190
+    },
+    {
+      "item": "bhc:red_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:yellow_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:green_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:blue_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:canister",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:zombie_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:piglin_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_stone_bricks",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_cobblestone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_stone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_mossy_stone_bricks",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_cracked_stone_bricks",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_chiseled_stone_bricks",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:infested_deepslate",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:spectral_arrow",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_leaping\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:strong_leaping\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:fire_resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_fire_resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:swiftness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_swiftness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:harming\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:strong_harming\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:strong_grievous\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:levitation\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"ars_elemental:enderference_potion\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"ars_elemental:enderference_potion_long\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:strong_absorption\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:sundering\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:long_sundering\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:strong_sundering\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:vitality\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:long_vitality\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:strong_vitality\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:grievous\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:long_grievous\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:weakness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_weakness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:slow_falling\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_slow_falling\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:long_resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:strong_resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:absorption\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"apotheosis:long_absorption\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:poison\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_poison\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:strong_poison\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:strong_regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:long_strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tipped_arrow{Potion:\"minecraft:strong_strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_star",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_breath",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glistering_melon_slice",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:water\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:mundane\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:thick\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:awkward\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:leaping\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_leaping\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_leaping\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:fire_resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_fire_resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:end_crystal",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:skeleton_skull",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:player_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:weakness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_weakness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:slow_falling\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:creeper_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_slow_falling\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"apotheosis:resistance\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:water_breathing\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_water_breathing\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:harming\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_harming\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:poison\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_poison\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_poison\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:swiftness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_swiftness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_swiftness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:slowness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_slowness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_slowness\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:turtle_master\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_turtle_master\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_turtle_master\"}",
+      "emc": 0
+    },
+    {
+      "item": "laserio:logic_chip",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"apotheosis:sundering\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"apotheosis:long_sundering\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"apotheosis:strong_sundering\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"apotheosis:vitality\"}",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:dragon_heart",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:hepatizon_block",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:cobalt_block",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:manyullyn_block",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:queens_slime_block",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:rose_gold_block",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:hepatizon_ingot",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:cobalt_ingot",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:manyullyn_ingot",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:queens_slime_ingot",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:rose_gold_ingot",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:hepatizon_nugget",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:cobalt_nugget",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:manyullyn_nugget",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:queens_slime_nugget",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:rose_gold_nugget",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:debris_nugget",
+      "emc": 0
+    },
+    {
+      "item": "rftoolsbase:dimensionalshard",
+      "emc": 0
+    },
+    {
+      "item": "botania:life_essence",
+      "emc": 0
+    },
+    {
+      "item": "botania:gaia_ingot",
+      "emc": 0
+    },
+    {
+      "item": "occultism:stable_wormhole",
+      "emc": 0
+    },
+    {
+      "item": "occultism:iesnium_nugget",
+      "emc": 0
+    },
+    {
+      "item": "occultism:iesnium_block",
+      "emc": 0
+    },
+    {
+      "item": "occultism:iesnium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ae2:certus_quartz_dust",
+      "emc": 0
+    },
+    {
+      "item": "occultism:afrit_essence",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:hot_cocoa",
+      "emc": 0
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:apple_cider",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:melon_juice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:fried_egg",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:tomato_sauce",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:glow_berry_custard",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:dumplings",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:kelp_roll_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:squid_ink_pasta",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:ratatouille",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_water",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:vegetable_noodles",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_fire",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:mushroom_rice",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_earth",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_air",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_spring",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:noodle_soup",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:baked_cod_stew",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_summer",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_rice",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_autumn",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_winter",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_mana",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:pumpkin_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:fried_rice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:fish_stew",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:vegetable_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:chicken_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:beef_stew",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:bone_broth",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_gluttony",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_lust",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_greed",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_sloth",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_wrath",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_envy",
+      "emc": 0
+    },
+    {
+      "item": "botania:rune_pride",
+      "emc": 0
+    },
+    {
+      "item": "create:andesite_alloy",
+      "emc": 0
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 0
+    },
+    {
+      "item": "botania:manasteel_ingot",
+      "emc": 0
+    },
+    {
+      "item": "botania:mana_pearl",
+      "emc": 0
+    },
+    {
+      "item": "botania:mana_diamond",
+      "emc": 0
+    },
+    {
+      "item": "botania:elementium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "botania:pixie_dust",
+      "emc": 0
+    },
+    {
+      "item": "botania:dragonstone",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:constantan_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:electrum_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:invar_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:lumium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:steel_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:brass_ingot",
+      "emc": 0
+    },
+    {
+      "item": "ftbmaterials:refined_obsidian_ingot",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:ice_dragon_blood",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:pixie_dust",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:pixie_wand{Damage:0}",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:pixie_wings",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:cyclops_eye{Damage:0}",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:hippogryph_talon",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:hippogryph_sword{Damage:0}",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:siren_tear",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:shiny_scales",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:hippocampus_fin",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:hippocampus_slapper{Damage:0}",
+      "emc": 0
+    },
+    {
+      "item": "malum:exposed_soulwood_log",
+      "emc": 0
+    },
+    {
+      "item": "malum:revealed_runewood_log",
+      "emc": 0
+    },
+    {
+      "item": "integrateddynamics:menril_log_filled",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 12285
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:amethyst_block",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:steadfastcrystal",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:vengefulcrystal",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:destructivecrystal",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:defaultcrystal",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:corrosivecrystal",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:whirlisprig_shards",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:starbuncle_charm",
+      "emc": 0
+    },
+    {
+      "item": "ae2:singularity",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:air_essence",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:earth_essence",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:fire_essence",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence",
+      "emc": 0
+    },
+    {
+      "item": "ars_nouveau:water_essence",
+      "emc": 0
+    },
+    {
+      "item": "animus:blood_apple",
+      "emc": 0
+    },
+    {
+      "item": "enderio:energetic_alloy_ingot",
+      "emc": 0
+    },
+    {
+      "item": "enderio:vibrant_alloy_ingot",
+      "emc": 0
+    },
+    {
+      "item": "enderio:pulsating_alloy_ingot",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:amethyst_bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 384
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:blackstone",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 192
+    },
+    {
+      "item": "minecraft:bone",
+      "emc": 144
+    },
+    {
+      "item": "minecraft:saddle",
+      "emc": 192
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "emc": 224
+    },
+    {
+      "item": "minecraft:porkchop",
+      "emc": 64
+    },
+    {
+      "item": "#bloodmagic:dungeon_raw",
+      "emc": 2
+    },
+    {
+      "item": "#bloodmagic:dungeon_corrosive",
+      "emc": 2
+    },
+    {
+      "item": "#bloodmagic:dungeon_destructive",
+      "emc": 2
+    },
+    {
+      "item": "#bloodmagic:dungeon_steadfast",
+      "emc": 2
+    },
+    {
+      "item": "#bloodmagic:dungeon_vengeful",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_brick_assorted",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_cracked_brick1",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_regular_cracked_brick1",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_brick1_slab",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_brick1_slab_corrosive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_brick1_slab_destructive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_brick1_slab_steadfast",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_brick1_slab_vengeful",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_polished_slab",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_polished_slab_corrosive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_polished_slab_destructive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_polished_slab_steadfast",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_polished_slab_vengeful",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_stone_slab",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_stone_slab_corrosive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_stone_slab_destructive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_stone_slab_steadfast",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_stone_slab_vengeful",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_tile_slab",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_tile_slab_corrosive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_tile_slab_destructive",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_tile_slab_steadfast",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_tile_slab_vengeful",
+      "emc": 1
+    },
+    {
+      "item": "bloodmagic:dungeon_metal",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_metal_corrosive",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_metal_destructive",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_metal_steadfast",
+      "emc": 2
+    },
+    {
+      "item": "bloodmagic:dungeon_metal_vengeful",
+      "emc": 2
+    },
+    {
+      "item": "mythicbotany:asgard_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:vanaheim_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:alfheim_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:midgard_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:joetunheim_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:muspelheim_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:niflheim_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:nidavellir_rune",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:helheim_rune",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:chest",
+      "emc": 256
+    },
+    {
+      "item": "sophisticatedstorage:iron_chest",
+      "emc": 2272
+    },
+    {
+      "item": "sophisticatedstorage:gold_chest",
+      "emc": 18400
+    },
+    {
+      "item": "sophisticatedstorage:diamond_chest",
+      "emc": 83920
+    },
+    {
+      "item": "sophisticatedstorage:netherite_chest",
+      "emc": 141124
+    },
+    {
+      "item": "minecraft:green_dye",
+      "emc": 4
+    },
+    {
+      "item": "#forge:storage_blocks/hellforged",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mud",
+      "emc": 2
+    },
+    {
+      "item": "powah:battery_starter",
+      "emc": 0
+    },
+    {
+      "item": "powah:battery_basic",
+      "emc": 0
+    }
+  ]
+}

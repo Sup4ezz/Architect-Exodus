@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_niflheim",
+  "features": [
+    "ftb:geore_coal_dense",
+    "ftb:geore_copper_dense",
+    "ftb:geore_lapis_dense",
+    "ftb:geore_iron_dense",
+    "ftb:geore_quartz_dense",
+    "ftb:geore_redstone_dense",
+    "ftb:gold_geode_common"
+  ],
+  "step": "local_modifications"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:quartz"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NS",
+    " S"
+  ],
+  "result": {
+    "item": "ae2:nether_quartz_axe"
+  },
+  "show_notification": true
+}

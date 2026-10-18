@@ -1,0 +1,33 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "ftb:geore_clusters/redstone/cluster1",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "ftb:geore_clusters/redstone/cluster2",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "ftb:geore_clusters/redstone/cluster3",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

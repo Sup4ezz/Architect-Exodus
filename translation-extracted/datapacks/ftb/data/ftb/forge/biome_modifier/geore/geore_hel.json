@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_hel",
+  "features": [
+    "geore:coal_geode",
+    "geore:copper_geode",
+    "geore:iron_geode",
+    "geore:quartz_geode",
+    "geore:redstone_geode"
+  ],
+  "step": "local_modifications"
+}

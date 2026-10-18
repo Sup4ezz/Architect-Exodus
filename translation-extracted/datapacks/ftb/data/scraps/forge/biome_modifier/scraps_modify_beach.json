@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "nullscape:shadowlands",
+  "features": ["scraps:bones_gravel","scraps:trash_sand"],
+  "step": "top_layer_modification"
+}

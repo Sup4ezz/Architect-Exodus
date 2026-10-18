@@ -1,0 +1,10 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#ftb:is_cold_overworld",
+  "features": [
+    "iceandfire:fire_dragon_cave",
+    "iceandfire:ice_dragon_cave",
+    "iceandfire:lightning_dragon_cave"
+  ],
+  "step": "underground_structures"
+}

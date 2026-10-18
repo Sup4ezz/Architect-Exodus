@@ -1,0 +1,157 @@
+{
+  "profession": "minecraft:leatherworker",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,display:{color:4673362}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker_leather_leggings_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,display:{color:8606770}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker_leather_chestplate_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,display:{color:1662046}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker_leather_helmet_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,display:{color:15961002}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker_leather_boots_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,display:{color:9065830}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker_leather_chestplate_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_horse_armor",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker_leather_horse_armor_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:saddle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker_saddle_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,display:{color:11546150}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker_leather_helmet_for_unrefined_spirit"
+    }
+  ]
+}

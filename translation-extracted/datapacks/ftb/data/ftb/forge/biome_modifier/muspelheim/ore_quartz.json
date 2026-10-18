@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alexscaves:forlorn_hollows",
+  "features": "ftb:muspelheim/ore_quartz",
+  "step": "underground_ores"
+}

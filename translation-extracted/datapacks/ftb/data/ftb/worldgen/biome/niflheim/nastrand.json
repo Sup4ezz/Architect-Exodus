@@ -1,0 +1,236 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.0,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "soul"
+      },
+      "probability": 0.008
+    },
+    "sky_color": 3619895,
+    "fog_color": 4608070,
+    "water_color": 1976365,
+    "water_fog_color": 659215
+  },
+  "carvers": {
+    "air": ["ftb:cave", "ftb:cave_extra_underground", "ftb:canyon", "ftb:large_cave"]
+  },
+  "features": [
+    [],
+    [],
+    ["ftb:niflheim/kivi_geode"],
+    ["minecraft:monster_room", "minecraft:fossil_lower"],
+    [],
+    [],
+    [
+      "ftb:niflheim/ore_apatite",
+      "ftb:niflheim/ore_cinnabar",
+      "ftb:niflheim/ore_nickel",
+      "ftb:niflheim/ore_niter",
+      "ftb:niflheim/ore_silver",
+      "ftb:niflheim/ore_sulfur",
+      "ftb:niflheim/ore_aluminum",
+      "ftb:niflheim/ore_iesnium",
+      "ftb:niflheim/ceiling_ore_iesnium",
+      "ftb:niflheim/bone_formation",
+      "minecraft:sculk_patch_deep_dark"
+    ],
+    [],
+    [],
+    [
+      "minecraft:sea_pickle",
+      "minecraft:glow_lichen",
+      "ftb:niflheim/ice_spike"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:blizz",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:drowned",
+        "weight": 80,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling_brute",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling_angler",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling_priest",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling_warlock",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "alexscaves:deep_one",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "alexscaves:deep_one_mage",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "alexscaves:deep_one_knight",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "alexscaves:lanternfish",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "alexscaves:radgill",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "alexscaves:gossamer_worm",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:squid",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:stray": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "minecraft:blizz": {
+      "charge": 1,
+      "energy_budget": 0.3
+    },
+    "minecraft:drowned": {
+      "charge": 0.8,
+      "energy_budget": 0.3
+    },
+    "minecraft:wither_skeleton": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "minecraft:phantom": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "cataclysm:deepling": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "cataclysm:deepling_brute": {
+      "charge": 0.8,
+      "energy_budget": 0.2
+    },
+    "cataclysm:deepling_angler": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "cataclysm:deepling_priest": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    },
+    "cataclysm:deepling_warlock": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    },
+    "alexscaves:deep_one": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "alexscaves:deep_one_mage": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    },
+    "alexscaves:deep_one_knight": {
+      "charge": 0.8,
+      "energy_budget": 0.2
+    },
+    "alexscaves:gossamer_worm": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    }
+  }
+}

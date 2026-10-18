@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": true,
+	"title": {"translate": "puffish_skills.category.hel"},
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:obsidian"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/skills/bgs/bg_hel.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_width"
+	}
+}

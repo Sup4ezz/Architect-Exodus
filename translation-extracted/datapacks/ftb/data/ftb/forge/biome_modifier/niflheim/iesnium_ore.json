@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_niflheim",
+  "features": [
+    "ftb:niflheim/ore_iesnium",
+    "ftb:niflheim/ceiling_ore_iesnium"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,17 @@
+{
+  "modId": "supplementaries",
+  "silent": true,
+  "group": {
+    "name": "Supplementaries Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "ftb:unrefined_spirit"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "supplementaries:flax_seeds"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	icon: "ae2:fluix_smart_cable"
+	id: "13145746FA3DF591"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 16, item: "ae2:fluix_smart_cable" }
+		{ count: 16, item: "ae2:fluix_covered_cable" }
+		{ count: 16, item: "ae2:fluix_glass_cable" }
+		{ count: 16, item: "ae2:fluix_smart_dense_cable" }
+		{ count: 16, item: "ae2:fluix_covered_dense_cable" }
+	]
+	title: "{ftbquests.loot_table.1374819748612535697.title}"
+}

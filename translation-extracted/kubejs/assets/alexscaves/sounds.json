@@ -1,0 +1,20 @@
+{
+    "abyssal_chasm_ambience_mood": {
+        "sounds": [
+            {
+                "name": "minecraft:ambient.cave",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.alexscaves.ambience"
+    },
+    "luxtructosaurus_breath": {
+        "sounds": [
+            {
+                "name": "minecraft:entity.ender_dragon.growl",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.alexscaves.luxtructosaurus_breath"
+    }
+}

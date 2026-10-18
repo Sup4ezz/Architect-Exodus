@@ -1,0 +1,12 @@
+{
+  "type": "ftb:bifrost",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "ftb:bifrost",
+      "lakes": false,
+      "features": false,
+      "layers": []
+    }
+  }
+}

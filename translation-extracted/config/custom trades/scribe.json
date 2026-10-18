@@ -1,0 +1,295 @@
+{
+  "profession": "iceandfire:scribe",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "iceandfire:manuscript",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 25,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "iceandfire:scribe_manuscript_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:frost_lily",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "iceandfire:scribe_frost_lily_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:dragon_ice_spikes",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "iceandfire:scribe_dragon_ice_spikes_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:pixie_jar_empty",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "iceandfire:scribe_pixie_jar_empty_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:myrmex_desert_resin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 40,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "iceandfire:scribe_myrmex_desert_resin_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:myrmex_jungle_resin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 40,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "iceandfire:scribe_myrmex_jungle_resin_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:pixie_dust",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "iceandfire:scribe_pixie_dust_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:fire_dragon_flesh",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "iceandfire:scribe_fire_dragon_flesh_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:ice_dragon_flesh",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "iceandfire:scribe_ice_dragon_flesh_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:lightning_dragon_flesh",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "iceandfire:scribe_lightning_dragon_flesh_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:dragonbone",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 20,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "iceandfire:scribe_dragonbone_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:shiny_scales",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "iceandfire:scribe_shiny_scales_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:stymphalian_bird_feather",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "iceandfire:scribe_stymphalian_bird_feather_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:troll_tusk",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 7,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "iceandfire:scribe_troll_tusk_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:sea_serpent_fang",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 20,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "iceandfire:scribe_sea_serpent_fang_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "iceandfire:hydra_fang",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 20,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "iceandfire:scribe_hydra_fang_for_unrefined_spirit"
+    }
+  ]
+}

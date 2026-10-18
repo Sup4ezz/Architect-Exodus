@@ -1,0 +1,1056 @@
+
+#FTB Ragnarok Configuration
+#All values are in ticks unless otherwise specified (20 ticks = 1 second)
+[bosses]
+
+	#Boss Music Configuration
+	#Loop intervals should match the duration of each boss's music file in ticks
+	#20 ticks = 1 second. Example: 2 minute song = 2400 ticks (120 * 20)
+	[bosses.music]
+		#Hel's music loop interval in ticks (helsdreadv2.ogg)
+		#Range: 100 ~ 24000
+		helLoopInterval = 3600
+		#Ymir's music loop interval in ticks (ymirsmarch.ogg ~123 seconds)
+		#Range: 100 ~ 24000
+		ymirLoopInterval = 2460
+		#Surtr's music loop interval in ticks (surtrsgrasp.ogg)
+		#Range: 100 ~ 24000
+		surtrLoopInterval = 3600
+		#Skoll & Hati's music loop interval in ticks (balladofhatiandskoll.ogg)
+		#Range: 100 ~ 24000
+		skollHatiLoopInterval = 3600
+		#Jormungandr's music loop interval in ticks (jormungandrsawakening.ogg)
+		#Range: 100 ~ 24000
+		jormungandrLoopInterval = 3600
+		#Nidhogg's music loop interval in ticks (nidhoggswrath.ogg)
+		#Range: 100 ~ 24000
+		nidhoggLoopInterval = 3600
+		#Nidhogg's intro music loop interval in ticks (nidhoggrsend.ogg)
+		#Range: 100 ~ 24000
+		nidhoggIntroLoopInterval = 3600
+		#Boss music volume (0.0 to 1.0, scaled by the Jukebox/Note Blocks sound slider)
+		#Range: 0.0 ~ 1.0
+		volume = 0.4
+		#Boss music pitch (1.0 = normal)
+		#Range: 0.5 ~ 2.0
+		pitch = 1.0
+
+	#Hel Boss Configuration - Goddess of the Underworld
+	[bosses.hel]
+		#Ticks without a valid target before boss resets
+		#Range: 20 ~ 6000
+		resetDelayTicks = 100
+
+		[bosses.hel.attributes]
+			#Maximum health
+			#Range: 1.0 ~ 10000.0
+			maxHealth = 350.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 6.0
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 4.0
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 0.4
+			#Base attack damage
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 12.0
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.35
+
+		[bosses.hel.phases]
+			#Health percentages at which phases advance (descending order)
+			thresholds = [0.7, 0.4, 0.15]
+
+		[bosses.hel.combat]
+			#Chance to dodge attacks (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			dodgeChance = 0.65
+			#Teleport cooldown in ticks
+			#Range: 0 ~ 6000
+			teleportCooldown = 120
+			#Maximum teleport range in blocks
+			#Range: 1.0 ~ 100.0
+			teleportRange = 16.0
+			#Shield activation cooldown in ticks
+			#Range: 0 ~ 6000
+			shieldCooldown = 200
+			#Clone summon cooldown in ticks
+			#Range: 0 ~ 6000
+			summonCooldown = 300
+			#Chance to summon clones on phase change (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			summonChance = 0.525
+			#Secondary attack cooldown in ticks
+			#Range: 0 ~ 600
+			secondaryAttackCooldown = 25
+			#Sculk Tentacles spell cooldown in ticks
+			#Range: 0 ~ 6000
+			tentacleSpellCooldown = 300
+			#Duration of tentacle attack warning telegraph in ticks
+			#Range: 10 ~ 200
+			tentacleTelegraphDuration = 40
+			#Minimum range for tentacle spell - won't cast if target is closer than this (blocks)
+			#Range: 0.0 ~ 50.0
+			tentacleMinRange = 6.0
+			#Maximum distance from spawn before returning (blocks)
+			#Range: 1.0 ~ 500.0
+			homeRadius = 64.0
+
+		[bosses.hel.antiFly]
+			#How often to check for flying players (ticks)
+			#Range: 1 ~ 200
+			checkInterval = 40
+			#Height above boss that triggers anti-fly (blocks)
+			#Range: 1.0 ~ 100.0
+			heightThreshold = 8.0
+			#Duration of Chains of Ragnarok effect (ticks)
+			#Range: 1 ~ 1200
+			chainsDuration = 100
+			#Cooldown between anti-fly attacks (ticks)
+			#Range: 0 ~ 6000
+			cooldown = 900
+
+		[bosses.hel.spells]
+			#Minimum level for witherSkull
+			#Range: 1 ~ 10
+			witherSkullMinLevel = 3
+			#Maximum level for witherSkull
+			#Range: 1 ~ 10
+			witherSkullMaxLevel = 5
+			#Minimum level for blight
+			#Range: 1 ~ 10
+			blightMinLevel = 3
+			#Maximum level for blight
+			#Range: 1 ~ 10
+			blightMaxLevel = 5
+			#Minimum level for sculkTentacles
+			#Range: 1 ~ 10
+			sculkTentaclesMinLevel = 4
+			#Maximum level for sculkTentacles
+			#Range: 1 ~ 10
+			sculkTentaclesMaxLevel = 6
+			#Minimum level for slow
+			#Range: 1 ~ 10
+			slowMinLevel = 2
+			#Maximum level for slow
+			#Range: 1 ~ 10
+			slowMaxLevel = 4
+			#Minimum level for shockwave
+			#Range: 1 ~ 10
+			shockwaveMinLevel = 3
+			#Maximum level for shockwave
+			#Range: 1 ~ 10
+			shockwaveMaxLevel = 5
+			#Minimum level for eldritchBlast
+			#Range: 1 ~ 10
+			eldritchBlastMinLevel = 3
+			#Maximum level for eldritchBlast
+			#Range: 1 ~ 10
+			eldritchBlastMaxLevel = 5
+			#Minimum level for raiseDead
+			#Range: 1 ~ 10
+			raiseDeadMinLevel = 3
+			#Maximum level for raiseDead
+			#Range: 1 ~ 10
+			raiseDeadMaxLevel = 5
+			#Minimum level for shield
+			#Range: 1 ~ 10
+			shieldMinLevel = 3
+			#Maximum level for shield
+			#Range: 1 ~ 10
+			shieldMaxLevel = 5
+			#Minimum level for starfall
+			#Range: 1 ~ 10
+			starfallMinLevel = 4
+			#Maximum level for starfall
+			#Range: 1 ~ 10
+			starfallMaxLevel = 6
+			#Minimum level for rayOfSiphoning
+			#Range: 1 ~ 10
+			rayOfSiphoningMinLevel = 3
+			#Maximum level for rayOfSiphoning
+			#Range: 1 ~ 10
+			rayOfSiphoningMaxLevel = 5
+
+	#Hel Clone Configuration - Weaker copies spawned by Hel
+	[bosses.helClone]
+		#Maximum health
+		#Range: 1.0 ~ 1000.0
+		maxHealth = 20.0
+		#Armor value
+		#Range: 0.0 ~ 100.0
+		armor = 4.0
+		#Base attack damage
+		#Range: 0.0 ~ 100.0
+		attackDamage = 4.0
+		#Movement speed
+		#Range: 0.0 ~ 10.0
+		movementSpeed = 0.28
+		#Flying speed
+		#Range: 0.0 ~ 10.0
+		flyingSpeed = 0.4
+		#Maximum range for spell casting
+		#Range: 1.0 ~ 100.0
+		spellRange = 24.0
+		#Minimum ticks between spell attacks
+		#Range: 1 ~ 1000
+		minAttackInterval = 20
+		#Maximum ticks between spell attacks
+		#Range: 1 ~ 1000
+		maxAttackInterval = 50
+		#Maximum distance from original Hel before clone dissipates
+		#Range: 1.0 ~ 500.0
+		maxDistanceFromHel = 64.0
+		#Preferred hover height above ground
+		#Range: 0.0 ~ 50.0
+		preferredHoverHeight = 3.0
+		#Maximum damage that can be taken per hit (flat cap, not percentage)
+		#Range: 1.0 ~ 1000.0
+		maxDamagePerHit = 8.0
+		#Minimum spell casting level (generic)
+		#Range: 1 ~ 10
+		minSpellLevel = 1
+		#Maximum spell casting level (generic)
+		#Range: 1 ~ 10
+		maxSpellLevel = 3
+
+		[bosses.helClone.spells]
+			#Minimum level for witherSkull
+			#Range: 1 ~ 10
+			witherSkullMinLevel = 1
+			#Maximum level for witherSkull
+			#Range: 1 ~ 10
+			witherSkullMaxLevel = 3
+			#Minimum level for blight
+			#Range: 1 ~ 10
+			blightMinLevel = 1
+			#Maximum level for blight
+			#Range: 1 ~ 10
+			blightMaxLevel = 3
+			#Minimum level for slow
+			#Range: 1 ~ 10
+			slowMinLevel = 1
+			#Maximum level for slow
+			#Range: 1 ~ 10
+			slowMaxLevel = 2
+			#Minimum level for shockwave
+			#Range: 1 ~ 10
+			shockwaveMinLevel = 1
+			#Maximum level for shockwave
+			#Range: 1 ~ 10
+			shockwaveMaxLevel = 3
+			#Minimum level for eldritchBlast
+			#Range: 1 ~ 10
+			eldritchBlastMinLevel = 1
+			#Maximum level for eldritchBlast
+			#Range: 1 ~ 10
+			eldritchBlastMaxLevel = 3
+
+	#Ymir Boss Configuration - Frost Giant
+	[bosses.ymir]
+		#Range to detect and engage players (blocks)
+		#Range: 1.0 ~ 200.0
+		engagementRange = 64.0
+		#Ticks without a valid target before boss resets
+		#Range: 20 ~ 6000
+		resetDelayTicks = 100
+
+		[bosses.ymir.attributes]
+			#Maximum health
+			#Range: 1.0 ~ 10000.0
+			maxHealth = 400.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 9.6
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 6.4
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 0.95
+			#Base attack damage
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 20.0
+			#Attack knockback strength
+			#Range: 0.0 ~ 50.0
+			attackKnockback = 2.5
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.2
+
+		[bosses.ymir.phases]
+			#Health percentages at which phases advance (descending order)
+			thresholds = [0.75, 0.5, 0.25, 0.15]
+
+		[bosses.ymir.combat]
+			#Fire damage multiplier (weakness to fire)
+			#Range: 0.0 ~ 10.0
+			fireDamageMultiplier = 1.5
+			#Frost armor duration in ticks
+			#Range: 0 ~ 6000
+			frostArmorDuration = 160
+			#Frost Step teleport cooldown in ticks
+			#Range: 0 ~ 6000
+			frostStepCooldown = 120
+			#Chain Grab cooldown in ticks
+			#Range: 0 ~ 6000
+			chainGrabCooldown = 200
+			#Chain Grab range in blocks
+			#Range: 1.0 ~ 100.0
+			chainGrabRange = 24.0
+			#Ranged spell attack cooldown in ticks
+			#Range: 0 ~ 6000
+			rangedAttackCooldown = 60
+			#Minimum range for ranged attacks (blocks)
+			#Range: 0.0 ~ 100.0
+			rangedAttackMinRange = 6.0
+			#Maximum range for ranged attacks (blocks)
+			#Range: 1.0 ~ 200.0
+			rangedAttackMaxRange = 32.0
+			#Melee attack range in blocks
+			#Range: 1.0 ~ 20.0
+			meleeRange = 5.5
+			#Maximum distance from spawn before returning (blocks)
+			#Range: 1.0 ~ 500.0
+			homeRadius = 48.0
+
+		[bosses.ymir.enraged]
+			#Size multiplier when enraged
+			#Range: 1.0 ~ 3.0
+			sizeMultiplier = 1.15
+			#Bonus armor when enraged
+			#Range: 0.0 ~ 100.0
+			armorBonus = 8.0
+			#Bonus armor toughness when enraged
+			#Range: 0.0 ~ 100.0
+			toughnessBonus = 6.0
+			#Fraction of damage dealt as bonus magic damage when enraged (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			magicDamageBonus = 0.3
+
+		[bosses.ymir.return]
+			#Cooldown between return-to-home jumps (ticks)
+			#Range: 0 ~ 6000
+			cooldown = 300
+			#Height of return jump (blocks)
+			#Range: 1.0 ~ 100.0
+			jumpHeight = 30.0
+			#Y-level drop that triggers recovery leap (blocks)
+			#Range: 1.0 ~ 100.0
+			fallRecoveryThreshold = 8.0
+
+		[bosses.ymir.spells]
+			#Minimum level for frostwave
+			#Range: 1 ~ 10
+			frostwaveMinLevel = 4
+			#Maximum level for frostwave
+			#Range: 1 ~ 10
+			frostwaveMaxLevel = 6
+			#Minimum level for coneOfCold
+			#Range: 1 ~ 10
+			coneOfColdMinLevel = 4
+			#Maximum level for coneOfCold
+			#Range: 1 ~ 10
+			coneOfColdMaxLevel = 6
+			#Minimum level for iceBlock
+			#Range: 1 ~ 10
+			iceBlockMinLevel = 3
+			#Maximum level for iceBlock
+			#Range: 1 ~ 10
+			iceBlockMaxLevel = 5
+			#Minimum level for gust
+			#Range: 1 ~ 10
+			gustMinLevel = 3
+			#Maximum level for gust
+			#Range: 1 ~ 10
+			gustMaxLevel = 5
+			#Minimum level for arrowVolley
+			#Range: 1 ~ 10
+			arrowVolleyMinLevel = 3
+			#Maximum level for arrowVolley
+			#Range: 1 ~ 10
+			arrowVolleyMaxLevel = 5
+			#Minimum level for telekinesis
+			#Range: 1 ~ 10
+			telekinesisMinLevel = 3
+			#Maximum level for telekinesis
+			#Range: 1 ~ 10
+			telekinesisMaxLevel = 5
+			#Minimum level for frostStep
+			#Range: 1 ~ 10
+			frostStepMinLevel = 3
+			#Maximum level for frostStep
+			#Range: 1 ~ 10
+			frostStepMaxLevel = 5
+			#Minimum level for rayOfFrost
+			#Range: 1 ~ 10
+			rayOfFrostMinLevel = 3
+			#Maximum level for rayOfFrost
+			#Range: 1 ~ 10
+			rayOfFrostMaxLevel = 5
+			#Minimum level for icicle
+			#Range: 1 ~ 10
+			icicleMinLevel = 3
+			#Maximum level for icicle
+			#Range: 1 ~ 10
+			icicleMaxLevel = 5
+
+	#Surtr Boss Configuration - Fire Giant
+	[bosses.surtr]
+		#Range to detect and engage players (blocks)
+		#Range: 1.0 ~ 200.0
+		engagementRange = 64.0
+
+		[bosses.surtr.attributes]
+			#Maximum health
+			#Range: 1.0 ~ 10000.0
+			maxHealth = 500.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 12.0
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 8.0
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 0.75
+			#Base attack damage
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 16.0
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.38
+
+		[bosses.surtr.phases]
+			#Health percentages at which phases advance (descending order)
+			thresholds = [0.75, 0.5, 0.25, 0.15]
+
+		[bosses.surtr.combat]
+			#Inferno armor duration in ticks
+			#Range: 0 ~ 6000
+			infernoArmorDuration = 160
+			#Burning Dash cooldown in ticks
+			#Range: 0 ~ 6000
+			burningDashCooldown = 100
+			#Haste buff repeat interval in ticks
+			#Range: 0 ~ 12000
+			hasteRepeatInterval = 900
+			#Haste spell level
+			#Range: 1 ~ 10
+			hasteSpellLevel = 5
+			#Ranged fireball attack cooldown in ticks
+			#Range: 0 ~ 6000
+			rangedAttackCooldown = 80
+			#Minimum range for ranged attacks (blocks)
+			#Range: 0.0 ~ 100.0
+			rangedAttackMinRange = 10.0
+			#Maximum range for ranged attacks (blocks)
+			#Range: 1.0 ~ 200.0
+			rangedAttackMaxRange = 32.0
+			#Fireball speed multiplier
+			#Range: 0.1 ~ 10.0
+			fireballSpeedMultiplier = 2.0
+			#Fireball damage multiplier
+			#Range: 0.1 ~ 10.0
+			fireballDamageMultiplier = 2.0
+			#Melee attack range in blocks
+			#Range: 1.0 ~ 20.0
+			meleeRange = 5.0
+			#Maximum distance from spawn before returning (blocks)
+			#Range: 1.0 ~ 500.0
+			homeRadius = 48.0
+
+		[bosses.surtr.meleeKnockback]
+			#Ticks in melee range before knockback triggers
+			#Range: 0 ~ 600
+			proximityThreshold = 80
+			#Cooldown between melee knockbacks (ticks)
+			#Range: 0 ~ 6000
+			cooldown = 100
+			#Knockback strength
+			#Range: 0.0 ~ 50.0
+			strength = 2.5
+			#Damage dealt on knockback
+			#Range: 0.0 ~ 100.0
+			damage = 10.0
+			#Pause after knockback before re-engaging (ticks)
+			#Range: 0 ~ 200
+			pauseDuration = 30
+
+		[bosses.surtr.enraged]
+			#Size multiplier when enraged
+			#Range: 1.0 ~ 3.0
+			sizeMultiplier = 1.15
+			#Bonus armor when enraged
+			#Range: 0.0 ~ 100.0
+			armorBonus = 8.0
+			#Bonus armor toughness when enraged
+			#Range: 0.0 ~ 100.0
+			toughnessBonus = 6.0
+			#Fraction of fire damage dealt as bonus magic damage when enraged (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			magicDamageBonus = 0.3
+
+		[bosses.surtr.return]
+			#Cooldown between return-to-home jumps (ticks)
+			#Range: 0 ~ 6000
+			cooldown = 300
+			#Height of return jump (blocks)
+			#Range: 1.0 ~ 100.0
+			jumpHeight = 30.0
+			#Y-level drop that triggers recovery leap (blocks)
+			#Range: 1.0 ~ 100.0
+			fallRecoveryThreshold = 8.0
+			#Ticks of failed pathing before leaping home
+			#Range: 0 ~ 600
+			pathFailureThreshold = 100
+
+		[bosses.surtr.spells]
+			#Minimum level for fireball
+			#Range: 1 ~ 10
+			fireballMinLevel = 4
+			#Maximum level for fireball
+			#Range: 1 ~ 10
+			fireballMaxLevel = 6
+			#Minimum level for firebolt
+			#Range: 1 ~ 10
+			fireboltMinLevel = 3
+			#Maximum level for firebolt
+			#Range: 1 ~ 10
+			fireboltMaxLevel = 5
+			#Minimum level for raiseDead
+			#Range: 1 ~ 10
+			raiseDeadMinLevel = 3
+			#Maximum level for raiseDead
+			#Range: 1 ~ 10
+			raiseDeadMaxLevel = 5
+			#Minimum level for heatSurge
+			#Range: 1 ~ 10
+			heatSurgeMinLevel = 3
+			#Maximum level for heatSurge
+			#Range: 1 ~ 10
+			heatSurgeMaxLevel = 5
+			#Minimum level for haste
+			#Range: 1 ~ 10
+			hasteMinLevel = 4
+			#Maximum level for haste
+			#Range: 1 ~ 10
+			hasteMaxLevel = 6
+			#Minimum level for burningDash
+			#Range: 1 ~ 10
+			burningDashMinLevel = 3
+			#Maximum level for burningDash
+			#Range: 1 ~ 10
+			burningDashMaxLevel = 5
+			#Minimum level for magmaBomb
+			#Range: 1 ~ 10
+			magmaBombMinLevel = 4
+			#Maximum level for magmaBomb
+			#Range: 1 ~ 10
+			magmaBombMaxLevel = 6
+			#Minimum level for fireBreath
+			#Range: 1 ~ 10
+			fireBreathMinLevel = 6
+			#Maximum level for fireBreath
+			#Range: 1 ~ 10
+			fireBreathMaxLevel = 10
+
+	#Skoll Boss Configuration - Wolf of the Sun
+	[bosses.skoll]
+
+		[bosses.skoll.attributes]
+			#Maximum health
+			#Range: 1.0 ~ 10000.0
+			maxHealth = 300.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 8.0
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 4.0
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 0.5
+			#Base attack damage
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 12.0
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.35
+
+		[bosses.skoll.combat]
+			#Maximum distance from spawn before returning (blocks)
+			#Range: 1.0 ~ 500.0
+			homeRadius = 48.0
+			#Minimum patrol radius (blocks)
+			#Range: 1.0 ~ 100.0
+			patrolMinRadius = 8.0
+			#Maximum patrol radius (blocks)
+			#Range: 1.0 ~ 100.0
+			patrolMaxRadius = 16.0
+			#Interval between active/passive switching with Hati (ticks)
+			#Range: 20 ~ 6000
+			activeSwitchInterval = 200
+
+		[bosses.skoll.abilities]
+			#Firedash ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			firedashCooldown = 200
+			#Darkness ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			darknessCooldown = 400
+			#Echoing Strikes ability cooldown (ticks)
+			#Range: 0 ~ 12000
+			echoingStrikesCooldown = 800
+			#Abyssal Shroud ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			abyssalShroudCooldown = 400
+			#Ranged spell casting cooldown (ticks)
+			#Range: 0 ~ 6000
+			rangedSpellCooldown = 100
+			#Blood Step ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			bloodStepCooldown = 140
+
+		[bosses.skoll.spells]
+			#Minimum level for echoingStrikes
+			#Range: 1 ~ 10
+			echoingStrikesMinLevel = 3
+			#Maximum level for echoingStrikes
+			#Range: 1 ~ 10
+			echoingStrikesMaxLevel = 5
+			#Minimum level for abyssalShroud
+			#Range: 1 ~ 10
+			abyssalShroudMinLevel = 3
+			#Maximum level for abyssalShroud
+			#Range: 1 ~ 10
+			abyssalShroudMaxLevel = 5
+			#Minimum level for blackHole
+			#Range: 1 ~ 10
+			blackHoleMinLevel = 4
+			#Maximum level for blackHole
+			#Range: 1 ~ 10
+			blackHoleMaxLevel = 6
+			#Minimum level for acidOrb
+			#Range: 1 ~ 10
+			acidOrbMinLevel = 3
+			#Maximum level for acidOrb
+			#Range: 1 ~ 10
+			acidOrbMaxLevel = 5
+			#Minimum level for bloodNeedles
+			#Range: 1 ~ 10
+			bloodNeedlesMinLevel = 3
+			#Maximum level for bloodNeedles
+			#Range: 1 ~ 10
+			bloodNeedlesMaxLevel = 5
+			#Minimum level for fangStrike
+			#Range: 1 ~ 10
+			fangStrikeMinLevel = 3
+			#Maximum level for fangStrike
+			#Range: 1 ~ 10
+			fangStrikeMaxLevel = 5
+			#Minimum level for bloodStep
+			#Range: 1 ~ 10
+			bloodStepMinLevel = 3
+			#Maximum level for bloodStep
+			#Range: 1 ~ 10
+			bloodStepMaxLevel = 5
+
+	#Hati Boss Configuration - Wolf of the Moon
+	[bosses.hati]
+
+		[bosses.hati.attributes]
+			#Maximum health
+			#Range: 1.0 ~ 10000.0
+			maxHealth = 300.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 8.0
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 4.0
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 0.5
+			#Base attack damage
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 12.0
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.35
+
+		[bosses.hati.combat]
+			#Maximum distance from spawn before returning (blocks)
+			#Range: 1.0 ~ 500.0
+			homeRadius = 48.0
+			#Minimum patrol radius (blocks)
+			#Range: 1.0 ~ 100.0
+			patrolMinRadius = 8.0
+			#Maximum patrol radius (blocks)
+			#Range: 1.0 ~ 100.0
+			patrolMaxRadius = 16.0
+			#Leap attack duration (ticks)
+			#Range: 1 ~ 200
+			leapDuration = 20
+
+		[bosses.hati.abilities]
+			#Blessing of Life heal cooldown (ticks)
+			#Range: 0 ~ 6000
+			blessingOfLifeCooldown = 200
+			#Haste/Divine Smite buff cooldown (ticks)
+			#Range: 0 ~ 6000
+			hasteDivineSmiteCooldown = 300
+			#Shadow Slash ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			shadowSlashCooldown = 140
+			#Summon Vex ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			summonVexCooldown = 400
+			#Ranged spell casting cooldown (ticks)
+			#Range: 0 ~ 6000
+			rangedSpellCooldown = 100
+			#Solar Flare ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			solarFlareCooldown = 200
+			#Lunar Eclipse ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			lunarEclipseCooldown = 300
+			#Phase Shift ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			phaseShiftCooldown = 160
+			#Moonbeam ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			moonbeamCooldown = 140
+			#Howl ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			howlCooldown = 200
+			#Shadow Step ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			shadowStepCooldown = 100
+
+		[bosses.hati.spells]
+			#Minimum level for blessingOfLife
+			#Range: 1 ~ 10
+			blessingOfLifeMinLevel = 3
+			#Maximum level for blessingOfLife
+			#Range: 1 ~ 10
+			blessingOfLifeMaxLevel = 5
+			#Minimum level for haste
+			#Range: 1 ~ 10
+			hasteMinLevel = 3
+			#Maximum level for haste
+			#Range: 1 ~ 10
+			hasteMaxLevel = 5
+			#Minimum level for divineSmite
+			#Range: 1 ~ 10
+			divineSmiteMinLevel = 3
+			#Maximum level for divineSmite
+			#Range: 1 ~ 10
+			divineSmiteMaxLevel = 5
+			#Minimum level for bloodSlash
+			#Range: 1 ~ 10
+			bloodSlashMinLevel = 3
+			#Maximum level for bloodSlash
+			#Range: 1 ~ 10
+			bloodSlashMaxLevel = 5
+			#Minimum level for wisp
+			#Range: 1 ~ 10
+			wispMinLevel = 2
+			#Maximum level for wisp
+			#Range: 1 ~ 10
+			wispMaxLevel = 4
+			#Minimum level for guidingBolt
+			#Range: 1 ~ 10
+			guidingBoltMinLevel = 3
+			#Maximum level for guidingBolt
+			#Range: 1 ~ 10
+			guidingBoltMaxLevel = 5
+			#Minimum level for sunbeam
+			#Range: 1 ~ 10
+			sunbeamMinLevel = 4
+			#Maximum level for sunbeam
+			#Range: 1 ~ 10
+			sunbeamMaxLevel = 6
+			#Minimum level for summonVex
+			#Range: 1 ~ 10
+			summonVexMinLevel = 3
+			#Maximum level for summonVex
+			#Range: 1 ~ 10
+			summonVexMaxLevel = 5
+
+	#Nidhogg Boss Configuration - Dragon of the Corpse Shore (FINAL BOSS)
+	[bosses.nidhogg]
+		#Maximum damage per hit as fraction of max health (0.0-1.0)
+		#Range: 0.01 ~ 1.0
+		maxDamagePercent = 0.1
+
+		[bosses.nidhogg.attributes]
+			#Maximum health (Final boss)
+			#Range: 1.0 ~ 50000.0
+			maxHealth = 1000.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 20.0
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 15.0
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 1.0
+			#Base melee attack damage (drives his bite; ability damage is scaled by abilityDamageMultiplier instead)
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 20.0
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.3
+			#Global multiplier applied to all damage Nidhogg deals (melee + abilities). Raise to make him more threatening to geared players without editing each ability.
+			#Range: 0.1 ~ 10.0
+			abilityDamageMultiplier = 1.5
+
+		[bosses.nidhogg.phases]
+			#Health percentages at which phases advance (descending order)
+			thresholds = [0.75, 0.5, 0.25]
+			#Health percentage that triggers enrage (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			enrageThreshold = 0.25
+			#Armor bonus when enraged
+			#Range: 0 ~ 100
+			enrageArmorBonus = 15
+			#Armor toughness bonus when enraged
+			#Range: 0 ~ 100
+			enrageToughnessBonus = 10
+			#Regeneration amplifier applied during enrage (0 = Regen I, 1 = Regen II). Lower if Nidhogg feels like he's healing through DPS in the final phase.
+			#Range: 0 ~ 4
+			enrageRegenAmplifier = 1
+
+		[bosses.nidhogg.combat]
+			#Maximum distance from spawn before Nidhogg arcs back toward the arena center (blocks). He does a natural flyby rather than teleporting.
+			#Range: 1.0 ~ 500.0
+			homeRadius = 64.0
+
+		[bosses.nidhogg.abilities]
+			#Fire Breath attack cooldown (ticks)
+			#Range: 0 ~ 6000
+			fireBreathCooldown = 160
+			#Dive Attack cooldown (ticks)
+			#Range: 0 ~ 6000
+			diveAttackCooldown = 300
+			#Tail Slam cooldown (ticks)
+			#Range: 0 ~ 6000
+			tailSlamCooldown = 120
+			#Wing Blast cooldown (ticks)
+			#Range: 0 ~ 6000
+			wingBlastCooldown = 200
+			#Corpse Summon cooldown (ticks)
+			#Range: 0 ~ 6000
+			corpseSummonCooldown = 400
+			#Helfire Rain cooldown (ticks)
+			#Range: 0 ~ 6000
+			helfireRainCooldown = 500
+			#Ground Pound cooldown (ticks)
+			#Range: 0 ~ 6000
+			groundPoundCooldown = 180
+			#Yggdrasil Root attack cooldown (ticks)
+			#Range: 0 ~ 6000
+			yggdrasilRootCooldown = 300
+			#Corruption Zone creation cooldown (ticks)
+			#Range: 0 ~ 6000
+			corruptionZoneCooldown = 400
+			#Soul Devour drain attack cooldown (ticks)
+			#Range: 0 ~ 6000
+			soulDevourCooldown = 350
+			#Grab and Drop attack cooldown (ticks)
+			#Range: 0 ~ 6000
+			grabAttackCooldown = 500
+			#Shadow Clone summon cooldown (ticks)
+			#Range: 0 ~ 6000
+			shadowCloneCooldown = 600
+			#Death Mark ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			deathMarkCooldown = 400
+			#Void Breath (Phase 4) cooldown (ticks)
+			#Range: 0 ~ 6000
+			voidBreathCooldown = 300
+			#Apocalypse ultimate attack cooldown (ticks)
+			#Range: 0 ~ 12000
+			apocalypseCooldown = 800
+
+		[bosses.nidhogg.decayAura]
+			#Base radius of decay aura (grows with phase)
+			#Range: 1.0 ~ 50.0
+			radius = 6.0
+			#Phase at which decay aura activates (2-4)
+			#Range: 1 ~ 4
+			phaseStart = 2
+
+		[bosses.nidhogg.spells]
+			#Devour spell level
+			#Range: 1 ~ 15
+			devourLevel = 10
+			#Black Hole spell level
+			#Range: 1 ~ 15
+			blackHoleLevel = 6
+			#Dragon Breath spell level
+			#Range: 1 ~ 15
+			dragonBreathLevel = 10
+			#Burning Dash spell level (gap closer)
+			#Range: 1 ~ 15
+			burningDashLevel = 10
+			#Fire Breath spell level
+			#Range: 1 ~ 15
+			fireBreathSpellLevel = 10
+			#Heat Surge spell level
+			#Range: 1 ~ 15
+			heatSurgeLevel = 6
+			#Haste spell level (self-buff)
+			#Range: 1 ~ 15
+			hasteLevel = 4
+			#Sunbeam spell level
+			#Range: 1 ~ 15
+			sunbeamLevel = 10
+			#Blight spell level
+			#Range: 1 ~ 15
+			blightLevel = 8
+			#Cooldown between spell casts (ticks)
+			#Range: 20 ~ 600
+			spellCastCooldown = 80
+
+		[bosses.nidhogg.soulCollection]
+			#Fraction of dead entity's max health Nidhogg recovers per corpse
+			#Range: 0.0 ~ 1.0
+			healFraction = 0.05
+			#Absolute cap on health restored per corpse
+			#Range: 0.0 ~ 1000.0
+			healPerCorpseCap = 5.0
+			#If true, Soul Collection is paused while Heralds of Destruction are alive (phase-immunity window)
+			pausedWhileHeraldsAlive = true
+			#If true, Soul Collection only heals from Nidhogg's own summoned minions — kills from Iron's Spells black holes, scythe spirits, Blood Magic, etc. won't feed his healing. Strongly recommended for late-game packs with mass-AOE tools.
+			trackedMinionsOnly = true
+
+		[bosses.nidhogg.minions]
+			#Maximum living minions Nidhogg may have at one time
+			#Range: 0 ~ 100
+			livingCap = 6
+			#Base number of minions spawned per Corpse Summon cast
+			#Range: 0 ~ 20
+			baseCount = 1
+			#Additional minions per phase beyond phase 1 per Corpse Summon cast
+			#Range: 0 ~ 20
+			perPhaseCount = 1
+			#Per-tick probability Corpse Summon fires when off cooldown (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			rngGate = 0.1
+			#If true, Corpse Summon is paused while Heralds of Destruction are alive — keeps the herald hunt clean instead of piling more wither skeletons on top.
+			pausedWhileHeraldsAlive = true
+
+		[bosses.nidhogg.dragonAdds]
+			#Number of Heralds of Destruction summoned per phase transition. Nidhogg is immune until all heralds are killed.
+			#Range: 0 ~ 5
+			dragonAddsPerPhase = 1
+			#If true, the phase 4 (25%) transition also spawns heralds. If false, the final push has no shield — addresses feedback that players can't get past Nidhogg to kill heralds before he heals back.
+			dragonAddsSpawnInFinalPhase = false
+			#If true, despawn Nidhogg's tracked wither-skeleton minions on each phase transition so the herald hunt isn't cluttered by leftover adds.
+			clearMinionsOnPhaseAdvance = true
+
+	#Jormungandr Boss Configuration - The World Serpent
+	[bosses.jormungandr]
+		#Maximum damage per hit as fraction of max health (0.0-1.0)
+		#Range: 0.01 ~ 1.0
+		maxDamagePercent = 0.1
+
+		[bosses.jormungandr.attributes]
+			#Maximum health
+			#Range: 1.0 ~ 50000.0
+			maxHealth = 800.0
+			#Armor value
+			#Range: 0.0 ~ 100.0
+			armor = 20.0
+			#Armor toughness
+			#Range: 0.0 ~ 100.0
+			armorToughness = 15.0
+			#Knockback resistance (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			knockbackResistance = 1.0
+			#Base attack damage
+			#Range: 0.0 ~ 1000.0
+			attackDamage = 25.0
+			#Movement speed
+			#Range: 0.0 ~ 10.0
+			movementSpeed = 0.3
+
+		[bosses.jormungandr.phases]
+			#Health percentages at which phases advance (descending order)
+			thresholds = [0.75, 0.5, 0.25]
+			#Health percentage that triggers enrage (0.0-1.0)
+			#Range: 0.0 ~ 1.0
+			enrageThreshold = 0.25
+			#Armor bonus when enraged
+			#Range: 0 ~ 100
+			enrageArmorBonus = 10
+			#Armor toughness bonus when enraged
+			#Range: 0 ~ 100
+			enrageToughnessBonus = 10
+
+		[bosses.jormungandr.combat]
+			#Maximum distance from spawn before returning (blocks)
+			#Range: 1.0 ~ 500.0
+			homeRadius = 48.0
+
+		[bosses.jormungandr.abilities]
+			#Venom Breath attack cooldown (ticks)
+			#Range: 0 ~ 6000
+			venomBreathCooldown = 200
+			#Whirlpool ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			whirlpoolCooldown = 500
+			#Tail Slam cooldown (ticks)
+			#Range: 0 ~ 6000
+			tailSlamCooldown = 160
+			#Constrict ability cooldown (ticks)
+			#Range: 0 ~ 6000
+			constrictCooldown = 240
+			#Water Leap / Breach cooldown (ticks). This is the boss's signature surfacing attack and the player's main window to damage him, so it is kept fairly frequent.
+			#Range: 0 ~ 6000
+			waterLeapCooldown = 400
+			#Submerge cooldown (ticks)
+			#Range: 0 ~ 6000
+			submergeCooldown = 500
+			#Tidal Wave cooldown (ticks)
+			#Range: 0 ~ 6000
+			tidalWaveCooldown = 700
+			#Summon minions cooldown (ticks)
+			#Range: 0 ~ 6000
+			summonCooldown = 1200
+			#Water Orb projectile cooldown (ticks)
+			#Range: 0 ~ 6000
+			waterOrbCooldown = 200
+			#Ice Spike eruption cooldown (ticks)
+			#Range: 0 ~ 6000
+			iceSpikeCooldown = 260
+
+		[bosses.jormungandr.balance]
+			#Regeneration amplifier applied during enrage (0 = Regen I, 1 = Regen II). Lower if Jormungandr feels like he's healing through DPS in the final phase.
+			#Range: 0 ~ 4
+			enrageRegenAmplifier = 0
+			#Damage reduction while submerged (0.0-1.0). Lower so he isn't a damage sponge when he dives.
+			#Range: 0.0 ~ 1.0
+			submergeDamageReduction = 0.5
+			#If true, the phase 4 summon table can spawn Elder Guardians. Disabled by default per feedback that their lasers/mining fatigue make the fight unreadable.
+			summonElderGuardians = false
+			#Base number of minions summoned per cast (scales up by phase).
+			#Range: 0 ~ 20
+			summonBaseCount = 2
+			#Ticks a player can be in the water before the freezing aura begins damaging them. Prevents instant punishment for falling in.
+			#Range: 0 ~ 600
+			freezeAuraGraceTicks = 40
+			#Damage Jormungandr must take while constricting a player before the grip breaks early (the 'allies free you' counterplay). 0 disables early breakout.
+			#Range: 0.0 ~ 1000.0
+			constrictBreakoutDamage = 30.0
+			#Preferred depth (blocks below home) Jormungandr patrols to between leaps. Lower keeps him reachable; higher makes him more evasive.
+			#Range: 1.0 ~ 64.0
+			patrolDepth = 8.0
+

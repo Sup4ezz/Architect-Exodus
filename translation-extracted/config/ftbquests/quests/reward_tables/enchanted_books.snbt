@@ -1,0 +1,457 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "minecraft:fire_protection"
+				lvl: 4s
+			}]
+		}
+	}
+	id: "07E12E82600DAC3C"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Защита I"
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Острота I"
+			weight: 22.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Эффективность I"
+			weight: 22.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Прочность I"
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Подводник 1"
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Защита II"
+			weight: 16.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Острота II"
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Эффективность II"
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Прочность II"
+			weight: 14.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:soul_speed"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Скорость душ I"
+			weight: 14.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Огнеупорность II"
+			weight: 12.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Небесная кара II"
+			weight: 12.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Подводное дыхание I"
+			weight: 12.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Защита III"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Острота III"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Эффективность III"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Прочность III"
+			weight: 7.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Добыча I"
+			weight: 7.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Удача I"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Заговор огня I"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			title: "Защита IV"
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 4s
+					}]
+				}
+			}
+			title: "Острота IV"
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Удача II"
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Починка I"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:swift_sneak"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Проворство III"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			title: "Прочность III + Починка I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3s
+						}
+					]
+				}
+			}
+			title: "Острота V + Добыча III"
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:efficiency"
+							lvl: 5s
+						}
+					]
+				}
+			}
+			title: "Удача III + Эффективность V"
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 4s
+						}
+						{
+							id: "minecraft:blast_protection"
+							lvl: 4s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 4s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+					]
+				}
+			}
+			title: "Все Защиты IV"
+			weight: 0.25f
+		}
+	]
+	title: "{ftbquests.loot_table.567786165517528124.title}"
+	use_title: true
+}

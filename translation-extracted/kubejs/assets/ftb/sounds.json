@@ -1,0 +1,326 @@
+{
+    "narration.allfather_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/allfather_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "subtitles.ftb.narration.allfather_intro"
+    },
+    "narration.helheim_arrival": {
+        "sounds": [
+            {
+                "name": "ftb:narration/helheim_arrival",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.helheim_departure": {
+        "sounds": [
+            {
+                "name": "ftb:narration/helheim_departure",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.jotunheim_arrival": {
+        "sounds": [
+            {
+                "name": "ftb:narration/jotunheim_arrival",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.jotunheim_departure": {
+        "sounds": [
+            {
+                "name": "ftb:narration/jotunheim_departure",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.niflheim_arrival": {
+        "sounds": [
+            {
+                "name": "ftb:narration/niflheim_arrival",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.niflheim_departure": {
+        "sounds": [
+            {
+                "name": "ftb:narration/niflheim_departure",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.muspelheim_arrival": {
+        "sounds": [
+            {
+                "name": "ftb:narration/muspelheim_arrival",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.muspelheim_nidhoggr": {
+        "sounds": [
+            {
+                "name": "ftb:narration/muspelheim_nidhoggr",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.midgard_arrival": {
+        "sounds": [
+            {
+                "name": "ftb:narration/midgard_arrival",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.midgard_nidhoggr": {
+        "sounds": [
+            {
+                "name": "ftb:narration/midgard_nidhoggr",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.asgard_arrival": {
+        "sounds": [
+            {
+                "name": "ftb:narration/asgard_arrival",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.restore_progress1": {
+        "sounds": [
+            {
+                "name": "ftb:narration/restore_progress1",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.restore_progress2": {
+        "sounds": [
+            {
+                "name": "ftb:narration/restore_progress2",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.restore_progress3": {
+        "sounds": [
+            {
+                "name": "ftb:narration/restore_progress3",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.restore_progress4": {
+        "sounds": [
+            {
+                "name": "ftb:narration/restore_progress4",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.asgard_restored": {
+        "sounds": [
+            {
+                "name": "ftb:narration/asgard_restored",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.scroll.allfather.title"
+    },
+    "narration.first_meeting": {
+        "sounds": [
+            {
+                "name": "ftb:narration/first_meeting",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.react_helheim": {
+        "sounds": [
+            {
+                "name": "ftb:narration/react_helheim",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.react_jotunheim": {
+        "sounds": [
+            {
+                "name": "ftb:narration/react_jotunheim",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.react_niflheim": {
+        "sounds": [
+            {
+                "name": "ftb:narration/react_niflheim",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.react_muspelheim": {
+        "sounds": [
+            {
+                "name": "ftb:narration/react_muspelheim",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.react_midgard": {
+        "sounds": [
+            {
+                "name": "ftb:narration/react_midgard",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.react_asgard": {
+        "sounds": [
+            {
+                "name": "ftb:narration/react_asgard",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.hel_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/hel_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.hel_mirrors": {
+        "sounds": [
+            {
+                "name": "ftb:narration/hel_mirrors",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.ymir_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/ymir_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.ymir_stomp": {
+        "sounds": [
+            {
+                "name": "ftb:narration/ymir_stomp",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.jormungandr_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/jormungandr_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.jormungandr_submerge": {
+        "sounds": [
+            {
+                "name": "ftb:narration/jormungandr_submerge",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.surtur_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/surtur_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.surtur_armor": {
+        "sounds": [
+            {
+                "name": "ftb:narration/surtur_armor",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.wolves_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/wolves_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.wolves_pin": {
+        "sounds": [
+            {
+                "name": "ftb:narration/wolves_pin",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.nidhogg_intro": {
+        "sounds": [
+            {
+                "name": "ftb:narration/nidhogg_intro",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    },
+    "narration.nidhogg_fireresist": {
+        "sounds": [
+            {
+                "name": "ftb:narration/nidhogg_fireresist",
+                "stream": true
+            }
+        ],
+        "subtitle": "ftb.subtitle.vaettir_speaks"
+    }
+}

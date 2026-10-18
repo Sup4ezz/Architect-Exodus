@@ -1,0 +1,7 @@
+{
+  "parent": "chisel:block/cube_ctm_translucent",
+  "textures": {
+    "all": "botania:block/bifrost",
+    "connected_tex": "botania:block/bifrost-ctm"
+  }
+}

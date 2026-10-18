@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{CustomModelData:1}"
+    },
+    "title": {
+      "translate": "advancements.kill_underworld_knight.title"
+    },
+    "description": {
+      "translate": "advancements.kill_underworld_knight.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "block_factorys_bosses:underworld_knight"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "block_factorys_bosses:die_boss"
+}

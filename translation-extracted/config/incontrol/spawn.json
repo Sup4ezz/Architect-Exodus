@@ -1,0 +1,306 @@
+[
+  {
+    "dimension": "bloodmagic:dungeon",
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:warden",
+    "result": "default"
+  },
+  {
+    "dimension": "ftb:hel",
+    "mob": "cataclysm:draugr",
+    "maxcount": 12,
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:hel",
+    "mob": "iceandfire:dread_thrall",
+    "maxcount": 12,
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:hel",
+    "mob": "iceandfire:dread_beast",
+    "maxcount": 8,
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:hel",
+    "mob": "quark:wraith",
+    "maxcount": 8,
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:hel",
+    "mob": "minecraft:enderman",
+    "maxcount": 8,
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:draugr",
+    "block": ["minecraft:air", "minecraft:void_air", "minecraft:cave_air"],
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:draugr",
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "iceandfire:dread_thrall",
+    "block": ["minecraft:air", "minecraft:void_air", "minecraft:cave_air"],
+    "result": "deny"
+  },
+  {
+    "mob": "iceandfire:dread_thrall",
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "iceandfire:dread_beast",
+    "block": ["minecraft:air", "minecraft:void_air", "minecraft:cave_air"],
+    "result": "deny"
+  },
+  {
+    "mob": "iceandfire:dread_beast",
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "quark:wraith",
+    "block": ["minecraft:air", "minecraft:void_air", "minecraft:cave_air"],
+    "result": "deny"
+  },
+  {
+    "mob": "quark:wraith",
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:koboleton",
+    "result": "deny"
+  },
+  {
+    "mob": "alexscaves:gingerbread_man",
+    "result": "deny"
+  },
+  {
+    "mob": "alexscaves:licowitch",
+    "result": "deny"
+  },
+  {
+    "mob": "alexscaves:luxtructosaurus",
+    "result": "deny"
+  },
+  {
+    "mob": "alexscaves:tremorzilla",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:ancient_remnant",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:ancient_remnant",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:cindaria",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:ender_golem",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:ender_guardian",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:kobolediator",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:modern_remnant",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:symbiocto",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:the_harbinger",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:the_prowler",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:wadjet",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "alexscaves:relicheirus",
+    "maxcount": {
+      "amount": 12,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "iceandfire:amphithere",
+    "maxcount": {
+      "amount": 2,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "iceandfire:sea_serpent",
+    "maxcount": {
+      "amount": 1,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "minecraft:zombie",
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "minecraft:skeleton",
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "iceandfire:fire_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "iceandfire:ice_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "iceandfire:lightning_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:niflheim",
+    "mob": "iceandfire:fire_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:niflheim",
+    "mob": "iceandfire:ice_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:niflheim",
+    "mob": "iceandfire:lightning_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:muspelheim",
+    "mob": "iceandfire:fire_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:muspelheim",
+    "mob": "iceandfire:ice_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:muspelheim",
+    "mob": "iceandfire:lightning_dragon",
+    "result": "deny"
+  },
+  {
+    "biome": ["minecraft:frozen_river", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:ice_spikes", "minecraft:snowy_plains", "minecraft:snowy_beach", "minecraft:snowy_taiga", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks", "minecraft:grove", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "minecraft:stony_shore"],
+    "mob": "iceandfire:fire_dragon",
+    "result": "deny"
+  },
+  {
+    "biome": ["minecraft:frozen_river", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:ice_spikes", "minecraft:snowy_plains", "minecraft:snowy_beach", "minecraft:snowy_taiga", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks", "minecraft:grove", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "minecraft:stony_shore"],
+    "mob": "iceandfire:ice_dragon",
+    "result": "deny"
+  },
+  {
+    "biome": ["minecraft:frozen_river", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:ice_spikes", "minecraft:snowy_plains", "minecraft:snowy_beach", "minecraft:snowy_taiga", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks", "minecraft:grove", "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "minecraft:stony_shore"],
+    "mob": "iceandfire:lightning_dragon",
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "iceandfire:troll",
+    "maxcount": {
+      "amount": 12,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "mowziesmobs:umvuthana",
+    "maxcount": {
+      "amount": 1,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "mowziesmobs:umvuthana_crane",
+    "maxcount": {
+      "amount": 1,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "ftb:jotunheim",
+    "mob": "mowziesmobs:umvuthana_raptor",
+    "maxcount": {
+      "amount": 1,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "mowziesmobs:frostmaw",
+    "healthmultiply": 3.5,
+    "armoradd": 2,
+    "damagemultiply": 1.25,
+    "result": "default"
+  },
+  {
+    "biome": ["nullscape:shadowlands", "nullscape:void_barrens", "nullscape:crystal_peaks"],
+    "mob": "alexscaves:gloomoth",
+    "maxcount": {
+      "amount": 4,
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

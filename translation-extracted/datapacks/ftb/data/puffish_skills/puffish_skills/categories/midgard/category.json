@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": false,
+	"title": {"translate": "puffish_skills.category.midgard"},
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "irons_spellbooks:evocation_rune"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/skills/bgs/bg_midgard.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_width"
+	}
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "test_ouch",
+        "trigger": "player_hurt",
+        "conditions": {},
+        "actions": [
+            { "type": "dialogue", "key": "ftb.little_helper.combat.ouch", "duration": 60 }
+        ],
+        "cooldown": 100,
+        "priority": 10
+    }
+]

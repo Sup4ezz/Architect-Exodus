@@ -1,0 +1,55 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gateways"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "size": "large",
+  "color": "#c9c2a8",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "irons_spellbooks:dead_king",
+          "count": 1
+        }
+      ],
+      "modifiers": [],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 300,
+          "orb_size": 10
+        },
+        {
+          "type": "gateways:stack_list",
+          "stacks": [
+            { "item": "malum:wicked_spirit", "count": 8 },
+            { "item": "malum:arcane_spirit", "count": 4 },
+            { "item": "malum:infernal_spirit", "count": 4 },
+            { "item": "malum:eldritch_spirit", "count": 4 }
+          ]
+        }
+      ],
+      "max_wave_time": 12000,
+      "setup_time": 150
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "irons_spellbooks:chests/catacombs/dead_king_vault",
+      "rolls": 1,
+      "desc": "ftb.gateways.dead_king.reward.vault"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "allow_discarding": true
+  }
+}

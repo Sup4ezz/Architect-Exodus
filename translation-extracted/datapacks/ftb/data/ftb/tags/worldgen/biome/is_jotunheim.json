@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "ftb:jotunheim/cave/dripstone",
+    "ftb:jotunheim/cave/empty_cave",
+    "ftb:jotunheim/cave/frosty_caves",
+    "ftb:jotunheim/cave/magma_chamber",
+    "ftb:jotunheim/cave/nether_caverns",
+    "ftb:jotunheim/cave/permafrost",
+    "ftb:jotunheim/cave/super_lush",
+    "ftb:jotunheim/boreal_forest",
+    "ftb:jotunheim/boreal_forest_m",
+    "ftb:jotunheim/eroded_isles",
+    "ftb:jotunheim/frosted_tundra",
+    "ftb:jotunheim/glacial_ocean",
+    "ftb:jotunheim/ice_bog",
+    "ftb:jotunheim/icy_river",
+    "ftb:jotunheim/icy_shore",
+    "ftb:jotunheim/spiked_peaks",
+    "minecraft:frozen_river",
+    "terralith:frozen_cliffs",
+    "alexscaves:magnetic_caves"
+  ]
+}

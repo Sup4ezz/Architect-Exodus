@@ -1,0 +1,83 @@
+{
+	# A mapping of dimension IDs to forced game modes. Players entering the dimension will have their game mode changed accordingly.
+	dimension_forced_gamemodes: {
+		"ftb:nidhogg": "adventure"
+		"ftb:bifrost": "adventure"
+	}
+	
+	# If non-zero, set the base health of all mobs to be multiplied by this value. Set to 0 to disable.
+	# Default: 0.0
+	# Range: 0.0 ~ 1000.0
+	modify_mob_base_health: 0.0d
+	misc: {
+		# If true, players can use the Action Pad item to send teleport requests to other players.
+		# Default: true
+		enable_tpa_action_pad: false
+	}
+	schematics: {
+		# If true, the post-paste cleanup also removes sand/gravel/concrete-powder etc. that fell in from
+		# above the bounding box. Disabled by default since some schematics use falling blocks deliberately.
+		# Default: false
+		cleanup_falling_blocks: true
+		
+		# If true, after paste finishes the worker scans the schematic bounding box and replaces any
+		# water/lava found at positions where the schematic itself contained air. This mops up fluid that
+		# leaked in during paste. Has no effect on cells where the schematic intentionally placed fluid.
+		# Default: true
+		cleanup_fluids: true
+		
+		# Cleanup scans many cells per tick but writes few (most cells are schematic-solid and skip).
+		# This multiplier sets how many cells are scanned per paste-budget unit. 20 means a 200 blocks/tick
+		# paste rate scans 4000 cells/tick during cleanup. Raise for faster cleanup, lower for less tick load.
+		# Default: 20
+		# Range: 1 ~ 1000
+		cleanup_scan_multiplier: 20
+		
+		# Maximum number of blocks/tick that can be pasted, divided equally among all current paste workers
+		# A value of 0 indicates no limit
+		# Default: 0
+		# Range: -∞ ~ +∞
+		global_paste_limit: 0
+		
+		# If true, the shell from seal_perimeter is removed during cleanup (replaced with air).
+		# If false, the shell remains permanently — fully bulletproof against later fluid intrusion but
+		# visible/tangible depending on the chosen shell_block.
+		# Default: true
+		remove_shell_after_paste: true
+		
+		# If true, before pasting begins the worker wraps the schematic bounding box in a 1-block-thick
+		# shell of the configured shell_block. This prevents water/lava/falling-blocks from neighbouring
+		# terrain flowing into the in-progress paste while it runs (chunk-by-chunk pastes can take many minutes).
+		# Default: true
+		seal_perimeter: true
+		
+		# Block ID used for the perimeter shell when seal_perimeter is enabled. Defaults to barrier so the
+		# shell is invisible in-game; bedrock is another common choice if you want it visible/indestructible.
+		# Must be a valid block resource location; falls back to barrier if the block can't be resolved.
+		# Default: "minecraft:barrier"
+		shell_block: "minecraft:barrier"
+	}
+	spawners: {
+		# When enabled, broken spawner blocks will be remembered and will respawn at a given interval.
+		# Default: false
+		allow_respawn: false
+		
+		# Default: false
+		punish_for_breaking_spawners: false
+		
+		# A list of entity types that will be used to replace broken spawners. Set to an empty list to disable.
+		# Default: []
+		random_entity: [ ]
+		
+		# The interval in minutes at which spawners will respawn.
+		# Default: 60
+		# Range: 0 ~ 1440
+		respawn_interval: 60
+	}
+	villagers: {
+		# If true, Wandering Traders will no longer drink invisibility potions at night
+		# (or milk buckets to remove their invisibility when it's day)
+		# Default: false
+		no_wandering_trader_invis_potions: false
+	}
+}

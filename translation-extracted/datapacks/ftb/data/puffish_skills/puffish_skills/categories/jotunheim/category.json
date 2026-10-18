@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": false,
+	"title": {"translate": "puffish_skills.category.jotunheim"},
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "iceandfire:troll_skull"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/skills/bgs/bg_jotunheim.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_width"
+	}
+}

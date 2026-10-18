@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "geore:geore_shards/platinum"
+    },
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:molten_platinum"
+    }
+  ],
+  "ingredient": {
+    "tag": "geore:geore_shards/platinum"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_platinum"
+  },
+  "temperature": 970,
+  "time": 65
+}

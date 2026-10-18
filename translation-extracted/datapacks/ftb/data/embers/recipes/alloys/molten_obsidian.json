@@ -1,0 +1,18 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 250,
+      "catalyst": true,
+      "fluid": "minecraft:water"
+    },
+    {
+      "amount": 100,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "output": {
+    "amount": 100,
+    "tag": "tconstruct:molten_obsidian"
+  }
+}

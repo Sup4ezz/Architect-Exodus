@@ -1,0 +1,242 @@
+{
+	"pd8u9f9kwt57mch7": {
+		"definition": "root_max_health_+1",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"o180dyrvkmlvjrnl": {
+		"definition": "stamina+5%",
+		"x": -64,
+		"y": -32,
+		"root": false
+	},
+	"omqbpype4xjlaxvm": {
+		"definition": "stamina+5%",
+		"x": 64,
+		"y": -32,
+		"root": false
+	},
+	"dekkkg49fk1iz03l": {
+		"definition": "stamina+5%",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"cirvlu0l4icr0u2m": {
+		"definition": "stamina+5%",
+		"x": -64,
+		"y": 32,
+		"root": false
+	},
+	"2ue3blvy5joupp75": {
+		"definition": "knockback_resistance+2%",
+		"x": 0,
+		"y": 160,
+		"root": false
+	},
+	"ke90fwe7ujty74zv": {
+		"definition": "movement_speed+5%",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"m1b7u68pch0gen4d": {
+		"definition": "movement_speed+5%",
+		"x": 192,
+		"y": 0,
+		"root": false
+	},
+	"15r179qcostqkc6z": {
+		"definition": "ultimine+8",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"8kwpjyr8363ati6r": {
+		"definition": "cold_damage+1",
+		"x": -96,
+		"y": 256,
+		"root": false
+	},
+	"i6unzycak04pmpku": {
+		"definition": "cold_damage+1",
+		"x": 96,
+		"y": 256,
+		"root": false
+	},
+	"yw318q0pymqh0lg5": {
+		"definition": "natural_regen+5%",
+		"x": -192,
+		"y": 256,
+		"root": false
+	},
+	"4nz6u5m37m4tdew0": {
+		"definition": "natural_regen+5%",
+		"x": 192,
+		"y": 256,
+		"root": false
+	},
+	"1t9be2kgdb97vqhk": {
+		"definition": "melee_damage+1%",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"he7wrvtw3xtoftjx": {
+		"definition": "ranged_damage+1%",
+		"x": -256,
+		"y": -64,
+		"root": false
+	},
+	"5ss5w5o58das4yjm": {
+		"definition": "max_health_+2",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"8qfc11q07rm2u4vg": {
+		"definition": "ranged_damage+3%",
+		"x": -256,
+		"y": -128,
+		"root": false
+	},
+	"s41yruey17cs6b1h": {
+		"definition": "melee_damage+2%",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"biddtvyad0suc85o": {
+		"definition": "melee_damage+3%",
+		"x": 320,
+		"y": -160,
+		"root": false
+	},
+	"v2abigngj04wqlt3": {
+		"definition": "melee_damage+3%",
+		"x": 192,
+		"y": -96,
+		"root": false
+	},
+	"733wjnc2x13bbmdx": {
+		"definition": "ranged_damage+3%",
+		"x": -192,
+		"y": -96,
+		"root": false
+	},
+	"es0b51wy70u8uazk": {
+		"definition": "ranged_damage+3%",
+		"x": -320,
+		"y": -160,
+		"root": false
+	},
+	"9ao02zpjyvxiptcs": {
+		"definition": "ranged_damage+5%",
+		"x": -256,
+		"y": -256,
+		"root": false
+	},
+	"1nrji17z16sk50xq": {
+		"definition": "melee_damage+5%",
+		"x": 256,
+		"y": -256,
+		"root": false
+	},
+	"g2q113o7tqr832v0": {
+		"definition": "melee_damage+1%",
+		"x": 96,
+		"y": -160,
+		"root": false
+	},
+	"pnsrbz926ksso4u1": {
+		"definition": "melee_damage+3%",
+		"x": 160,
+		"y": -256,
+		"root": false
+	},
+	"rbhd8dwo6tshtcyf": {
+		"definition": "ranged_damage+3%",
+		"x": -160,
+		"y": -256,
+		"root": false
+	},
+	"7zxbxh1ya10ja522": {
+		"definition": "ranged_damage+1%",
+		"x": -96,
+		"y": -160,
+		"root": false
+	},
+	"1wfcjr041c53f0fc": {
+		"definition": "mining_speed+10%",
+		"x": 0,
+		"y": -192,
+		"root": false
+	},
+	"ww9mwtw8sx28xpdt": {
+		"definition": "mining_speed+5%",
+		"x": 96,
+		"y": -256,
+		"root": false
+	},
+	"isy395wusz65zjef": {
+		"definition": "mining_speed+5%",
+		"x": -96,
+		"y": -256,
+		"root": false
+	},
+	"16bkz2jtr60qjdo6": {
+		"definition": "healing+10%",
+		"x": 0,
+		"y": -288,
+		"root": false
+	},
+	"nif9tmhkhx3a4ymp": {
+		"definition": "healing+5%",
+		"x": -64,
+		"y": -320,
+		"root": false
+	},
+	"noauz1y3wffutc6g": {
+		"definition": "ranged_damage+5%",
+		"x": -96,
+		"y": -384,
+		"root": false
+	},
+	"bg4tzrl83t4i9cnw": {
+		"definition": "healing+5%",
+		"x": 64,
+		"y": -320,
+		"root": false
+	},
+	"kwsn7nvtdv8yj3v4": {
+		"definition": "melee_damage+5%",
+		"x": 96,
+		"y": -384,
+		"root": false
+	},
+	"on2bhovj97pe5qwb": {
+		"definition": "crit_chance+2%",
+		"x": 0,
+		"y": -480,
+		"root": false
+	},
+	"bhcfy45opkltm1c7": {
+		"definition": "mining_speed+5%",
+		"x": -64,
+		"y": 192,
+		"root": false
+	},
+	"u7se3ivvlr1z0exy": {
+		"definition": "mining_speed+5%",
+		"x": 64,
+		"y": 192,
+		"root": false
+	},
+	"o1gug4lpnh67cc0p": {
+		"definition": "life_steal+2%",
+		"x": 64,
+		"y": -448,
+		"root": false
+	}
+}

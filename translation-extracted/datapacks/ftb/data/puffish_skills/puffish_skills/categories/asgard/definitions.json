@@ -1,0 +1,546 @@
+{
+  "root_current_hp_damage+3%": {
+    "title": {"translate": "puffish_skills.asgard.root_current_hp_damage+3%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "dodge_chance+2%": {
+    "title": {"translate": "puffish_skills.asgard.dodge_chance+2%"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "occultism:mummy_dodge"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "dodge_chance+3%": {
+    "title": {"translate": "puffish_skills.asgard.dodge_chance+3%"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "occultism:mummy_dodge"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "dodge_chance+5%": {
+    "title": {"translate": "puffish_skills.asgard.dodge_chance+5%"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "occultism:mummy_dodge"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "current_hp_damage+5%": {
+    "title": {"translate": "puffish_skills.asgard.current_hp_damage+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "current_hp_damage+8%": {
+    "title": {"translate": "puffish_skills.asgard.current_hp_damage+8%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "reach+2": {
+    "title": {"translate": "puffish_skills.asgard.reach+2"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "quark:textures/attribute/reach_distance.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "reach+3": {
+    "title": {"translate": "puffish_skills.asgard.reach+3"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "quark:textures/attribute/reach_distance.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "overheal+2": {
+    "title": {"translate": "puffish_skills.asgard.overheal+2"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "overheal+3": {
+    "title": {"translate": "puffish_skills.asgard.overheal+3"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "overheal+4": {
+    "title": {"translate": "puffish_skills.asgard.overheal+4"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:overheal",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+1": {
+    "title": {"translate": "puffish_skills.asgard.armor+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+2": {
+    "title": {"translate": "puffish_skills.asgard.armor+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness+1": {
+    "title": {"translate": "puffish_skills.asgard.armor_toughness+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "fluffy_fur:textures/mob_effect/armor_toughness_strength.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+1": {
+    "title": {"translate": "puffish_skills.asgard.max_health_+1"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+2": {
+    "title": {"translate": "puffish_skills.asgard.max_health_+2"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+5": {
+    "title": {"translate": "puffish_skills.asgard.max_health_+5"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 10,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "stamina+3%": {
+    "title": {"translate": "puffish_skills.asgard.stamina+3%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "stamina+5%": {
+    "title": {"translate": "puffish_skills.asgard.stamina+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "ultimine+8": {
+    "title": {"translate": "puffish_skills.asgard.ultimine+8"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

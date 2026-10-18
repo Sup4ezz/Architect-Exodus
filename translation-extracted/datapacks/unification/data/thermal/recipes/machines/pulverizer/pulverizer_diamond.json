@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:gems/diamond"
+  },
+  "result": [
+    {
+      "item": "ftbmaterials:diamond_dust",
+      "count": 1
+    }
+  ]
+}

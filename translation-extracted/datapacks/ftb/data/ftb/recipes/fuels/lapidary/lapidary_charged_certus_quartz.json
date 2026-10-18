@@ -1,0 +1,7 @@
+{
+  "type": "thermal:lapidary_fuel",
+  "ingredient": {
+    "tag": "forge:gems/charged_certus_quartz"
+  },
+  "energy": 200000
+}

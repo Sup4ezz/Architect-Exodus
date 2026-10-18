@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_jotunheim",
+  "features": "thermal:niter_ore",
+  "step": "underground_ores"
+}

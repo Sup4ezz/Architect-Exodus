@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "energy": 9000,
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "thermal_extra:press_rod_die"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "ftbmaterials:iron_rod"
+    }
+  ]
+}

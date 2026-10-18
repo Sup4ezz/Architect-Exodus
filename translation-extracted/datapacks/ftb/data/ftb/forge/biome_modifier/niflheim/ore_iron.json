@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_niflheim",
+  "features": "ftb:niflheim/cave_ore_iron",
+  "step": "underground_ores"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any",
+    "values": [
+      "#ftb:is_midgard",
+      "#ftb:is_niflheim"
+    ]
+  },
+  "features": "irons_spellbooks:ore_mithril_placement",
+  "step": "underground_ores"
+}

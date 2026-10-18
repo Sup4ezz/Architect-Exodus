@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 180,
+      "tag": "forge:molten_nickel"
+    },
+    {
+      "amount": 90,
+      "tag": "forge:molten_iron"
+    },
+    {
+      "amount": 100,
+      "tag": "tconstruct:molten_quartz"
+    }
+  ],
+  "output": {
+    "amount": 360,
+    "tag": "forge:molten_nicrosil"
+  }
+}

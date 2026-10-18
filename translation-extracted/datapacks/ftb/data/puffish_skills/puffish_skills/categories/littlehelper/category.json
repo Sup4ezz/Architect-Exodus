@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": false,
+	"title": {"translate": "puffish_skills.category.littlehelper"},
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "ftbchunks:textures/faces/minecraft/allay.png"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/skills/bgs/bg_lh.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_width"
+	}
+}

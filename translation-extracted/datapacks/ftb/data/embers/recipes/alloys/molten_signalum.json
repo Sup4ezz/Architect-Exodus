@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 270,
+      "tag": "forge:molten_copper"
+    },
+    {
+      "amount": 90,
+      "tag": "forge:molten_silver"
+    },
+    {
+      "amount": 400,
+      "tag": "forge:redstone"
+    }
+  ],
+  "output": {
+    "amount": 360,
+    "tag": "forge:molten_signalum"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{CustomModelData:9}"
+    },
+    "title": {
+      "translate": "advancements.kill_yeti.title"
+    },
+    "description": {
+      "translate": "advancements.kill_yeti.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "block_factorys_bosses:yeti"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "block_factorys_bosses:die_boss"
+}

@@ -1,0 +1,745 @@
+{
+  "profession": "ars_nouveau:shady_wizard",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:source_berry_roll",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "ars_nouveau:shady_wizard_source_berry_roll_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ghostweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_ghostweave_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:mirrorweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_mirrorweave_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:falseweave",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_falseweave_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:warp_scroll",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "tradeExp": 50,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "ars_nouveau:shady_wizard_warp_scroll_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_burrowing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_burrowing_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_challenge",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_challenge_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_binding",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_binding_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_awakening",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_awakening_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_disintegration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_disintegration_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_sunrise",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_sunrise_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_tesla_coil",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_tesla_coil_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_squirrels",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_squirrels_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_attraction",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_attraction_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_cloudshaping",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_cloudshaping_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_repulsion",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_repulsion_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_flight",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_flight_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_conjure_island_plains",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_conjure_island_plains_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_restoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_restoration_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_animal_summon",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_animal_summon_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_forestation",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_forestation_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_warping",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_warping_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_moonfall",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_moonfall_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_containment",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_containment_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_scrying",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_scrying_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_gravity",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_gravity_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_flowering",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_flowering_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:ritual_detection",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_detection_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_sanctuary",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_sanctuary_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_overgrowth",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_overgrowth_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_fertility",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_fertility_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_conjure_island_desert",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_conjure_island_desert_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_harvest",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_harvest_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:ritual_wilden_summon",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "ars_nouveau:shady_wizard_ritual_wilden_summon_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:drygmy_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_drygmy_shard_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:starbuncle_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_starbuncle_shards_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:wixie_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_wixie_shards_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:whirlisprig_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_whirlisprig_shards_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_elemental:siren_shards",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "ars_nouveau:shady_wizard_siren_shards_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:source_berry_pie",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "ars_nouveau:shady_wizard_source_berry_pie_for_unrefined_spirit"
+    },
+    {
+      "offer": {
+        "itemKey": "ars_nouveau:music_disc_firel_the_wild_hunt",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 48,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "ars_nouveau:shady_wizard_music_disc_firel_the_wild_hunt_for_unrefined_spirit"
+    }
+  ]
+}

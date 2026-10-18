@@ -1,0 +1,179 @@
+{
+  "temperature": 0.15,
+  "downfall": 0.5,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 16777215,
+    "fog_color": 13224393,
+    "water_color": 5334160,
+    "water_fog_color": 2171215
+  },
+  "carvers": {
+    "air": ["ftb:cave", "ftb:cave_extra_underground", "ftb:canyon"]
+  },
+  "features": [
+    [],
+    [],
+    ["minecraft:amethyst_geode", "ftb:jotunheim/ae2_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    ["minecraft:spring_water"],
+    ["minecraft:glow_lichen", "minecraft:brown_mushroom_normal", "minecraft:red_mushroom_normal"],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "iceandfire:amphithere",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "alexscaves:relicheirus",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "iceandfire:troll",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling_brute",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling_angler",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling_priest",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling_warlock",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:stray",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "alexscaves:vallumraptor",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "irons_spellbooks:ice_spider",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "alexscaves:relicheirus": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:amphithere": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:sea_serpent": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:troll": {
+      "charge": 1,
+      "energy_budget":1.0
+    },
+    "minecraft:stray": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "alexscaves:vallumraptor": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "irons_spellbooks:ice_spider": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "cataclysm:deepling": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "cataclysm:deepling_brute": {
+      "charge": 0.8,
+      "energy_budget": 0.2
+    },
+    "cataclysm:deepling_angler": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "cataclysm:deepling_priest": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    },
+    "cataclysm:deepling_warlock": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    }
+  },
+  "has_precipitation": true
+}

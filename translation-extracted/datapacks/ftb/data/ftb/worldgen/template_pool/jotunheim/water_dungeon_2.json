@@ -1,0 +1,19 @@
+{
+  "name": "ftb:jotunheim/dungeon",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "ftb:jotunheim/water_2",
+        "processors": [
+          {
+            "processor_type": "ftbpc:waterlogging_fix_processor"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

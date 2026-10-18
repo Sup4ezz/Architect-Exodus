@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "tag": "forge:rods/wooden"
+    },
+    "S": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    " O ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 3,
+    "item": "block_factorys_bosses:guardrail"
+  },
+  "show_notification": true
+}

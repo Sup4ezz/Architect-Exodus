@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_jotunheim",
+  "features": "ftb:jotunheim/ore_diamond",
+  "step": "underground_ores"
+}

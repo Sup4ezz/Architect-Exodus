@@ -1,0 +1,11 @@
+{
+    "entity.generic.swing_weird": {
+        "sounds": [
+            {
+                "name": "minecraft:entity.player.attack.sweep",
+                "type": "event"
+            }
+        ],
+        "subtitle": "subtitles.entity.generic.swing"
+    }
+}

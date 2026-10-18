@@ -1,0 +1,17 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 90,
+      "tag": "forge:molten_copper"
+    },
+    {
+      "amount": 100,
+      "tag": "tconstruct:molten_amethyst"
+    }
+  ],
+  "output": {
+    "amount": 90,
+    "tag": "forge:molten_amethyst_bronze"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:has_dragon_worldgen",
+  "features": [
+    "iceandfire:fire_dragon_roost",
+    "iceandfire:ice_dragon_roost",
+    "iceandfire:lightning_dragon_roost",
+    "iceandfire:spawn_dragon_skeleton_fire",
+    "iceandfire:spawn_dragon_skeleton_ice",
+    "iceandfire:spawn_dragon_skeleton_lightning"
+  ],
+  "step": "surface_structures"
+}

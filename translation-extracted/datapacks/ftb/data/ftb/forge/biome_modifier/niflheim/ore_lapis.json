@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_niflheim",
+  "features": [
+    "ftb:niflheim/ore_lapis",
+    "ftb:niflheim/cave_ore_lapis",
+    "ftb:niflheim/ceiling_ore_lapis"
+  ],
+  "step": "underground_ores"
+}

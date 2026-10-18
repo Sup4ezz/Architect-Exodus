@@ -1,0 +1,468 @@
+{
+  "root_max_health_+1": {
+    "title": {"translate": "puffish_skills.hel.root_max_health_+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+1": {
+    "title": {"translate": "puffish_skills.hel.armor+1"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "drawspeed+10%": {
+    "title": {"translate": "puffish_skills.hel.drawspeed+10%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/mob_effect/momentum_ranged.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "experience_gained+5%": {
+    "title": {"translate": "puffish_skills.hel.experience_gained+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/mob_effect/experienced.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "healing+5%": {
+    "title": {"translate": "puffish_skills.hel.healing+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "attributeslib:textures/mob_effect/vitality.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "life_steal+2%": {
+    "title": {"translate": "puffish_skills.hel.life_steal+2%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "botania:textures/mob_effect/bloodthirst.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:life_steal",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+1": {
+    "title": {"translate": "puffish_skills.hel.max_health_+1"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+2": {
+    "title": {"translate": "puffish_skills.hel.max_health_+2"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage+5%": {
+    "title": {"translate": "puffish_skills.hel.melee_damage+5%"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "ranged_damage+5%": {
+    "title": {"translate": "puffish_skills.hel.ranged_damage+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/mob_effect/insatiable_ranged.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.ranged_damage",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "scythe_proficiency+5%": {
+    "title": {"translate": "puffish_skills.hel.scythe_proficiency+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "malum:textures/mob_effect/wicked_intent.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "malum:scythe_proficiency",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "stamina+5%": {
+    "title": {"translate": "puffish_skills.hel.stamina+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "bonus_sacrifice+5%": {
+    "title": {"translate": "puffish_skills.hel.bonus_sacrifice+5%"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bloodmagic:daggerofsacrifice"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "animus:bonus_sacrifice",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bonus_self_sacrifice+5%": {
+    "title": {"translate": "puffish_skills.hel.bonus_self_sacrifice+5%"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bloodmagic:sacrificialdagger"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "animus:bonus_self_sacrifice",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bonus_demon_will+5%": {
+    "title": {"translate": "puffish_skills.hel.bonus_demon_will+5%"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bloodmagic:basemonstersoul_vengeful"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "animus:bonus_demon_will",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spirit_spoils+1": {
+    "title": {"translate": "puffish_skills.hel.spirit_spoils+1"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "malum:spirit_pouch"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 1.5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "malum:spirit_spoils",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ultimine+8": {
+    "title": {"translate": "puffish_skills.hel.ultimine+8"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

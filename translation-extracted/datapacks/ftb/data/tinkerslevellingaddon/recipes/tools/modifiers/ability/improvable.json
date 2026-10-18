@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "bloodmagic:reinforcedslate"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "malum:sacred_spirit"
+    },
+    {
+      "item": "malum:sacred_spirit"
+    }
+  ],
+  "level": 1,
+  "result": "tinkerslevellingaddon:improvable",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

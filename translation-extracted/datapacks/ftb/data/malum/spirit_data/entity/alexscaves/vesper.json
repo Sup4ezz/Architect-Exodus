@@ -1,0 +1,22 @@
+{
+  "registry_name": "alexscaves:vesper",
+  "primary_type": "aerial",
+  "spirits": [
+    {
+      "spirit": "aerial",
+      "count": 4
+    },
+    {
+      "spirit": "sacred",
+      "count": 3
+    },
+    {
+      "spirit": "infernal",
+      "count": 2
+    },    
+    {
+      "spirit": "arcane",
+      "count": 3
+    }    
+  ]
+}

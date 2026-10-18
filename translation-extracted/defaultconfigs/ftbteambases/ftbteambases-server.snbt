@@ -1,0 +1,131 @@
+{
+	# Autoclaim lobby areas (FTB Chunks required)
+	autoclaiming: {
+		# The server team color
+		# Many color names work, and hex codes in the form '#RRGGBB' are accepted
+		# Default: "#FF40FF"
+		lobby_claim_color: "#FF40FF"
+		
+		# Radius in chunks for the lobby area to autoclaim
+		# 0 = autoclaiming disabled
+		# 1 = autoclaim just the chunk containing the lobby origin pos
+		# 2+ = extend the autoclaim distance out by 1 chunk per amount beyond 1
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		lobby_radius: 15
+		
+		# Shape to be autoclaimed
+		# Default: "square"
+		# Valid values: "square", "circle"
+		lobby_shape: "circle"
+		
+		# The display name for the server team which is used to claim the lobby chunks
+		# This name shows up on FTB Chunks mapping
+		# Default: "Lobby"
+		server_team_name: "Allfather"
+	}
+	general: {
+		# If true, allow spectator-mode players to use the lobby portal
+		# Default: false
+		allow_lobby_spectators: false
+		
+		# When set to true, the player's inventory will be cleared when joining a team
+		# Default: false
+		clear_player_inv_on_join: false
+		
+		# When set to true, the player's inventory will be cleared when leaving a team
+		# Default: true
+		clear_player_inv_on_leave: true
+		
+		# When set to true, the player will be healed (and fully fed) when joining a team
+		# Default: true
+		heal_player_on_join: true
+		
+		# If true, then players going to the Nether via Nether Portal will be sent to a team-specific position in the Nether
+		# Default: true
+		team_nether_entry_point: true
+	}
+	lobby: {
+		# Additional dimensions to copy pregen files for on new world creation.
+		# Place MCA files in ftbteambases/pregen_initial/dimensions/<namespace>/<path>/region/
+		additional_pregen_dimensions: ["ftb:bifrost", "ftb:nidhogg", "ftb:asgard"]
+		
+		# X/Z chunk position for the centre of the claimed area
+		# Default: [0, 0]
+		lobby_claim_center: [I;
+			1
+			-4
+		]
+		
+		# Dimension ID of the level in which the lobby is created. This *must* be a static pre-existing dimension, not a dynamically created one! New players will be automatically teleported to this dimension the first time they connect to the server. This setting should be defined in default config so the server has it before any levels are created - do NOT modify this on existing worlds!
+		# Default: "minecraft:overworld"
+		lobby_dimension: "ftbteambases:lobby"
+		
+		# The default game mode given to players when in the lobby. Note that admin-mode players are free to change this.
+		# Default: "adventure"
+		# Valid values: "survival", "creative", "adventure", "spectator"
+		lobby_game_mode: "adventure"
+		
+		# Player Y-axis rotation when initially spawning in, or returning to, the lobby. (0 = south, 90 = west, 180 = north, 270 = east)
+		# Default: 0.0
+		# Range: 0.0 ~ 360.0
+		lobby_player_yaw: 0.0d
+		
+		# Position at which new players spawn. Only used if the lobby structure comes from a pregenerated region!
+		# Default: [0, 0, 0]
+		lobby_spawn_pos: [I;
+			0
+			171
+			0
+		]
+		
+		# Resource location of the structure NBT for the overworld lobby
+		# Default: "ftbteambases:lobby"
+		lobby_structure_location: ""
+		
+		# Y position at which the lobby structure will be pasted into the level. Note: too near world min/max build height may result in parts of the structure being cut off - beware.
+		# Default: 0
+		# Range: -64 ~ 256
+		lobby_y_pos: 128
+	}
+	nether: {
+		# When set to true, nether portals may be constructed in team dimensions
+		# Default: true
+		allow_nether_portals: false
+		
+		# If true, then players going to the Nether via Nether Portal will be sent to a random (but deterministic for the team) position in the Nether
+		# Default: true
+		team_specific_nether_entry_point: false
+	}
+	worldgen: {
+		# The chunk generator to use. SIMPLE_VOID (void dim, one biome), MULTI_BIOME_VOID (void dim, overworld-like biome distribution) and CUSTOM (full worldgen, customisable biome source & noise settings)
+		# Default: "multi_biome_void"
+		# Valid values: "multi_biome_void", "custom"
+		chunk_generator: "custom"
+		
+		# Only used by the CUSTOM generator; if non-empty, this is the dimension ID of an existing static dimension from which the chunk generator settings will be copied when creating dynamic dimensions. If empty, CUSTOM generator will use 'custom_biome_param_list` to get the biomes.
+		# Default: ""
+		copy_generator_from_dimension: "ftb:hel"
+		
+		# Only used by the CUSTOM generator, and when 'single_biome_id' and 'copy_generator_from_dimension' are both empty; this can be either 'minecraft:overworld' or 'minecraft:nether' - no other values are acceptable (presets are hardcoded by vanilla)
+		# Default: "minecraft:overworld"
+		custom_biome_param_list: "minecraft:overworld"
+		
+		# If true, then any entities saved in the starting structure NBT will be included when the structure is generated
+		# Default: true
+		entities_in_start_structure: true
+		
+		# DEFAULT: generate features in non-void worlds, don't generate in void worlds; NEVER: never generate; ALWAYS: always generate
+		# Default: "default"
+		# Valid values: "default", "never", "always"
+		feature_gen: "default"
+		
+		# Only used by the CUSTOM generator when not using 'copy_generator_from_dimension'; resource location for the noise settings to use.
+		# Default: "minecraft:overworld"
+		noise_settings: "minecraft:overworld"
+		
+		# Only used by the CUSTOM and SIMPLE_VOID generators; if non-empty (e.g. 'minecraft:the_void'), the dimension will generate with only this biome. If empty, CUSTOM generator will use 'copy_generator_from_dimension' or 'custom_biome_param_list` to get the biome(s), and SIMPLE_VOID will use 'minecraft:the_void'
+		# Default: ""
+		single_biome_id: ""
+	}
+}
