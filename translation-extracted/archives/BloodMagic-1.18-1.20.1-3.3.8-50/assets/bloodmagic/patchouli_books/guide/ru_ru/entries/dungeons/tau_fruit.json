@@ -1,0 +1,30 @@
+{
+  "name": "Плод тау",
+  "icon": "bloodmagic:weak_tau",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:weak_tau": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Плоды тау можно найти в $(l:bloodmagic:dungeons/lobby)простых подземельях$(), а затем выращивать. Это растение родом из $(thing)Царства демонов$(), и его жизненный цикл чуть сложнее, чем у обычной картошки. $(br2)В зависимости от условий плод созревает в один из двух вариантов. Обычно получается $(item)плод тау$(), из которого можно сделать $(item)масло тау$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Tau Oil",
+      "recipe": "bloodmagic:alchemytable/tau_oil",
+      "text": "$(italic)На вкус как кровавый апельсин, но всё-таки не он.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "У масла тау два основных применения: оно увеличивает длительность любого $(l:bloodmagic:alchemy_table/anointments)анамнеза$() в четыре раза или используется для создания $(item)промежуточной режущей жидкости$(). Она похожа на $(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)обычную режущую жидкость$(), но действует в восемь раз дольше и ускоряет работу на 25%."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:strong_tau",
+      "link_recipe": "true",
+      "text": "Однако растение может расти по более опасному пути. Если во время созревания на нём стоит $(thing)существо$() (например, корова), растение высасывает его здоровье, утоляя тёмный голод. Так выращивают $(item)насыщенный тау$()."
+    }
+  ]
+}
