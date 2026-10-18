@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Gems
+  title: Самоцветы
   icon: apotheosis:gem
   parent: adventure.md
   position: 2
@@ -11,26 +11,26 @@ item_ids:
   - apotheosis:salvaging_table
   - apotheosis:sigil_of_withdrawal
 ---
-# <Color id="dark_purple">Gems</Color>
+# <Color id="dark_purple">Самоцветы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Gems</Color>
+  # <Color id="dark_purple">Самоцветы</Color>
   <ItemImage id="gem" scale="2" />
 
-  Gems are crystals that can be socketed into Affix items for additional bonuses. Each Gem provides different effects depending on the item type it is placed in (weapon, armor, shield, etc.).
+  Gems — это кристаллы, которые можно вставлять в предметы с Affix, получая дополнительные бонусы. Эффект каждого самоцвета зависит от типа предмета, в который он вставлен: оружие, броня, щит и так далее.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Socketing & Removing</Color>
+  ## <Color id="gold">Установка и извлечение самоцветов</Color>
 </Column>
 
-- To <Color id="green">socket</Color> a Gem, combine it with a socketed Affix item in a Smithing Table.
-- To <Color id="red">remove</Color> a Gem, combine the item with a <ItemLink id="sigil_of_withdrawal" /> in a Smithing Table.
+- Чтобы <Color id="green">вставить</Color> Gem, объедините его с предметом с Affix в Smithing Table.
+- Чтобы <Color id="red">извлечь</Color> Gem, объедините предмет с <ItemLink id="sigil_of_withdrawal" /> в Smithing Table.
 
-Gems drop from chest loot and mob kills (real player kills only). They are more commonly found on Bosses.
+Gems можно найти в сундуках и получить за убийство мобов (засчитываются только убийства игроком). Чаще они выпадают с боссов.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -40,7 +40,7 @@ Gems drop from chest loot and mob kills (real player kills only). They are more 
   ### <Color id="aqua">Gem Cutting Table</Color>
 </Row>
 
-The Gem Cutting Table upgrades Gems to a higher rarity. It requires <ItemLink id="gem_dust" />, the appropriate Rarity Materials, and a second Gem as a catalyst.
+Gem Cutting Table повышает редкость Gems. Для работы нужны <ItemLink id="gem_dust" />, соответствующие материалы редкости и рецепт из JEI.cond Gem as a catalyst.
 
 
 <ItemImage id="minecraft:air" scale="0.25" />
