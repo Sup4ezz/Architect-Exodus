@@ -289,5 +289,21 @@
   "ftbchunks.minimap_blur": "Замыление миникарты",
   "ftbchunks.minimap_compass": "Компас на миникарте",
   "ftbchunks.minimap_visibility": "Прозрачность миникарты",
-  "ftbchunks.minimap_zone": "Зона миникарты"
+  "ftbchunks.minimap_zone": "Зона миникарты",
+  "ftbchunks.piston_protection": "Защита от поршней",
+  "ftbchunks.piston_protection.tooltip": "Если включено, поршни не смогут выталкивать или втягивать блоки через границы приватов разных команд (кроме случаев, когда блок входит в приват или покидает его, а режим редактирования блоков установлен на «Публичный»).\nЕсли параметр «Отключить защиту» включён, эта настройка игнорируется.",
+  "ftbchunks.team_prop_defaults": "Настройки свойств команды по умолчанию",
+  "ftbchunks.team_prop_defaults.def_fake_players": "Разрешить всех фальшивых игроков",
+  "ftbchunks.team_prop_defaults.def_fake_player_ids": "Разрешить фальшивых игроков по ID",
+  "ftbchunks.team_prop_defaults.def_named_fake_players": "Именованные фальшивые игроки",
+  "ftbchunks.team_prop_defaults.def_allow_explosions": "Разрешить урон от взрывов",
+  "ftbchunks.team_prop_defaults.def_pvp": "Разрешить PvP-бои",
+  "ftbchunks.team_prop_defaults.def_mob_griefing": "Разрешить разрушительные действия мобов",
+  "ftbchunks.team_prop_defaults.def_block_edit_interact": "Режим изменения/взаимодействия с блоками",
+  "ftbchunks.team_prop_defaults.def_block_edit": "Режим изменения блоков",
+  "ftbchunks.team_prop_defaults.def_block_interact": "Режим взаимодействия с блоками",
+  "ftbchunks.team_prop_defaults.def_entity_interact": "Режим взаимодействия с существами",
+  "ftbchunks.team_prop_defaults.def_entity_attack": "Режим атаки неживых сущностей",
+  "ftbchunks.team_prop_defaults.def_player_visibility": "Видимость местоположения",
+  "ftbchunks.team_prop_defaults.def_claim_visibility": "Видимость привата"
 }
