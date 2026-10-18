@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Channels
+  title: Каналы
   icon: ae2:controller
   parent: index.md
   position: 4
@@ -8,13 +8,13 @@ item_ids:
   - ae2:controller
   - ae2:cable_anchor
 ---
-# <Color id="aqua">Channels</Color>
+# <Color id="aqua">Каналы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="aqua">Channels</Color>
+  # <Color id="aqua">Каналы</Color>
   <ItemImage id="ae2:controller" scale="2" />
 
-  By default, <Color id="green">Architect's Exodus runs AE2 with INFINITE channels</Color>. You can ignore channel planning entirely — every cable carries unlimited channels, every machine connects to the network without a Controller bottleneck.
+  По умолчанию <Color id="green">Architect's Exodus использует в AE2 БЕСКОНЕЧНОЕ количество каналов</Color>. Можно не планировать каналы вообще: каждый кабель поддерживает неограниченное количество каналов, а любые механизмы подключаются к сети без ограничений контроллера.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -22,7 +22,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Default Configuration</Color>
+  ## <Color id="gold">Настройки по умолчанию</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -33,35 +33,35 @@ Set in `config/ae2/common.json`:
 "channels": "infinite"
 ```
 
-This means:
+Это означает, что:
 
-- You do <Color id="green">not</Color> need a Controller to run a network.
-- Dense Smart Cables provide no functional benefit over standard cables for channel capacity — only for visual clarity.
-- P2P tunnels can still be useful for separating logical networks or moving large item/fluid throughput, but you do not need to use them to work around channel limits.
+- Вам <Color id="green">not</Color> не нужен Controller для работы сети.
+- Dense Smart Cables не дают преимущества по числу каналов по сравнению с обычными кабелями — они нужны лишь для удобства визуального разделения.
+- P2P-туннели полезны для разделения логических сетей и передачи больших потоков предметов или жидкостей, но обходить ими ограничения каналов не требуется.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Re-enabling Channels (Optional)</Color>
+  ## <Color id="gold">Re-enabling Каналы (Optional)</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-If you want the classic AE2 challenge of channel management, change the config value to `default`:
+Если хотите вернуть классическую механику управления каналами AE2, измените значение настройки на `default`:
 
 ```
 "channels": "default"
 ```
 
-This restores vanilla AE2 channel mechanics:
+Это восстановит стандартные правила каналов AE2:
 
-- Standard cables carry 8 channels max
-- Dense cables carry 32 channels max
-- A Controller is required for networks with more than 8 channels
-- P2P tunnels become essential for routing channels through pinch points
+- Обычные кабели поддерживают максимум 8 каналов
+- Плотные кабели поддерживают максимум 32 канала
+- Для сетей с более чем 8 каналами необходим Controller
+- P2P-туннели становятся необходимы для передачи каналов через узкие места сети
 
-<Color id="yellow">If you're following this guide page because you've enabled the default channel mode</Color>, treat the rest of this guide's processor/charged-certus pages as normal — only the channel networking section changes.
+<Color id="yellow">Если вы читаете эту страницу после включения стандартного режима каналов</Color>, остальные разделы руководства о процессорах и заряженном Certus Quartz остаются актуальными — меняется только раздел о сетевых каналах.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
