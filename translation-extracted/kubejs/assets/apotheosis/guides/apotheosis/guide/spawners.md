@@ -1,18 +1,18 @@
 ---
 navigation:
-  title: Spawners
+  title: Спавнеры
   icon: minecraft:spawner
   position: 3
 item_ids:
   - minecraft:spawner
 ---
-# <Color id="dark_purple">Spawners</Color>
+# <Color id="dark_purple">Спавнеры</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Spawners</Color>
+  # <Color id="dark_purple">Спавнеры</Color>
   <ItemImage id="minecraft:spawner" scale="2" />
 
-  Apotheosis makes Mob Spawners fully configurable and upgradeable. Pick them up with Silk Touch, modify their stats with items, and build efficient mob farms.
+  Apotheosis позволяет полностью настраивать и улучшать Mob Spawners. Забирайте их инструментом с Silk Touch, меняйте характеристики с помощью предметов и создавайте эффективные фермы мобов.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -22,27 +22,27 @@ item_ids:
   ## <Color id="gold">Mob Spawners</Color>
 </Column>
 
-Mob Spawners can now be picked up using a <Color id="aqua">Silk Touch</Color> pickaxe. Mining a spawner with Silk Touch costs extra durability but lets you relocate it anywhere you like.
+Теперь Mob Spawners можно добывать киркой с <Color id="aqua">Silk Touch</Color>. Это расходует дополнительную прочность инструмента, но позволяет перенести спавнер в любое место.
 
-Once placed, spawners can be configured and upgraded by applying modifier items directly to them.
+После установки спавнер можно настраивать и улучшать, применяя к нему предметы-модификаторы.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Spawner Stats</Color>
+  ## <Color id="gold">Характеристики спавнера</Color>
 </Column>
 
-Every spawner has configurable stats that control its behavior:
+У каждого спавнера есть настраиваемые характеристики, определяющие его работу:
 
-* <Color id="aqua">Min Spawn Delay</Color> — The minimum time (in ticks) between spawn attempts.
-* <Color id="aqua">Max Spawn Delay</Color> — The maximum time (in ticks) between spawn attempts.
-* <Color id="aqua">Spawn Count</Color> — How many mobs are spawned per activation.
-* <Color id="aqua">Max Nearby Entities</Color> — The spawner stops working if this many of its mob type are already nearby.
-* <Color id="aqua">Activation Range</Color> — How close a player must be for the spawner to activate.
-* <Color id="aqua">Spawn Range</Color> — The horizontal radius in which mobs can appear.
+* <Color id="aqua">Min Spawn Delay</Color> — минимальное время (в тиках) между попытками появления мобов.
+* <Color id="aqua">Max Spawn Delay</Color> — максимальное время (в тиках) между попытками появления мобов.
+* <Color id="aqua">Spawn Count</Color> — количество мобов, появляющихся за одну активацию.
+* <Color id="aqua">Max Nearby Entities</Color> — спавнер перестаёт работать, если поблизости уже находится указанное количество мобов этого типа.
+* <Color id="aqua">Activation Range</Color> — расстояние, на котором игрок должен находиться, чтобы активировать спавнер.
+* <Color id="aqua">Spawn Range</Color> — горизонтальный радиус, в котором могут появляться мобы.
 
-The following toggles can also be applied:
+Также можно включать и отключать следующие параметры:
 
 * <Color id="aqua">Ignores Players</Color> — Spawner runs even without a player nearby.
 * <Color id="aqua">Ignores Conditions</Color> — Ignores vanilla spawn condition checks (light level, block type, etc.).
