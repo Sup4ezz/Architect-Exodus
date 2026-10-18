@@ -1,11 +1,18 @@
 {
-  "name": "Дом инженера",
-  "icon": "minecraft:oak_planks",
   "category": "actuallyadditions:getting_started",
+  "icon": "actuallyadditions:booklet",
+  "name": "booklet.actuallyadditions.chapter.engineer_house",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Дом инженера — небольшое сооружение, которое можно встретить в мире.$(p)Осмотрите его: внутри могут оказаться полезные ресурсы и подсказки для знакомства с модом."
+      "text": "booklet.actuallyadditions.chapter.engineer_house.text.1"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "actuallyadditions:textures/gui/booklet/page_engineer_house.png"
+      ],
+      "text": "booklet.actuallyadditions.chapter.engineer_house.text.2"
     }
   ]
 }
