@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Spell Crafting
+  title: Создание заклинаний
   icon: ars_nouveau:glyph_projectile
   parent: index.md
   position: 2
@@ -12,13 +12,13 @@ item_ids:
   - ars_nouveau:blank_glyph
   - ars_nouveau:spell_parchment
 ---
-# <Color id="light_purple">Spell Crafting</Color>
+# <Color id="light_purple">Создание заклинаний</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="light_purple">Spell Crafting</Color>
+  # <Color id="light_purple">Создание заклинаний</Color>
   <ItemImage id="glyph_projectile" scale="2" />
 
-  Spells in Ars Nouveau are built from modular Glyphs arranged in a chain. Understanding the glyph system is key to mastering magic.
+  Заклинания Ars Nouveau собираются из отдельных глифов, расположенных в цепочку. Понимание системы глифов — ключ к освоению магии.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -26,78 +26,78 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Your First Spell</Color>
+  ## <Color id="gold">Первое заклинание</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-To create a spell, hold a Spell Book and press <Color id="green"><KeyBind id="key.ars_nouveau.open_book" /></Color> (Default: C) to open the spell crafting menu. Every spell starts with a <Color id="aqua">Form</Color> which determines how the spell is delivered. Select <Color id="green">Projectile</Color> as the form, then add an <Color id="aqua">Effect</Color> like <Color id="green">Harm</Color> to define what the spell does. Name your spell and click Save.
+To create a spell, hold a Spell Book и press <Color id="green"><KeyBind id="key.ars_nouveau.open_book" /></Color> (по умолчанию C), чтобы открыть меню создания заклинаний. Каждое заклинание начинается с глифа <Color id="aqua">Form</Color> , определяющего способ применения. Выберите <Color id="green">Projectile</Color> в качестве формы, затем добавьте <Color id="aqua">Effect</Color> , например <Color id="green">Harm</Color> to define what the spell does. Name your spell и click Save.
 
-The mana cost is displayed at the bottom of the menu. On the right side, numbered slots store your saved spells. On the left, you can change spell colors and adjust settings.
+mana cost is displayed at the bottom of the menu. On the right side, numbered slots store your saved spells. On the left, you can change spell colors и adjust settings.
 
-Try using your new spell in the world. Many useful Effects (including <Color id="green">Break</Color>) live in Tier 2 — to unlock them, build the upgraded Spell Book at the Scribe's Table. Harder blocks like Obsidian additionally require <Color id="green">Augments</Color> to strengthen the spell. You can learn new Glyphs from the [Scribe's Table](getting_started.md).
+Попробуйте новое заклинание в мире. Многие полезные эффекты, включая <Color id="green">Break</Color>) live in Tier 2 — to unlock them, build the upgraded Spell Book at the Scribe's Table. Harder blocks , например Obsidian additionally require <Color id="green">Augments</Color> , усиливающие заклинание. Новые глифы изучаются с помощью [Scribe's Table](getting_started.md).
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">How Spells Work</Color>
+  ## <Color id="gold">Как работают заклинания</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Every spell starts with a <Color id="green">Form</Color> glyph that determines how the spell is delivered. After the Form, add <Color id="green">Effect</Color> glyphs to define what the spell does, and <Color id="green">Augment</Color> glyphs to modify the behavior.
+Каждое заклинание начинается с глифа <Color id="green">Form</Color> , определяющего способ применения. После Form добавьте <Color id="green">Effect</Color> glyphs to define what the spell does, и <Color id="green">Augment</Color> , изменяющие поведение заклинания.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 <Row>
   <ItemImage id="glyph_projectile" />
-  ### <Color id="aqua">Form Glyphs</Color>
+  ### <Color id="aqua">Глифы формы</Color>
 </Row>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 
-- <ItemLink id="glyph_projectile" /> - Fires a spell projectile forward
-- <ItemLink id="glyph_touch" /> - Applies spell on contact
-- <ItemLink id="glyph_self" /> - Casts on yourself
-- <ItemLink id="glyph_underfoot" /> - Casts at the block below you
+- <ItemLink id="glyph_projectile" /> - Выпускает снаряд заклинания вперёд
+- <ItemLink id="glyph_touch" /> - Применяет заклинание при касании
+- <ItemLink id="glyph_self" /> - Применяет заклинание к себе
+- <ItemLink id="glyph_underfoot" /> - Применяет заклинание к блоку под вами
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-After the Form glyph, add Effect glyphs such as Break, Harm, Heal, Ignite, Freeze, and many more. Then augment them with Amplify, Extend Time, AOE, Pierce, and other modifiers to customize the spell further.
+После Form добавьте глифы эффектов, например Break, Harm, Heal, Ignite, Freeze, и many more . Затем усилите их глифами Amplify, Extend Time, AOE, Pierce, и other modifiers , чтобы дополнительно настроить заклинание.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Glyph Tiers</Color>
+  ## <Color id="gold">Уровни глифов</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Glyphs are organized into three tiers, each requiring its corresponding spell book tier or higher.
+Глифы разделены на три уровня. Для их изучения нужна книга заклинаний соответствующего уровня или выше.
 
 ### <Color id="aqua">Tier 1 - Basic Effects</Color>
 
-Harm, Harvest, Ignite, Freeze, Light, Snare, Launch, Pull, Pickup, Place Block, and more. These are the foundation of your spell arsenal.
+Harm, Harvest, Ignite, Freeze, Light, Snare, Launch, Pull, Pickup, Place Block, и more. Это основа вашего арсенала заклинаний.
 
 ### <Color id="aqua">Tier 2 - Advanced Effects</Color>
 
-Break, AOE, Heal, Grow, Smelt, Explosion, Cold Snap, Gravity, Fortune, Exchange, Invisibility, Wind Shear, and more. These provide much greater versatility and power.
+Break, AOE, Heal, Grow, Smelt, Explosion, Cold Snap, Gravity, Fortune, Exchange, Invisibility, Wind Shear, и more. These provide much greater versatility и power.
 
 ### <Color id="aqua">Tier 3 - Powerful Effects</Color>
 
-Lightning, Blink, Wither, Hex, Fangs, Summon Undead/Vex/Decoy, Glide, Wall, Linger, Split, Burst, and more. These are the most potent glyphs available, capable of devastating effects.
+Lightning, Blink, Wither, Hex, Fangs, Summon Undead/Vex/Decoy, Glide, Wall, Linger, Split, Burst, и more. Это самые мощные доступные глифы, способные создавать разрушительные эффекты.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Storing Spells</Color>
+  ## <Color id="gold">Хранение заклинаний</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -107,10 +107,10 @@ Lightning, Blink, Wither, Hex, Fangs, Summon Undead/Vex/Decoy, Glide, Wall, Ling
   ### <Color id="aqua">Spell Parchment</Color>
 </Row>
 
-Spells can be inscribed onto <Color id="green">Spell Parchment</Color> at the Scribe's Table for use beyond your spell book.
+Заклинания можно записывать на <Color id="green">Spell Parchment</Color> с помощью Scribe's Table, чтобы использовать их отдельно от книги заклинаний.
 
-Spell Parchment is used in several important ways:
+Spell Parchment используется несколькими способами:
 
-- <Color id="green">Spell Turrets</Color> - Automate spell casting with turrets that fire inscribed spells
-- <Color id="green">Reactive Enchantment</Color> - Apply spells to equipment that trigger on specific events
-- <Color id="green">Runic Chalk</Color> - Create spell-casting runes on the ground
+- <Color id="green">Spell Turrets</Color> - Автоматизируйте применение заклинаний с помощью турелей, стреляющих записанными заклинаниями
+- <Color id="green">Reactive Enchantment</Color> - Наносите на снаряжение заклинания, срабатывающие при определённых событиях
+- <Color id="green">Runic Chalk</Color> - Создавайте на земле руны, активирующие заклинания
