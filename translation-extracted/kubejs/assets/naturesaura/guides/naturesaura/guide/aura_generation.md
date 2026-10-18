@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Aura Generation
+  title: Генерация ауры
   icon: naturesaura:oak_generator
   parent: index.md
   position: 4
@@ -16,14 +16,14 @@ item_ids:
   - naturesaura:aura_cache
 ---
 
-# <Color id="green">Aura Generation</Color>
+# <Color id="green">Генерация ауры</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Aura Generation</Color>
+  # <Color id="green">Генерация ауры</Color>
 
   <ItemImage id="oak_generator" scale="2" />
 
-  Aura is the lifeblood of Nature's Aura. Without enough of it, your devices will stop working. Managing aura levels is a core part of the mod.
+  Аура — жизненная сила Nature's Aura. Без достаточного её количества устройства перестанут работать. Управление уровнем ауры — одна из основных механик мода.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -31,7 +31,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Ancient Trees</Color>
+  ## <Color id="gold">Древние деревья</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -41,12 +41,12 @@ item_ids:
   ### <Color id="aqua">Ancient Trees</Color>
 </Row>
 
-Ancient Trees are your first option for maintaining aura levels. When the local aura drops below average, a grown Ancient Tree passively generates aura. This slowly saps energy from its leaves, causing them to decay over time and eventually leaving a withered pillar of logs behind.
+Ancient Trees — первый способ поддерживать уровень ауры. Когда местная аура опускается ниже среднего, взрослое древнее дерево начинает пассивно её производить. Энергия постепенно истощает листву: со временем листья исчезают, и остаётся увядший ствол.
 
-<Color id="yellow">Key facts:</Color>
-- Ancient Trees can only <Color id="aqua">maintain</Color> normal aura levels -- they cannot push aura above the baseline
-- They only function in realms with light and fresh air
-- The Ancient Wood left behind has crafting uses, so do not burn it all into charcoal
+<Color id="yellow">Важно:</Color>
+- Ancient Trees могут только <Color id="aqua">поддерживать</Color> обычный уровень ауры, но не повышать его выше базового значения
+- Они работают только в мирах со светом и свежим воздухом
+- Оставшаяся Ancient Wood используется в рецептах, поэтому не превращайте всю древесину в уголь
 - These saplings cannot be farmed for new saplings; they are an approximation of a species from a lost age
 
 <ItemImage id="minecraft:air" scale="0.25"/>
