@@ -10,5 +10,10 @@
   "gui.itemcollectors.advanced_collector.whitelist.off": "Чёрный список",
   "gui.itemcollectors.advanced_collector.durability.on": "Соблюдать NBT",
   "gui.itemcollectors.advanced_collector.durability.off": "Игнорировать NBT",
-  "gui.itemcollectors.advanced_collector.filter": "Фильтр"
+  "gui.itemcollectors.advanced_collector.filter": "Фильтр",
+  "itemcollectors.block.basic_collector": "Базовый сборщик предметов",
+  "itemcollectors.basic_collector.info.range": "Радиус: %s блоков",
+  "itemcollectors.block.advanced_collector": "Улучшенный сборщик предметов",
+  "gui.itemcollectors.advanced_collector.show_area.on": "Радиус показан",
+  "gui.itemcollectors.advanced_collector.show_area.off": "Радиус скрыт"
 }
