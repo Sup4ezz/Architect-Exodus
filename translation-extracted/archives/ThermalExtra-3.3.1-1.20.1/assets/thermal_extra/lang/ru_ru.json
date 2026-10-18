@@ -18,11 +18,9 @@
   "block.thermal_extra.soul_infused_glass": "Наполненое душами стекло",
   "block.thermal_extra.twinite_block": "Твинитовый блок",
   "block.thermal_extra.twinite_glass": "Твинитовое стекло",
-  
   "creative_tab.thermal_extra.augments": "Thermal Extra: Улучшения",
   "creative_tab.thermal_extra.machines": "Thermal Extra: Механизмы",
   "creative_tab.thermal_extra.resources": "Thermal Extra: Предметы",
-  
   "fluid_type.thermal_extra.abyssal": "Расплавленный пустотит",
   "fluid_type.thermal_extra.crystallized_sunflower_oil": "Кристаллизированное подсолнечное масло",
   "fluid_type.thermal_extra.diesel": "Дизель",
@@ -50,7 +48,6 @@
   "fluid_type.thermal_extra.gasoline": "Газолин",
   "fluid_type.thermal_extra.paraffin_wax": "Парафиновый воск",
   "fluid_type.thermal_extra.lubricant": "Лубрикант",
-  
   "info.thermal_extra.advanced_refinery.0": "Комплексный механизм, перерабатывающий жидкости в более стоящие продукты.",
   "info.thermal_extra.advanced_refinery.1": "Поддерживает куда больший спектр предметов и жидкостей, нежели оригинал.",
   "info.thermal_extra.advanced_refinery.2": "Получи больше чем могут дать.",
@@ -77,7 +74,6 @@
   "info.thermal_extra.machine_nitratic_igniter.1": "Может переработать сырую руду в куски чтобы потом переплавить.",
   "info.thermal_extra.machine_nitratic_igniter.2": "НИ ЗА ЧТО не используй ядерный динамит!",
   "info.thermal_extra.require_catalyst": "Катализатор обязателен.",
-  
   "item.minecraft.smithing_template": "Кузнечный шаблон",
   "item.thermal_extra.abyssal_area_radius_augment": "Пустотитовое радиальное улучшение",
   "item.thermal_extra.abyssal_axe": "Пустотитовый топор",
@@ -329,7 +325,6 @@
   "item.thermal_extra.zinc_dust": "Цинковая пыль",
   "item.thermal_extra.zinc_ore_chunk": "Рудный кусок цинка",
   "item.thermal_extra.paraffin_wax": "Парафиновый воск",
-  
   "item.thermal_extra.crystallized_sunflower_oil_bucket": "Ведро кристаллизированного подсолнечного масла",
   "item.thermal_extra.sunflower_oil_bucket": "Ведро подсолнечного масла",
   "item.thermal_extra.twinite_bucket": "Ведро расплавленного твинита",
@@ -355,7 +350,13 @@
   "item.thermal_extra.paraffin_wax_bucket": "Ведро парафинового воска",
   "item.thermal_extra.gasoline_bucket": "Ведро газолина",
   "item.thermal_extra.lubricant_bucket": "Ведро лубриканта",
-  
   "thermal_extra.augment.upgrade": "Улучшает базовые характеристики. Другие улучшения могут быть более эффективными.",
-  "upgrade.thermal_extra.augment_upgrade": "Улучшение улучшений"
+  "upgrade.thermal_extra.augment_upgrade": "Улучшение улучшений",
+  "item.thermal_extra.dragonsteel_axe": "Драконстальная секира",
+  "item.thermal_extra.enderium_axe": "Эндериевая секира",
+  "item.thermal_extra.lumium_axe": "Люминиевая секира",
+  "item.thermal_extra.shellite_axe": "Шеллитовая секира",
+  "item.thermal_extra.signalum_axe": "Сигналумовая секира",
+  "item.thermal_extra.soul_infused_axe": "Секира, пропитанная душами",
+  "item.thermal_extra.twinite_axe": "Твинитовая секира"
 }
