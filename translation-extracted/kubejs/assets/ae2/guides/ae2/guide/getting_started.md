@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: ae2:certus_quartz_crystal
   parent: index.md
   position: 1
@@ -10,13 +10,13 @@ item_ids:
   - ae2:fluix_crystal
   - ae2:sky_stone_block
 ---
-# <Color id="aqua">Getting Started: Certus Quartz</Color>
+# <Color id="aqua">Начало работы: Certus Quartz</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="aqua">Getting Started</Color>
+  # <Color id="aqua">Начало работы</Color>
   <ItemImage id="ae2:certus_quartz_crystal" scale="2" />
 
-  In this pack, your first goal is gathering <ItemLink id="ae2:certus_quartz_crystal" /> — but you will <Color id="yellow">not</Color> find it by hunting meteorites. The reliable source is a <Color id="green">GeOre certus geode</Color> in Jotunheim.
+  В этой сборке ваша первая цель — добыть <ItemLink id="ae2:certus_quartz_crystal" />. Но искать его в метеоритах бесполезно: надёжный источник — геоды Certus из GeOre в Йотунхейме.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -24,31 +24,31 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Certus Quartz Geodes in Jotunheim</Color>
+  ## <Color id="gold">Геоды Certus Quartz в Йотунхейме</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Once you reach <Color id="aqua">Jotunheim</Color>, look for the GeOre-style geode that contains <ItemLink id="ae2:flawless_budding_quartz" /> at its core. The geodes spawn between <Color id="green">Y 30 and Y 58</Color>, roughly 1 in 16 chunks — they are sparse but unmistakable: a hollow ball of budding quartz surrounded by a coloured shell.
+Добравшись до <Color id="aqua">Йотунхейма</Color>, ищите геоду GeOre, в центре которой находится <ItemLink id="ae2:flawless_budding_quartz" />. Геоды генерируются на высоте от <Color id="green">Y 30 до Y 58</Color>, примерно в одном из 16 чанков. Они встречаются редко, но их легко узнать: это полая сфера из растущего кварца с цветной внешней оболочкой.
 
-Inside the geode you will find:
+Внутри геоды вы найдёте:
 
-- <ItemLink id="ae2:flawless_budding_quartz" /> — the central block. <Color id="red">Do not break this with a normal tool</Color>; it shatters and you lose the budding. Use Silk Touch, or pick it up with <Color id="green">Carry On</Color> (right-click empty-handed to grab, right-click to place) and carry it home intact.
-- Certus quartz buds in various stages of growth around the inner walls. These can be broken for <ItemLink id="ae2:certus_quartz_crystal" /> and quartz dust.
+- <ItemLink id="ae2:flawless_budding_quartz" /> — центральный блок. <Color id="red">Не ломайте его обычным инструментом</Color>: блок разрушится, и вы потеряете растущий кварц. Используйте Silk Touch или мод Carry On: возьмите блок пустой рукой ПКМ, затем поставьте его на базе, не повредив.
+- Кристаллические наросты Certus Quartz на внутренних стенках. Их можно добывать, получая <ItemLink id="ae2:certus_quartz_crystal" /> и кварцевую пыль.
 
-<Color id="gold">Tip:</Color> Set up the budding block at your base in a 1×3×1 space with water flowing past the buds — they will continually grow and you can harvest indefinitely.
+<Color id="gold">Совет:</Color> Установите блок растущего кварца на базе в пространстве размером 1×3×1 и пустите рядом воду так, чтобы она проходила мимо наростов. Кристаллы будут постоянно расти, позволяя добывать их снова и снова.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Meteorites (Secondary)</Color>
+  ## <Color id="gold">Метеориты — дополнительный источник</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Vanilla AE2 meteorites still generate in this pack but they are <Color id="yellow">not</Color> the primary certus source — the geodes in Jotunheim are. Meteorites are still worth visiting for their <ItemLink id="ae2:sky_stone_block" /> and the occasional bonus loot. Use a <ItemLink id="ae2:meteorite_compass" /> if you want to track one down.
+Метеориты AE2 всё ещё генерируются в сборке, но они <Color id="yellow">не являются основным источником Certus Quartz</Color> — эту роль выполняют геоды Йотунхейма. Тем не менее метеориты стоит посещать ради <ItemLink id="ae2:sky_stone_block" /> и дополнительной добычи. Для поиска используйте <ItemLink id="ae2:meteorite_compass" />.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -65,4 +65,4 @@ Vanilla AE2 meteorites still generate in this pack but they are <Color id="yello
   ### <Color id="aqua">Fluix Crystals</Color>
 </Row>
 
-Fluix crystals are made by throwing <ItemLink id="ae2:charged_certus_quartz_crystal" />, <ItemLink id="minecraft:redstone" />, and <ItemLink id="minecraft:quartz" /> into water — see the [Charged Certus](charged_certus.md) page for how to charge certus in this pack.
+Чтобы получить Fluix Crystals, бросьте в воду <ItemLink id="ae2:charged_certus_quartz_crystal" />, <ItemLink id="minecraft:redstone" /> и <ItemLink id="minecraft:quartz" />. О том, как зарядить Certus Quartz в этой сборке, читайте в разделе [Charged Certus](charged_certus.md).
