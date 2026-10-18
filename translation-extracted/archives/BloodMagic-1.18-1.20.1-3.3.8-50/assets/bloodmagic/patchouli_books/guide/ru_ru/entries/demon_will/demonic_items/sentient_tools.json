@@ -1,0 +1,48 @@
+{
+  "name": "Разумные инструменты",
+  "icon": "bloodmagic:soulpickaxe",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумный меч$() оказался невероятно успешным. Почему бы не попробовать так же преобразовать другие инструменты? $(br2)Как и разумный меч, эти инструменты можно чинить кристаллизованной Волей на наковальне. Кроме того, все разумные инструменты и оружие отлично поддаются зачарованию!"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Разумная кирка",
+      "recipe": "bloodmagic:soulforge/sentientpickaxe",
+      "text": "Эта кирка становится сильнее благодаря Воле и легко дробит камень. Без Воли она лишь немного лучше железной кирки, из которой создана; но с достаточно наполненным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарическим самоцветом$() может превзойти даже незеритовую кирку."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Разумная коса$() отличается от железного аналога: Воля превратила её в грозное оружие. Она медленна и слабее другого оружия, зато широкие взмахи наносят полный урон всем врагам в радиусе действия — отличный выбор против толпы."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Разумная коса",
+      "recipe": "bloodmagic:soulforge/sentientscythe",
+      "anchor": "scythe",
+      "text": "Без Воли коса остаётся тупой и неудобной, но с полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарическим самоцветом$() превращается в разрушительное оружие. $(br)И да, она всё ещё работает как мотыга."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Разумный топор$() заметно превосходит железный аналог и наносит значительно больше урона, становясь грозным оружием для тех, кого не смущает его неповоротливость."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Разумный топор",
+      "recipe": "bloodmagic:soulforge/sentientaxe",
+      "text": "Без Воли он лишь немного лучше железного топора, из которого создан; с наполненным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарическим самоцветом$() может превзойти незеритовый топор."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Разумная лопата$() заметно лучше железного аналога даже без дополнительной $(l:bloodmagic:demon_will/will_manipulation/demon_will)демонической Воли$()."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Разумная лопата",
+      "recipe": "bloodmagic:soulforge/sentientshovel",
+      "text": "Без Воли она лишь немного лучше железной лопаты, из которой создана; с полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарическим самоцветом$() может превзойти незеритовую лопату."
+    }
+  ]
+}
