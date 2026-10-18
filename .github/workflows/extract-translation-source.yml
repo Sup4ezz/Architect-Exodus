@@ -1,0 +1,116 @@
+name: Extract translation source
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract text resources from the uploaded archive
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os, re, json, zipfile, hashlib
+          from pathlib import PurePosixPath
+          
+          archive = "Sborka-Translation-Source.zip"
+          out = "translation-extracted"
+          os.makedirs(out, exist_ok=True)
+          allowed = {".json",".json5",".jsonc",".lang",".properties",".toml",".yaml",".yml",".txt",".md",".cfg",".ini",".xml",".mcmeta",".js",".zs",".snbt",".csv",".po",".pot",".ftb",".html",".css"}
+          excluded_parts = {".git", "__macosx"}
+          manifest = []
+          total_bytes = 0
+          max_file = 2 * 1024 * 1024
+          
+          def safe_path(s):
+              p = PurePosixPath(s.replace("\\", "/"))
+              parts = [x for x in p.parts if x not in ("", ".", "..")]
+              return "/".join(parts)
+          
+          def save_bytes(name, data, origin):
+              global total_bytes
+              clean = safe_path(name)
+              if not clean or any(x.lower() in excluded_parts for x in clean.split("/")):
+                  return
+              ext = PurePosixPath(clean).suffix.lower()
+              if ext not in allowed or len(data) > max_file or b"\x00" in data[:8192]:
+                  return
+              try:
+                  data.decode("utf-8-sig")
+              except UnicodeDecodeError:
+                  try: data.decode("utf-8")
+                  except UnicodeDecodeError: return
+              dest = os.path.join(out, *clean.split("/"))
+              os.makedirs(os.path.dirname(dest), exist_ok=True)
+              if os.path.exists(dest):
+                  stem, ext2 = os.path.splitext(dest)
+                  dest = stem + "__" + hashlib.sha1(origin.encode()).hexdigest()[:8] + ext2
+                  clean = os.path.relpath(dest, out).replace(os.sep, "/")
+              with open(dest, "wb") as f: f.write(data)
+              manifest.append({"path": clean, "source": origin, "bytes": len(data)})
+              total_bytes += len(data)
+          
+          if not os.path.isfile(archive):
+              raise SystemExit(f"Archive not found: {archive}")
+          with zipfile.ZipFile(archive) as z:
+              for info in z.infolist():
+                  if info.is_dir(): continue
+                  name = safe_path(info.filename)
+                  ext = PurePosixPath(name).suffix.lower()
+                  if ext in allowed:
+                      try: save_bytes(name, z.read(info), "archive:" + info.filename)
+                      except Exception as e: print(f"Skipped {info.filename}: {e}")
+                  elif ext in {".jar", ".zip"} and info.file_size <= 80 * 1024 * 1024:
+                      try:
+                          nested = z.read(info)
+                          import io
+                          with zipfile.ZipFile(io.BytesIO(nested)) as nz:
+                              for ni in nz.infolist():
+                                  if ni.is_dir(): continue
+                                  nname = safe_path(ni.filename)
+                                  n_ext = PurePosixPath(nname).suffix.lower()
+                                  # Prioritize actual game language assets and text configs inside mod/resource archives.
+                                  low = nname.lower()
+                                  if n_ext in allowed and (
+                                      "/lang/" in "/" + low or "/language/" in "/" + low or
+                                      low.endswith(("mods.toml","manifest.json","pack.mcmeta")) or
+                                      n_ext in {".lang",".properties",".json",".mcmeta"}
+                                  ):
+                                      try: save_bytes(name + "__contents/" + nname, nz.read(ni), "nested:" + info.filename + "!" + ni.filename)
+                                      except Exception as e: print(f"Skipped nested {info.filename}!{ni.filename}: {e}")
+                      except (zipfile.BadZipFile, RuntimeError, OSError):
+                          pass
+          
+          manifest.sort(key=lambda x: x["path"].lower())
+          with open(os.path.join(out, "MANIFEST.json"), "w", encoding="utf-8") as f:
+              json.dump({"archive": archive, "text_files": len(manifest), "total_bytes": total_bytes, "files": manifest}, f, ensure_ascii=False, indent=2)
+          with open(os.path.join(out, "INDEX.txt"), "w", encoding="utf-8") as f:
+              f.write(f"Extracted text files: {len(manifest)}\nTotal text bytes: {total_bytes}\n\n")
+              for item in manifest: f.write(f'{item["path"]}\t{item["bytes"]}\t{item["source"]}\n')
+          print(f"Extracted {len(manifest)} text files ({total_bytes} bytes).")
+          PY
+
+      - name: Publish extracted files on a dedicated branch
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B translation-source
+          git add -f translation-extracted
+          if git diff --cached --quiet; then
+            echo "No extracted-source changes to publish."
+            exit 0
+          fi
+          git commit -m "Extract text resources for Russian translation"
+          git push --force origin translation-source
