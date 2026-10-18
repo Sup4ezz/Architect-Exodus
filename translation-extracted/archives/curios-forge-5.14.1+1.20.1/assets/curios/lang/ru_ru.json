@@ -44,5 +44,7 @@
   "curios.modifiers.slots.take.2": "-%s%% к слотам %s",
   "key.curios.category": "Curios",
   "key.curios.open.desc": "Открыть/Закрыть инвентарь Curios",
-  "gui.curios.toggle": "Переключить видимость"
+  "gui.curios.toggle": "Переключить видимость",
+  "gui.curios.toggle.cosmetics": "Переключить косметические предметы",
+  "gui.curios.page": "Страница %d / %d"
 }
