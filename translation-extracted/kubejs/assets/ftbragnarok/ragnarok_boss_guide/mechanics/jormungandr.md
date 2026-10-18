@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: mechanics/mechanics-index.md
-  title: Jormungandr - The World Serpent
+  title: Ёрмунганд — мировой змей
   icon: ftbragnarok:venom_heart
   position: 3
 item_ids:
@@ -10,14 +10,14 @@ item_ids:
 
 <Column alignItems="center" fullWidth={true}>
 
-# <Color id="light_purple">Jormungandr</Color> - The World Serpent
+# <Color id="light_purple">Jormungandr</Color> — мировой змей
 <ItemImage id="ftbragnarok:venom_heart" scale="2" />
 
-Jormungandr is the legendary World Serpent, so massive it encircles all of Midgard. This aquatic boss lurks beneath the ice, striking from below.
+Jormungandr — легендарный Мировой Змей, настолько огромный, что обвивает весь Midgard. Этот водный босс скрывается подо льдом и атакует снизу.
 </Column>
 
 <Column alignItems="center" fullWidth={true}>
-### <ItemImage id="ftbragnarok:venom_heart" scale="0.75" /> <Color id="aqua">Boss Stats</Color> <ItemImage id="ftbragnarok:venom_heart" scale="0.75" />
+### <ItemImage id="ftbragnarok:venom_heart" scale="0.75" /> <Color id="aqua">Характеристики босса</Color> <ItemImage id="ftbragnarok:venom_heart" scale="0.75" />
 </Column>
 
 * <Color id="red">Health:</Color> 800 HP
@@ -26,27 +26,27 @@ Jormungandr is the legendary World Serpent, so massive it encircles all of Midga
 
 ***
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Arena</Color>
+## <Color id="gold">Арена</Color>
 </Column>
 
-Jormungandr fights in a <Color id="light_purple">frozen lake arena</Color>. The ice surface is your battleground, but beware - the serpent can break through!
+Jormungandr сражается на <Color id="light_purple">замёрзшем озере</Color>. Лёд служит ареной, но будьте осторожны: змей способен проломить его.
 
-### <Color id="aqua">Ice Mechanics</Color>
-* The serpent swims beneath the frozen surface
-* Attacks can <Color id="red">break the ice</Color>, creating dangerous holes
-* Falling into the water exposes you to the serpent's domain
-* Ice slowly regenerates over time
+### <Color id="aqua">Механика льда</Color>
+* Змей плавает под замёрзшей поверхностью
+* Атаки могут <Color id="red">проламывать лёд</Color>, создавая опасные провалы
+* Упав в воду, вы окажетесь во владениях змея
+* Лёд постепенно восстанавливается
 
 ***
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Combat Behavior</Color>
+## <Color id="gold">Поведение в бою</Color>
 </Column>
 
-Jormungandr is a <Color id="light_purple">hit-and-run boss</Color> that attacks from below the ice, making positioning crucial.
+Jormungandr — босс тактики <Color id="light_purple">«ударил и отступил»</Color>, атакующий из-подо льда. Правильное позиционирование крайне важно.
 
-### <Color id="aqua">Phase Transitions</Color>
+### <Color id="aqua">Смена фаз</Color>
 
-| Phase | Health Threshold | New Abilities |
+| Фаза | Уровень здоровья | Новые способности |
 |-------|-----------------|---------------|
 | 1 | 100% - 75% | Breach attacks, venom spit |
 | 2 | 75% - 50% | Tail sweep, whirlpool |
@@ -55,7 +55,7 @@ Jormungandr is a <Color id="light_purple">hit-and-run boss</Color> that attacks 
 
 ***
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Attacks</Color>
+## <Color id="gold">Атаки</Color>
 </Column>
 
 ### <Color id="red">Breach Attack</Color>
