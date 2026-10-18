@@ -1,6 +1,6 @@
 ﻿---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: botania:pure_daisy
   parent: index.md
   position: 1
@@ -16,13 +16,13 @@ item_ids:
   - botania:flower_bag
   - botania:fertilizer
 ---
-# <Color id="green">Getting Started</Color>
+# <Color id="green">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Getting Started</Color>
+  # <Color id="green">Начало работы</Color>
   <ItemImage id="pure_daisy" scale="2" />
 
-  Everything in Botania begins with flowers. Gather Mystical Petals, craft your first flora at the Petal Apothecary, and convert wood and stone into living materials with the Pure Daisy.
+  Всё в Botania начинается с цветов. Собирайте Mystical Petals, создайте первые растения в Petal Apothecary и превращайте древесину и камень в живые материалы с помощью Pure Daisy.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -35,9 +35,9 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Mystical Flowers generate naturally throughout the world in 16 colors. They glow faintly and sparkle with particle effects. Pluck them to obtain <Color id="green">Mystical Petals</Color> — the core crafting material for all of Botania's flora. Petals can also be crushed into dyes.
+Mystical Flowers естественным образом растут по всему миру и встречаются в 16 цветах. Они слегка светятся и мерцают частицами. Срывайте их, чтобы получить <Color id="green">Mystical Petals</Color> — основной материал для создания растений Botania. Лепестки также можно измельчать в красители.
 
-To grow more flowers, craft <ItemLink id="fertilizer" /> by combining any dye with bone meal. Use it on grass like regular bone meal to sprout a patch of Mystical Flowers.
+Чтобы вырастить больше цветов, создайте <ItemLink id="fertilizer" />, объединив любой краситель с костной мукой. Используйте удобрение на траве, как обычную костную муку, чтобы вырастить группу Mystical Flowers.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -52,7 +52,7 @@ To grow more flowers, craft <ItemLink id="fertilizer" /> by combining any dye wi
 <Row>
   <ItemImage id="apothecary_default" scale="1.5" />
   <Column>
-    The <Color id="green">Petal Apothecary</Color> is the crafting station for all Generating and Functional Flora. Fill it with water by right-clicking with a bucket or tossing one in. Then throw in the required Mystical Petals and finalize the craft by tossing in any Seeds. Right-click with an empty hand to remove the last item added.
+    <Color id="green">Petal Apothecary</Color> — рабочая станция для создания всех Generating Flora и Functional Flora. Наполните её водой: щёлкните ПКМ с ведром или бросьте ведро внутрь. Затем добавьте необходимые Mystical Petals и завершите создание, бросив любые Seeds. Чтобы забрать последний добавленный предмет, щёлкните ПКМ пустой рукой.
   </Column>
 </Row>
 
@@ -69,11 +69,11 @@ To grow more flowers, craft <ItemLink id="fertilizer" /> by combining any dye wi
 <Row>
   <ItemImage id="pure_daisy" scale="1.5" />
   <Column>
-    The <Color id="green">Pure Daisy</Color> is the most important flower in early Botania. Place it in the world and it will slowly purify adjacent blocks. Wood logs become <ItemLink id="livingwood" /> and Stone becomes <ItemLink id="livingrock" />. These living materials are essential crafting ingredients used throughout the entire mod.
+    <Color id="green">Pure Daisy</Color> — важнейший цветок на ранних этапах Botania. Установите его в мире, и он начнёт постепенно очищать соседние блоки. Деревянные брёвна превращаются в <ItemLink id="livingwood" />, а Stone — в <ItemLink id="livingrock" />. Эти живые материалы необходимы для создания множества предметов в моде.
   </Column>
 </Row>
 
-Each conversion takes about a minute. The Pure Daisy also purifies several other materials: Netherrack into Cobblestone, Soul Sand into Sand, End Stone into Cobbled Deepslate, and more.
+Каждое превращение занимает около минуты. Pure Daisy очищает и другие материалы: Netherrack превращает в Cobblestone, Soul Sand — в Sand, End Stone — в Cobbled Deepslate и так далее.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -88,12 +88,12 @@ Each conversion takes about a minute. The Pure Daisy also purifies several other
 <Row>
   <ItemImage id="twig_wand" scale="1.5" />
   <Column>
-    The <Color id="green">Wand of the Forest</Color> is an essential tool with two modes. Switch between them by sneak-right-clicking the air.
+    <Color id="green">Wand of the Forest</Color> — необходимый инструмент с двумя режимами. Переключайтесь между ними, щёлкая ПКМ по воздуху с зажатым Shift.
   </Column>
 </Row>
 
-- **Bind Mode:** Sneak-right-click a block to select it, then sneak-right-click a target to bind them together. This is how you connect Mana Spreaders to Mana Pools.
-- **Function Mode:** Right-click blocks to rotate them or activate special functions.
+- **Bind Mode:** щёлкните ПКМ по блоку с зажатым Shift, чтобы выбрать его, затем таким же способом нажмите на цель, чтобы связать их. Так соединяют Mana Spreaders с Mana Pools.
+- **Function Mode:** щёлкайте ПКМ по блокам, чтобы поворачивать их или активировать особые функции.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -108,8 +108,8 @@ Each conversion takes about a minute. The Pure Daisy also purifies several other
 <Row>
   <ItemImage id="runic_altar" scale="1.5" />
   <Column>
-    The <Color id="green">Runic Altar</Color> creates Runes — vital components for complex devices and advanced flora. Place ingredients on the altar, then point a Mana Spreader at it to supply Mana.
+    <Color id="green">Runic Altar</Color> создаёт Runes — важные компоненты сложных устройств и продвинутых растений. Разместите ингредиенты на алтаре и направьте на него Mana Spreader, чтобы подавать Mana.
   </Column>
 </Row>
 
-When the altar has absorbed enough Mana, drop a piece of <ItemLink id="livingrock" /> on it and right-click with the <ItemLink id="twig_wand" /> to complete the craft. There are 16 runes in total: 4 elemental, 4 seasonal, 7 sins, and the Rune of Mana. Runes used as recipe ingredients are returned as catalysts — they are not consumed.
+Когда алтарь поглотит достаточно Mana, бросьте на него кусок <ItemLink id="livingrock" /> и щёлкните ПКМ с <ItemLink id="twig_wand" />, чтобы завершить создание. Всего существует 16 рун: 4 стихийные, 4 сезонные, 7 грехов и Rune of Mana. Руны, используемые в рецептах, возвращаются как катализаторы и не расходуются.
