@@ -1,0 +1,20 @@
+{
+  "name": "Круги дня и ночи",
+  "icon": "minecraft:clock",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Круги управления временем позволяют менять время суток. Предметы расходуются, когда круг начинает менять время. Эти рецепты временные и могут измениться в будущих версиях.$(br2)Дневной круг переключает время на следующий рассвет, а ночной — на следующий закат."
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "Новый рассвет",
+      "a.recipe": "bloodmagic:array/day",
+      "a.image": "sunarray.png",
+      "b.heading": "Истинные сумерки",
+      "b.recipe": "bloodmagic:array/night",
+      "b.image": "moonarray.png"
+    }
+  ]
+}
