@@ -1,4 +1,5 @@
 {
-  "name": "Начало работы",
-  "description": "Основы Actually Additions."
+  "description": "",
+  "icon": "actuallyadditions:booklet",
+  "name": "booklet.actuallyadditions.indexEntry.getting_started"
 }
