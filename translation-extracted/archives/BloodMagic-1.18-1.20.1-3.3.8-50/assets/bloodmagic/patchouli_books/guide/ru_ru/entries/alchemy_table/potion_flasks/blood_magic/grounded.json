@@ -1,0 +1,20 @@
+{
+  "name": "Твёрдая опора",
+  "icon": "minecraft:string",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)«Твёрдая опора»$() не позволяет цели прыгать. При этом плавать по-прежнему можно. $(br2)Создаётся из зелья $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)«Прыгучесть»$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Твёрдая опора (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_to_grounded",
+      "b.heading": "Твёрдая опора (8:00)",
+      "b.recipe": "bloodmagic:flask/length_grounded",
+      "c.heading": "Твёрдая опора (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_grounded"
+    }
+  ]
+}
