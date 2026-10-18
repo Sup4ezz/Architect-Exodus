@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crafting Stations
+  title: Верстаки и станции создания предметов
   icon: bloodmagic:alchemytable
   parent: index.md
   position: 4
@@ -10,14 +10,14 @@ item_ids:
   - bloodmagic:reagentbinding
   - bloodmagic:soulforge
 ---
-# <Color id="red">Crafting Stations</Color>
+# <Color id="red">Верстаки и станции создания предметов</Color>
 
 <Column alignItems="center" fullWidth={true}>
 
-# <Color id="red">Crafting Stations</Color>
+# <Color id="red">Верстаки и станции создания предметов</Color>
 <ItemImage id="bloodmagic:alchemytable" scale="2" />
 
-Blood Magic has a few crafting stations beyond the Blood Altar itself.
+Помимо Blood Altar, в Blood Magic есть несколько станций для создания предметов.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -28,7 +28,7 @@ Blood Magic has a few crafting stations beyond the Blood Altar itself.
     ### <Color id="aqua">Alchemy Table</Color>
   </Column>
 </Row>
-The Alchemy Table uses <Color id="red">LP</Color> from an orb linked to your Soul Network to craft items. Place a bound [Blood Orb](blood_orbs.md) inside along with the recipe ingredients.
+Alchemy Table использует <Color id="red">LP</Color> из сферы, привязанной к вашей Soul Network, для создания предметов. Поместите внутрь привязанную [Blood Orb](blood_orbs.md) и ингредиенты рецепта.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -38,12 +38,12 @@ The Alchemy Table uses <Color id="red">LP</Color> from an orb linked to your Sou
     ### <Color id="aqua">Hellfire Forge</Color>
   </Column>
 </Row>
-The Hellfire Forge uses [Demon Will](demon_will.md) to craft items. Place Demon Will and ingredients inside to begin crafting.
+Hellfire Forge использует [Demon Will](demon_will.md) для создания предметов. Поместите внутрь Demon Will и необходимые ингредиенты.
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Alchemy Arrays</Color>
+  ## <Color id="gold">Алхимические круги</Color>
 </Column>
 
 <Row>
@@ -52,7 +52,7 @@ The Hellfire Forge uses [Demon Will](demon_will.md) to craft items. Place Demon 
     ### <Color id="aqua">Arcane Ashes</Color>
   </Column>
 </Row>
-Arcane Ashes are used for <Color id="green">Alchemy Arrays</Color>, which craft items or perform other functions. Place them on the ground and add ingredients to create the array.
+Arcane Ashes используются для создания <Color id="green">Алхимические круги</Color>, которые позволяют создавать предметы и выполнять другие действия. Разместите пепел на земле и добавьте ингредиенты, чтобы сформировать круг.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -62,4 +62,4 @@ Arcane Ashes are used for <Color id="green">Alchemy Arrays</Color>, which craft 
     ### <Color id="aqua">Binding Reagent</Color>
   </Column>
 </Row>
-Binding Reagent Arrays are used to make, among other things, [Living Armor](living_armor.md). It is an incredibly powerful armor set that upgrades itself as you use it.
+Круги с Binding Reagent используются, в частности, для создания [Living Armor](living_armor.md) — мощного комплекта брони, который улучшается по мере использования.
