@@ -1,0 +1,37 @@
+{
+  "name": "Ремонтная мазь",
+  "icon": "bloodmagic:weapon_repair_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ремонтная мазь",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment",
+      "text": "При использовании инструмента восстанавливает 1 единицу его прочности.$(br2)Подходит для: инструментов и мечей.$(br2)Накладывает эффект «Регулярный уход I» (256 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ремонтная мазь L",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_l",
+      "text": "Эта улучшенная версия действует в четыре раза дольше.$(br2)Накладывает эффект «Регулярный уход I» (1024 блока)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ремонтная мазь II",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_2",
+      "text": "Эта версия восстанавливает 2 единицы прочности за каждую единицу полученного износа. Не срабатывает, если часть бонуса к ремонту пропадёт впустую.$(br2)Накладывает эффект «Регулярный уход II» (256 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ремонтная мазь XL",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_xl",
+      "text": "Эта улучшенная версия действует в шестнадцать раз дольше.$(br2)Накладывает эффект «Регулярный уход I» (4096 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ремонтная мазь III",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_3",
+      "text": "Эта версия восстанавливает 3 единицы прочности за каждую единицу полученного износа. Не срабатывает, если часть бонуса к ремонту пропадёт впустую.$(br2)Накладывает эффект «Регулярный уход III» (256 блоков)."
+    }
+  ]
+}
