@@ -1,0 +1,16 @@
+{
+  "name": "Недуг",
+  "icon": "minecraft:ghast_tear",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Снижает эффективность любого лечения. Максимальное снижение — 80%: например, вместо 10 сердец источник лечения восстановит лишь 2."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}
