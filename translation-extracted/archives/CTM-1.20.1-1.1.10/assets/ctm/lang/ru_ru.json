@@ -1,0 +1,9 @@
+{
+  "ctm.configuration.title": "Настройки CTM",
+  "ctm.configuration.section.ctm.toml.title": "Настройки CTM",
+  "ctm.configuration.section.ctm.toml": "Настройки CTM",
+  "configuration.ctm.disable": "Отключить CTM",
+  "configuration.ctm.disable.tooltip": "Полностью отключить соединённые текстуры",
+  "configuration.ctm.connect_inside": "Соединять внутренние углы CTM",
+  "configuration.ctm.connect_inside.tooltip": "Определяет, будет ли внутренний угол соединяться на блоке CTM."
+}
