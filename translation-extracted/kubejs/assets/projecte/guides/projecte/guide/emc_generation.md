@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: EMC Generation
+  title: Генерация EMC
   icon: projecte:collector_mk1
   parent: index.md
   position: 2
@@ -18,13 +18,13 @@ item_ids:
   - projecte:klein_star_sphere
   - projecte:klein_star_omega
 ---
-# <Color id="dark_purple">EMC Generation</Color>
+# <Color id="dark_purple">Генерация EMC</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">EMC Generation</Color>
+  # <Color id="dark_purple">Генерация EMC</Color>
   <ItemImage id="collector_mk1" scale="2" />
 
-  Passive EMC generation allows you to accumulate energy without manually breaking down items. Collectors generate it, Relays amplify it, and Klein Stars store it.
+  Пассивная генерация EMC позволяет накапливать энергию без ручного преобразования предметов. Collectors производят EMC, Relays усиливают поток, а Klein Stars хранят энергию.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -32,12 +32,12 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Energy Collectors</Color>
+  ## <Color id="gold">Коллекторы энергии</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Energy Collectors passively generate EMC from sunlight (or artificial light). Three tiers are available, each with increasing generation rates.
+Energy Collectors пассивно производят EMC из солнечного или искусственного света. Доступны три уровня с возрастающей скоростью генерации.
 
 <ItemGrid>
   <ItemIcon id="collector_mk1" />
@@ -45,7 +45,7 @@ Energy Collectors passively generate EMC from sunlight (or artificial light). Th
   <ItemIcon id="collector_mk3" />
 </ItemGrid>
 
-Place fuel items inside a Collector to upgrade them through the fuel chain: coal -> <ItemLink id="alchemical_coal" /> -> <ItemLink id="mobius_fuel" /> -> <ItemLink id="aeternalis_fuel" />. Collectors can also output EMC to adjacent Anti-Matter Relays.
+Помещайте топливо в Collector, чтобы улучшать его по цепочке: coal → <ItemLink id="alchemical_coal" /> → <ItemLink id="mobius_fuel" /> → <ItemLink id="aeternalis_fuel" />. Collectors также могут передавать EMC соседним Anti-Matter Relays.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
