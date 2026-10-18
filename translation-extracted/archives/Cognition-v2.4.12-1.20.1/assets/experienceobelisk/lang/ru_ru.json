@@ -1,6 +1,5 @@
 {
   "============ ITEM NAMES ===================": "=====================",
-
   "item.experienceobelisk.attunement_staff": "Посох настройки",
   "item.experienceobelisk.cognitium_bucket": "Ведро когнития",
   "item.experienceobelisk.cognitive_alloy": "Когнитивный сплав",
@@ -37,9 +36,7 @@
   "item.experienceobelisk.transforming_focus": "Трансформирующий фокус",
   "item.experienceobelisk.fortuitous_amulet": "Амулет удачи",
   "item.experienceobelisk.memory_tablet": "Планшет памяти",
-
   "============ BLOCK NAMES ===================": "=====================",
-
   "block.experienceobelisk.experience_obelisk": "Обелиск опыта",
   "block.experienceobelisk.experience_fountain": "Фонтан опыта",
   "block.experienceobelisk.precision_dispeller": "Точный рассеиватель",
@@ -60,18 +57,12 @@
   "block.experienceobelisk.nutrient_agar": "Питательный агар",
   "block.experienceobelisk.insightful_agar": "Проницательный агар",
   "block.experienceobelisk.extravagant_agar": "Роскошный агар",
-
   "============ FLUID NAMES ===================": "=====================",
-
   "fluid.experienceobelisk.cognitium": "Когнитий",
   "fluid_type.experienceobelisk.cognitium": "Когнитий",
-
   "============ ITEM GROUP ===================": "=====================",
-
   "itemGroup.experienceobelisk": "Cognition",
-
   "============ DESCRIPTIONS ===================": "=====================",
-
   "tooltip.experienceobelisk.shift_for_info": "§8§oУдерживайте SHIFT для подробностей",
   "item.experienceobelisk.attunement_staff.description": "Привязывает, запрашивает и настраивает блоки из этого мода.",
   "item.experienceobelisk.enlightened_amulet.description": "Телепортирует к вам ближайшие сферы опыта и объединяет их для ускоренного поглощения. §nSHIFT + §nПКМ§r — активировать/деактивировать.",
@@ -102,9 +93,7 @@
   "block.experienceobelisk.nutrient_agar.description": "Заразный блок, не подверженный разрушению. Обладает медленной скоростью заражения.",
   "block.experienceobelisk.insightful_agar.description": "Заразный блок, уменьшающий задержку появления опыта у окружающих книжных полок.",
   "block.experienceobelisk.extravagant_agar.description": "Заразный блок, увеличивающий ценность сфер опыта от окружающих книжных полок.",
-
   "============ GUI ===================": "=====================",
-
   "title.experienceobelisk.experience_obelisk": "Обелиск опыта",
   "title.experienceobelisk.experience_obelisk.store": "Сохранить",
   "title.experienceobelisk.experience_obelisk.retrieve": "Извлечь",
@@ -115,9 +104,7 @@
   "title.experienceobelisk.precision_dispeller.inventory": "Инвентарь",
   "title.experienceobelisk.molecular_metamorpher": "Молекулярный метаморфер",
   "title.experienceobelisk.molecular_metamorpher.lock_inputs": "Входы",
-
   "============ TOOLTIPS ===================": "=====================",
-
   "tooltip.experienceobelisk.experience_obelisk.add1": "Сохранить §a1§f уровень опыта",
   "tooltip.experienceobelisk.experience_obelisk.add10": "Сохранить §a10§f уровней опыта",
   "tooltip.experienceobelisk.experience_obelisk.addAll": "Сохранить §aвсе§f уровни опыта",
@@ -130,38 +117,29 @@
   "tooltip.experienceobelisk.experience_obelisk.item_levels": "§7Сохранено %s §7уровней опыта",
   "tooltip.experienceobelisk.experience_obelisk.item_points": "%s §7очков",
   "tooltip.experienceobelisk.experience_obelisk.xp": "%s §7опыта",
-
   "tooltip.experienceobelisk.activatable_item.active": "§7В данный момент §aактивен",
   "tooltip.experienceobelisk.activatable_item.inactive": "§7В данный момент §cнеактивен",
-
   "tooltip.experienceobelisk.precision_dispeller.curse": "§7Стоимость: §c30 §7уровней / §c1395 §7опыта",
   "tooltip.experienceobelisk.precision_dispeller.enchantment": "§7Даёт %s §7уровней / %s §7опыта",
   "tooltip.experienceobelisk.precision_dispeller.insufficient_xp": "§6Недостаточно опыта!",
-
   "tooltip.experienceobelisk.molecular_metamorpher.bound": "Привязанный обелиск",
   "tooltip.experienceobelisk.molecular_metamorpher.xp": "%s §7опыта",
   "tooltip.experienceobelisk.molecular_metamorpher.has_contents": "§7Внутри есть содержимое!",
   "tooltip.experienceobelisk.molecular_metamorpher.options.lock": "§cЗаблокировать §rслоты ввода...",
   "tooltip.experienceobelisk.molecular_metamorpher.options.unlock": "§aРазблокировать §rслоты ввода...",
   "tooltip.experienceobelisk.molecular_metamorpher.options.lock.inputsempty": "§cЗаблокировать §rслоты ввода...\n§6Слоты ввода пусты!",
-
   "tooltip.experienceobelisk.cognitive_bow.firing": "§7При выстреле:",
   "tooltip.experienceobelisk.cognitive_bow.velocity_multiplier": "§9+%s§9 к скорости снаряда",
   "tooltip.experienceobelisk.cognitive_bow.accuracy_multiplier": "§9+%s§9 к точности снаряда",
-
   "tooltip.experienceobelisk.memory_tablet.linked_pos": "§7Привязан к %s",
-
   "============ BUTTONS ===================": "=====================",
-
   "button.experienceobelisk.experience_obelisk.settings": "§l▶§r",
   "button.experienceobelisk.experience_obelisk.back": "§l◀§r",
   "button.experienceobelisk.experience_obelisk.ignored": "§cИгнорируется§r",
   "button.experienceobelisk.experience_obelisk.enabled": "§aВключено§r",
   "button.experienceobelisk.molecular_metamorpher.lock": "§cЗаблокировать",
   "button.experienceobelisk.molecular_metamorpher.unlock": "§aРазблокировать",
-
   "============ MESSAGES ===================": "=====================",
-
   "message.experienceobelisk.binding_wand.bind_obelisk": "§a[✔]§r Позиция обелиска сохранена",
   "message.experienceobelisk.binding_wand.unbind_obelisk": "§a[✔]§r Позиция обелиска забыта",
   "message.experienceobelisk.binding_wand.bind_target": "§a[✔]§r Блок привязан к обелиску в %s",
@@ -174,12 +152,10 @@
   "message.experienceobelisk.binding_wand.disable_redstone": "Чувствительность к редстоуну установлена на §cВыключено",
   "message.experienceobelisk.binding_wand.query_bookshelf": "§b[ⓘ]§r Прочность книжной полки: %s",
   "message.experienceobelisk.binding_wand.query_fluorescent_agar": "§b[ⓘ]§r Прогресс заражения: %s / 4",
-
   "message.experienceobelisk.experience_fountain.slow": "Фонтан опыта установлен на: §cМедленно§r",
   "message.experienceobelisk.experience_fountain.moderate": "Фонтан опыта установлен на: §6Умеренно§r",
   "message.experienceobelisk.experience_fountain.fast": "Фонтан опыта установлен на: §aБыстро§r",
   "message.experienceobelisk.experience_fountain.hyper": "Фонтан опыта установлен на: §bСверхбыстро§r",
-
   "message.experienceobelisk.memory_tablet.link": "§a[✔]§r Успешно привязан к %s",
   "message.experienceobelisk.memory_tablet.unlink": "§a[✔]§r Успешно отвязан от %s",
   "message.experienceobelisk.memory_tablet.obelisk_in_use": "§c[✖]§f Обелиском уже пользуется другой игрок",
@@ -187,9 +163,7 @@
   "message.experienceobelisk.memory_tablet.query_fail": "§b[ⓘ]§r Вы ещё не привязаны ни к одному обелиску",
   "message.experienceobelisk.memory_tablet.out_of_range": "§b[ⓘ]§r Привязанный обелиск вне зоны действия",
   "message.experienceobelisk.experience_obelisk.experience_recovered": "§a[✔]§r Успешно восстановлено %s уровней опыта",
-
   "============ SOUND SUBTITLES ===================": "=====================",
-
   "sounds.experienceobelisk.enlightened_amulet_activate": "Амулет активирован",
   "sounds.experienceobelisk.enlightened_amulet_deactivate": "Амулет деактивирован",
   "sounds.experienceobelisk.metamorpher_busy": "Метаморфер гудит",
@@ -200,11 +174,8 @@
   "sounds.experienceobelisk.fluorescent_agar_infect": "Агар преобразуется",
   "sounds.experienceobelisk.memory_tablet_link": "Планшет памяти привязан",
   "sounds.experienceobelisk.memory_tablet_unlink": "Планшет памяти отвязан",
-
   "============ ADVANCEMENTS ===================": "=====================",
-
   "============ JEI ===================": "=====================",
-
   "jei.experienceobelisk.metamorpher.cost_xp": "§7Расходует %s §7опыта",
   "jei.experienceobelisk.metamorpher.process_time": "§7Время обработки: %s",
   "jei.experienceobelisk.description.forgotten_dust": "Выпадает из заражённых книжных полок при разрушении (100%) и при распаде (50%)",
@@ -219,6 +190,7 @@
   "jei.experienceobelisk.emptying.title": "Опустошение",
   "jei.experienceobelisk.emptying.tooltip": "ПКМ по §aфонтану опыта§r,\nпривязанному к §aобелиску опыта§r.\nВ обелиске должно быть достаточно места.",
   "jei.experienceobelisk.shared.cognitium_amount.mb": "%s §7мБ когнития",
-  "jei.experienceobelisk.shared.cognitium_amount.levels_xp": "%s §7уровней / %s §7опыта"
-
+  "jei.experienceobelisk.shared.cognitium_amount.levels_xp": "%s §7уровней / %s §7опыта",
+  "block.experienceobelisk.bibliomancer": "Библиомант",
+  "block.experienceobelisk.bibliomancer.description": "(Пока не реализовано!) Автоматическая расстановка книжных полок и сбор Забытой пыли."
 }
