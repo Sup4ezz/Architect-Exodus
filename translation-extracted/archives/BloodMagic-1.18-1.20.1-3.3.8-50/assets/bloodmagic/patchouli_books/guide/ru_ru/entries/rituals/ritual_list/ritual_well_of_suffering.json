@@ -1,0 +1,53 @@
+{
+  "name": "Колодец страданий",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Колодец страданий",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        [
+          "LP",
+          "blood"
+        ],
+        [
+          "blood altar",
+          "l:bloodmagic:altar/blood_altar"
+        ]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этот ритуал атакует существ в зоне действия и направляет добытую $(blood)кровь$() в ближайший $(l:bloodmagic:altar/blood_altar)кровавый алтарь$(). Поместите в алтарь $(l:bloodmagic:altar/soul_network)кровавую сферу$() и добавьте несколько $(l:bloodmagic:altar/blood_rune/sacrifice_rune)рун жертвоприношения$() — и запас LP перестанет быть проблемой, если сможете обеспечить ритуал достаточным количеством существ."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "Ритуал может быть связан только с одним алтарём одновременно.",
+      "text_overrides": [
+        [
+          "Blood Altar",
+          "l:bloodmagic:altar/blood_altar"
+        ],
+        [
+          " Blood",
+          "blood"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "Существа по-прежнему оставляют добычу, не требующую убийства игроком."
+    }
+  ]
+}
