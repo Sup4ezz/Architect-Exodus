@@ -1,0 +1,85 @@
+{
+  "name": "Обряд сокрушителя",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Обряд сокрушителя",
+      "multiblock_id": "bloodmagic:crushing",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crushing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "Raw Will",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "corrosive",
+      "text_overrides": [
+        [
+          "Cutting Fluid",
+          "l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid"
+        ],
+        [
+          "Silk Touch",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "vengeful",
+      "text": "Например, уголь превращается в угольные блоки, редстоуновая пыль — в блоки редстоуна и так далее."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "destructive",
+      "text_overrides": [
+        [
+          "Fortune III",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "steadfast",
+      "text_overrides": [
+        [
+          "Silk Touch",
+          "item"
+        ],
+        [
+          "Fortune",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "crushingRange"
+    }
+  ]
+}
