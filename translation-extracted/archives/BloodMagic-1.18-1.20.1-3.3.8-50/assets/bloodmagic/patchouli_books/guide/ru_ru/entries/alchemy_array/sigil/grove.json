@@ -1,0 +1,38 @@
+{
+  "name": "Сигил зелёной рощи",
+  "icon": "bloodmagic:growthsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил зелёной рощи$() умеет многое. Создайте его в матрице с помощью $(item)реагента роста$() и $(item)укреплённого сланца$(): сигил расходует $(blood)LP$() вашей $(thing)сети души$(), чтобы питать и ускорять рост растений поблизости."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент роста",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
+      "array.heading": "Сигил зелёной рощи",
+      "array.recipe": "bloodmagic:array/growthsigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/grove_sigil1.png",
+        "bloodmagic:images/entries/sigil/grove_sigil2.png",
+        "bloodmagic:images/entries/sigil/grove_sigil3.png"
+      ],
+      "title": "Матрица сигила зелёной рощи",
+      "border": true,
+      "text": "Матрица сигила зелёной рощи и его основные способы применения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Нажмите [$(k:use)], глядя на блок, способный расти ($(2)IGrowable$()), — сигил применит эффект костной муки, потратив $(blood)150 LP$().$(br2)Если же зажать [$(k:sneak)] и нажать [$(k:use)], глядя в воздух, сигил загорится, показывая, что активен. Пока он включён, каждые 5 секунд расходуется $(blood)150 LP$(), а все блоки в области 7×7×5 вокруг игрока получают случайный импульс роста. Самое то для картофельной фермы!"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "У вас установлен $(thing)Curios API$(), поэтому этот $(item)сигил$() можно носить как аксессуар. Если хотите носить больше аксессуаров одновременно, используйте $(l:bloodmagic:alchemy_array/sigil/holding)сигил-хранилище$() или улучшение $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)«Ячейки для аксессуаров»$() для $(l:bloodmagic:alchemy_array/living_equipment/living_basics)живой брони$()."
+    }
+  ]
+}
