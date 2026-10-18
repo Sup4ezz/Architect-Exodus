@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: enchanted:garlic
   parent: index.md
   position: 1
@@ -17,13 +17,13 @@ item_ids:
   - enchanted:creeper_heart
   - enchanted:tongue_of_dog
 ---
-# <Color id="dark_purple">Getting Started</Color>
+# <Color id="dark_purple">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Getting Started</Color>
+  # <Color id="dark_purple">Начало работы</Color>
   <ItemImage id="garlic" scale="2" />
 
-  Your journey into witchcraft begins with gathering herbs from the wild and crafting a few essential tools.
+  Путь в колдовство начинается со сбора диких трав и создания нескольких необходимых инструментов.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -31,12 +31,12 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Witch's Garden</Color>
+  ## <Color id="gold">Ведьмин сад</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The foundation of witchcraft is growing magical herbs. You will need to find seeds for these plants in the world — check tall grass and explore different biomes.
+Основа колдовства — выращивание магических трав. Ищите семена в мире: проверяйте высокую траву и исследуйте разные биомы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -49,19 +49,19 @@ The foundation of witchcraft is growing magical herbs. You will need to find see
   <ItemIcon id="garlic" />
 </ItemGrid>
 
-- <ItemLink id="mandrake_seeds" /> — A core ingredient in many recipes. Required for Mutandis, Attuned Stones, and more.
-- <ItemLink id="belladonna_seeds" /> — Used in ointments, brews, and Anointing Paste.
-- <ItemLink id="snowbell_seeds" /> — A cold-loving herb used in various brews and recipes.
-- <ItemLink id="water_artichoke_seeds" /> — An aquatic plant. Place the seeds on water to grow them.
-- <ItemLink id="wolfsbane_seeds" /> — Used in various advanced recipes.
-- <ItemLink id="garlic" /> — A versatile herb with many uses in witchcraft.
+- <ItemLink id="mandrake_seeds" /> — основной ингредиент многих рецептов. Нужен для Mutandis, Attuned Stones и других предметов.
+- <ItemLink id="belladonna_seeds" /> — используются для мазей, настоев и Anointing Paste.
+- <ItemLink id="snowbell_seeds" /> — морозостойкая трава для различных настоев и рецептов.
+- <ItemLink id="water_artichoke_seeds" /> — водное растение. Чтобы вырастить его, разместите семена на воде.
+- <ItemLink id="wolfsbane_seeds" /> — используется в продвинутых рецептах.
+- <ItemLink id="garlic" /> — универсальная трава, применяемая во многих колдовских рецептах.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Essential Tools</Color>
+  ## <Color id="gold">Необходимые инструменты</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -71,7 +71,7 @@ The foundation of witchcraft is growing magical herbs. You will need to find see
   ### <Color id="aqua">Anointing Paste</Color>
 </Row>
 
-Anointing Paste is crafted from your harvested herbs. It is a key ingredient for creating Poppets and other advanced items.
+Anointing Paste создаётся из собранных трав. Это важный ингредиент для изготовления Poppets и других продвинутых предметов.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -81,15 +81,15 @@ Anointing Paste is crafted from your harvested herbs. It is a key ingredient for
   ### <Color id="aqua">Arthana</Color>
 </Row>
 
-The Arthana is a ritual knife used to collect special mob drops. Use it to slay specific creatures and harvest unique ingredients.
+Arthana — ритуальный нож для получения особых трофеев с мобов. Используйте его для убийства определённых существ и сбора редких ингредиентов.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Mob Drops</Color>
 
-Use the Arthana to obtain these special ingredients:
+Используйте Arthana, чтобы добыть следующие особые ингредиенты:
 
-- <ItemLink id="wool_of_bat" /> — Obtained by using the Arthana on Bats.
-- <ItemLink id="tongue_of_dog" /> — Obtained by using the Arthana on Wolves.
-- <ItemLink id="creeper_heart" /> — Obtained by using the Arthana on Creepers.
+- <ItemLink id="wool_of_bat" /> — добывается при убийстве летучих мышей с помощью Arthana.
+- <ItemLink id="tongue_of_dog" /> — добывается при убийстве волков с помощью Arthana.
+- <ItemLink id="creeper_heart" /> — добывается при убийстве криперов с помощью Arthana.
