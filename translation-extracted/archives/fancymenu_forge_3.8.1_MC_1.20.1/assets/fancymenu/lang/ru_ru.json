@@ -2135,5 +2135,6 @@
   "fancymenu.widgetified_screens.title_screen.splash": "Ванильный сплэш-текст",
   "fancymenu.actions.script_editor.shortcuts.a": "A",
   "fancymenu.listeners.manage.quick_edit_tip": "Кликни ПКМ по листенеру, чтобы быстро отредактировать его действия.",
-  "fancymenu.listeners.manage.delete_warning": "Ты уверен?\n\nТы и правда хочешь §xудалить§r этот листенер?\n\n§xОтменить это действие будет нельзя!"
+  "fancymenu.listeners.manage.delete_warning": "Ты уверен?\n\nТы и правда хочешь §xудалить§r этот листенер?\n\n§xОтменить это действие будет нельзя!",
+  "fancymenu.actions.script_editor.empty_hint": "Щёлкните правой кнопкой мыши здесь, чтобы добавить действия"
 }
