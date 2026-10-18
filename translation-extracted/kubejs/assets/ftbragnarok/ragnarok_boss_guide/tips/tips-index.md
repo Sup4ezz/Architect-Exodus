@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: Tips
+  title: Советы
   icon: create:clipboard
   position: 10
 ---
 
-# Boss Tips
+# Советы по боссам
 
-Quick tips and strategies for each boss encounter.
+Краткие советы и стратегии для сражения с каждым боссом.
 
 <SubPages icons={true} />
