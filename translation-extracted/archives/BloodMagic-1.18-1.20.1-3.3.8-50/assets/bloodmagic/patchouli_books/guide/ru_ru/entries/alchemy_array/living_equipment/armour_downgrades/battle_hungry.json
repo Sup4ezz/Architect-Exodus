@@ -1,0 +1,16 @@
+{
+  "name": "Жажда битвы",
+  "icon": "minecraft:rotten_flesh",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если вы долго никого не атакуете, на вас накладывается голод. Чем выше уровень этого недостатка, тем меньше времени даётся до появления голода и тем сильнее его эффект."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/battle_hungry",
+      "b.upgrade": "bloodmagic:battle_hungry"
+    }
+  ]
+}
