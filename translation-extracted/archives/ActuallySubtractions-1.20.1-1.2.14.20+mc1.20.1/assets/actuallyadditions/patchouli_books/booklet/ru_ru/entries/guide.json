@@ -1,0 +1,11 @@
+{
+  "name": "Руководство",
+  "icon": "actuallyadditions:item_booklet",
+  "category": "actuallyadditions:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Используйте это руководство, чтобы узнать о возможностях Actually Additions и принципах работы его устройств.$(p)Описания рецептов и механизмов помогут выбрать подходящий следующий шаг."
+    }
+  ]
+}
