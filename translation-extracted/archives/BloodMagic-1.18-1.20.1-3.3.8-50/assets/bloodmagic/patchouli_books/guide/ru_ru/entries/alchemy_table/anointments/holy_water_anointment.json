@@ -1,0 +1,37 @@
+{
+  "name": "Святая вода",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "Временно увеличивает урон в ближнем бою по нежити на 5 единиц.$(br2)Подходит для: инструментов и мечей.$(br2)Накладывает эффект «Святое сияние I» (256 ударов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "Эта улучшенная версия действует в четыре раза дольше.$(br2)Накладывает эффект «Святое сияние I» (1024 удара)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "Эта версия увеличивает урон в ближнем бою по нежити на 10 единиц.$(br2)Накладывает эффект «Святое сияние II» (256 ударов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода XL",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_xl",
+      "text": "Эта улучшенная версия действует в шестнадцать раз дольше.$(br2)Накладывает эффект «Святое сияние I» (4096 ударов)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода III",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_3",
+      "text": "Эта версия увеличивает урон в ближнем бою по нежити на 15 единиц.$(br2)Накладывает эффект «Святое сияние III» (256 ударов)."
+    }
+  ]
+}
