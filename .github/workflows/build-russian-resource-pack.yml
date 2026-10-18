@@ -1,0 +1,76 @@
+name: Build Russian resource pack
+
+on:
+  push:
+    branches: [translation-source]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout translation sources
+        uses: actions/checkout@v4
+        with:
+          ref: translation-source
+
+      - name: Assemble Minecraft resource pack
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os, json, shutil, zipfile
+          from pathlib import Path
+          root = Path("translation-extracted")
+          pack = Path("Russian-Translation-Pack")
+          if pack.exists():
+              shutil.rmtree(pack)
+          assets = pack / "assets"
+          assets.mkdir(parents=True)
+          copied = 0
+          collisions = []
+          for src in root.rglob("ru_ru.json"):
+              if "assets" not in src.parts or "lang" not in src.parts:
+                  continue
+              try:
+                  data = json.loads(src.read_text(encoding="utf-8-sig"))
+              except Exception as e:
+                  print(f"Skipping invalid JSON {src}: {e}")
+                  continue
+              parts = src.parts
+              ai = parts.index("assets")
+              if ai + 3 >= len(parts) or parts[ai+2] != "lang":
+                  continue
+              namespace = parts[ai+1]
+              dest = assets / namespace / "lang" / "ru_ru.json"
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              if dest.exists():
+                  collisions.append(str(dest))
+                  # Keep the first file; duplicate namespaces may belong to different versions.
+                  continue
+              shutil.copyfile(src, dest)
+              copied += 1
+          (pack / "pack.mcmeta").write_text(json.dumps({
+              "pack": {
+                  "pack_format": 15,
+                  "description": "Russian translations for Architect's Exodus (Minecraft 1.20.1)"
+              }
+          }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          with zipfile.ZipFile("Russian-Translation-Pack.zip", "w", zipfile.ZIP_DEFLATED) as z:
+              for file in pack.rglob("*"):
+                  if file.is_file():
+                      z.write(file, file.relative_to(pack).as_posix())
+          print(f"Packed {copied} Russian language files.")
+          print(f"Namespace collisions skipped: {len(collisions)}")
+          for item in collisions[:30]:
+              print("COLLISION:", item)
+          PY
+
+      - name: Upload resource pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Russian-Translation-Pack
+          path: Russian-Translation-Pack.zip
+          if-no-files-found: error
