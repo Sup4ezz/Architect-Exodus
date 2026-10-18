@@ -1,0 +1,37 @@
+{
+  "name": "Экстракт фортуны",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт фортуны",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "Увеличивает количество ресурсов, получаемых при добыче некоторых блоков. Эффект суммируется с зачарованием «Удача».$(br2)Подходит для: инструментов, мечей и зарядов.$(br2)Накладывает эффект «Удачливая добыча I» (256 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт фортуны L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "Эта улучшенная версия действует в четыре раза дольше.$(br2)Накладывает эффект «Удачливая добыча I» (1024 блока)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт фортуны II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "Эта версия увеличивает количество добываемых ресурсов.$(br2)Накладывает эффект «Удачливая добыча II» (256 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт фортуны XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "Эта улучшенная версия действует в шестнадцать раз дольше.$(br2)Накладывает эффект «Удачливая добыча I» (4096 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт фортуны III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "Эта версия увеличивает количество добываемых ресурсов.$(br2)Накладывает эффект «Удачливая добыча III» (256 блоков)."
+    }
+  ]
+}
