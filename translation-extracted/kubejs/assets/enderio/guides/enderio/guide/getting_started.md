@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: enderio:grains_of_infinity
   parent: index.md
   position: 1
@@ -20,12 +20,12 @@ item_ids:
   - enderio:fused_quartz
   - enderio:clear_glass
 ---
-# <Color id="dark_aqua">Getting Started</Color>
+# <Color id="dark_aqua">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_aqua">Getting Started</Color>
+  # <Color id="dark_aqua">Начало работы</Color>
   <ItemImage id="enderio:grains_of_infinity" scale="2" />
-  Ender IO begins with a spark of fire on bedrock. From these humble beginnings you will build an empire of alloys and machines.
+  Ender IO начинается с огня на коренной породе. С этого скромного начала вы построите целую империю сплавов и механизмов.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -43,14 +43,14 @@ item_ids:
   ### <Color id="aqua">Grains of Infinity</Color>
 </Row>
 
-The foundation of all Ender IO crafting. Obtain them by using a <ItemLink id="minecraft:flint_and_steel" /> on <Color id="gray">Bedrock</Color> or <Color id="gray">Deepslate</Color>. The fire has a chance to drop Grains of Infinity when it burns out. You will need a steady supply of these — set several fires and wait.
+Основа создания предметов Ender IO. Используйте <ItemLink id="minecraft:flint_and_steel" /> на <Color id="gray">Bedrock</Color> или <Color id="gray">Deepslate</Color>. Когда огонь погаснет, есть шанс получить Grains of Infinity. Запасайтесь ими заранее: разожгите несколько огней и подождите.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Core Alloys</Color>
+  ## <Color id="gold">Основные сплавы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
