@@ -1,0 +1,12 @@
+{
+  "_comment": "Настройки",
+  "config.commoncapabilities": "Настройки %s",
+  "recipecomponent.minecraft.itemstack": "Предмет",
+  "recipecomponent.minecraft.fluidstack": "Жидкость",
+  "recipecomponent.minecraft.energy": "Энергия",
+  "capability.commoncapabilities.inventoryState": "Состояние инвентаря",
+  "capability.commoncapabilities.temperature": "Температура",
+  "capability.commoncapabilities.worker": "Работник",
+  "capability.commoncapabilities.worldNameable": "Именуемый мир",
+  "capability.commoncapabilities.wrench": "Гаечный ключ"
+}
