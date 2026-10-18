@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Enchanting
+  title: Зачарование
   icon: minecraft:enchanting_table
   position: 2
 item_ids:
@@ -9,27 +9,27 @@ item_ids:
   - apotheosis:ender_library
   - apotheosis:scrap_tome
 ---
-# <Color id="dark_purple">Enchanting</Color>
+# <Color id="dark_purple">Зачарование</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Enchanting</Color>
+  # <Color id="dark_purple">Зачарование</Color>
   <ItemImage id="minecraft:enchanting_table" scale="2" />
 
-  Apotheosis completely overhauls Minecraft's enchanting system. The vanilla level 30 cap is removed, shelves can push enchanting power up to level 100, and five new stats govern how your enchanting table behaves.
+  Apotheosis полностью перерабатывает систему зачарования Minecraft. Ограничение ванильного уровня 30 снято, полки могут повысить силу зачарования до 100-го уровня, а работу стола определяют пять новых характеристик.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Enchanting Stats</Color>
+  ## <Color id="gold">Характеристики зачарования</Color>
 </Column>
 
-Apotheosis adds five stats to the enchanting table. Hover over the enchanting UI to see your current values.
+Apotheosis добавляет столу зачарования пять характеристик. Наведите курсор на интерфейс зачарования, чтобы увидеть текущие значения.
 
-- <Color id="aqua">Eterna</Color> — The primary stat. Each point increases the maximum enchanting level by 2. Standard bookshelves provide Eterna up to level 30; specialized shelves push it further.
-- <Color id="aqua">Quanta</Color> — Controls variance. Your base enchanting power is multiplied by a random value between (1 - Quanta) and (1 + Quanta). Higher Quanta means bigger swings — you might get amazing results or terrible ones.
-- <Color id="aqua">Arcana</Color> — Controls enchantment rarity weights and bonus enchantments. Default rarity weights are Common 10, Uncommon 5, Rare 3, Very Rare 1. Every 10% of Arcana shifts these weights toward rarer results. At 25% Arcana you are guaranteed at least 2 enchantments, and at 75% you get at least 3.
+- <Color id="aqua">Eterna</Color> — основная характеристика. Каждое очко повышает максимальный уровень зачарования на 2. Обычные книжные полки дают Eterna до 30-го уровня, а специальные позволяют поднять его выше.
+- <Color id="aqua">Quanta</Color> — определяет разброс результатов. Базовая сила зачарования умножается на случайное значение от (1 − Quanta) до (1 + Quanta). Чем выше Quanta, тем сильнее колебания: результат может быть как отличным, так и ужасным.
+- <Color id="aqua">Arcana</Color> — влияет на вероятность редких зачарований и получение дополнительных зачарований. Default rarity weights are Common 10, Uncommon 5, Rare 3, Very Rare 1. Every 10% of Arcana shifts these weights toward rarer results. At 25% Arcana you are guaranteed at least 2 enchantments, and at 75% you get at least 3.
 - <Color id="aqua">Rectification</Color> — Improves the lower bound of the Quanta roll. This makes your results more consistently good without reducing the upper bound. Higher is always better.
 - <Color id="aqua">Clues</Color> — Each point reveals one additional enchantment in the enchanting table preview window, letting you make more informed decisions.
 
