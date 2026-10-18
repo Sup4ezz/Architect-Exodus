@@ -1,0 +1,21 @@
+{
+  "name": "Кристаллы активации",
+  "icon": "bloodmagic:activationcrystalweak",
+  "category": "bloodmagic:rituals",
+  "extra_recipe_mappings": {
+    "bloodmagic:activationcrystalcreative": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Для ритуала недостаточно правильно расставить блоки и сигилы. Нужна сила воли, чтобы открыть канал от вашей сети души к ритуалу. $(item)Кристалл активации$() помогает сосредоточиться и запустить ритуал."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Слабый кристалл активации",
+      "recipe": "bloodmagic:weak_activation_crystal",
+      "text": "Привяжите кристалл активации к главному ритуальному камню и нажмите [$(k:use)], чтобы активировать ритуал, частью которого он является. Разумеется, ритуал должен быть собран правильно.",
+      "anchor": "weak"
+    }
+  ]
+}
