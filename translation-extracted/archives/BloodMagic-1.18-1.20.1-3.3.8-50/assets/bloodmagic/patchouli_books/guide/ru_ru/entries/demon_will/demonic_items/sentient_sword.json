@@ -1,0 +1,17 @@
+{
+  "name": "Разумный меч",
+  "icon": "bloodmagic:soulsword",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Разумный меч$() гораздо эффективнее собирает $(l:bloodmagic:demon_will/will_manipulation/demon_will)демоническую волю$(), чем $(l:bloodmagic:demon_will/will_manipulation/soul_snare)ловушки души$(). Поначалу он может показаться слабым, но его сила зависит от переносимой вами Воли, поэтому вам обязательно понадобится $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарический самоцвет$(). $(br2)Как и все $(l:bloodmagic:demon_will/demonic_items/sentient_tools)разумные инструменты$(), меч можно починить кристаллизованной Волей на наковальне."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Разумный меч",
+      "recipe": "bloodmagic:soulforge/sentientsword",
+      "text": "Этот меч сослужит вам отличную службу. $(br2)Нажмите [$(k:use)], держа меч в руке, чтобы обновить его характеристики. Это особенно полезно после получения большого количества $(raw)Воли$() или при испытании нового аспекта Воли."
+    }
+  ]
+}
