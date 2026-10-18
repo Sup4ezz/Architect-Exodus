@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Demon Will
+  title: Демоническая воля
   icon: bloodmagic:basemonstersoul
   parent: index.md
   position: 5
@@ -12,12 +12,12 @@ item_ids:
   - bloodmagic:soulgemcommon
   - bloodmagic:soulgemgreater
 ---
-# <Color id="red">Demon Will</Color>
+# <Color id="red">Демоническая воля</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Demon Will</Color>
+  # <Color id="red">Демоническая воля</Color>
   <ItemImage id="bloodmagic:basemonstersoul" scale="2" />
-  The Demon Will system is a separate resource used to fuel the <ItemLink id="bloodmagic:soulforge"/> and power certain advanced items.
+  The Демоническая воля system is a separate resource used to fuel the <ItemLink id="bloodmagic:soulforge"/> и некоторых продвинутых предметов.
 </Column>
 
 ***
@@ -26,28 +26,28 @@ item_ids:
 <Row>
   <ItemImage id="bloodmagic:soulsnare" />
   <Column>
-    ### <Color id="gold">Soul Snares</Color>
+    ### <Color id="gold">Ловушки душ</Color>
   </Column>
 </Row>
-Throw Soul Snares at mobs to mark them. Marked mobs will have white particles. Killing a marked mob will drop Demon Will.
+Throw Ловушки душ at mobs to mark them. Marked mobs will have white particles. Killing a marked mob will drop Демоническая воля.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
 <Row>
   <ItemImage id="bloodmagic:basemonstersoul" />
   <Column>
-    ### <Color id="gold">Demon Will</Color>
+    ### <Color id="gold">Демоническая воля</Color>
   </Column>
 </Row>
-Demon Will drops from snared mobs and will have a random will quality. Pick them up to collect the will.
+Демоническая воля drops from snared mobs and will have a random will quality. Pick them up to collect the will.
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tartaric Gems</Color>
+  ## <Color id="gold">Тартарские самоцветы</Color>
 </Column>
 
-Tartaric Gems absorb and store Demon Will as it is picked up, acting as a portable will battery.
+Тартарские самоцветы absorb and store Демоническая воля as it is picked up, acting as a portable will battery.
 
 | Gem | Capacity |
 |-----|----------|
