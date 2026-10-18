@@ -1,0 +1,15 @@
+{
+  "name": "Подземельный излучатель",
+  "icon": "bloodmagic:dungeon_emitter",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_emitter": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_emitter",
+      "text": "$(thing)Подземельный излучатель$() выдаёт постоянный редстоун-сигнал, как блок редстоуна. В отличие от $(l:bloodmagic:dungeons/dungeon_alternator)подземельного переключателя$(), сигнал не меняется со временем."
+    }
+  ]
+}
