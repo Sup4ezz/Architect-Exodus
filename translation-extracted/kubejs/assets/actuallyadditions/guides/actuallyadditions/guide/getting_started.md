@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: actuallyadditions:atomic_reconstructor
   parent: index.md
   position: 1
@@ -16,13 +16,13 @@ item_ids:
   - actuallyadditions:display_stand
   - actuallyadditions:black_quartz
 ---
-# <Color id="green">Getting Started</Color>
+# <Color id="green">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Getting Started</Color>
+  # <Color id="green">Начало работы</Color>
   <ItemImage id="atomic_reconstructor" scale="2" />
 
-  This page covers the basics of getting started with Actually Additions and some of its systems like crystal crafting and some key machines you will need early on.
+  На этой странице описаны основы Actually Additions: создание кристаллов и ключевые механизмы, которые пригодятся в начале игры.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -36,7 +36,7 @@ item_ids:
 <Row>
   <ItemImage id="black_quartz" />
   <Column>
-    Black Quartz generates underground as ores in most dimensions, as Geore Nodes in <Color id="aqua">Jotunheim</Color>, or from certain ore generators like occultism miners. It is one of the primary crafting components in Actually Additions.
+    Black Quartz встречается в виде руды под землёй в большинстве измерений, в виде Geore Nodes в <Color id="aqua">Jotunheim</Color> или добывается некоторыми генераторами руды, например шахтёрами Occultism. Это один из основных материалов для создания предметов в Actually Additions.
   </Column>
 </Row>
 
