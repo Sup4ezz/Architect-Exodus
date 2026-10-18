@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: draconicevolution:draconium_ingot
   parent: index.md
   position: 1
@@ -16,13 +16,13 @@ item_ids:
   - draconicevolution:awakened_draconium_ingot
   - draconicevolution:info_tablet
 ---
-# <Color id="red">Getting Started</Color>
+# <Color id="red">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Getting Started</Color>
+  # <Color id="red">Начало работы</Color>
   <ItemImage id="draconium_ingot" scale="2" />
 
-  Draconic Evolution is a powerful endgame mod centered around Draconium, the Ender Dragon, and the Chaos Guardian. This page covers the essential materials and progression tiers you need to know.
+  Draconic Evolution — мощный мод для поздних этапов игры, связанный с Draconium, Драконом Края и Хранителем Хаоса. Здесь описаны основные материалы и уровни развития.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -40,11 +40,11 @@ item_ids:
   ### <Color id="aqua">Draconium Ore</Color>
 </Row>
 
-In Architect's Exodus, Draconium Ore generates in <Color id="green">Muspelheim</Color>, <Color id="green">Midgard</Color>, and the <Color id="green">End</Color>. It is significantly more common in the End, so early supplies will be limited until you reach that dimension. Expect your first reliable Draconium income once you have access to Muspelheim or Midgard.
+В Architect's Exodus Draconium Ore генерируется в <Color id="green">Muspelheim</Color>, <Color id="green">Midgard</Color> и <Color id="green">Крае</Color>. В Крае руда встречается значительно чаще, поэтому до доступа в это измерение запасы будут ограничены. Надёжно добывать Draconium можно, добравшись до Muspelheim или Midgard.
 
-Smelt or process the ore into <ItemLink id="draconium_ingot" />, the base material for everything in the mod. <ItemLink id="draconium_dust" /> is the crushed form, useful for certain recipes and processing chains.
+Переплавьте или переработайте руду в <ItemLink id="draconium_ingot" /> — базовый материал для предметов этого мода. <ItemLink id="draconium_dust" /> — измельчённая форма, используемая в некоторых рецептах и производственных цепочках.
 
-You'll want to start by crafting a Draconium Core.
+Начните с создания Draconium Core.
 
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -52,12 +52,12 @@ You'll want to start by crafting a Draconium Core.
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tier System</Color>
+  ## <Color id="gold">Система уровней</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The mod has three tiers that determine the power level of items and equipment:
+В моде три уровня, определяющих мощность предметов и снаряжения:
 
 <Row>
   <ItemImage id="draconium_core" />
