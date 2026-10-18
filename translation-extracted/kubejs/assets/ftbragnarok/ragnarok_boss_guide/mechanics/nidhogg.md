@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: mechanics/mechanics-index.md
-  title: Nidhogg - Devourer of Worlds
+  title: Нидхёгг — пожиратель миров
   icon: ftbragnarok:destruction_heart
   position: 6
 item_ids:
@@ -10,14 +10,14 @@ item_ids:
 
 <Column alignItems="center" fullWidth={true}>
 
-# <Color id="light_purple">Nidhogg</Color> - Devourer of Worlds
+# <Color id="light_purple">Nidhogg</Color> — пожиратель миров
 <ItemImage id="ftbragnarok:destruction_heart" scale="2" />
 
-Nidhogg is the dragon who gnaws at the roots of Yggdrasil, the World Tree. He is the <Color id="red">final boss</Color> of the Ragnarok progression - the ultimate test of your abilities.
+Nidhogg — дракон, грызущий корни Иггдрасиля, Мирового Древа. Это <Color id="red">финальный босс</Color> цепочки Рагнарёка и главное испытание ваших навыков.
 </Column>
 
 <Column alignItems="center" fullWidth={true}>
-### <ItemImage id="ftbragnarok:destruction_heart" scale="0.75" /> <Color id="aqua">Boss Stats</Color> <ItemImage id="ftbragnarok:destruction_heart" scale="0.75" />
+### <ItemImage id="ftbragnarok:destruction_heart" scale="0.75" /> <Color id="aqua">Характеристики босса</Color> <ItemImage id="ftbragnarok:destruction_heart" scale="0.75" />
 </Column>
 
 * <Color id="red">Health:</Color> 1000 HP
@@ -26,27 +26,27 @@ Nidhogg is the dragon who gnaws at the roots of Yggdrasil, the World Tree. He is
 
 ***
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">The Final Challenge</Color>
+## <Color id="gold">Последнее испытание</Color>
 </Column>
 
-Nidhogg is designed to be fought by a well-prepared group. He combines devastating physical attacks with powerful magic from Iron's Spells.
+Для сражения с Nidhogg нужна хорошо подготовленная группа. Он сочетает разрушительные физические атаки с мощной магией из Iron's Spells.
 
-### <Color id="aqua">Phase Transitions</Color>
+### <Color id="aqua">Смена фаз</Color>
 
-| Phase | Health Threshold | New Abilities |
+| Фаза | Уровень здоровья | Новые способности |
 |-------|-----------------|---------------|
 | 1 | 100% - 75% | Basic attacks, fire spells |
 | 2 | 75% - 50% | Dragon adds, Death Mark |
 | 3 | 50% - 25% | Rain of Ragnarok, soul attacks |
 | 4 | Below 25% | All abilities, desperate fury |
 
-### <Color id="aqua">Spell Arsenal</Color>
-Nidhogg can cast these spells from Iron's Spells n Spellbooks:
-* <Color id="red">Devour</Color> (Level 10) - Consumes health from targets
-* <Color id="red">Black Hole</Color> (Level 6) - Pulls players toward a deadly singularity
-* <Color id="red">Dragon Breath</Color> (Level 10) - Massive fire breath attack
-* <Color id="red">Burning Dash</Color> (Level 10) - Gap-closing charge
-* <Color id="red">Fire Breath</Color> (Level 10) - Cone of flames
+### <Color id="aqua">Арсенал заклинаний</Color>
+Nidhogg использует следующие заклинания из Iron's Spells n Spellbooks:
+* <Color id="red">Devour</Color> (Level 10) - Поглощает здоровье цели
+* <Color id="red">Black Hole</Color> (Level 6) - Притягивает игроков к смертоносной сингулярности
+* <Color id="red">Dragon Breath</Color> (Level 10) - Мощная атака огненным дыханием
+* <Color id="red">Burning Dash</Color> (Level 10) - Рывок для быстрого сближения
+* <Color id="red">Fire Breath</Color> (Level 10) - Конус пламени
 * <Color id="red">Heat Surge</Color> (Level 6) - Expanding fire ring
 * <Color id="red">Sunbeam</Color> (Level 10) - Devastating beam attack
 * <Color id="red">Blight</Color> (Level 8) - Corruption damage over time
