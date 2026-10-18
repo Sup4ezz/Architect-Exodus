@@ -1,0 +1,22 @@
+{
+  "name": "Жатва под луной урожая",
+  "icon": "minecraft:wheat",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Жатва под луной урожая",
+      "multiblock_id": "bloodmagic:harvest",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "harvest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "harvest",
+      "page_type": "harvestRange"
+    }
+  ]
+}
