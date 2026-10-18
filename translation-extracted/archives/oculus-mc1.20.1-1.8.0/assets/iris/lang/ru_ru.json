@@ -67,5 +67,10 @@
   "label.iris.true": "Вкл",
   "label.iris.false": "Выкл",
   "modmenu.summaryTranslation.iris": "Современный графический мод для загрузки существующих наборов шейдеров Optifine.",
-  "modmenu.descriptionTranslation.iris": "Современный графический мод для Minecraft, предназначенный для загрузки существующих наборов шейдеров формата Optifine."
+  "modmenu.descriptionTranslation.iris": "Современный графический мод для Minecraft, предназначенный для загрузки существующих наборов шейдеров формата Optifine.",
+  "iris.load.failure.shader": "Не удалось загрузить набор шейдеров! Сообщите об ошибке разработчику шейдеров.",
+  "iris.load.failure.generic": "Oculus столкнулся с проблемой при загрузке шейдера; сообщите об этом разработчикам Oculus.",
+  "iris.keybind.wireframe": "Каркасный режим (только одиночная игра)",
+  "options.iris.colorSpace": "Цветовое пространство",
+  "options.iris.colorSpace.sodium_tooltip": "Цветовое пространство, в которое преобразуется изображение. Работает поверх наборов шейдеров. Если не уверены, выберите sRGB."
 }
