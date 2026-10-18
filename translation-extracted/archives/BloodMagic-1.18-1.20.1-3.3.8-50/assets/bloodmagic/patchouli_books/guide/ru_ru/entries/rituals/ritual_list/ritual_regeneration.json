@@ -1,0 +1,32 @@
+{
+  "name": "Ритуал регенерации",
+  "icon": "minecraft:golden_apple",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал регенерации",
+      "multiblock_id": "bloodmagic:regeneration",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "regeneration"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "heal"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "vampire"
+    }
+  ]
+}
