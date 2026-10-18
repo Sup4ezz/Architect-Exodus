@@ -4,14 +4,14 @@ navigation:
   icon: ae2:controller
   position: 0
 ---
-# <Color id="aqua">Applied Energistics 2 in Architect's Exodus</Color>
+# <Color id="aqua">Applied Energistics 2 в Architect's Exodus</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Applied Energistics 2</Color>
 
   <ItemImage id="ae2:controller" scale="2" />
 
-  Applied Energistics 2 is the digital-storage backbone of this pack. The pack rewires several core AE2 systems — processors are crafted through Thermal/Ender IO, charged certus comes from a Powah Energizing Orb, and the channel limit is disabled. This guide covers <Color id="yellow">only the Exodus-specific changes</Color>; for general AE2 mechanics, refer to JEI or the upstream AE2 documentation.
+  Applied Energistics 2 — основа цифрового хранения предметов в этой сборке. Некоторые ключевые механики AE2 здесь изменены: процессоры создаются через Thermal/Ender IO, заряженный Certus Quartz получается в Energizing Orb от Powah, а ограничение каналов отключено. Это руководство описывает <Color id="yellow">только изменения, внесённые в Architect's Exodus</Color>. Общие механики AE2 смотрите в JEI или официальной документации мода.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -19,38 +19,38 @@ navigation:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">What's Different in This Pack</Color>
+  ## <Color id="gold">Что изменено в сборке</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-- <Color id="red">Inscriber, Inscriber Presses, and Charger are removed.</Color> Their recipes are deleted and the items are hidden from JEI.
-- <Color id="green">Processors</Color> are crafted using <Color id="aqua">Thermal Component Assembly</Color> (or <Color id="aqua">Ender IO Slice'N'Splice</Color> as a fallback). No presses, no inscriber.
-- <Color id="green">Charged Certus Quartz</Color> is made by energizing plain certus in a <Color id="aqua">Powah Energizing Orb</Color> instead of an AE2 Charger.
-- <Color id="green">Flawless certus quartz</Color> comes primarily from <Color id="aqua">GeOre certus geodes in Jotunheim</Color>. Meteorites still generate, but the geodes are the reliable source.
-- <Color id="green">Channels are set to INFINITE</Color> by default. You do not need a Controller and you do not need to plan around the 8-channel limit unless you explicitly re-enable it in config.
+- <Color id="red">Inscriber, Inscriber Presses и Charger удалены.</Color> Их рецепты отключены, а предметы скрыты в JEI.
+- <Color id="green">Процессоры</Color> создаются с помощью <Color id="aqua">Thermal Component Assembly</Color> или, как запасной вариант, <Color id="aqua">Ender IO Slice'N'Splice</Color>. Прессы и Inscriber не нужны.
+- <Color id="green">Charged Certus Quartz</Color> получается зарядкой обычного Certus Quartz в <Color id="aqua">Powah Energizing Orb</Color> вместо Charger из AE2.
+- <Color id="green">Flawless Certus Quartz</Color> в основном добывается из <Color id="aqua">GeOre Certus Geodes в Йотунхейме</Color>. Метеориты по-прежнему генерируются, но геоды — более надёжный источник.
+- <Color id="green">Каналы по умолчанию установлены в INFINITE.</Color> Контроллер не требуется, и планировать сеть с учётом лимита в 8 каналов не нужно, если вы специально не включите это ограничение в настройках.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Page Links</Color>
+  ## <Color id="gold">Разделы руководства</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
 <Row>
   <Column>
-    * <ItemImage id="ae2:certus_quartz_crystal" scale="0.75" /> [Getting Started: Certus Quartz](getting_started.md)
+    * <ItemImage id="ae2:certus_quartz_crystal" scale="0.75" /> [Начало работы: Certus Quartz](getting_started.md)
   </Column>
   <Column>
-    * <ItemImage id="ae2:logic_processor" scale="0.75" /> [Processors](processors.md)
+    * <ItemImage id="ae2:logic_processor" scale="0.75" /> [Процессоры](processors.md)
   </Column>
   <Column>
-    * <ItemImage id="ae2:charged_certus_quartz_crystal" scale="0.75" /> [Charged Certus](charged_certus.md)
+    * <ItemImage id="ae2:charged_certus_quartz_crystal" scale="0.75" /> [Заряженный Certus Quartz](charged_certus.md)
   </Column>
   <Column>
-    * <ItemImage id="ae2:controller" scale="0.75" /> [Channels](channels.md)
+    * <ItemImage id="ae2:controller" scale="0.75" /> [Каналы](channels.md)
   </Column>
 </Row>
