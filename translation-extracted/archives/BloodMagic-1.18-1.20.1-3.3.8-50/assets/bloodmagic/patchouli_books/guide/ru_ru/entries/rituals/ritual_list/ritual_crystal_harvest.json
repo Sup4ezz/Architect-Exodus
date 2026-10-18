@@ -1,0 +1,38 @@
+{
+  "name": "Раскол осколочного кристалла",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Раскол осколочного кристалла",
+      "multiblock_id": "bloodmagic:crystal_harvest",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_harvest",
+      "text_overrides": [
+        [
+          "Demon Will Crystal Clusters",
+          "l:bloodmagic:demon_will/will_manipulation/crystallized_will"
+        ],
+        [
+          "aspects",
+          "l:bloodmagic:demon_will/will_manipulation/aspected_will"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crystal_harvest",
+      "page_type": "crystal",
+      "text_overrides": [
+        [
+          "Demon Will",
+          "raw"
+        ]
+      ]
+    }
+  ]
+}
