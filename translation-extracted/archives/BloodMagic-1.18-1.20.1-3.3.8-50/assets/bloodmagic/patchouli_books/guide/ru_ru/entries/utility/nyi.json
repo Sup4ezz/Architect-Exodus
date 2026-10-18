@@ -1,0 +1,40 @@
+{
+  "name": "Пока не реализовано",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:lightritualstone": 0,
+    "bloodmagic:etherealslate": 0,
+    "bloodmagic:nether_soil": 0,
+    "bloodmagic:growing_doubt": 0,
+    "bloodmagic:doubt_bucket": 0,
+    "bloodmagic:activationcrystalawakened": 0,
+    "bloodmagic:will_power_anointment": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Небольшое разрушение четвёртой стены: $(blood)Blood Magic$() ещё не полностью завершён, и некоторые функции из прошлых версий пока не реализованы. Возможно, часть вернётся в будущем, а часть окончательно ушла в прошлое. (Смотрим на вас, связанные доспехи и оружие.)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ритуалы тайного пепла — некоторые могут вернуться позднее. $(li)Ритуал связывания — удалён ещё в версии 1.7.10, хватит спрашивать. $(li)Несовершенные ритуалы (лазурит и прочее) — часть реализована как массивы тайного пепла. $(li)Сигил упругости. $(li)Сигил стихийного сродства. $(li)Сигил когтя. $(li)Ритуал запрета. $(li)Ритуал заточения. $(li)Le Vulcano Frigius."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ритуал подавления. $(li)Разборщик ритуалов. $(li)Ритуальный указатель (рассвет). $(li)Большой тартарический самоцвет. $(li)Спектральное оружие и инструменты. $(li)Сигил транспозиции. $(li)Сигил разрыва Края. $(li)Сигил сжатия. $(li)Сигил призрачного моста. $(li)Возведение великого алтаря. $(li)Крик вечной души. $(li)Гимн высасывания."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Врата складки. $(li)Ритуал пернатой земли. $(li)Ритуал изгнания. $(li)Пробуждённый кристалл активации."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "По мере развития мода список может меняться. $(br2)Дополнительная информация: $(li)$(l:https://github.com/WayofTime/BloodMagic)GitHub Blood Magic$(); $(li)$(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)страница Blood Magic на CurseForge$(); $(li)$(l:https://discord.gg/VtNrGrs)Discord Blood Magic$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Это руководство составили Wrincewind и VT-14 на основе оригинального руководства Way при помощи Patchouli и MinecraftGuides.net. Спасибо за игру! :)"
+    }
+  ]
+}
