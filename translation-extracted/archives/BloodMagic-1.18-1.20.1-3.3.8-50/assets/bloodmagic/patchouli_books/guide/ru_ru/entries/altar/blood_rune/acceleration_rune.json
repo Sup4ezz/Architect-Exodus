@@ -1,0 +1,25 @@
+{
+  "name": "Руна ускорения",
+  "icon": "bloodmagic:accelerationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна ускорения$() Руна ускорения повышает скорость некоторых операций. Обычно руны заряда и смещения срабатывают раз в 20 тактов; каждая руна ускорения сокращает задержку на 1 такт, вплоть до одной операции за такт."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration_2",
+      "text": "Незеритовый лом и замысловатые адские детали, добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве демонов$(), позволяют удвоить силу этой руны."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/acceleration",
+      "text": "Передумали? Этот рецепт можно отменить в ARC."
+    }
+  ]
+}
