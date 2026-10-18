@@ -1,0 +1,67 @@
+{
+  "name": "Катализаторы Воли",
+  "icon": "bloodmagic:rawcatalyst",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "У демонической Воли есть один недостаток: её сбор медленный и утомительный. Даже почти полный тартарический самоцвет, разумный меч с «Добычей III» и усиление «Блеск мародёра II» не избавляют от необходимости вручную бегать за пауками и скелетами."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "К счастью, этот процесс можно полностью автоматизировать. Сначала добудьте $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)кристаллы Воли$(). Подойдут любые, но нужны четыре кристалла одного типа: $(raw)сырого$(), $(steadfast)стойкого$(), $(destructive)разрушительного$(), $(vengeful)мстительного$() или $(corrosive)разъедающего$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Кластер сырых кристаллов",
+      "a.recipe": "bloodmagic:soulforge/raw_crystal_block",
+      "b.heading": "Кластер стойких кристаллов",
+      "b.recipe": "bloodmagic:soulforge/steadfast_crystal_block",
+      "c.heading": "Кластер разрушительных кристаллов",
+      "c.recipe": "bloodmagic:soulforge/destructive_crystal_block"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Кластер мстительных кристаллов",
+      "a.recipe": "bloodmagic:soulforge/vengeful_crystal_block",
+      "b.heading": "Кластер разъедающих кристаллов",
+      "b.recipe": "bloodmagic:soulforge/corrosive_crystal_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Разместите кластер в чанке, наполните его Волей соответствующего типа и подождите: со временем вырастут новые шпили, как на $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)кристаллизаторе демонов$(). Ритуал $(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)«Раскол осколочного кристалла»$() автоматизирует добычу шпилей, а $(l:bloodmagic:rituals/ritual_list/ritual_zephyr)«Зов зефира»$() — сбор кристаллов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "С помощью системы $(l:bloodmagic:demon_will/item_routing/routing_nodes)узлов маршрутизации$() можно возвращать лишние кристаллы в демонический тигель и создать полностью автоматический цикл с положительным балансом. Но он очень медленный: новый шпиль появляется раз в несколько минут, а средний прирост составляет около одной единицы Воли в минуту на шпиль."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Катализатор сырой Воли",
+      "a.recipe": "bloodmagic:soulforge/raw_catalyst",
+      "b.heading": "Катализатор стойкой Воли",
+      "b.recipe": "bloodmagic:soulforge/steadfast_catalyst",
+      "c.heading": "Катализатор разрушительной Воли",
+      "c.recipe": "bloodmagic:soulforge/destructive_catalyst"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Катализатор мстительной Воли",
+      "a.recipe": "bloodmagic:soulforge/vengeful_catalyst",
+      "b.heading": "Катализатор разъедающей Воли",
+      "b.recipe": "bloodmagic:soulforge/corrosive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Катализаторы ускоряют рост кластеров. Держа катализатор в руке, нажмите [$(k:use)] на кластер того же типа. Стоимость роста шпиля уменьшится с 45 до 25 единиц Воли, а скорость вырастет в десять раз. Одного заряда хватает на десять шпилей, что даёт чистую прибыль в 200 единиц Воли."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Можно применить два заряда сразу: эффект продлится на 20 ростков вместо 10, но других преимуществ не будет. Впрочем, так ручную охоту за монстрами вы просто замените ручной беготнёй с катализатором вокруг кристаллов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для этого тоже есть ритуал! $(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)«Сбор павших душ»$() автоматически применяет катализаторы ко всем кристаллам в области действия. Несколько ферм и продуманная система узлов маршрутизации позволят автоматизировать весь процесс."
+    }
+  ]
+}
