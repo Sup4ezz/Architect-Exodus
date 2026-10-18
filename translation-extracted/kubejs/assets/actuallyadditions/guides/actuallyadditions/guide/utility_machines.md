@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Utility Machines
+  title: Вспомогательные механизмы
   icon: actuallyadditions:farmer
   parent: index.md
   position: 7
@@ -15,13 +15,13 @@ item_ids:
   - actuallyadditions:ranged_collector
   - actuallyadditions:feeder
 ---
-# <Color id="green">Utility Machines</Color>
+# <Color id="green">Вспомогательные механизмы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Utility Machines</Color>
+  # <Color id="green">Вспомогательные механизмы</Color>
   <ItemImage id="farmer" scale="2" />
 
-  Utility machines handle a variety of automation and convenience tasks.
+  Вспомогательные механизмы выполняют различные задачи автоматизации и упрощают работу.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -32,7 +32,7 @@ item_ids:
   ### <Color id="aqua">Energizer</Color>
 </Row>
 
-The Energizer charges CF-powered items placed inside it.
+Energizer заряжает помещённые внутрь предметы, работающие на CF.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -41,7 +41,7 @@ The Energizer charges CF-powered items placed inside it.
   ### <Color id="aqua">Enervator</Color>
 </Row>
 
-The Enervator does the opposite; it discharges CF from items, extracting the energy for storage or use elsewhere.
+Enervator выполняет обратную задачу: извлекает CF из предметов, чтобы сохранить энергию или использовать её в другом месте.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
