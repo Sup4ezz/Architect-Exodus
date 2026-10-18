@@ -1,13 +1,13 @@
 {
-    "name": "Скорость Передвижени¤",
-    "icon": "minecraft:leather_boots",
-    "category": "apotheosis:adventure/attributes",
-	"flag": "apotheosis:adventure",
-	"sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Ваша $(9)Скорость ѕередвижени¤$() это то, насколько быстро вы двигаетесь по сравнению с обычной скоростью ходьбы игрока.$(p)Этот стат может быть предоставлена практически любым предметом."
-        }
-	]
+  "name": "Movement Speed",
+  "icon": "minecraft:leather_boots",
+  "category": "apotheosis:adventure/attributes",
+  "flag": "apotheosis:adventure",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(9)Movement Speed$() определяет, насколько быстро вы передвигаетесь относительно обычной скорости ходьбы игрока.$(p)Эту характеристику может повышать практически любой предмет."
+    }
+  ]
 }
