@@ -1,6 +1,5 @@
 {
   "itemGroup.mythicbotany": "Мистическая Ботания",
-
   "item.mythicbotany.asgard_rune": "Руна Асгарда",
   "item.mythicbotany.vanaheim_rune": "Руна Ванахейма",
   "item.mythicbotany.alfheim_rune": "Руна Альфхейма",
@@ -33,7 +32,6 @@
   "item.mythicbotany.kvasir_mead": "Мед Квасира",
   "item.mythicbotany.dream_cherry": "Dreamcherry",
   "item.mythicbotany.alf_pixie_spawn_egg": "Яйцо призыва альфхеймского пикси",
-
   "block.mythicbotany.mana_infuser": "Мана-инфузер",
   "block.mythicbotany.alfsteel_block": "Блок Альфстали",
   "block.mythicbotany.alfsteel_pylon": "Пилон Альфстали",
@@ -57,18 +55,15 @@
   "block.mythicbotany.dragonstone_ore": "Руда Драконьего Камня",
   "block.mythicbotany.gold_ore": "Золотая руда",
   "block.mythicbotany.return_portal": "Обратный портал Альфхейма",
-
   "item.mythicbotany.alfsteel_helmet.description": "Заставляет вас тянуться немного дальше.",
   "item.mythicbotany.alfsteel_chestplate.description": "Дает вам довольно хорошее сопротивление отбрасыванию",
   "item.mythicbotany.alfsteel_leggings.description": "Заставляет бежать быстрее.",
   "item.mythicbotany.alfsteel_boots.description": "Заставляет прыгать выше.",
-
   "block.mythicbotany.exoblaze.description": "Пылающий!",
   "block.mythicbotany.wither_aconite.description": "Оно поглощает Адские звезды.",
   "block.mythicbotany.aquapanthus.description": "Попробуй, когда высохнет.",
   "block.mythicbotany.hellebore.description": "Похоже на Хельхейм.",
   "block.mythicbotany.raindeletia.description": "Дождь - это не боль",
-  
   "enchantment.mythicbotany.hammer_mobility": "Hammer Mobility",
   "entity.mythicbotany.mjoellnir": "Mjöllnir",
   "entity.mythicbotany.alf_pixie": "Пикси Альфхейма",
@@ -77,7 +72,6 @@
   "biome.mythicbotany.dreamwood_forest": "Лес Грез",
   "biome.mythicbotany.golden_fields": "Золотые поля",
   "biome.mythicbotany.alfheim_lakes": "Озера Альфхейма",
-  
   "tooltip.mythicbotany.cost_pools": "%s Бассейн маны",
   "tooltip.mythicbotany.reverse_ratio": "%sx Увеличить",
   "tooltip.mythicbotany.rune_ritual": "Рунический ритуал",
@@ -99,7 +93,6 @@
   "message.mythicbotany.ritual_no_trader": "Этот ритуал нужно проводить более жестоко. Вы не сможете заставить это работать, если не принесете в жертву странствующего трейдера..",
   "message.mythicbotany.mjoellnir_heavy_pick": "Молоток слишком велик, чтобы его можно было поднять. Однако говорят, что боги ели золотые яблоки Идуна, чтобы получить свою силу..",
   "message.mythicbotany.mjoellnir_heavy_drop": "Вы чувствуете, как уменьшается сила ваших рук. Вы не можете больше удерживать этот тяжелый молот.",
-
   "advancements.mythicbotany.mythicbotany.root.title": "MythicBotany",
   "advancements.mythicbotany.mythicbotany.root.description": "Погрузитесь глубже в мир магии",
   "advancements.mythicbotany.mythicbotany.all_runes.title": "Мастер рун",
@@ -117,5 +110,20 @@
   "advancements.mythicbotany.mythicbotany.alfsteel.title": "Смущающее сходство",
   "advancements.mythicbotany.mythicbotany.alfsteel.description": "Сделайте немного альфстали",
   "advancements.mythicbotany.mythicbotany.mending_repair.title": "Мана дает опыт",
-  "advancements.mythicbotany.mythicbotany.mending_repair.description": "Отремонтируйте некоторые инструменты для ремонта на пилоне из нержавеющей стали.."
+  "advancements.mythicbotany.mythicbotany.mending_repair.description": "Отремонтируйте некоторые инструменты для ремонта на пилоне из нержавеющей стали..",
+  "item.mythicbotany.inactive_alsteel_template": "Шаблон кузнечного дела чужеземцев",
+  "item.mythicbotany.raw_elementium": "Необработанный элементиум",
+  "block.mythicbotany.feysythia": "Фейзития",
+  "block.mythicbotany.feysythia_floating": "Парящая фейзития",
+  "block.mythicbotany.petrunia": "Петруния",
+  "block.mythicbotany.petrunia_floating": "Парящая петруния",
+  "block.mythicbotany.raw_elementium_block": "Блок необработанного элементиума",
+  "block.mythicbotany.feysythia.description": "Сказание о фейри",
+  "block.mythicbotany.petrunia.description": "Получено из сада на Тисовой улице",
+  "enchantment.mythicbotany.hammer_mobility.desc": "Увеличивает скорость атаки молота.",
+  "tooltip.mythicbotany.alfsteel_template.applies_to": "Снаряжение из террастали",
+  "tooltip.mythicbotany.alfsteel_template.upgrade": "Улучшение из альфстали",
+  "tooltip.mythicbotany.alfsteel_template.slot_description": "Добавить %s",
+  "tooltip.mythicbotany.alfsteel_template.slot_base": "броня, оружие или инструмент из террастали",
+  "message.mythicbotany.alfheim_not_loaded": "Измерение Альфхейм не загружено. Попробуйте перезапустить игру или сервер."
 }
