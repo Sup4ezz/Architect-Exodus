@@ -21,7 +21,7 @@ item_ids:
   # <Color id="light_purple">Ритуалы и фамильяры</Color>
   <ItemImage id="ritual_brazier" scale="2" />
 
-  Rituals provide powerful area effects и utility, while familiars grant passive bonuses to their summoner.
+  Rituals provide powerful area effects and utility, while familiars grant passive bonuses to their summoner.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -39,7 +39,7 @@ item_ids:
   ### <Color id="aqua">Ritual Brazier</Color>
 </Row>
 
-Rituals require a <Color id="green">Ritual Brazier</Color> и a <Color id="green">Ritual Tablet</Color>. Place the brazier, then use a tablet on it to set the ritual. Before activating, you can use augment items on the brazier one at a time to modify the ritual's behavior. Once augments are set, right click with an empty hand to activate. Most rituals require <Color id="green">Source</Color> from a nearby jar.
+Rituals require a <Color id="green">Ritual Brazier</Color> and a <Color id="green">Ritual Tablet</Color>. Place the brazier, then use a tablet on it to set the ritual. Before activating, you can use augment items on the brazier one at a time to modify the ritual's behavior. Once augments are set, right click with an empty hand to activate. Most rituals require <Color id="green">Source</Color> from a nearby jar.
 
 <ItemLink id="brazier_relay" /> blocks can bind a ritual's effect to a new location within 15 blocks of the brazier. Applying a redstone signal to a running brazier disables the ritual.
 
@@ -53,13 +53,13 @@ Rituals require a <Color id="green">Ritual Brazier</Color> и a <Color id="green
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-- **Ritual of Awakening** — Creates Weald Walkers, Amethyst Golems, и Bookwyrms from appropriate creatures or blocks
+- **Ritual of Awakening** — Creates Weald Walkers, Amethyst Golems, and Bookwyrms from appropriate creatures or blocks
 - **Ritual of Binding** — Obtains Bound Scripts for summoning familiars
 - **Ritual of Containment** — Captures mobs into Mob Jars
-- **Ritual of Flight** — Даёт бонусы creative flight in an area around the brazier
+- **Ritual of Flight** — Grants creative flight in an area around the brazier
 - **Ritual of Harvest** — Auto-harvests mature crops nearby
 - **Ritual of Fertility** — Breeds nearby animals automatically
-- **Ritual of Flowering / Overgrowth** — Accelerates crop и plant growth
+- **Ritual of Flowering / Overgrowth** — Accelerates crop and plant growth
 - **Ritual of Sanctuary** — Prevents hostile mob spawning in the area
 - **Ritual of Sunrise / Moonfall** — Controls the time of day
 - **Ritual of Cloudshaping** — Controls the weather
@@ -77,7 +77,7 @@ Rituals require a <Color id="green">Ritual Brazier</Color> и a <Color id="green
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Summon familiars via the <Color id="green">Ritual of Binding</Color> performed near the appropriate creature. ritual produces a Bound Script, which you use to learn the familiar. Once learned, familiars follow you и provide passive bonuses.
+Чтобы получить фамильяра, проведите <Color id="green">Ritual of Binding</Color> рядом с соответствующим существом. Ритуал создаёт Bound Script, с помощью которого можно изучить фамильяра. После изучения фамильяр следует за вами и даёт пассивные бонусы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -96,11 +96,11 @@ Summon familiars via the <Color id="green">Ritual of Binding</Color> performed n
   <Column>
     - **Starbuncle Familiar** — Item collection bonuses
     - **Drygmy Familiar** — Mob loot bonuses
-    - **Whirlisprig Familiar** — Nature и growth bonuses
+    - **Whirlisprig Familiar** — Nature and growth bonuses
   </Column>
   <Column>
-    - **Bookwyrm Familiar** — Storage и crafting bonuses
-    - **Wixie Familiar** — Potion и crafting bonuses
+    - **Bookwyrm Familiar** — Storage and crafting bonuses
+    - **Wixie Familiar** — Potion and crafting bonuses
     - **Amethyst Golem Familiar** — Amethyst harvesting bonuses
   </Column>
 </Row>
@@ -117,7 +117,7 @@ Summon familiars via the <Color id="green">Ritual of Binding</Color> performed n
 
 <Row>
   <ItemImage id="summon_focus" />
-  ### <Color id="aqua">Фокус призыва</Color>
+  ### <Color id="aqua">Summon Focus</Color>
 </Row>
 
-A casting focus that enhances summoned creatures. Даёт бонусы summons additional duration, strength, и speed. Spells that target you are also copied to nearby summons while the focus is equipped.
+Фокус заклинателя, усиливающий призванных существ. Увеличивает длительность призыва, силу и скорость. Пока фокус экипирован, заклинания, направленные на вас, также копируются на ближайших призванных существ.
