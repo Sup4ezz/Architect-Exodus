@@ -1352,5 +1352,10 @@
   "material.irons_spellbooks.rune_protection": "Руна защиты",
   "material.irons_spellbooks.rune_nature": "Руна природы",
   "material.irons_spellbooks.divine_pearl": "Божественная жемчужина",
-  "action.irons_spellbooks.explode.arcane": "Арканный"
+  "action.irons_spellbooks.explode.arcane": "Арканный",
+  "potion.potency.6": "VI",
+  "potion.potency.7": "VII",
+  "potion.potency.8": "XIII",
+  "potion.potency.9": "IX",
+  "potion.potency.10": "X"
 }
