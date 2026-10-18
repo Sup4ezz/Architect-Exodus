@@ -1,0 +1,17 @@
+{
+  "name": "Элитры",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Добавляет элитры к живой броне. Это улучшение нельзя развить тренировкой: необходимо создать соответствующий $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)фолиант улучшений$().$(br2)Элитры расходуют прочность нагрудника, но вдвое медленнее обычных элитр.$(br2)И выглядят они весьма недурно."
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "Фолиант элитр",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}
