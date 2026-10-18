@@ -249,5 +249,19 @@
   "fdbosses.boss_drop.fdbosses.geburah.fdbosses.geburah_trophy.info": "Трофей Гебуры",
   "fdbosses.word.cant_find_arena": "Не удалось найти структуру в этом измерении",
   "fdbosses.skills.geburah.sin_stay_still_sin": "Грех неподвижности",
-  "fdbosses.skills.geburah.sin_stay_still_sin_description": "Когда этот грех активен, людям запрещено стоять на месте."
+  "fdbosses.skills.geburah.sin_stay_still_sin_description": "Когда этот грех активен, людям запрещено стоять на месте.",
+  "item.fdbosses.phase_sphere": "Сфера фазового сдвига",
+  "item.fdbosses.malkuth_fist": "Перчатка углей и льда",
+  "item.fdbosses.divine_gear": "Божественный механизм",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.info": "Позволяет на высокой скорости проходить сквозь блоки.\n\n§cВнимание!§r\n\nСущества всё ещё могут наносить вам урон; вы защищены только от удушья внутри блоков.",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.stats": "Длительность фазового сдвига:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=phaseSphereUseDuration}} тиков.\n\nПерезарядка:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=phaseSphereCooldown}} тиков.",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.stats": "Урон сокрушения:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCrushDamage}}.\n\nПерезарядка:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCooldown}} тиков",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.info": "§6В правой руке:§r\n\nРаботает как крюк-кошка для блоков. Выпускает сокрушающую атаку Малкута в точке зацепа.\nЕсли использовать на земле, направив взгляд вниз, подбрасывает игрока в воздух.\n\n§6В левой руке:§r\n\nРаботает как крюк-кошка для существ. Автоматически атакует цель, а затем отбрасывает игрока от неё.\n\n§6Комбо:§r\n\nИспользование предмета в левой руке с последующим перемещением в правую сбрасывает перезарядку.",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.stats": "Урон:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearDamage}}.\n\nИнтервал атак:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearAttackCooldown}} тиков.\n\nВремя существования:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearLifetime}} тиков.\n\nВремя восстановления заряда:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearChargeReplenishTime}} тиков.\n\nРадиус атаки:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearAttackRadius}} блоков.",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.info": "Позволяет установить турель, атакующую §cЛЮБЫХ§r существ поблизости.\n\nВ первую очередь атакует последнее существо, которое вы атаковали.\n\nВмещает до {{(fdbosses:config_float) config=itemConfig, value=divineGearCharges}} зарядов.",
+  "fdbosses.word.set_special_respawn_point": "Особая точка возрождения установлена",
+  "fdbosses.word.item_is_not_released_yet": "Этот предмет ещё не выпущен!",
+  "fdbosses.word.malkuth_fist_description": "Работает как крюк-кошка для блоков в правой руке и для существ — в левой. Перенос предмета из левой руки в правую сбрасывает перезарядку.",
+  "fdbosses.word.phase_sphere_description": "При использовании позволяет на ограниченное время проходить сквозь блоки.",
+  "fdbosses.word.divine_gear_description": "Щёлкните ПКМ по блоку, чтобы установить турель, атакующую любых существ поблизости."
 }
