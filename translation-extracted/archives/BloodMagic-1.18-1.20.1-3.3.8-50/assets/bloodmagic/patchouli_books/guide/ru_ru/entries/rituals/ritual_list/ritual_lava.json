@@ -1,0 +1,73 @@
+{
+  "name": "Серенада Незера",
+  "icon": "minecraft:lava_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Серенада Незера",
+      "multiblock_id": "bloodmagic:lava",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "lava"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "corrosive",
+      "text": "Особенно полезен против обитателей Незера."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "vengeful",
+      "text": "Когда действие ослабления закончится, цель эффектно взорвётся, словно фейерверк."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireDamage",
+      "text": "Урон огнём зависит от $(corrosive)разъедающей Воли$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireFuse",
+      "text": "Применяет эффект «Запал» перед взрывом."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireResist",
+      "text": "Стойкая Воля даёт сопротивление огню."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaTank",
+      "text": "Позволяет настроить резервуар лавы."
+    }
+  ]
+}
