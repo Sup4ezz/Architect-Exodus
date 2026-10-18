@@ -541,5 +541,21 @@
   "tooltip.enderio.photovoltaic_cell.advanced2": "Для работы, над блоком должно быть чистое небо",
   "tooltip.enderio.photovoltaic_cell.advanced3": "Максимальный выход: ",
   "tooltip.enderio.photovoltaic_cell.main": "Солнечная энергия!",
-  "tooltip.enderio.soul_vial.health": "Здоровье: %s/%s"
+  "tooltip.enderio.soul_vial.health": "Здоровье: %s/%s",
+  "block.enderio.aversion_obelisk": "Обелиск отвращения",
+  "gui.enderio.conduit.priority": "Приоритет",
+  "gui.enderio.conduit_probe.message.copied": "Скопированы данные: %s",
+  "gui.enderio.conduit_probe.message.pasted": "Вставлены данные: %s",
+  "gui.enderio.conduit_probe.mode.switched": "Режим зонда каналов изменён на %s",
+  "item.enderio.conduit.chemical.multi": "Позволяет транспортировать несколько типов химических веществ по одной линии",
+  "item.enderio.conduit_probe": "Зонд каналов",
+  "item.enderio.entity_filter": "Фильтр душ",
+  "keybinding.enderio.category": "EnderIO",
+  "keybinding.enderio.probe_mode": "Сменить режим зонда",
+  "tooltip.enderio.conduit.fluid.multi": "Позволяет транспортировать несколько типов жидкостей по одной линии",
+  "tooltip.enderio.conduit.fluid.rate": "Скорость передачи: %s мБ/т",
+  "tooltip.enderio.conduit_probe.mode": "Режим: %s",
+  "tooltip.enderio.conduit_probe.mode.contains_copied": "Содержит скопированные данные каналов:",
+  "tooltip.enderio.conduit_probe.mode.copy_paste": "Копирование/вставка",
+  "tooltip.enderio.conduit_probe.mode.probe": "Проверка"
 }
