@@ -1,0 +1,11 @@
+{
+  "name": "Введение",
+  "icon": "actuallyadditions:item_booklet",
+  "category": "actuallyadditions:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Добро пожаловать в Actually Additions! Эта книга поможет разобраться в механизмах, ресурсах и устройствах мода.$(p)Изучайте главы и пробуйте рецепты, чтобы постепенно освоить доступные возможности."
+    }
+  ]
+}
