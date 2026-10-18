@@ -1,0 +1,15 @@
+{
+  "name": "Удар с разбега",
+  "icon": "minecraft:golden_axe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: увеличивает урон и силу отбрасывания при атаке во время спринта — вплоть до +50%.$(br2)Как развивается: нанося урон во время спринта.$(br2)Максимальный уровень: 5."
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:sprint_attack"
+    }
+  ]
+}
