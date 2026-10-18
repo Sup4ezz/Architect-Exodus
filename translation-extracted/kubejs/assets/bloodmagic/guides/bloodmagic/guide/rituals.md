@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Rituals
+  title: Ритуалы
   icon: bloodmagic:ritualdiviner
   parent: index.md
   position: 7
@@ -21,35 +21,35 @@ item_ids:
   - bloodmagic:duskritualstone
   - bloodmagic:lightritualstone
 ---
-# <Color id="red">Rituals</Color>
+# <Color id="red">Ритуалы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Rituals</Color>
+  # <Color id="red">Ритуалы</Color>
   <ItemImage id="bloodmagic:ritualstone" scale="2" />
-  Rituals use LP from your Soul Network to perform various powerful tasks such as generating ores, growing crops, damaging mobs for LP, and many more.
+  Ритуалы расходуют LP из Soul Network для выполнения мощных действий: создания руд, ускорения роста культур, нанесения урона мобам ради LP и многого другого.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Setting Up a Ritual</Color>
+  ## <Color id="gold">Подготовка ритуала</Color>
 </Column>
-Rituals are centered around the <Color id="light_purple">Master Ritual Stone</Color>, with a number of <Color id="dark_green">Ritual Stone</Color> placed in specific patterns nearby.
+В центре ритуала находится <Color id="light_purple">Master Ritual Stone</Color>. Вокруг него нужно разместить <Color id="dark_green">Ritual Stone</Color> в определённом порядке.
 
-Most rituals have an effective range of 11×11×11 blocks around the <Color id="light_purple">Master Ritual Stone</Color>, but you should carefully check this before 
-
-<ItemImage id="minecraft:air" scale="0.25"/>
-
-### <Color id="aqua">Step 1: Build the Structure</Color>
-
-Place a <Color id="light_purple">Master Ritual Stone</Color> and surround it with <Color id="dark_green">Ritual Stone</Color> in the correct pattern for your chosen ritual.
+Большинство ритуалов действует в пределах области 11×11×11 блоков вокруг <Color id="light_purple">Master Ritual Stone</Color>, однако перед постройкой стоит проверить радиус действия.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-### <Color id="aqua">Step 2: Color the Stones</Color>
+### <Color id="aqua">Шаг 1: Постройте структуру</Color>
 
-Use <Color id="green">Inscription Tools</Color> to color the Ritual Stones. Each ritual requires specific colors in specific positions.
+Установите <Color id="light_purple">Master Ritual Stone</Color> и разместите вокруг него <Color id="dark_green">Ritual Stone</Color> по схеме выбранного ритуала.
+
+<ItemImage id="minecraft:air" scale="0.25"/>
+
+### <Color id="aqua">Шаг 2: Раскрасьте камни</Color>
+
+Используйте <Color id="green">Inscription Tools</Color>, чтобы менять цвет Ritual Stone. Для каждого ритуала нужны определённые цвета в заданных позициях.
 
 <ItemGrid>
   <ItemIcon id="bloodmagic:airscribetool" />
@@ -70,14 +70,14 @@ Use <Color id="green">Inscription Tools</Color> to color the Ritual Stones. Each
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-### <Color id="aqua">Step 3: Activate</Color>
+### <Color id="aqua">Шаг 3: Активация</Color>
 
-Right-click the <Color id="light_purple">Master Ritual Stone</Color> with an <Color id="green">Activation Crystal</Color> to start the ritual.
+Щёлкните ПКМ по <Color id="light_purple">Master Ritual Stone</Color> с <Color id="green">Activation Crystal</Color> в руке, чтобы запустить ритуал.
 
 <Row>
   <ItemImage id="bloodmagic:activationcrystalweak" />
   <Column>
-    The <ItemLink id="bloodmagic:activationcrystalweak" /> is the basic crystal needed to activate most rituals.
+    <ItemLink id="bloodmagic:activationcrystalweak" /> — базовый кристалл для активации большинства ритуалов.
   </Column>
 </Row>
 
@@ -86,7 +86,7 @@ Right-click the <Color id="light_purple">Master Ritual Stone</Color> with an <Co
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Automatically Setting up Rituals</Color>
+  ## <Color id="gold">Автоматическая сборка ритуалов</Color>
 </Column>
 
 <Row>
@@ -96,9 +96,9 @@ Right-click the <Color id="light_purple">Master Ritual Stone</Color> with an <Co
   </Column>
 </Row>
 
-The <Color id="green">Ritual Diviner</Color> makes building rituals much easier. Sneak-right-click in the air to cycle through rituals, then use it on the <Color id="light_purple">Master Ritual Stone</Color> to automatically place and color all <Color id="green">Ritual Stones</Color> for the selected ritual.
+<Color id="green">Ritual Diviner</Color> значительно упрощает сборку ритуалов. Зажмите Shift и щёлкните ПКМ в воздухе, чтобы выбрать ритуал, затем используйте предмет на <Color id="light_purple">Master Ritual Stone</Color>: он автоматически разместит и раскрасит все <Color id="green">Ritual Stones</Color> для выбранного ритуала.
 
-It is <Color id="red">highly recommended</Color> to craft one before attempting any rituals.
+<Color id="red">Настоятельно рекомендуется</Color> изготовить этот предмет до первой попытки провести ритуал.
 
 
 <ItemImage id="minecraft:air" scale="0.5"/>
@@ -110,15 +110,15 @@ It is <Color id="red">highly recommended</Color> to craft one before attempting 
   </Column>
 </Row>
 
-This version of the <Color id="green">Ritual Diviner</Color> can be used for more advanced Rituals that require <Color id="aqua"><ItemLink id="bloodmagic:duskritualstone"/></Color> or <Color id="aqua"><ItemLink id="bloodmagic:lightritualstone"/></Color> to set up.
+Эта версия <Color id="green">Ritual Diviner</Color> предназначена для более сложных ритуалов, для которых требуются <Color id="aqua"><ItemLink id="bloodmagic:duskritualstone"/></Color> или <Color id="aqua"><ItemLink id="bloodmagic:lightritualstone"/></Color>.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Blood Magic Ritual List</Color>
-  Check the <Color id="green"><ItemLink id="patchouli:guide_book" tag='{"patchouli:book":"bloodmagic:guide"}' /></Color> for more details on these rituals.
+  ## <Color id="gold">Список ритуалов Blood Magic</Color>
+  Подробности об этих ритуалах можно найти в <Color id="green"><ItemLink id="patchouli:guide_book" tag='{"patchouli:book":"bloodmagic:guide"}' /></Color>.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.55"/>
@@ -172,8 +172,8 @@ This version of the <Color id="green">Ritual Diviner</Color> can be used for mor
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Animus Ritual List</Color>
-  Check the <Color id="dark_green"><ItemLink id="patchouli:guide_book" tag='{"patchouli:book":"animus:codex_animus"}' /></Color> for more details on these rituals.
+  ## <Color id="gold">Список ритуалов Animus</Color>
+  Подробности об этих ритуалах можно найти в <Color id="dark_green"><ItemLink id="patchouli:guide_book" tag='{"patchouli:book":"animus:codex_animus"}' /></Color>.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.5"/>
