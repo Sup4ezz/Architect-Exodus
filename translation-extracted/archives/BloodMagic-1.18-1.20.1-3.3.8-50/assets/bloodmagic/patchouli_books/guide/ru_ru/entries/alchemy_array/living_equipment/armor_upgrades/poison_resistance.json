@@ -1,0 +1,15 @@
+{
+  "name": "Устойчивость к яду",
+  "icon": "minecraft:milk_bucket",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: излечивает от отравления. У способности есть перезарядка, которая сокращается с каждым уровнем.$(br2)Как развивается: когда вы отравлены.$(br2)Максимальный уровень: 5."
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:poison_resist"
+    }
+  ]
+}
