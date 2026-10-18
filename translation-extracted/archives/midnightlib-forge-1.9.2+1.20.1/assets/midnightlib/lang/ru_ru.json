@@ -7,5 +7,10 @@
   "midnightlib.midnightconfig.enum.ConfigButton.MODMENU": "§bModMenu",
   "midnightlib.wiki": "Вики",
   "modmenu.summaryTranslation.midnightlib": "Общая библиотека для простой настройки.",
-  "midnightconfig.colorChooser.title": "Выберите цвет"
+  "midnightconfig.colorChooser.title": "Выберите цвет",
+  "midnightlib.modrinth": "Modrinth",
+  "midnightlib.curseforge": "CurseForge",
+  "midnightconfig.action.list_index": "Редактирование списка, индекс %s",
+  "midnightconfig.action.color_chooser": "Открыть выбор цвета",
+  "midnightconfig.action.file_chooser": "Открыть выбор файла"
 }
