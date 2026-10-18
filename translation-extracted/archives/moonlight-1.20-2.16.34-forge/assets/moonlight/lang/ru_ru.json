@@ -5,8 +5,8 @@
   "gui.moonlight.open_mod_page": "Открыть страницу %s на CurseForge",
   "message.moonlight.anti_repost": "Похоже, вы скачали %1$s с вредоносного сайта :( Получите реальную версию %2$s.",
   "message.moonlight.anti_repost_link": "здесь",
-
   "wood_type.twilightforest.dark": "Тёмное дерево",
   "leaves_type.twilightforest.dark": "Тёмное дерево",
-  "leaves_type.ulterlands.souldrained": "Окаменевшие"
+  "leaves_type.ulterlands.souldrained": "Окаменевшие",
+  "tooltip.moonlight.media.partner_server": "Нужен сервер? Закажите его у %s"
 }
