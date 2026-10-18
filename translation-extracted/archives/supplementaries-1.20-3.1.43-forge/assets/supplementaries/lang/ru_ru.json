@@ -15,7 +15,6 @@
   "advancements.nether.goblet.title": "Аристократ",
   "advancements.story.unenchanter.description": "Обточите зачарованное золотое яблоко",
   "advancements.story.unenchanter.title": "И для чего это!?",
-
   "block.minecraft.banner.supplementaries.dragon.black": "Чёрный дракон",
   "block.minecraft.banner.supplementaries.dragon.blue": "Синий дракон",
   "block.minecraft.banner.supplementaries.dragon.brown": "Коричневый дракон",
@@ -260,7 +259,6 @@
   "block.supplementaries.fine_wood": "Благородная деревесина",
   "block.supplementaries.fine_wood_slab": "Плита из благородной деревесины",
   "block.supplementaries.fine_wood_stairs": "Ступеньки из благородной деревесины",
-
   "death.attack.supplementaries.bamboo_spikes": "%1$s был насажен на шип",
   "death.attack.supplementaries.bamboo_spikes.player": "%1$s насажен на шип, пока боролся с %2$s",
   "death.attack.supplementaries.xp_extracting": "%1$s оказался не таким уж опытным",
@@ -269,20 +267,16 @@
   "death.attack.supplementaries.cannonball.player": "%1$s был разорван на куски %2$s",
   "death.attack.supplementaries.slingshot": "%1$s был забит до смерти %2$s",
   "death.attack.supplementaries.slingshot.item": "%1$s был забит до смерти %2$s с помощью %3$s",
-
   "effect.supplementaries.overencumbered": "Перегрузка",
   "effect.supplementaries.overencumbered.description": "Препятствует бегу. Дальнейшие уровни уменьшают высоту прыжка и препятствуют скорости ходьбы соответственно",
   "effect.supplementaries.flammable": "Легковоспламеняющийся",
   "effect.supplementaries.flammable.description": "Увеличивает продолжительность горения и распространяет огонь при ходьбе",
-
   "enchantment.supplementaries.lumisene_fire_aspect": "Светоновый заговор огня",
   "enchantment.supplementaries.lumisene_flame": "Светоновое воспламенение",
   "enchantment.supplementaries.lumisene_fire_aspect.desc": "Наносит дополнительный урон от светонового огня",
   "enchantment.supplementaries.lumisene_flame.desc": "Стрелы наносят дополнительный урон от светонового огня",
-
   "enchantment.supplementaries.stasis": "Равновесие",
   "enchantment.supplementaries.stasis.desc": "Позволяет снарядам из рогатки игнорировать гравитацию",
-
   "entity.supplementaries.brick_projectile": "Кирпич",
   "entity.supplementaries.slimeball_projectile": "Сгусток слизи",
   "entity.supplementaries.dispenser_minecart": "Раздающая вагонетка",
@@ -295,7 +289,6 @@
   "entity.supplementaries.slingshot_projectile": "Снаряд рогатки",
   "entity.supplementaries.cannonball": "Пушечное ядро",
   "entity.supplementaries.throwable_brick": "Кирпич",
-
   "filled_map.adventure": "Карта путешественника",
   "filled_map.antique": "Потрёпанная карта",
   "filled_map.antique.tooltip": "Потрёпанная",
@@ -315,25 +308,21 @@
   "filled_map.structure": "Карта исследователя %s",
   "filled_map.swamp_hut": "Карта исследователя болота",
   "filled_map.village": "Карта следопыта деревни",
-
   "fluid.supplementaries.experience": "Опыт",
   "fluid.supplementaries.honey": "Мёд",
   "fluid.supplementaries.jar_fluid": "Жидкость в баночке",
   "fluid.supplementaries.milk": "Молоко",
   "fluid.supplementaries.sap": "Смола",
   "fluid.supplementaries.slime": "Слизь",
-
   "globe.supplementaries.earth": "Земля",
   "globe.supplementaries.flat": "Плоскость",
   "globe.supplementaries.moon": "Луна",
   "globe.supplementaries.sun": "Солнце",
-
   "gui.supplementaries.amendments.message": "С обновления 2.8.0 некоторые функции Supplementaries из раздела Tweaks были перенесены в отдельный мод Amendments.\n\n Моды работают отдельно друг от друга, но если вы хотите сохранить все старые блоки, вам необходимо установить Amendments.\n\n Перемещены следующие элементы: НАСТЕННЫЕ ФОНАРИ, ЧЕРЕПА СО СВЕЧАМИ, ПОДВЕСНЫЕ ГОРШКИ, ПОДВЕСНЫЕ ФЛАГИ и КУЧИ ЧЕРЕПОВ. \n\nОбратите внимание, что если вы продолжите работу без мода, все существующие блоки будут потеряны.",
   "gui.supplementaries.amendments.suggestions": "Вы можете скачать мод ТУТ",
   "gui.supplementaries.amendments.title": "Предупреждение: Amendments не установлен",
   "gui.supplementaries.incompatible_mods.title": "Предупреждение: найдены несовместимые моды",
   "gui.supplementaries.incompatible_mods.message": "Supplementaries обнаружил следующие моды, которые, как известно, вызывают сбои:\n\n %s\n\nЭти проблемы не могут быть исправлены Supplementaries, так как они возникают из-за этих модов.\nПожалуйста, удалите их или будьте готовы к случайным сбоям. Если вы считаете, что эта проблема уже решена, пожалуйста, свяжитесь с нами.",
-
   "gui.supplementaries.blackboard.clear": "Очистка",
   "gui.supplementaries.blackboard.undo": "Отмена",
   "gui.supplementaries.blackboard.edit": "Редактирование доски",
@@ -369,7 +358,6 @@
   "gui.supplementaries.speaker_block.volume": "Громкость: ",
   "gui.supplementaries.trapped_present": "Подарок-ловушка",
   "gui.supplementaries.welcome_screen.turn_off": "Больше не показывать",
-
   "item.supplementaries.altimeter": "Высотомер",
   "item.supplementaries.antique_ink": "Старинные чернила",
   "item.supplementaries.ash": "Пепел",
@@ -427,10 +415,8 @@
   "fluid.supplementaries.lumisene": "Светон",
   "item.supplementaries.music_disc_heave_ho": "Пластинка",
   "item.supplementaries.music_disc_heave_ho.desc": "Hlzfss — Heave Ho!",
-
   "itemGroup.jars": "Баночки",
   "itemGroup.supplementaries": "Supplementaries",
-
   "message.supplementaries.altimeter": "Y: %d",
   "message.supplementaries.cannon": "Может стрелять чем угодно",
   "message.supplementaries.argument.instrument.invalid": "Инструмент должен быть одним из %1$s, найдено %2$s",
@@ -494,12 +480,9 @@
   "message.supplementaries.lunch_box.tooltip.open": "Открыта",
   "message.supplementaries.lunch_box.tooltip.closed": "Закрыта",
   "message.supplementaries.lunch_box.tooltip": "[%s] для переключения режима",
-
   "painting.supplementaries.bombs.author": "Plantkillable",
   "painting.supplementaries.bombs.title": "Бомбы",
-
   "structure.supplementaries.way_sign": "Указатель",
-
   "subtitles.supplementaries.generic.block.move": "Блок движется",
   "subtitles.supplementaries.generic.block.rotate": "Блок вращается",
   "subtitles.supplementaries.soap.wash": "Мытьё",
@@ -539,7 +522,6 @@
   "subtitles.supplementaries.slingshot.charge": "Рогатка заряжена",
   "subtitles.supplementaries.slingshot.release": "Рогатка стреляет",
   "subtitles.supplementaries.turntable.cat": "Чин Чан Чон Чи Чича Чочи",
-
   "create.display_source.fill_level.fluid_amount": "Объём жидкости",
   "create.item_attributes.present_recipient": "Подарок адресован: '%1$s'",
   "create.item_attributes.present_recipient.inverted": "Подарок не адресован: '%1$s'",
@@ -552,33 +534,26 @@
   "supplementaries.keybind.quiver": "Колчан",
   "supplementaries.virtual_resourcepack.description": "Динамические ресурсы среды выполнения",
   "supplementaries.virtual_resourcepack.title": "Набор виртуальных ресурсов",
-
   "config.jade.plugin_supplementaries.hat_stand": "Подставка для шлема",
-
   "trinkets.slot.chest.quiver": "Колчан",
   "trinkets.slot.legs.key": "Ключ",
   "trinkets.slot.legs.quiver": "Колчан",
-
   "leaves_type.twilightforest.dark": "Тёмное дерево",
   "leaves_type.ulterlands.souldrained": "Окаменелые",
-
   "block_type.supplementaries.hanging_sign": "Подвесная табличка",
   "block_type.supplementaries.sign_post": "Указатель",
-
   "wood_type.domum_ornamentum.cactus": "Зелёный кактус",
   "wood_type.domum_ornamentum.cactus_extra": "Кактус",
   "wood_type.twilightforest.dark": "Тёмное дерево",
   "wood_type.twilightforest.sorting": "Сортировочное дерево",
   "wood_type.twilightforest.time": "Дерево времени",
   "wood_type.twilightforest.trans": "Транс-дерево",
-
   "commands.supplementaries.registry.error.unknown_registry": "Неизвестный реестр '%s'",
   "commands.supplementaries.registry.registry_key": "%s",
   "commands.supplementaries.registry.elements_count": "Записи: %s",
   "commands.supplementaries.registry.copy_elements_names": "Нажмите, чтобы скопировать все имена записей в буфер обмена",
   "commands.supplementaries.registry.element": "%s : %s",
   "commands.supplementaries.registry.page_info": "%s <страница %s / %s>",
-
   "item.supplementaries.way_sign_oak": "Дубовый указатель",
   "item.supplementaries.way_sign_spruce": "Еловый указатель",
   "item.supplementaries.way_sign_birch": "Берёзовый указатель",
@@ -590,7 +565,6 @@
   "item.supplementaries.way_sign_bamboo": "Бамбуковый указатель",
   "item.supplementaries.way_sign_crimson": "Багровый указатель",
   "item.supplementaries.way_sign_warped": "Искажённый указатель",
-
   "tag.item.supplementaries.altimeters": "Высотомеры",
   "tag.item.supplementaries.awnings": "Маркизы",
   "tag.item.supplementaries.blackboard_black": "Чёрные доски",
@@ -638,5 +612,9 @@
   "tag.item.supplementaries.throwable_bricks": "Бросаемые кирпичи",
   "tag.item.supplementaries.trapped_presents": "Подарки-ловушки",
   "tag.item.supplementaries.wattle_and_daub": "Плетень и мазня",
-  "tag.item.supplementaries.weapon_projectile_overlay_blacklist": "Чёрный список наложения снарядов оружия"
+  "tag.item.supplementaries.weapon_projectile_overlay_blacklist": "Чёрный список наложения снарядов оружия",
+  "item.supplementaries.way_sign": "Указатель направления: %s",
+  "item.supplementaries.cannon_boat": "%s лодка с пушкой",
+  "item.supplementaries.cannon_boat_bamboo": "Бамбуковый плот с пушкой",
+  "subtitles.supplementaries.aeugh": "Рыба-фугу ворчит"
 }
