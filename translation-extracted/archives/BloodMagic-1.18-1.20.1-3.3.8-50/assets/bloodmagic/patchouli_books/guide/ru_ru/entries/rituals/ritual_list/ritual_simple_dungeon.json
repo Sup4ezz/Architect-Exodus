@@ -1,0 +1,23 @@
+{
+  "name": "Край скрытого царства",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Край скрытого царства",
+      "multiblock_id": "bloodmagic:simple_dungeon",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "simple_dungeon",
+      "text_overrides": [
+        [
+          "Demon Realm",
+          "thing"
+        ]
+      ]
+    }
+  ]
+}
