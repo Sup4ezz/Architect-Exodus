@@ -59,6 +59,10 @@ https://github.com/Sup4ezz/Architect-Exodus/tree/translation-source
 ## Уже выполненные изменения
 
 - [Integrated Dynamics — перевод 287 интерфейсных строк, операторов, типов данных и названий аспектов](https://github.com/Sup4ezz/Architect-Exodus/commit/c5d3b21dbec19f634a3c31353964f3a5bd86e71f)
+- [Chisel — перевод 14 элементов интерфейса и режимов обработки](https://github.com/Sup4ezz/Architect-Exodus/commit/6c4007e36d7fd5bf27be01339d90438e857b3419)
+- [Actually Additions — перевод оставшихся подписей интерфейса](https://github.com/Sup4ezz/Architect-Exodus/commit/7a500142e786c2128f9b08333f316d38f58b6a58)
+- [Apotheosis — улучшение русских руководств: самоцветы, броня, атрибуты, боссы, зачарования и рост растений](https://github.com/Sup4ezz/Architect-Exodus/commit/b50a838b2853f68cfe7a13b97fcf82804cbbead6)
+- [Actually Additions — восстановлена исходная структура Patchouli-книги и ссылки на ключи локализации](https://github.com/Sup4ezz/Architect-Exodus/commit/b1c53c3029aad4fcf1edceb6c990a7ed84acf013)
 
 Среди последних переводческих коммитов в ветке:
 - [Simply Swords — перевод настроек и рунических эффектов](https://github.com/Sup4ezz/Architect-Exodus/commit/99b41d086d43da5cb629530f7e22ca73beb504d6)
