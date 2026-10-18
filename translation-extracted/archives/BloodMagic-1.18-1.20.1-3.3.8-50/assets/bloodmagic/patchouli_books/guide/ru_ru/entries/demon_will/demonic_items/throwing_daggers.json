@@ -1,0 +1,47 @@
+{
+  "name": "Метательные кинжалы",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings": {
+    "bloodmagic:slate_ampoule": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Луки и арбалеты, конечно, хороши, но просеивать гравий ради кремня и ловить кур ради перьев — занятие ниже вашего достоинства. Эти блестящие и невероятно острые $(item)метательные кинжалы$() обладают и весьма коварными эффектами."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Железный метательный кинжал",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+      "anchor": "iron_throwing_dagger",
+      "text": "Железный метательный кинжал быстро атакует и наносит 10 единиц урона при приличной перезарядке. Если у вас есть $(l:bloodmagic:demon_will/will_manipulation/demon_will)демоническая Воля$() — в виде предмета или внутри $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарического самоцвета$() — убитые им существа будут оставлять Волю, как при убийстве разумным мечом."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Кинжал-шприц",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+      "anchor": "syringe_throwing_dagger",
+      "text": "Кинжал-шприц подойдёт сангвиманту, которому важнее добывать эссенцию жизни, чем Волю. Он наносит немного меньше урона, зато дешевле; убитые им враги могут оставить $(item)ампулу с плитой$(), а крепкие противники — даже несколько."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "Ампула с плитой",
+      "text": "Эту ампулу можно разбить рядом с $(l:bloodmagic:altar/blood_altar)кровавым алтарём$(), чтобы передать ему 500 LP. При этом ампула уничтожается. Бонус не зависит от установленных рун."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Аметистовый метательный кинжал",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_copper",
+      "anchor": "amethyst_throwing_dagger",
+      "text": "Аметистовый кинжал наносит столько же урона, сколько железный, но убитые им существа не оставляют Волю. Вместо этого восемь таких кинжалов можно объединить с $(l:bloodmagic:alchemy_table/potions)долгоиграющим алхимическим флаконом$() в $(item)камере алхимической реакции$(), чтобы получить кинжалы с эффектом."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Метательный кинжал с эффектом",
+      "recipe": "bloodmagic:arc/tipped_copper",
+      "text": "Кинжал передаёт свой эффект существу, в которое попадает, как если бы оно вошло в облако от долгоиграющего алхимического флакона. Экспериментируйте с сочетаниями эффектов, чтобы создавать особенно коварное оружие!"
+    }
+  ]
+}
