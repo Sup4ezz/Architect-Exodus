@@ -822,5 +822,14 @@
   "numprefix.draconicevolution.10-6": " Мега ",
   "numprefix.draconicevolution.10-60": " Новемдециллион ",
   "numprefix.draconicevolution.10-63": " Вигинтиллион ",
-  "numprefix.draconicevolution.10-9": " Гига "
+  "numprefix.draconicevolution.10-9": " Гига ",
+  "item.draconicevolution.item_chaotic_energy_link": "Хаотический квантовый туннель энергии, связанный с хаосом",
+  "item.draconicevolution.item_draconic_energy_link": "Квантовый туннель энергии",
+  "item.draconicevolution.item_draconic_tree_harvest": "Драконий модуль вырубки леса",
+  "item.draconicevolution.item_wyvern_energy_link": "Беспроводная энергетическая связь",
+  "item.draconicevolution.item_wyvern_tree_harvest": "Виверновый сборщик деревьев",
+  "item.draconicevolution.p2p_dislocator": "Связанный дислокатор (точка-точка)",
+  "item.draconicevolution.p2p_dislocator_unbound": "Непривязанный дислокатор (точка-точка)",
+  "item.draconicevolution.player_dislocator": "Связанный дислокатор (игрок)",
+  "item.draconicevolution.player_dislocator_unbound": "Непривязанный дислокатор (игрок)"
 }
