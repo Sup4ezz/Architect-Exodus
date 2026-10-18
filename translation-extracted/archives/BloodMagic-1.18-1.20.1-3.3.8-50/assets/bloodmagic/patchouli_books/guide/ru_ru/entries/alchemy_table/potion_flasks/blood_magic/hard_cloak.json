@@ -1,0 +1,31 @@
+{
+  "name": "Крепкая броня",
+  "icon": "minecraft:obsidian",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)«Крепкая броня»$() увеличивает стойкость брони на 3 единицы за каждый уровень эффекта."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Крепкая броня (3:00)",
+      "a.recipe": "bloodmagic:flask/hard_cloak",
+      "b.heading": "Крепкая броня (8:00)",
+      "b.recipe": "bloodmagic:flask/length_hard_cloak",
+      "c.heading": "Крепкая броня II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_hard_cloak"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_table/potions#average_potions)Стандартные катализаторы$() позволяют дополнительно усилить зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Крепкая броня III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_hard_cloak",
+      "b.heading": "Крепкая броня (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_hard_cloak"
+    }
+  ]
+}
