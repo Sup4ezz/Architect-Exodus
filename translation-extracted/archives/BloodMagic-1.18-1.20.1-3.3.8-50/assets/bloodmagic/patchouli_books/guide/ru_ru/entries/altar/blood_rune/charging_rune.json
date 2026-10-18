@@ -1,0 +1,25 @@
+{
+  "name": "Руна заряда",
+  "icon": "bloodmagic:chargingrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна заряда$() Когда кровавый алтарь не создаёт предмет и не наполняет кровавую сферу, он перекачивает LP из алтаря во внутренний запас. Когда в алтарь помещают предмет, накопленный заряд сразу расходуется на его создание в соотношении 1:1."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging_2",
+      "text": "Незеритовый лом и замысловатые адские детали, добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве демонов$(), позволяют удвоить силу этой руны."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/charging",
+      "text": "Передумали? Этот рецепт можно отменить в ARC."
+    }
+  ]
+}
