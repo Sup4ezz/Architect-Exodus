@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Processing Machines
+  title: Перерабатывающие механизмы
   icon: actuallyadditions:crusher
   parent: index.md
   position: 6
@@ -12,13 +12,13 @@ item_ids:
   - actuallyadditions:canola_press
   - actuallyadditions:fermenting_barrel
 ---
-# <Color id="green">Processing Machines</Color>
+# <Color id="green">Перерабатывающие механизмы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Processing Machines</Color>
+  # <Color id="green">Перерабатывающие механизмы</Color>
   <ItemImage id="crusher" scale="2" />
 
-  These machines transform items and materials using CF power.
+  Эти механизмы перерабатывают предметы и материалы, используя энергию CF.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -29,7 +29,7 @@ item_ids:
   ### <Color id="aqua">Crusher</Color>
 </Row>
 
-The Crusher grinds ores into dust, yielding <Color id="green">2x output</Color> per ore. It can also grind ingots back into dust. The <ItemLink id="crusher_double" /> processes two items simultaneously.
+Crusher измельчает руды в пыль, обеспечивая <Color id="green">удвоенный выход</Color> с каждой руды. Он также превращает слитки обратно в пыль. <ItemLink id="crusher_double" /> обрабатывает два предмета одновременно.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -38,7 +38,7 @@ The Crusher grinds ores into dust, yielding <Color id="green">2x output</Color> 
   ### <Color id="aqua">Powered Furnace</Color>
 </Row>
 
-A CF-powered furnace that smelts two items at a time. No fuel needed; just supply it with Crystal Flux.
+Печь на энергии CF, переплавляющая по два предмета за раз. Топливо не требуется — достаточно подать Crystal Flux.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
