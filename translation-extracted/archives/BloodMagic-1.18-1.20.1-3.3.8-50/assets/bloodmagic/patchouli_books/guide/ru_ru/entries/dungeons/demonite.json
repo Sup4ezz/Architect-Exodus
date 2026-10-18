@@ -1,0 +1,54 @@
+{
+  "name": "Демонит",
+  "icon": "bloodmagic:dungeon_ore",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_ore": 0,
+    "bloodmagic:rawdemonite": 0,
+    "bloodmagic:dungeon_metal_c": 6,
+    "bloodmagic:dungeon_metal_d": 6,
+    "bloodmagic:dungeon_metal_s": 6,
+    "bloodmagic:dungeon_metal_v": 6
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руду демонита$() можно найти только в $(thing)подземельях$(), а именно в $(thing)шахтах$(). Чтобы попасть туда, найдите в лабиринте $(item)ключ прораба$() и используйте его на $(thing)пространственном искажении$(). Демонит нужен для изготовления $(item)адски выкованных слитков$() и $(item)адского песка$(). При добыче с «Шёлковым касанием» выпадает сама руда; в остальных случаях — куски $(item)сырого демонита$()."
+    },
+    {
+      "type": "patchouli:smelting",
+      "heading": "Адски выкованный слиток",
+      "recipe": "bloodmagic:smelting/ingot_from_demonite",
+      "recipe2": "bloodmagic:smelting/ingot_from_raw_hellforged",
+      "recipe3": "bloodmagic:smelting/ingot_hellforged"
+    },
+    {
+      "type": "patchouli:smelting",
+      "heading": "Адски выкованный слиток",
+      "recipe": "bloodmagic:smelting/ingot_hellforged"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Hellforged Sand",
+      "a.recipe": "bloodmagic:arc/dustsfrom_gravel_hellforged",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ore_hellforged",
+      "c.recipe": "bloodmagic:arc/dustsfrom_raw_hellforged"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "Demonite Processing",
+      "a.recipe": "bloodmagic:arc/fragmentshellforged",
+      "b.recipe": "bloodmagic:arc/gravelshellforged"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Блок адски выкованного металла",
+      "recipe": "bloodmagic:hellforged_block",
+      "recipe2": "bloodmagic:raw_hellforged_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "several decorative variants of this block exist, being faintly tainted with $(corrosive)Corrosive$(), $(destructive)Destructive$(), $(steadfast)Steadfast$(), or $(vengeful)Vengeful$() Will in a $(thing)stonecutter$(). $(br2) They can each be directly crafted back into 9 $(item)Hellforged Ingots$()."
+    }
+  ]
+}
