@@ -1,0 +1,6 @@
+{
+  "name": "Алхимические круги",
+  "description": "Алхимические круги создают простые эффекты с помощью фигур, начерченных на земле $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)тайным пеплом$(). Их легко создавать, и они полезны как в начале игры, так и на поздних этапах.",
+  "icon": "bloodmagic:arcaneashes",
+  "sortnum": 2
+}
