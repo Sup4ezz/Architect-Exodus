@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начало работы
   icon: embers:ember_crystal
   parent: index.md
   position: 1
@@ -15,13 +15,13 @@ item_ids:
   - embers:field_chart
   - embers:ancient_codex
 ---
-# <Color id="gold">Getting Started</Color>
+# <Color id="gold">Начало работы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="gold">Getting Started</Color>
+  # <Color id="gold">Начало работы</Color>
   <ItemImage id="ember_crystal" scale="2" />
 
-  At the center of your world lies a powerful energy source — Ember. This guide covers the basics of harnessing that power: crafting your first materials, prospecting for Ember, and extracting it from deep beneath the bedrock.
+  В основе этого мода лежит мощный источник энергии — Ember. В руководстве описаны основы его использования: создание первых материалов, поиск Ember и добыча из глубин под коренной породой.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -34,11 +34,11 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Caminite is a very sturdy ceramic, mixed from a bit of clay and sand. The mixture yields, when baked, a material that you believe will be hard enough for your purposes throughout all of your mechanical ambitions.
+Caminite — прочная керамика из глины и песка. После обжига получается материал, подходящий для создания механизмов.
 
-Craft <ItemLink id="caminite_blend" /> from clay and sand, then smelt it in a furnace to produce <ItemLink id="caminite_brick" /> — the basic building material for most Embers machines.
+Создайте <ItemLink id="caminite_blend" /> из глины и песка, затем обожгите в печи, чтобы получить <ItemLink id="caminite_brick" /> — основной строительный материал для большинства механизмов Embers.
 
-<Color id="yellow">Note:</Color> Caminite (and therefore the rest of Embers progression) is locked to <Color id="red">Muspelheim</Color> — you will need to reach that realm before you can craft any of these materials.
+<Color id="yellow">Примечание:</Color> Caminite и дальнейшее развитие Embers доступны только в <Color id="red">Muspelheim</Color>. Чтобы создавать эти материалы, сначала доберитесь до этого мира.
 
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -56,7 +56,7 @@ Craft <ItemLink id="caminite_blend" /> from clay and sand, then smelt it in a fu
   ### <Color id="aqua">Tinker Hammer</Color>
 </Row>
 
-With a dense head of lead and iron, the <ItemLink id="tinker_hammer" /> proves a wieldy tool. It can be used to pound two ingots of metal into a plate, and is useful for getting certain machines to cooperate.
+<ItemLink id="tinker_hammer" /> с массивной головкой из свинца и железа — удобный инструмент. Им можно сплющивать два металлических слитка в пластину, а также взаимодействовать с некоторыми механизмами.
 
 The Tinker Hammer is also used to <Color id="green">link Ember Emitters and Receptors</Color>, which is essential for building your Ember power network later on.
 
@@ -71,19 +71,19 @@ The Tinker Hammer is also used to <Color id="green">link Ember Emitters and Rece
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Using some copper and iron, you have found a way to create a device capable of measuring the density of Ember energy at a position in the world.
+Из меди и железа можно создать устройство для измерения плотности энергии Ember в выбранной точке мира.
 
 <Row>
   <ItemImage id="atmospheric_gauge" />
   ### <Color id="aqua">Atmospheric Gauge</Color>
 </Row>
 
-The <ItemLink id="atmospheric_gauge" /> measures the Ember density at your current position. Use it to find areas rich in Ember before placing your Bore.
+<ItemLink id="atmospheric_gauge" /> измеряет плотность Ember в текущей точке. Используйте его, чтобы найти богатые энергией места перед установкой Bore.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The <ItemLink id="field_chart" /> gives an overview map of Ember concentrations across a wider area, helping you plan where to set up your operations.
+<ItemLink id="field_chart" /> показывает распределение Ember на большой территории и помогает выбрать место для добычи.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
