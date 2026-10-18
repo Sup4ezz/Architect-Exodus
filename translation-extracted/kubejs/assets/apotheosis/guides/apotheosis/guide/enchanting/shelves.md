@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Shelves
+  title: Полки
   icon: apotheosis:hellshelf
   parent: enchanting.md
   position: 1
@@ -10,25 +10,25 @@ item_ids:
   - apotheosis:filtering_shelf
   - apotheosis:treasure_shelf
 ---
-# <Color id="dark_purple">Shelves</Color>
+# <Color id="dark_purple">Полки</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Shelves</Color>
+  # <Color id="dark_purple">Полки</Color>
   <ItemImage id="hellshelf" scale="2" />
 
-  Building a powerful enchanting setup requires progressively better shelves as you advance through the game.
+  Для мощной системы зачарования по мере прохождения игры понадобятся всё более совершенные полки.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Shelf Progression</Color>
+  ## <Color id="gold">Развитие полок</Color>
 </Column>
 
-<Color id="gold">Levels 1-30:</Color> Standard Bookshelves. Supplement with <Color id="aqua">Candles</Color> for Arcana, <Color id="aqua">Skulls</Color> for Quanta, and <Color id="aqua">Amethyst Clusters</Color> for Rectification.
+<Color id="gold">Levels 1-30:</Color> Обычные книжные полки. Дополните их <Color id="aqua">свечами</Color> для Arcana, <Color id="aqua">черепами</Color> для Quanta и <Color id="aqua">скоплениями аметиста</Color> для Rectification.
 
-<Color id="gold">Levels 30-45:</Color> Hellshelves (from Nether materials) or Seashelves (from Ocean materials).
+<Color id="gold">Levels 30-45:</Color> Hellshelves (из материалов Нижнего мира) или Seashelves (из океанических материалов).
 
 <Row>
   <ItemImage id="hellshelf" />
@@ -40,7 +40,7 @@ item_ids:
   ### <Color id="aqua">Seashelf</Color>
 </Row>
 
-Your first upgrades beyond vanilla. They provide more Eterna per block than standard bookshelves.
+Первые улучшения по сравнению с ванильными полками. Каждый блок даёт больше Eterna, чем обычная книжная полка.
 
 
 <Color id="gold">Levels 45-60:</Color> Infused Hellshelves and Infused Seashelves, created via Infusion Enchanting. Sightshelves provide Clues. Rectifiers boost Rectification.
