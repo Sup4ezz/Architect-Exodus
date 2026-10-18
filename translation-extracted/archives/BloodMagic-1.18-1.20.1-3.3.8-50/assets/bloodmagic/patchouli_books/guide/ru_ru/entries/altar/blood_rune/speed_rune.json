@@ -1,0 +1,25 @@
+{
+  "name": "Руна скорости",
+  "icon": "bloodmagic:speedrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна скорости$() Увеличивает скорость всех операций кровавого алтаря. Скорость создания предметов и скорость потери прогресса при опустошении алтаря аддитивно возрастают на 20% за каждую руну."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed_2",
+      "text": "Незеритовый лом и замысловатые адские детали, добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве демонов$(), позволяют удвоить силу этой руны."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "Передумали? Этот рецепт можно отменить в ARC."
+    }
+  ]
+}
