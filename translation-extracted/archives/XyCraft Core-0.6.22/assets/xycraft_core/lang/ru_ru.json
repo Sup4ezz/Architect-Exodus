@@ -1,0 +1,7 @@
+{
+  "gui.xycraft_core.slot.strict": "Строгий режим",
+  "gui.xycraft_core.slot.strict.set": "Нажмите %1$s, чтобы переключить строгий режим",
+  "key.category.xycraft_core.key_binds": "XyCraft",
+  "key.xycraft_core.modifier_key": "Клавиша-модификатор",
+  "xycraft.core.system.finished_reloading": "Перезагрузка завершена!"
+}
