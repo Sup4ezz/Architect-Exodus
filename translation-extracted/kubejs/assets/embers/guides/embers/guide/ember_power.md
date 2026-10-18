@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Ember Power
+  title: Энергия Ember
   icon: embers:copper_cell
   parent: index.md
   position: 3
@@ -18,13 +18,13 @@ item_ids:
   - embers:copper_charger
   - embers:ember_siphon
 ---
-# <Color id="gold">Ember Power</Color>
+# <Color id="gold">Энергия Ember</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="gold">Ember Power</Color>
+  # <Color id="gold">Энергия Ember</Color>
   <ItemImage id="copper_cell" scale="2" />
 
-  Once you have raw Ember Crystals, you need a way to activate and distribute that energy. This page covers the machines that form your Ember power network — from activation and storage to transmission and interfacing.
+  Когда у вас появятся необработанные Ember Crystals, понадобится способ активировать и передавать эту энергию. Здесь описаны механизмы сети Ember: активация, хранение, передача и подключение устройств.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -42,7 +42,7 @@ item_ids:
   ### <Color id="aqua">Ember Activator</Color>
 </Row>
 
-The <ItemLink id="ember_activator" /> is an ingenious device, finally allowing you to extract usable energy from Ember Crystals and Shards. Simply insert said Crystals and Shards into the bottom of the device using a Hopper or other item transportation method, and soon, marked by a fiery burst, activated Ember will appear within the copper cage atop the machine.
+<ItemLink id="ember_activator" /> позволяет извлекать полезную энергию из Ember Crystals и Ember Shards. Подавайте кристаллы и осколки в нижнюю часть устройства с помощью Hopper или другой системы транспортировки предметов. Вскоре после вспышки активированная Ember появится в медной клетке сверху.
 
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -55,14 +55,14 @@ The <ItemLink id="ember_activator" /> is an ingenious device, finally allowing y
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-The actual manipulation of Ember involves two main blocks: <ItemLink id="ember_emitter" /> and <ItemLink id="ember_receiver" />.
+Для передачи Ember используются два основных блока: <ItemLink id="ember_emitter" /> и <ItemLink id="ember_receiver" />.
 
 <Row>
   <ItemImage id="ember_emitter" />
   ### <Color id="aqua">Ember Emitter</Color>
 </Row>
 
-Ember Emitters function as the sending end — place them on a machine and they will suck out Ember into their internal buffer. Then, while powered by <Color id="red">redstone</Color>, they will periodically expel Ember in bursts toward a linked Receptor.
+Ember Emitters служат передатчиками: установите их на механизм, и они начнут забирать Ember во внутренний резервуар. При подаче сигнала <Color id="red">редстоуна</Color> они периодически отправляют импульсы Ember к связанному Receptor.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -71,9 +71,9 @@ Ember Emitters function as the sending end — place them on a machine and they 
   ### <Color id="aqua">Ember Receptor</Color>
 </Row>
 
-Ember Receptors are the receiving end. Place them on any machine that accepts Ember, and they will catch incoming bursts and feed the energy into that machine.
+Ember Receptors принимают энергию. Установите их на механизм, который использует Ember, — они будут перехватывать импульсы и передавать энергию устройству.
 
-To link an Emitter to a Receptor, use the <ItemLink id="tinker_hammer" />: right-click the Emitter first, then right-click the Receptor. There is no distance limit, but Ember bursts can fade over very long distances.
+Чтобы связать Emitter и Receptor, используйте <ItemLink id="tinker_hammer" />: сначала щёлкните ПКМ по Emitter, затем по Receptor. Ограничения по расстоянию нет, однако на очень больших дистанциях импульсы Ember могут рассеиваться.
 
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -91,7 +91,7 @@ To link an Emitter to a Receptor, use the <ItemLink id="tinker_hammer" />: right
   ### <Color id="aqua">Copper Cell</Color>
 </Row>
 
-The <ItemLink id="copper_cell" /> fulfills a very simple purpose: Ember storage. It can be given Ember using an Ember Receptor, or have Ember removed from it through an Ember Emitter. When broken, it will retain its stored Ember.
+<ItemLink id="copper_cell" /> предназначена для хранения Ember. Энергию можно подавать через Ember Receptor и извлекать с помощью Ember Emitter. При разрушении блока накопленная Ember сохраняется.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
