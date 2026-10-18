@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Materials
+  title: Материалы
   icon: thermal:tin_ingot
   parent: index.md
   position: 1
@@ -26,12 +26,12 @@ item_ids:
   - thermal:redstone_servo
   - thermal:rf_coil
 ---
-# <Color id="red">Materials</Color>
+# <Color id="red">Материалы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Materials</Color>
+  # <Color id="red">Материалы</Color>
   <ItemImage id="thermal:tin_ingot" scale="2" />
-  Thermal Foundation provides the ores, metals, alloys, and gems that fuel the entire Thermal Series. Many of these materials are shared across mods through ore unification.
+  Thermal Foundation добавляет руды, металлы, сплавы и драгоценные камни, используемые во всей серии Thermal. Многие материалы унифицированы и применяются в разных модах.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -39,12 +39,12 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Base Metals</Color>
+  ## <Color id="gold">Основные металлы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-These ores generate in the world and can be mined directly. Process them in the <ItemLink id="thermal:machine_pulverizer" /> for double output.
+Эти руды генерируются в мире и добываются обычным способом. Перерабатывайте их в <ItemLink id="thermal:machine_pulverizer" />, чтобы получать двойной выход.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -53,7 +53,7 @@ These ores generate in the world and can be mined directly. Process them in the 
   ### <Color id="aqua">Tin</Color>
 </Row>
 
-A common metal used in Bronze alloy crafting and basic machine components. Found at most underground levels.
+Распространённый металл для создания бронзового сплава и базовых компонентов механизмов. Встречается на большинстве подземных уровней.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -62,7 +62,7 @@ A common metal used in Bronze alloy crafting and basic machine components. Found
   ### <Color id="aqua">Lead</Color>
 </Row>
 
-A dense metal used in Hardened machine casings and energy storage. Pairs with Silver to create various components.
+Плотный металл, используемый в укреплённых корпусах механизмов and energy storage. Pairs with Silver to create various components.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
