@@ -1,0 +1,36 @@
+{
+  "name": "Уровни плит",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Главное назначение $(l:bloodmagic:altar/blood_altar)кровавого алтаря$() — создание $(item)плит$(). Каждый следующий уровень требует предыдущую плиту и более мощный алтарь."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Пустая плита",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "Укреплённая плита",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Насыщенная плита",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "Демоническая плита",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Эфирная плита",
+      "recipe": "bloodmagic:altar/etherealslate"
+    }
+  ]
+}
