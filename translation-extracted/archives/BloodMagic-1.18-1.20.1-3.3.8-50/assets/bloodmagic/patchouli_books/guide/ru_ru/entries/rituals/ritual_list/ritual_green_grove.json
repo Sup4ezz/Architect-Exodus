@@ -1,0 +1,57 @@
+{
+  "name": "Ритуал зелёной рощи",
+  "icon": "minecraft:bone_meal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал зелёной рощи",
+      "multiblock_id": "bloodmagic:green_grove",
+      "text": "Для упрощения постройки используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)ритуальный указатель [сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "green_grove"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "growing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "hydrate"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "leech"
+    }
+  ]
+}
