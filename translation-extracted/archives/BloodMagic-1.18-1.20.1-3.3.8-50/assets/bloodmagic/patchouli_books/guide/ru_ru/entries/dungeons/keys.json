@@ -1,0 +1,36 @@
+{
+  "name": "Ключи подземелий",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mineentrancekey": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Ключи$() — основной способ исследовать $(thing)подземелья$(). Их можно найти в сундуках $(thing)Царства демонов$() или создать самостоятельно. Самые простые — $(item)железные ключи$(): они встречаются в $(thing)прихожей$() и на ближайших уровнях самого Царства демонов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Исследуя подземелье, вы можете обнаружить $(thing)пространственное искажение$(). Оно ведёт либо к уникальному ключу, который нельзя создать, либо к двери, открывающейся только этим ключом. Искажения возникают только в самом Царстве демонов, но не в прихожей."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "The Mines",
+      "text": "The entrance to $(thing)The Mines$() can only be opened with the uncraftable $(thing)Foreman's Key$(), while all other doors beyond that can be opened with $(thing)Miner's Keys$(). The mines will grant you access to $(l:bloodmagic:dungeons/demonite)Demonite ore$() alongside some rarer loot, but comes with challenges to match."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Железный ключ",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(italic)Если ключ такой простой, почему бы просто не взломать замок?$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Ключ шахтёра",
+      "recipe": "bloodmagic:soulforge/mine_key",
+      "text": "$(italic)За работу, за работу..!$()"
+    }
+  ]
+}
