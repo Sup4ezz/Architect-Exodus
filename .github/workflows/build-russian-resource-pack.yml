@@ -70,6 +70,34 @@ jobs:
               except (ValueError, OSError) as e:
                   print(f"Skipping Patchouli file {src}: {e}")
           print(f"Packed {book_files} Russian Patchouli book files.")
+          # For book pages without a dedicated ru_ru JSON, copy the en_us
+          # structure into the Russian locale. Patchouli pages mostly reference
+          # translation keys, which are resolved against the mod's ru_ru lang file.
+          fallback_book_files = 0
+          for src in root.rglob("*.json"):
+              parts = src.parts
+              if "patchouli_books" not in parts or "en_us" not in parts:
+                  continue
+              try:
+                  rel = src.relative_to(root)
+                  rel_parts = list(rel.parts)
+                  ai = rel_parts.index("assets")
+                  locale_i = rel_parts.index("en_us", rel_parts.index("patchouli_books") + 1)
+                  ru_parts = list(rel_parts)
+                  ru_parts[locale_i] = "ru_ru"
+                  ru_src = root.joinpath(*ru_parts)
+                  if ru_src.exists():
+                      continue
+                  dest_parts = rel_parts[ai + 1:]
+                  dest_parts[locale_i - ai - 1] = "ru_ru"
+                  dest = assets.joinpath(*dest_parts)
+                  if not dest.exists():
+                      dest.parent.mkdir(parents=True, exist_ok=True)
+                      shutil.copyfile(src, dest)
+                      fallback_book_files += 1
+              except (ValueError, OSError) as e:
+                  print(f"Skipping fallback Patchouli page {src}: {e}")
+          print(f"Added {fallback_book_files} fallback Patchouli pages.")
           (pack / "pack.mcmeta").write_text(json.dumps({
               "pack": {
                   "pack_format": 15,
