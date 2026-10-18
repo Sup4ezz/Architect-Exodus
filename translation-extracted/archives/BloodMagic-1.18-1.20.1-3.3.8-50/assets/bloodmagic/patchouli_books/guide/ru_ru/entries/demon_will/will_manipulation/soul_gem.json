@@ -1,0 +1,52 @@
+{
+  "name": "Тартарические самоцветы",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническая Воля$() полезна, но отдельные фрагменты, которые вы добывали до сих пор, довольно слабы. Вам нужно хранилище — тартарический самоцвет. Он также поглощает оставшуюся демоническую Волю: просто выбросьте фрагменты на землю, и самоцвет подберёт их."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Малый тартарический самоцвет",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "Первый самоцвет хранит до 64 единиц Воли — гораздо компактнее фрагментов! Чтобы перенести Волю из одного самоцвета в другой, удерживайте [$(k:use)] с самоцветом, который хотите опустошить: Воля перейдёт в первый подходящий самоцвет в инвентаре."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Малый самоцвет недостаточно вместителен. Обработав его алмазом, лазуритом и редстоуном, вы научились вчетверо увеличивать объём хранения."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Младший тартарический самоцвет",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "Усиленный самоцвет вмещает до 256 единиц Воли. $(br2)Для улучшения нужен только один самоцвет: кузница сначала расходует Волю из него, а затем — из самоцвета в отдельном слоте. Остаток Воли перейдёт в новый самоцвет."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы продвинуться дальше, потребуется $(l:bloodmagic:altar/slates)насыщенная плита$(). Объедините её с самоцветом, алмазом и золотым блоком, чтобы ещё раз увеличить вместимость в четыре раза."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Обычный тартарический самоцвет",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "Этот искусно созданный самоцвет вмещает внушительные 1024 единицы Воли."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для следующего улучшения понадобится $(l:bloodmagic:altar/slates)демоническая плита$(), $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)слабый осколок крови$() и $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)кристалл демонической Воли$(). Награда того стоит: он позволит питать разумные инструменты невиданной силой."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Большой тартарический самоцвет",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "Этот шедевр вмещает целых 4096 единиц Воли."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Поскольку установлен $(thing)Curios API$(), тартарические самоцветы можно носить как ожерелье. Чтобы носить больше аксессуаров, используйте $(l:bloodmagic:alchemy_array/sigil/holding)сигил удержания$() или улучшение $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)гнёзда для аксессуаров$() для живой брони."
+    }
+  ]
+}
