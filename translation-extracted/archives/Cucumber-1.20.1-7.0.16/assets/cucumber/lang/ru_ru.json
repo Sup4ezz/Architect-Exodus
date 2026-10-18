@@ -11,7 +11,8 @@
   "tooltip.cucumber.block_tags": "Теги блока: ",
   "tooltip.cucumber.item_tags": "Теги предмета: ",
   "tooltip.cucumber.not_yet_implemented": "Пока не реализовано.",
-
   "message.cucumber.filled_energy": "%s забрал Вашу энергию!",
-  "message.cucumber.filled_energy_error": "%s не может принять Вашу энергию."
+  "message.cucumber.filled_energy_error": "%s не может принять Вашу энергию.",
+  "subtitle.cucumber.watering_can": "Лейка",
+  "tooltip.cucumber.fluid_tags": "Теги жидкостей:"
 }
