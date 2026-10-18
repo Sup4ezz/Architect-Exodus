@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Blood Orbs
+  title: Сферы крови
   icon: bloodmagic:weakbloodorb
   parent: index.md
   position: 2
@@ -12,18 +12,18 @@ item_ids:
   - bloodmagic:archmagebloodorb
   - animus:blood_orb_transcendent
 ---
-# <Color id="red">Blood Orbs</Color>
+# <Color id="red">Сферы крови</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="red">Blood Orbs</Color>
+  # <Color id="red">Сферы крови</Color>
   <ItemImage id="bloodmagic:weakbloodorb" scale="2" />
-  Blood Orbs give you a pool of LP, called a Soul Network, which is used to power [Rituals](rituals.md) and [Sigils](sigils.md). It can be bound to a player and filled with blood by right-clicking. You can also fill it by letting it soak up blood inside the Blood Altar. Each tier of orb holds more LP than the last.
+  Сферы крови give you a pool of LP, called a Soul Network, which is used to power [Rituals](rituals.md) and [Sigils](sigils.md). It can be bound to a player and filled with blood by right-clicking. You can also fill it by letting it soak up blood inside the Blood Altar. Each tier of orb holds more LP than the last.
 </Column>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Orb Comparison</Color>
+  ## <Color id="gold">Сравнение сфер</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
