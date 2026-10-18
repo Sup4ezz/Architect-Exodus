@@ -52,6 +52,24 @@ jobs:
                   continue
               shutil.copyfile(src, dest)
               copied += 1
+          # Include translated Patchouli guidebook pages as well as lang files.
+          # Preserve the path relative to assets so Patchouli can discover each book.
+          book_files = 0
+          for src in root.rglob("*"):
+              if not src.is_file() or "patchouli_books" not in src.parts or "ru_ru" not in src.parts:
+                  continue
+              try:
+                  rel = src.relative_to(root)
+                  parts = rel.parts
+                  ai = parts.index("assets")
+                  dest = assets.joinpath(*parts[ai + 1:])
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  if not dest.exists():
+                      shutil.copyfile(src, dest)
+                      book_files += 1
+              except (ValueError, OSError) as e:
+                  print(f"Skipping Patchouli file {src}: {e}")
+          print(f"Packed {book_files} Russian Patchouli book files.")
           (pack / "pack.mcmeta").write_text(json.dumps({
               "pack": {
                   "pack_format": 15,
