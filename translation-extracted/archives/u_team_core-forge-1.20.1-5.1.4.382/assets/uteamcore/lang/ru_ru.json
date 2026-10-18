@@ -1,0 +1,14 @@
+{
+  "commands.uteamcore.dimteleport.success.multiple": "Перемещено сущностей: %s → %s",
+  "commands.uteamcore.dimteleport.success.position.multiple": "Перемещено сущностей: %s → %s, координаты %s, %s, %s",
+  "commands.uteamcore.dimteleport.success.position.single": "Игрок %s перемещён в %s, координаты %s, %s, %s",
+  "commands.uteamcore.dimteleport.success.single": "Игрок %s перемещён в %s",
+  "commands.uteamcore.ping.success.other": "Пинг игрока %s: %s мс",
+  "commands.uteamcore.ping.success.self": "Ваш пинг: %s мс",
+  "commands.uteamcore.stackinfo.success.block": "Блок: %s",
+  "commands.uteamcore.stackinfo.success.copy": "Скопировать в буфер обмена",
+  "commands.uteamcore.stackinfo.success.item": "Предмет: %s",
+  "commands.uteamcore.stackinfo.success.nbt": "NBT: %s",
+  "gui.widget.uteamcore.energy.fe_tooltip": "%s FE/%s FE",
+  "jei.uteamcore.dyeable.info": "Эти предметы можно покрасить красителем в сетке создания."
+}
