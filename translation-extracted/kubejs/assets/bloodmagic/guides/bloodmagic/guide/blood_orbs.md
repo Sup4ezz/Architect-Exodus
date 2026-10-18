@@ -17,7 +17,7 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="red">Сферы крови</Color>
   <ItemImage id="bloodmagic:weakbloodorb" scale="2" />
-  Сферы крови give you a pool of LP, called a Soul Network, which is used to power [Rituals](rituals.md) and [Sigils](sigils.md). It can be bound to a player and filled with blood by right-clicking. You can also fill it by letting it soak up blood inside the Blood Altar. Each tier of orb holds more LP than the last.
+  Сферы крови создают запас LP, называемый Soul Network, который используется для питания [ритуалов](rituals.md) и [сигилов](sigils.md). Сферу можно привязать к игроку и наполнять кровью щелчком ПКМ. Также её можно наполнить, оставив внутри Blood Altar, где она будет поглощать кровь. Каждый следующий уровень сферы вмещает больше LP.
 </Column>
 
 ***
@@ -27,7 +27,7 @@ item_ids:
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
-| Orb | LP Capacity | Tier |
+| Сфера | Вместимость LP | Уровень |
 |-----|-------------|------|
 | <ItemImage id="bloodmagic:weakbloodorb" scale="0.5" /> <Color id="red"><ItemLink id="bloodmagic:weakbloodorb" /></Color> | 5,000 | I
 | <ItemImage id="bloodmagic:apprenticebloodorb" scale="0.5" /> <Color id="dark_green"><ItemLink id="bloodmagic:apprenticebloodorb" /></Color> | 25,000 | II
