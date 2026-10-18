@@ -1,0 +1,25 @@
+{
+  "name": "Эссенция пустоты",
+  "icon": "bloodmagic:voiding_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Эссенция пустоты",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment",
+      "text": "Удаляет при добыче простые блоки, например камень, землю и незерак.$(br2)Подходит для: инструментов, мечей и зарядов.$(br2)Накладывает эффект «Поглощение пустотой I» (256 блоков)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Эссенция пустоты L",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_l",
+      "text": "Эта улучшенная версия действует в четыре раза дольше.$(br2)Накладывает эффект «Поглощение пустотой I» (1024 блока)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Эссенция пустоты XL",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_xl",
+      "text": "Эта улучшенная версия действует в шестнадцать раз дольше.$(br2)Накладывает эффект «Поглощение пустотой I» (4096 блоков)."
+    }
+  ]
+}
