@@ -16,13 +16,13 @@ item_ids:
   - integrateddynamics:part_redstone_reader
   - integrateddynamics:part_world_reader
 ---
-# <Color id="aqua">Readers</Color>
+# <Color id="aqua">Считыватели</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Readers</Color>
   <ItemImage id="part_redstone_reader" scale="2" />
 
-  The simplest method for creating a dynamic variable is done using Readers. Different types of readers exist for reading information from the world and storing it inside a Variable Card. Each Reader contains one or more Aspects for reading different things with different Value Types. Readers are placed on Logic Cables facing a target block. Insert a Variable Card to bind it to an aspect.
+  Самый простой способ создать динамическую переменную — использовать Readers. Разные типы считывателей получают информацию об окружающем мире и записывают её в Variable Card. Каждый Reader содержит один или несколько Aspects, считывающих разные данные и возвращающих разные типы значений (Value Types). Установите Reader на Logic Cable так, чтобы он был направлен на целевой блок, и вставьте Variable Card, чтобы связать её с нужным аспектом.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -30,65 +30,65 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Reader Types</Color>
+  ## <Color id="gold">Типы считывателей</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Audio Reader</Color>
 
-Reads information about music and audio playing in the environment. Useful for detecting note block output or other sound-related signals.
+Считывает сведения о музыке и звуках вокруг. Полезен для обнаружения звуков нотных блоков и других звуковых сигналов.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Block Reader</Color>
 
-Reads information about the block the part is facing. Can detect block type, properties, hardness, and other block-level data.
+Считывает сведения о блоке, на который направлен компонент: тип, свойства, твёрдость и другие данные.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Entity Reader</Color>
 
-Reads information about entities in the space the part is facing. Can detect entity type, health, position, and other entity attributes.
+Считывает сведения о существах в области перед компонентом: тип, здоровье, координаты и другие параметры.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Extra-Dimensional Reader</Color>
 
-Reads server-wide information such as the list of online players. Unlike other readers, this one does not need to face a specific block since it reads global data.
+Считывает глобальные сведения сервера, например список игроков онлайн. В отличие от других считывателей, не требует направления на определённый блок.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Fluid Reader</Color>
 
-Reads values from the fluid tank being faced. Can detect fluid type, amount, capacity, and other tank-related data.
+Считывает данные резервуара с жидкостью, на который направлен компонент: тип жидкости, объём, вместимость и другие параметры.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Inventory Reader</Color>
 
-Reads information from the facing inventory, such as slot count, contained items, and fullness. This reader only reads data and does not transfer items.
+Считывает данные инвентаря перед компонентом: количество слотов, предметы и заполненность. Этот считыватель только читает данные и не перемещает предметы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Machine Reader</Color>
 
-Reads from the facing machine, such as its current recipes and work status. Useful for monitoring furnaces, crafting machines, and other processing blocks.
+Считывает сведения о механизме перед компонентом, например текущий рецепт и состояние работы. Удобен для мониторинга печей, верстаков и других перерабатывающих блоков.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Network Reader</Color>
 
-Reads information about an Integrated Dynamics network being faced. This can be a different network from the one the reader is attached to, allowing you to monitor external networks.
+Считывает информацию о сети Integrated Dynamics, на которую направлен компонент. Это может быть сеть, отличная от той, к которой подключён сам Reader, что позволяет следить за внешними сетями.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Redstone Reader</Color>
 
-Reads redstone information from the facing block. Can detect signal strength, whether a block is powered, and comparator output levels.
+Считывает данные редстоуна с блока перед компонентом: силу сигнала, наличие питания и уровень сигнала компаратора.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">World Reader</Color>
 
-Reads information about the world such as current weather, time of day, light level, and other environmental data.
+Считывает сведения об окружающем мире: погоду, время суток, уровень освещения и другие параметры среды.
