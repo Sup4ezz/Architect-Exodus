@@ -17,7 +17,7 @@ item_ids:
   # <Color id="dark_purple">Самоцветы</Color>
   <ItemImage id="gem" scale="2" />
 
-  Gems — это кристаллы, которые можно вставлять в предметы с Affix, получая дополнительные бонусы. Эффект каждого самоцвета зависит от типа предмета, в который он вставлен: оружие, броня, щит и так далее.
+  Gems — кристаллы, которые можно вставлять в предметы с Affix, получая дополнительные бонусы. Эффект каждого самоцвета зависит от типа предмета: оружия, брони, щита и так далее.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -30,7 +30,7 @@ item_ids:
 - Чтобы <Color id="green">вставить</Color> Gem, объедините его с предметом с Affix в Smithing Table.
 - Чтобы <Color id="red">извлечь</Color> Gem, объедините предмет с <ItemLink id="sigil_of_withdrawal" /> в Smithing Table.
 
-Gems можно найти в сундуках и получить за убийство мобов (засчитываются только убийства игроком). Чаще они выпадают с боссов.
+Gems можно найти в сундуках и получить за убийство мобов — засчитываются только убийства, совершённые игроком. С боссов самоцветы выпадают чаще.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -40,8 +40,7 @@ Gems можно найти в сундуках и получить за убий
   ### <Color id="aqua">Gem Cutting Table</Color>
 </Row>
 
-Gem Cutting Table повышает редкость Gems. Для работы нужны <ItemLink id="gem_dust" />, соответствующие материалы редкости и рецепт из JEI.cond Gem as a catalyst.
-
+Gem Cutting Table повышает редкость Gems. Для работы нужны <ItemLink id="gem_dust" />, материалы соответствующей редкости и рецепт из JEI. Используйте Gem как катализатор.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -51,8 +50,7 @@ Gem Cutting Table повышает редкость Gems. Для работы н
   ### <Color id="aqua">Salvaging Table</Color>
 </Row>
 
-The Salvaging Table breaks down Affix items into Rarity Materials corresponding to the item's rarity. You can also crush Gems into <ItemLink id="gem_dust" /> by placing them in the Salvaging Table (or dropping them on an Anvil in-world).
-
+Salvaging Table разбирает предметы с Affix на материалы редкости, соответствующей редкости предмета. Здесь также можно измельчать Gems в <ItemLink id="gem_dust" />. Для этого поместите самоцвет в Salvaging Table или сбросьте его на наковальню в мире.
 
 <Row>
 <ItemImage id="common_material" />
