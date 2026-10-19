@@ -26,7 +26,7 @@ item_ids:
   # <Color id="light_purple">Механизмы</Color>
   <ItemImage id="enchanting_apparatus" scale="2" />
 
-  Ars Nouveau provides a range of magical machines for crafting, storage, potion handling, and remote viewing.
+  Ars Nouveau добавляет магические механизмы для создания предметов, хранения ресурсов, работы с зельями и удалённого наблюдения.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -44,9 +44,9 @@ item_ids:
   ### <Color id="aqua">Enchanting Apparatus</Color>
 </Row>
 
-The core crafting station of Ars Nouveau. Requires an <ItemLink id="arcane_core" /> placed underneath and <ItemLink id="arcane_pedestal" /> blocks arranged within 3 blocks of the Apparatus. The number of pedestals needed varies by recipe, up to a maximum of 8.
+Основная станция для создания предметов в Ars Nouveau. Под ней должен находиться <ItemLink id="arcane_core" />, а <ItemLink id="arcane_pedestal" /> нужно разместить в пределах трёх блоков от Apparatus. Число пьедесталов зависит от рецепта и может достигать восьми.
 
-Place recipe ingredients on the pedestals, then use the target item on the Apparatus to begin crafting. Some recipes also require Source from nearby jars. Used for crafting machines, curios, equipment, enchanting items, and upgrading armor.
+Разложите ингредиенты рецепта по пьедесталам, затем примените к Apparatus предмет-результат, чтобы начать создание. Для некоторых рецептов также требуется Source из ближайших сосудов. Apparatus используется для создания механизмов, Curios, снаряжения, зачарованных предметов и улучшения брони.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -63,9 +63,9 @@ Place recipe ingredients on the pedestals, then use the target item on the Appar
   ### <Color id="aqua">Storage Lectern</Color>
 </Row>
 
-View, manage, and craft from multiple connected inventories in one interface. Link inventories within <Color id="green">30 blocks</Color> using a <Color id="green">Dominion Wand</Color>. Each bound <Color id="green">Bookwyrm</Color> can handle up to 8 connected inventories — add more Bookwyrms for larger systems.
+Позволяет просматривать и управлять несколькими подключёнными инвентарями, а также создавать предметы через единый интерфейс. Свяжите инвентари в пределах <Color id="green">30 блоков</Color> с помощью <Color id="green">Dominion Wand</Color>. Каждый привязанный <Color id="green">Bookwyrm</Color> обслуживает до восьми инвентарей; для расширения сети добавьте больше Bookwyrms.
 
-Naming a chest (via anvil or the <Color id="green">Name</Color> spell) creates a separate storage tab in the Lectern interface, making organization easier.
+Если переименовать сундук на наковальне или с помощью заклинания <Color id="green">Name</Color>, в интерфейсе Lectern для него появится отдельная вкладка — так проще организовать хранилище.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -74,7 +74,7 @@ Naming a chest (via anvil or the <Color id="green">Name</Color> spell) creates a
   ### <Color id="aqua">Bookwyrm Charm</Color>
 </Row>
 
-Use on a Storage Lectern to add a Bookwyrm to the system. Bookwyrms are obtained via the <Color id="green">Ritual of Awakening</Color> augmented with Book and Quills.
+Используйте предмет на Storage Lectern, чтобы добавить Bookwyrm в систему. Bookwyrm получают с помощью <Color id="green">Ritual of Awakening</Color>, усилив ритуал предметами Book и Quill.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -83,7 +83,7 @@ Use on a Storage Lectern to add a Bookwyrm to the system. Bookwyrms are obtained
   ### <Color id="aqua">Repository</Color>
 </Row>
 
-Stores a double chest worth of items. Can be named for display purposes. Works well with the Storage Lectern network.
+Хранит столько же предметов, сколько двойной сундук. Ему можно задать имя для отображения. Хорошо работает в сети Storage Lectern.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -100,7 +100,7 @@ Stores a double chest worth of items. Can be named for display purposes. Works w
   ### <Color id="aqua">Potion Jar</Color>
 </Row>
 
-Stores up to 100 doses of a potion. Fill or empty with bottles, flasks, or arrows. Wixies use Potion Jars for auto-crafting potions. Can be locked with a <Color id="green">Dominion Wand</Color> to prevent accidental changes. Outputs a comparator signal based on fill level.
+Хранит до 100 доз зелья. Заполняйте или опустошайте сосуд с помощью бутылочек, фляг или стрел. Wixies используют Potion Jars для автоматического приготовления зелий. Сосуд можно заблокировать с помощью <Color id="green">Dominion Wand</Color>, чтобы избежать случайных изменений. Компаратор выдаёт сигнал в зависимости от заполнения.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -109,7 +109,7 @@ Stores up to 100 doses of a potion. Fill or empty with bottles, flasks, or arrow
   ### <Color id="aqua">Potion Melder</Color>
 </Row>
 
-Combines potions from two input jars into a combined potion stored in an output jar. Requires Source to operate. Useful for creating multi-effect potions.
+Объединяет зелья из двух входных сосудов и помещает результат в выходной сосуд. Для работы требуется Source. Удобен для создания зелий с несколькими эффектами.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -118,7 +118,7 @@ Combines potions from two input jars into a combined potion stored in an output 
   ### <Color id="aqua">Potion Diffuser</Color>
 </Row>
 
-Consumes a potion from a linked jar and applies its effect to nearby entities approximately every 10 minutes. Great for passive buff areas.
+Забирает зелье из подключённого сосуда и примерно каждые 10 минут накладывает его эффект на ближайших существ. Подходит для создания областей с постоянными усилениями.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -135,7 +135,7 @@ Consumes a potion from a linked jar and applies its effect to nearby entities ap
   ### <Color id="aqua">Mob Jar</Color>
 </Row>
 
-Captures and stores mobs using the <Color id="green">Ritual of Containment</Color>. Placing a Note Block above a Mob Jar will play the captured mob's ambient sound.
+Захватывает и хранит мобов с помощью <Color id="green">Ritual of Containment</Color>. Если поставить Note Block над Mob Jar, он будет воспроизводить звуки захваченного существа.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -144,7 +144,7 @@ Captures and stores mobs using the <Color id="green">Ritual of Containment</Colo
   ### <Color id="aqua">Runic Chalk</Color>
 </Row>
 
-Places permanent runes on the ground that cast inscribed spells on entities walking over them. Runes recharge automatically from nearby Source Jars.
+Размещает на земле постоянные руны, которые накладывают записанные заклинания на существ, проходящих по ним. Руны автоматически заряжаются от ближайших Source Jars.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -153,4 +153,4 @@ Places permanent runes on the ground that cast inscribed spells on entities walk
   ### <Color id="aqua">Scryer's Crystal & Oculus</Color>
 </Row>
 
-Remote viewing tools. The <ItemLink id="scryers_crystal" /> lets you look through it to see a distant location. The <ItemLink id="scryers_oculus" /> combined with Scryer's Scrolls provides remote access to multiple crystals from one location.
+Инструменты для удалённого наблюдения. Через <ItemLink id="scryers_crystal" /> можно смотреть на удалённую местность. <ItemLink id="scryers_oculus" /> вместе со Scryer's Scrolls позволяет получать доступ к нескольким кристаллам из одного места.
