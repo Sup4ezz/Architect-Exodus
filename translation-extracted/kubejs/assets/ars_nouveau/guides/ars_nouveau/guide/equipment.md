@@ -45,17 +45,13 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-<ItemImage id="minecraft:air" scale="0.25"/>
-
 В Ars Nouveau есть три комплекта брони, каждый со своими преимуществами:
 
-- **Sorcerer** - Низкая физическая защита, но больше всего ячеек Thread для настройки бонусов.
-- **Arcanist** - Сбалансированные защита и количество ячеек Thread.
-- **Battlemage** - Наивысшая физическая защита, но меньше ячеек Thread.
+- **Sorcerer** — слабее защищает от физических атак, зато имеет больше всего ячеек Thread для настройки бонусов.
+- **Arcanist** — сбалансированные защита и количество ячеек Thread.
+- **Battlemage** — обеспечивает наилучшую физическую защиту, но имеет меньше ячеек Thread.
 
-All three sets increase <Color id="green">mana regeneration</Color> while worn. Each set can be upgraded through three tiers at the Enchanting Apparatus.
-
-Armor sets can also be upgraded via the <ItemLink id="enchanting_apparatus"/> up to tier 3, unlocking additional and more powerful Thread slots.
+Все три комплекта увеличивают <Color id="green">восстановление маны</Color>, пока надеты. Каждый комплект можно улучшить до трёх уровней с помощью Enchanting Apparatus. Улучшение открывает дополнительные и более мощные ячейки Thread.
 
 <ItemGrid>
   <ItemIcon id="sorcerer_hood" />
@@ -74,27 +70,25 @@ Armor sets can also be upgraded via the <ItemLink id="enchanting_apparatus"/> up
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
-
 ### <Color id="aqua">Стихийная броня</Color>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-  - ars_elemental:air_hat
-  - ars_elemental:air_robes
-  - ars_elemental:air_leggings
-  - ars_elemental:air_boots
+- ars_elemental:air_hat
+- ars_elemental:air_robes
+- ars_elemental:air_leggings
+- ars_elemental:air_boots
 
-Attuned to the school of air, each piece of this armor will amplify air glyphs, make them cheaper and reduce air-related damage lik falling, hitting walls while flying, and lightning. When all pieces are equipped  the damage reduced is converted into mana, falling won't be a problem anymore.
+Каждая часть этой брони настроена на школу воздуха: усиливает глифы воздуха, снижает их стоимость и уменьшает урон от связанных с воздухом источников — падения, столкновений со стенами во время полёта и молний. Полный комплект преобразует предотвращённый урон в ману, поэтому падения становятся гораздо менее опасными.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
-
 
 <Row>
   <ItemImage id="alteration_table" />
   ### <Color id="aqua">Alteration Table</Color>
 </Row>
 
-Threads (perks) are applied at the <ItemLink id="alteration_table" />. Each piece of mage gear has at least one <Color id="green">Thread Slot</Color>, with the tier shown in the item's tooltip. To use the table, place your armor on the stand. The tablet displays available slots — right click a Thread onto the tablet to apply it. To remove a thread, interact with the display using an empty hand. Armor tiers can be upgraded at the Enchanting Apparatus for additional Thread Slots.
+Thread — это особые бонусы, которые накладываются с помощью <ItemLink id="alteration_table" />. На каждой части магической брони есть как минимум одна <Color id="green">ячейка Thread</Color>; её уровень указан в подсказке предмета. Положите броню на подставку стола. На планшете отобразятся доступные ячейки — нажмите ПКМ по планшету, держа нужный Thread, чтобы применить его. Чтобы снять Thread, взаимодействуйте с отображением пустой рукой. Улучшение брони в Enchanting Apparatus открывает дополнительные ячейки Thread.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -106,7 +100,7 @@ Threads (perks) are applied at the <ItemLink id="alteration_table" />. Each piec
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Заклинания можно записывать на магическое снаряжение с помощью Scribe's Table. Снаряжение по умолчанию использует определённую форму <Color id="green">Form</Color>, поэтому не добавляйте глиф Form в записываемое заклинание: так освободится ячейка для дополнительных эффектов и усилений.
+Заклинания можно записывать на магическое снаряжение с помощью Scribe's Table. У каждого предмета уже есть своя форма <Color id="green">Form</Color>, поэтому не добавляйте Form в записываемое заклинание: так вы освободите ячейку для дополнительных эффектов и усилений.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -115,7 +109,7 @@ Threads (perks) are applied at the <ItemLink id="alteration_table" />. Each piec
   ### <Color id="aqua">Enchanter's Sword</Color>
 </Row>
 
-Casts a <Color id="light_purple">Touch</Color> spell on the target before dealing damage. The sword also adds one extra <Color id="green">Amplify</Color> augment to the last effect of the spell.
+Перед нанесением урона применяет к цели заклинание с формой <Color id="light_purple">Touch</Color>. Также добавляет одно дополнительное усиление <Color id="green">Amplify</Color> к последнему эффекту заклинания.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -124,7 +118,7 @@ Casts a <Color id="light_purple">Touch</Color> spell on the target before dealin
   ### <Color id="aqua">Enchanter's Shield</Color>
 </Row>
 
-Grants <Color id="green">Mana Regen</Color> and <Color id="green">Spell Damage</Color> bonuses for a short duration when you block damage. Self-repairs over time using mana from your pool.
+При блокировании урона на короткое время повышает <Color id="green">восстановление маны</Color> и <Color id="green">урон заклинаний</Color>. Со временем щит самостоятельно чинится, расходуя ману из вашего запаса.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -133,7 +127,7 @@ Grants <Color id="green">Mana Regen</Color> and <Color id="green">Spell Damage</
   ### <Color id="aqua">Enchanter's Mirror</Color>
 </Row>
 
-Casts a <Color id="light_purple">Self</Color>-targeted spell with a mana discount and bonus duration. For example, inscribing just <Color id="green">Heal</Color> creates a mirror that heals you on use.
+Применяет заклинание с формой <Color id="light_purple">Self</Color>, сниженной стоимостью маны и увеличенной длительностью. Например, если записать только <Color id="green">Heal</Color>, зеркало будет исцелять вас при использовании.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -142,7 +136,7 @@ Casts a <Color id="light_purple">Self</Color>-targeted spell with a mana discoun
   ### <Color id="aqua">Spell Bow</Color>
 </Row>
 
-When inscribed with a spell, arrows become Spell Arrows that apply the spell on impact. If you have no arrows, a spell arrow with 0 damage is fired instead. If you run out of mana, regular arrows are fired. <Color id="green">Augment Arrows</Color> can further empower the inscribed spell.
+Если на лук записано заклинание, выпущенные стрелы становятся Spell Arrows и применяют его при попадании. Если обычных стрел нет, выпускается магическая стрела с нулевым уроном. При нехватке маны лук стреляет обычными стрелами. <Color id="green">Augment Arrows</Color> позволяют дополнительно усилить записанное заклинание.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -151,7 +145,7 @@ When inscribed with a spell, arrows become Spell Arrows that apply the spell on 
   ### <Color id="aqua">Spell Crossbow</Color>
 </Row>
 
-Functions like the Spell Bow in crossbow form. Also accepts Augment Arrows.
+Работает как Spell Bow, но выполнен в виде арбалета. Также поддерживает Augment Arrows.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -160,10 +154,10 @@ Functions like the Spell Bow in crossbow form. Also accepts Augment Arrows.
   ### <Color id="aqua">Wand</Color>
 </Row>
 
-Holds a single spell that always starts with <Color id="light_purple">Projectile -> Accelerate</Color>. Inscribe with just effect glyphs — for example, inscribing <Color id="green">Break</Color> will cast <Color id="green">Projectile -> Accelerate -> Break</Color> when used. Bypasses the normal 10 glyph cap, allowing longer spell chains.
+Хранит одно заклинание, которое всегда начинается с <Color id="light_purple">Projectile → Accelerate</Color>. Записывайте только глифы эффектов: например, если добавить <Color id="green">Break</Color>, при использовании получится <Color id="green">Projectile → Accelerate → Break</Color>. Wand обходит обычное ограничение в 10 глифов, позволяя создавать более длинные цепочки заклинаний.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
-Looking for curios, trinkets, and utility items? See [Trinkets & Utilities](trinkets.md).
+Нужны аксессуары и полезные предметы? Перейдите к разделу [Аксессуары и полезные предметы](trinkets.md).
