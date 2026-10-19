@@ -29,9 +29,9 @@ Apotheosis добавляет столу зачарования пять хар�
 
 - <Color id="aqua">Eterna</Color> — основная характеристика. Каждое очко повышает максимальный уровень зачарования на 2. Обычные книжные полки дают Eterna до 30-го уровня, а специальные позволяют поднять его выше.
 - <Color id="aqua">Quanta</Color> — определяет разброс результатов. Базовая сила зачарования умножается на случайное значение от (1 − Quanta) до (1 + Quanta). Чем выше Quanta, тем сильнее колебания: результат может быть как отличным, так и ужасным.
-- <Color id="aqua">Arcana</Color> — влияет на вероятность редких зачарований и получение дополнительных зачарований. Default rarity weights are Common 10, Uncommon 5, Rare 3, Very Rare 1. Every 10% of Arcana shifts these weights toward rarer results. At 25% Arcana you are guaranteed at least 2 enchantments, and at 75% you get at least 3.
-- <Color id="aqua">Rectification</Color> — Improves the lower bound of the Quanta roll. This makes your results more consistently good without reducing the upper bound. Higher is always better.
-- <Color id="aqua">Clues</Color> — Each point reveals one additional enchantment in the enchanting table preview window, letting you make more informed decisions.
+- <Color id="aqua">Arcana</Color> — влияет на вероятность редких зачарований и получения дополнительных зачарований. Базовые веса редкости: Common — 10, Uncommon — 5, Rare — 3, Very Rare — 1. Каждые 10% Arcana смещают веса в сторону более редких результатов. При 25% Arcana гарантировано как минимум 2 зачарования, а при 75% — как минимум 3.
+- <Color id="aqua">Rectification</Color> — повышает нижнюю границу случайного значения Quanta. Благодаря этому результаты становятся стабильнее и чаще оказываются хорошими, не снижая возможный максимум. Чем выше значение, тем лучше.
+- <Color id="aqua">Clues</Color> — каждое очко показывает ещё одно зачарование в окне предварительного просмотра стола, помогая принять более обоснованное решение.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -47,34 +47,33 @@ Apotheosis добавляет столу зачарования пять хар�
 
 - apotheosis:ender_library
 
-The Enchantment Library stores enchantments as points. Insert enchanted books to deposit enchantments, then click to extract individual books. The standard Library caps enchantment levels at XVI. The Library of Alexandria variant caps at XXXI.
-
+Enchantment Library хранит зачарования в виде очков. Поместите зачарованную книгу внутрь, чтобы записать зачарования, затем нажмите на библиотеку, чтобы извлечь отдельные книги. Обычная Library ограничивает уровень зачарования значением XVI, а вариант Library of Alexandria — XXXI.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Tomes & Scrapping</Color>
+  ## <Color id="gold">Фолианты и извлечение зачарований</Color>
 </Column>
 
-<Color id="aqua">Tomes</Color> are specialized books that only receive certain types of enchantments when used at the enchanting table, letting you target weapon, armor, or tool enchantments specifically.
+<Color id="aqua">Tomes</Color> — специализированные книги, которые при использовании на столе зачарования получают только определённые типы зачарований. Это позволяет целенаправленно получать зачарования для оружия, брони или инструментов.
 
 <Row>
   <ItemImage id="scrap_tome" />
   ### <Color id="aqua">Scrapping Tomes</Color>
 </Row>
 
-Scrapping Tomes extract enchantments from items when combined in an anvil:
+Scrapping Tomes извлекают зачарования из предметов при объединении на наковальне:
 
-- <Color id="gold">Basic Scrapping Tome:</Color> Recovers half of the item's enchantments. Destroys the item.
-- <Color id="gold">Superior Scrapping Tome:</Color> Recovers all enchantments. Destroys the item.
-- <Color id="gold">Extraction Tome:</Color> Recovers all enchantments and keeps the item intact.
+- <Color id="gold">Basic Scrapping Tome:</Color> возвращает половину зачарований предмета. Сам предмет уничтожается.
+- <Color id="gold">Superior Scrapping Tome:</Color> возвращает все зачарования. Сам предмет уничтожается.
+- <Color id="gold">Extraction Tome:</Color> возвращает все зачарования и сохраняет предмет.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Cobwebs</Color>
+  ## <Color id="gold">Паутина</Color>
 </Column>
 
-Place a <Color id="aqua">Cobweb</Color> against an enchanting table to strip all enchantments from an item. Use a <Color id="aqua">Prismatic Cobweb</Color> to also remove curses.
+Поместите <Color id="aqua">Cobweb</Color> рядом со столом зачарования, чтобы снять с предмета все зачарования. <Color id="aqua">Prismatic Cobweb</Color> также снимает проклятия.
