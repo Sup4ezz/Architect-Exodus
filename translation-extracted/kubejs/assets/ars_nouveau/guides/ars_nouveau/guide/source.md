@@ -55,9 +55,9 @@ Source Jars хранят Source, полученную от ближайших So
   ### <Color id="aqua">Sourceberry</Color>
 </Row>
 
-Crafted using <CommandLink command="/guideme open @s bloodmagic:guide bloodmagic:crafting.md" title="Open GuideMe Page" close={true}><Color id="red">Blood Magic Alchemy Arrays</Color></CommandLink>, <ItemLink id="sourceberry_bush" /> Bushes drop Sourceberries when harvested. Eating a Sourceberry grants <Color id="green">Mana Regen</Color> for a few seconds.
+Sourceberry Bushes, которые можно вырастить с помощью <CommandLink command="/guideme open @s bloodmagic:guide bloodmagic:crafting.md" title="Открыть страницу руководства" close={true}><Color id="red">алхимических кругов Blood Magic</Color></CommandLink>, дают ягоды Sourceberry при сборе урожая. Съеденная Sourceberry на несколько секунд накладывает эффект <Color id="green">Mana Regen</Color>.
 
-These can also be used to make Mana Regen potions.
+Ягоды также используются для приготовления зелий Mana Regen.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -66,7 +66,7 @@ These can also be used to make Mana Regen potions.
   ### <Color id="aqua">Dominion Wand</Color>
 </Row>
 
-The Dominion Wand is the essential tool for configuring Source Relays, automation creatures, and other magical connections. Use it on the source block, then on a target block to create a connection. Sneak-use on a block to clear its connections. Sneak-use in the air to switch to <Color id="green">Strict mode</Color>, which lets you specify the exact side of a block to connect. The wand is also used to control Familiars.
+Dominion Wand — основной инструмент для настройки Source Relays, автоматизированных существ и других магических соединений. Используйте жезл на исходном блоке, а затем на целевом, чтобы создать связь. Примените его к блоку с зажатым Shift, чтобы удалить связи. Используйте жезл с зажатым Shift в воздухе, чтобы включить <Color id="green">Strict mode</Color>, позволяющий выбрать конкретную сторону блока для подключения. Жезл также используется для управления фамильярами.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -82,7 +82,7 @@ The Dominion Wand is the essential tool for configuring Source Relays, automatio
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Sourcelinks generate Source from various activities in the world. Place them near a <ItemLink id="source_jar" /> to automatically fill it.
+Sourcelinks производят Source, используя различные действия и процессы в мире. Разместите их рядом с <ItemLink id="source_jar" />, чтобы автоматически наполнять сосуд.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -91,9 +91,9 @@ Sourcelinks generate Source from various activities in the world. Place them nea
   ### <Color id="aqua">Volcanic Sourcelink</Color>
 </Row>
 
-Generates Source from burnable items like Coal or Logs, either dropped nearby or placed on pedestals. Archwood Logs produce bonus Source, with <Color id="green">Blazing Archwood</Color> generating the most.
+Производит Source из горючих предметов, например Coal или Logs, выброшенных рядом либо размещённых на пьедесталах. Archwood Logs дают дополнительную Source, а <Color id="green">Blazing Archwood</Color> — больше всего.
 
-As it produces Source, the Volcanic Sourcelink generates heat, converting stone blocks within a 3x3 area into Magma Blocks and eventually Lava. If the Lava is uncovered, a <Color id="red">Lava Lily</Color> forms on top.
+Во время производства Source Volcanic Sourcelink выделяет тепло: каменные блоки в области 3×3 превращаются в Magma Blocks, а затем в Lava. Если лава не накрыта блоком, сверху появляется <Color id="red">Lava Lily</Color>.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -102,7 +102,7 @@ As it produces Source, the Volcanic Sourcelink generates heat, converting stone 
   ### <Color id="aqua">Agronomic Sourcelink</Color>
 </Row>
 
-Generates Source from crop and tree growth within <Color id="green">15 blocks</Color>. Magical plants such as Mageblooms, Source Berry Bushes, and Archwood Saplings grant bonus Source. Generated Source is deposited into Source Jars within 5 blocks. <Color id="yellow">Note:</Color> Bonemealing does not count as growth for Source generation.
+Производит Source при росте культур и деревьев в радиусе <Color id="green">15 блоков</Color>. Магические растения, например Mageblooms, Source Berry Bushes и Archwood Saplings, дают дополнительную Source. Энергия поступает в Source Jars в радиусе 5 блоков. <Color id="yellow">Примечание:</Color> использование костной муки не считается ростом для генерации Source.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -111,7 +111,7 @@ Generates Source from crop and tree growth within <Color id="green">15 blocks</C
   ### <Color id="aqua">Vitalic Sourcelink</Color>
 </Row>
 
-Generates Source from mob deaths and animal breeding nearby. Also passively generates Source from baby animals in the area, and accelerates their growth.
+Производит Source при гибели мобов и размножении животных поблизости. Также пассивно получает Source от детёнышей в области действия и ускоряет их рост.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -120,7 +120,7 @@ Generates Source from mob deaths and animal breeding nearby. Also passively gene
   ### <Color id="aqua">Alchemical Sourcelink</Color>
 </Row>
 
-Generates Source by consuming potions from adjacent Potion Jars. More complex potions produce more Source, its duration and level each increase the yield, with multipliers for each effect a potion contains. Automate with <Color id="green">Wixies</Color> for a self-sustaining Source supply.
+Производит Source, поглощая зелья из соседних Potion Jars. Чем сложнее зелье, тем больше Source оно даёт: длительность, уровень и каждый дополнительный эффект повышают выход энергии. Автоматизируйте процесс с помощью <Color id="green">Wixies</Color>, чтобы создать самоподдерживающийся источник Source.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -129,9 +129,9 @@ Generates Source by consuming potions from adjacent Potion Jars. More complex po
   ### <Color id="aqua">Mycelial Sourcelink</Color>
 </Row>
 
-Generates Source from nearby food items, with a bonus based on the food's nourishment value. <Color id="green">Source Berry</Color> food generates more than non-magical alternatives. Feed it using nearby pedestals.
+Производит Source из находящейся поблизости еды; количество энергии зависит от её питательности. Еда из <Color id="green">Source Berry</Color> даёт больше Source, чем обычные продукты. Подавайте пищу через расположенные рядом пьедесталы.
 
-As a side effect, it converts Grass and Dirt in the 3x3 below it into Mycelium and grows mushrooms in nearby empty spaces.
+Дополнительно преобразует Grass и Dirt в области 3×3 под собой в Mycelium и выращивает грибы на соседних свободных блоках.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -140,9 +140,9 @@ As a side effect, it converts Grass and Dirt in the 3x3 below it into Mycelium a
   ### <Color id="aqua">Fluid Sourcelink</Color>
 </Row>
 
-Generates Source from fluids. It will automatically drain from tanks below it if they are compatible (check JEI for a full list of fluids).
+Производит Source из жидкостей. Если жидкость поддерживается, Sourcelink автоматически забирает её из резервуаров под собой. Полный список подходящих жидкостей смотрите в JEI.
 
-Added by the Starbuncle Mania addon.
+Добавлено дополнением Starbuncle Mania.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -154,7 +154,7 @@ Added by the Starbuncle Mania addon.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Source Relays передают Source между сосудами и устройствами. Use the <ItemLink id="dominion_wand" /> to create connections: use the wand on the source block, then use it on the target. Sneak-use the wand on a Relay to clear its connections. Relays have a default range of <Color id="green">30 blocks</Color>.
+Source Relays передают Source между сосудами и устройствами. Используйте <ItemLink id="dominion_wand" />, чтобы создать соединение: сначала примените жезл к исходному блоку, затем к целевому. Используйте жезл с зажатым Shift на Relay, чтобы удалить его соединения. Стандартная дальность реле — <Color id="green">30 блоков</Color>.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -168,8 +168,8 @@ Source Relays передают Source между сосудами и устро�
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-- **Relay** - Basic Source transport between linked points within 30 blocks.
-- **Collector Relay** - Automatically pulls Source from unlinked Source Jars within 5 blocks.
-- **Deposit Relay** - Automatically deposits Source into unlinked Source Jars within 5 blocks. Ideal for Source storage rooms.
-- **Splitter Relay** - Splits Source to multiple destinations at once with higher throughput than a standard Relay.
-- **Warp Relay** - Teleports Source to other Warp Relays at any distance, but transfers beyond 30 blocks have a chance to lose some Source.
+- **Relay** — передаёт Source между связанными точками в пределах 30 блоков.
+- **Collector Relay** — автоматически забирает Source из неподключённых Source Jars в радиусе 5 блоков.
+- **Deposit Relay** — автоматически помещает Source в неподключённые Source Jars в радиусе 5 блоков. Подходит для комнат хранения Source.
+- **Splitter Relay** — распределяет Source сразу по нескольким направлениям и имеет большую пропускную способность, чем обычное Relay.
+- **Warp Relay** — передаёт Source между Warp Relays на любом расстоянии, но при передаче дальше 30 блоков часть Source может потеряться.
