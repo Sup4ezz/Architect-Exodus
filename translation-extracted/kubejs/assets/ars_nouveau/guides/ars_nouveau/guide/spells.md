@@ -31,11 +31,11 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-To create a spell, hold a Spell Book и press <Color id="green"><KeyBind id="key.ars_nouveau.open_book" /></Color> (по умолчанию C), чтобы открыть меню создания заклинаний. Каждое заклинание начинается с глифа <Color id="aqua">Form</Color> , определяющего способ применения. Выберите <Color id="green">Projectile</Color> в качестве формы, затем добавьте <Color id="aqua">Effect</Color> , например <Color id="green">Harm</Color> to define what the spell does. Name your spell и click Save.
+Чтобы создать заклинание, возьмите Spell Book и нажмите <Color id="green"><KeyBind id="key.ars_nouveau.open_book" /></Color> (по умолчанию C), чтобы открыть меню создания заклинаний. Каждое заклинание начинается с глифа <Color id="aqua">Form</Color>, определяющего способ применения. Выберите <Color id="green">Projectile</Color> в качестве формы, затем добавьте <Color id="aqua">Effect</Color>, например <Color id="green">Harm</Color>, чтобы определить действие заклинания. Дайте заклинанию имя и нажмите Save.
 
-mana cost is displayed at the bottom of the menu. On the right side, numbered slots store your saved spells. On the left, you can change spell colors и adjust settings.
+Стоимость заклинания в мане отображается внизу меню. Справа находятся пронумерованные ячейки сохранённых заклинаний. Слева можно менять цвет заклинаний и настраивать параметры.
 
-Попробуйте новое заклинание в мире. Многие полезные эффекты, включая <Color id="green">Break</Color>) live in Tier 2 — to unlock them, build the upgraded Spell Book at the Scribe's Table. Harder blocks , например Obsidian additionally require <Color id="green">Augments</Color> , усиливающие заклинание. Новые глифы изучаются с помощью [Scribe's Table](getting_started.md).
+Испытайте новое заклинание в мире. Многие полезные эффекты, включая <Color id="green">Break</Color>, относятся ко второму уровню (Tier 2): чтобы открыть их, улучшите Spell Book с помощью Scribe's Table. Для разрушения особо прочных блоков, например Obsidian, дополнительно нужны <Color id="green">Augments</Color>, усиливающие заклинание. Новые глифы изучаются с помощью [Scribe's Table](getting_started.md).
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -47,7 +47,7 @@ mana cost is displayed at the bottom of the menu. On the right side, numbered sl
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Каждое заклинание начинается с глифа <Color id="green">Form</Color> , определяющего способ применения. После Form добавьте <Color id="green">Effect</Color> glyphs to define what the spell does, и <Color id="green">Augment</Color> , изменяющие поведение заклинания.
+Каждое заклинание начинается с глифа <Color id="green">Form</Color>, определяющего способ применения. После Form добавьте глифы <Color id="green">Effect</Color>, задающие действие заклинания, и <Color id="green">Augment</Color>, изменяющие его свойства.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -66,7 +66,7 @@ mana cost is displayed at the bottom of the menu. On the right side, numbered sl
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-После Form добавьте глифы эффектов, например Break, Harm, Heal, Ignite, Freeze, и many more . Затем усилите их глифами Amplify, Extend Time, AOE, Pierce, и other modifiers , чтобы дополнительно настроить заклинание.
+После Form добавьте глифы эффектов, например Break, Harm, Heal, Ignite или Freeze. Затем настройте заклинание с помощью усилений Amplify, Extend Time, AOE, Pierce и других модификаторов.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -80,17 +80,17 @@ mana cost is displayed at the bottom of the menu. On the right side, numbered sl
 
 Глифы разделены на три уровня. Для их изучения нужна книга заклинаний соответствующего уровня или выше.
 
-### <Color id="aqua">Tier 1 - Basic Effects</Color>
+### <Color id="aqua">Tier 1 — базовые эффекты</Color>
 
-Harm, Harvest, Ignite, Freeze, Light, Snare, Launch, Pull, Pickup, Place Block, и more. Это основа вашего арсенала заклинаний.
+Harm, Harvest, Ignite, Freeze, Light, Snare, Launch, Pull, Pickup, Place Block и другие глифы составляют основу вашего арсенала.
 
-### <Color id="aqua">Tier 2 - Advanced Effects</Color>
+### <Color id="aqua">Tier 2 — продвинутые эффекты</Color>
 
-Break, AOE, Heal, Grow, Smelt, Explosion, Cold Snap, Gravity, Fortune, Exchange, Invisibility, Wind Shear, и more. These provide much greater versatility и power.
+Break, AOE, Heal, Grow, Smelt, Explosion, Cold Snap, Gravity, Fortune, Exchange, Invisibility, Wind Shear и другие глифы дают гораздо больше возможностей и силы.
 
-### <Color id="aqua">Tier 3 - Powerful Effects</Color>
+### <Color id="aqua">Tier 3 — мощные эффекты</Color>
 
-Lightning, Blink, Wither, Hex, Fangs, Summon Undead/Vex/Decoy, Glide, Wall, Linger, Split, Burst, и more. Это самые мощные доступные глифы, способные создавать разрушительные эффекты.
+Lightning, Blink, Wither, Hex, Fangs, Summon Undead/Vex/Decoy, Glide, Wall, Linger, Split, Burst и другие глифы — самые мощные доступные эффекты, способные создавать разрушительные комбинации.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -109,8 +109,8 @@ Lightning, Blink, Wither, Hex, Fangs, Summon Undead/Vex/Decoy, Glide, Wall, Ling
 
 Заклинания можно записывать на <Color id="green">Spell Parchment</Color> с помощью Scribe's Table, чтобы использовать их отдельно от книги заклинаний.
 
-Spell Parchment используется несколькими способами:
+Spell Parchment используется для нескольких задач:
 
-- <Color id="green">Spell Turrets</Color> - Автоматизируйте применение заклинаний с помощью турелей, стреляющих записанными заклинаниями
-- <Color id="green">Reactive Enchantment</Color> - Наносите на снаряжение заклинания, срабатывающие при определённых событиях
-- <Color id="green">Runic Chalk</Color> - Создавайте на земле руны, активирующие заклинания
+- <Color id="green">Spell Turrets</Color> — автоматизируют применение заклинаний: турели стреляют записанными заклинаниями
+- <Color id="green">Reactive Enchantment</Color> — позволяет накладывать на снаряжение заклинания, срабатывающие при определённых событиях
+- <Color id="green">Runic Chalk</Color> — создаёт на земле руны, активирующие заклинания
