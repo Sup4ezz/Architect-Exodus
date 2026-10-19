@@ -10,13 +10,13 @@ item_ids:
   - integrateddynamics:logic_programmer
   - integrateddynamics:labeller
 ---
-# <Color id="aqua">Variables & Logic</Color>
+# <Color id="aqua">Переменные и логика</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Variables & Logic</Color>
   <ItemImage id="variable" scale="2" />
 
-  Variable Cards are the foundation of Integrated Dynamics logic. They carry references to values that can be read, combined, and evaluated across your network.
+  Variable Cards — основа логики Integrated Dynamics. Они содержат ссылки на значения, которые можно считывать, объединять и вычислять в сети.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -24,7 +24,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Variable Cards</Color>
+  ## <Color id="gold">Карты переменных</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -34,9 +34,9 @@ item_ids:
   ### <Color id="aqua">Variable Card</Color>
 </Row>
 
-Variable Cards are the primary mode of logic transport. A variable contains a reference to a certain Value with a certain Value Type. Variables can either be **static** or **dynamic**. Static variables are defined once and never change. Dynamic variables are the result of some form of Logic Evaluation done by Operators or Reader Aspects.
+Variable Cards — основной способ передачи логических значений. Переменная содержит ссылку на значение (Value) определённого типа (Value Type). Переменные бывают **статическими** и **динамическими**. Статические задаются один раз и не меняются. Динамические вычисляются операторами (Operators) или аспектами считывателей (Reader Aspects).
 
-Each Variable Card has a unique ID for debugging purposes. Use a <ItemLink id="labeller" /> to give your variables readable names so you can keep track of what each one does.
+У каждой Variable Card есть уникальный ID для отладки. Используйте <ItemLink id="labeller" />, чтобы присвоить переменным понятные имена и не путаться в их назначении.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -54,9 +54,9 @@ Each Variable Card has a unique ID for debugging purposes. Use a <ItemLink id="l
   ### <Color id="aqua">Logic Programmer</Color>
 </Row>
 
-The Logic Programmer allows you to create dynamic variable cards by applying an Operator on one or more Variable Cards to produce a new Variable Card. For example, you can add two Numbers together to produce a new Number variable.
+Logic Programmer позволяет создавать динамические Variable Cards, применяя Operator к одной или нескольким картам и получая новую карту. Например, можно сложить два числа и получить переменную с результатом.
 
-It contains a large collection of Operators and also allows creating static Variable Cards for all Value Types. The Logic Programmer exists in both block and item form — you can freely convert between them via the crafting grid. The item form is called the Portable Logic Programmer.
+В нём доступно множество Operators; также можно создавать статические Variable Cards для всех типов значений. Logic Programmer существует в виде блока и предмета — их можно свободно преобразовывать друг в друга в сетке крафта. Предметная версия называется Portable Logic Programmer.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -74,46 +74,46 @@ It contains a large collection of Operators and also allows creating static Vari
   ### <Color id="aqua">Variable Store</Color>
 </Row>
 
-Some dynamic variables are evaluated based on other variables, and access to those referenced variables must be possible within the same network. For example, a dynamic variable representing the addition of two variables must be able to access those other variables when evaluated.
+Некоторые динамические переменные вычисляются на основе других переменных, и ссылки на них должны быть доступны в той же сети. Например, переменная, представляющая сумму двух значений, должна иметь доступ к исходным переменным в момент вычисления.
 
-Place your referenced Variable Cards into a Variable Store that is connected to the same network as where the dynamic variable is being evaluated. This ensures all dependencies can be resolved at evaluation time.
+Поместите используемые Variable Cards в Variable Store, подключённый к той же сети, где вычисляется динамическая переменная. Так все зависимости будут доступны в момент вычисления.
 
-
-<ItemImage id="minecraft:air" scale="0.25"/>
-
-***
-
-<Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Value Types</Color>
-</Column>
-
-<ItemImage id="minecraft:air" scale="0.25"/>
-
-Integrated Dynamics supports a wide range of value types that variables can hold:
-
-- **Boolean** — True or False
-- **Integer** — Whole numbers, ranging from -2 billion to 2 billion
-- **Double** — Decimal numbers for precise measurements
-- **Long** — Larger integers when Integer is not enough
-- **String** — Text values
-- **List** — A collection of values sharing the same type
-- **Operator** — A reference to an operator (supports currying for partial application)
-- **NBT** — Complex data tags for advanced data handling
-- **Block, Item, Entity, Fluid** — References to Minecraft objects
-- **Ingredients, Recipe** — Crafting-related data
-
-All of these can be created as static values in the Logic Programmer, or read dynamically from the world using Reader Aspects.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Operators</Color>
+  ## <Color id="gold">Типы значений</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-An Operator can have one or more input values and has one output value. In most cases the inputs and output have a specific Value Type, otherwise they will accept the Any value type. An Operator with a single input and one Boolean output is called a **Predicate**.
+Integrated Dynamics поддерживает множество типов значений, которые могут храниться в переменных:
 
-The Logic Programmer allows you to search operators by name and filter them by input or output type, making it easy to find the exact operation you need. Combine multiple operators together to build complex logic chains that react to the world around your network.
+- **Boolean** — логическое значение True или False.
+- **Integer** — целые числа примерно от −2 миллиардов до 2 миллиардов.
+- **Double** — дробные числа для точных измерений.
+- **Long** — целые числа большего диапазона, чем Integer.
+- **String** — текстовые значения.
+- **List** — список значений одного типа.
+- **Operator** — ссылка на оператор; поддерживает частичное применение (currying).
+- **NBT** — сложные теги данных для продвинутой обработки.
+- **Block, Item, Entity, Fluid** — ссылки на объекты Minecraft.
+- **Ingredients, Recipe** — данные, связанные с крафтом.
+
+Все эти типы можно создать как статические значения в Logic Programmer или динамически считывать из мира с помощью Reader Aspects.
+
+<ItemImage id="minecraft:air" scale="0.25"/>
+
+***
+
+<Column alignItems="center" fullWidth={true}>
+  ## <Color id="gold">Операторы</Color>
+</Column>
+
+<ItemImage id="minecraft:air" scale="0.25"/>
+
+Operator может принимать одно или несколько входных значений и выдаёт одно выходное. Обычно входы и выход имеют определённый Value Type; в остальных случаях используется универсальный тип Any. Оператор с одним входом и логическим выходом Boolean называется **Predicate**.
+
+В Logic Programmer можно искать операторы по имени и фильтровать их по типам входных и выходных значений. Объединяйте несколько операторов в сложные логические цепочки, реагирующие на события вокруг сети.
