@@ -22,15 +22,14 @@ item_ids:
   # <Color id="green">Laser Relays</Color>
   <ItemImage id="laser_relay" scale="2" />
 
-  Laser Relays are the wireless transfer system of Actually Additions. They can move CF energy, fluids, and items between machines without physical connections.
+  Laser Relays — система беспроводной передачи в Actually Additions. Они позволяют передавать энергию CF, жидкости и предметы между механизмами без физических соединений.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
-
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Connecting Relays</Color>
+  ## <Color id="gold">Соединение реле</Color>
 </Column>
 
 <Row>
@@ -38,14 +37,13 @@ item_ids:
   ### <Color id="aqua">Laser Wrench</Color>
 </Row>
 
-All Laser Relays are connected using the <ItemLink id="laser_wrench" />. Right-click the first relay, then right-click the second to form a connection. A visible beam appears between linked relays. Each relay can connect to multiple others to form a network.
+Все Laser Relays соединяются с помощью <ItemLink id="laser_wrench" />. Нажмите ПКМ по первому реле, затем по второму, чтобы создать соединение. Между связанными реле появится видимый луч. Одно реле можно соединить с несколькими другими, создавая сеть.
 
 <ItemImage id="minecraft:air" scale="0.25" />
-
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Relays</Color>
+  ## <Color id="gold">Реле</Color>
 </Column>
 
 <Row>
@@ -53,35 +51,34 @@ All Laser Relays are connected using the <ItemLink id="laser_wrench" />. Right-c
   ### <Color id="aqua">Energy Laser Relay</Color>
 </Row>
 
-Energy Laser Relays wirelessly transfer Crystal Flux between machines. There are three tiers — the <ItemLink id="laser_relay" />, <ItemLink id="laser_relay_advanced" />, and <ItemLink id="laser_relay_extreme" /> — with increasing transfer caps. Each transfer incurs a small energy loss — this loss is per-transfer, not per relay hop.
+Energy Laser Relays беспроводным способом передают Crystal Flux между механизмами. Есть три уровня — <ItemLink id="laser_relay" />, <ItemLink id="laser_relay_advanced" /> и <ItemLink id="laser_relay_extreme" /> — с возрастающими лимитами передачи. При каждой передаче теряется небольшое количество энергии; потери рассчитываются за передачу, а не за каждый переход между реле.
 
-You can interconnect different tiers in the same network, but the connection will use the lowest transfer cap and highest loss of the two connected relays.
+В одной сети можно соединять реле разных уровней, но соединение будет использовать меньший лимит передачи и большие потери из двух подключённых реле.
 
 <Row>
   <ItemImage id="laser_relay_fluids" />
   ### <Color id="aqua">Fluid Laser Relay</Color>
 </Row>
 
-Fluid Laser Relays transfer fluids wirelessly between tanks. They use the same connection method as energy relays; link them with the Laser Wrench. Place a relay adjacent to each tank and connect them.
+Fluid Laser Relays беспроводным способом передают жидкости между резервуарами. Подключаются так же, как энергетические реле: соедините их с помощью Laser Wrench. Разместите реле рядом с каждым резервуаром и свяжите их.
 
-Item is crafted via the Atomic Reconstructor.
+Этот предмет создаётся с помощью Atomic Reconstructor.
 
 <Row>
   <ItemImage id="laser_relay_item" />
   ### <Color id="aqua">Item Laser Relay</Color>
 </Row>
 
-Item Laser Relays are the most complex but also the most powerful relay type. All container slots connected to the relay network are "known" to the network. Use an <ItemLink id="item_interface" /> to interact with those slots; it behaves like a large chest containing every connected slot.
+Item Laser Relays — самый сложный, но и самый мощный тип реле. Слоты всех контейнеров, подключённых к сети, становятся доступны через сеть. Используйте <ItemLink id="item_interface" /> для работы с ними: он ведёт себя как большой сундук, содержащий все подключённые слоты.
 
 <Row>
   <ItemImage id="laser_relay_item_advanced" />
   ### <Color id="aqua">Advanced Item Laser Relay</Color>
 </Row>
 
-The Advanced Item Laser Relay adds white or blocklist filtering with separate <Color id="aqua">INBOUND</Color> and <Color id="aqua">OUTBOUND</Color> sides, giving you fine control over which items enter or leave specific containers.
+Advanced Item Laser Relay добавляет фильтрацию по белому или чёрному списку с отдельными сторонами <Color id="aqua">INBOUND</Color> и <Color id="aqua">OUTBOUND</Color>. Это позволяет точно контролировать, какие предметы поступают в конкретные контейнеры и покидают их.
 
 <ItemImage id="minecraft:air" scale="0.25" />
-
 ***
 
 <Column alignItems="center" fullWidth={true}>
@@ -93,11 +90,11 @@ The Advanced Item Laser Relay adds white or blocklist filtering with separate <C
   ### <Color id="aqua">Item Interface</Color>
 </Row>
 
-The Item Interface connects to an Item Laser Relay network and exposes all connected inventories as a single large chest. Pipes and hoppers can interact with it normally.
+Item Interface подключается к сети Item Laser Relay и объединяет все подключённые инвентари в один большой сундук. Трубы и воронки могут взаимодействовать с ним обычным образом.
 
 <Row>
   <ItemImage id="hopping_item_interface" />
   ### <Color id="aqua">Hopping Item Interface</Color>
 </Row>
 
-The Hopping Item Interface does the same thing, but also automatically pulls items from above and pushes items into the network below. No external pipes are needed.
+Hopping Item Interface работает так же, но дополнительно автоматически забирает предметы сверху и отправляет предметы в сеть снизу. Внешние трубы не нужны.
