@@ -11,13 +11,13 @@ item_ids:
   - integrateddynamics:part_connector_mono_directional
   - integrateddynamics:part_connector_omni_directional
 ---
-# <Color id="aqua">Networks</Color>
+# <Color id="aqua">Сети</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Networks</Color>
   <ItemImage id="cable" scale="2" />
 
-  Integrated Dynamics networks are the foundation of any good automation system. A network is a collection of connected Logic Cables on which parts can be placed. This page covers cables, the wrench used to manage them, facades for hiding cables, and connectors for long-distance links.
+  Сети Integrated Dynamics — основа любой системы автоматизации. Сеть состоит из соединённых Logic Cables, на которые устанавливаются компоненты. На этой странице описаны кабели, ключ для их настройки, фасады для маскировки кабелей и соединители для связи на больших расстояниях.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -25,7 +25,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Cable Basics</Color>
+  ## <Color id="gold">Основы кабелей</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -35,7 +35,7 @@ item_ids:
   ### <Color id="aqua">Logic Cables</Color>
 </Row>
 
-Logic Cables are the backbone of every Integrated Dynamics network. Place them down to form a connected network, then attach parts such as readers and writers directly onto the cables. Cables should be managed using a <ItemLink id="wrench" />. Shift+right-clicking a cable or part will remove it, while a regular right-click will disconnect it from adjacent cables.
+Logic Cables — основа каждой сети Integrated Dynamics. Размещайте кабели, соединяя их в сеть, а затем устанавливайте на них компоненты, например считыватели и записыватели. Для управления кабелями используйте <ItemLink id="wrench" />. Shift + ПКМ удаляет кабель или компонент, а обычный ПКМ отсоединяет его от соседних кабелей.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -45,7 +45,7 @@ Logic Cables are the backbone of every Integrated Dynamics network. Place them d
   ### <Color id="aqua">Wrench</Color>
 </Row>
 
-The Wrench is the essential tool for managing cables and parts. Right-click a cable to disconnect it from neighboring cables. Shift+right-click a cable or part to remove it entirely. The wrench also has an offset mode that allows you to configure the target position of a part, useful for precise placement.
+Wrench — основной инструмент для управления кабелями и компонентами. Щёлкните ПКМ по кабелю, чтобы отсоединить его от соседних кабелей. Shift + ПКМ удаляет кабель или компонент полностью. У ключа также есть режим смещения, позволяющий точно настраивать положение цели для компонента.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -55,7 +55,7 @@ The Wrench is the essential tool for managing cables and parts. Right-click a ca
   ### <Color id="aqua">Facades</Color>
 </Row>
 
-Even though Logic Cables may look nice, in some cases you will probably want to hide them. Facades can resemble any material, letting you disguise your cable runs to blend in with their surroundings. Simply craft a Facade and apply it to any cable.
+Иногда кабели требуется скрыть. Facades могут имитировать любой материал, позволяя замаскировать проводку под окружающие блоки. Создайте Facade и примените его к кабелю.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -63,19 +63,19 @@ Even though Logic Cables may look nice, in some cases you will probably want to 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Connectors</Color>
+  ## <Color id="gold">Соединители</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-For long-distance or cross-dimensional network connections, Integrated Dynamics offers two types of connectors:
+Для соединения сетей на большом расстоянии или между измерениями Integrated Dynamics предлагает два типа соединителей:
 
 <Row>
   <ItemImage id="part_connector_mono_directional" />
   ### <Color id="aqua">Mono-Directional Connector</Color>
 </Row>
 
-Connects two networks in a straight line up to 512 blocks apart. Place one on each end facing the other to link the networks together.
+Соединяет две сети по прямой на расстоянии до 512 блоков. Разместите соединитель на каждом конце так, чтобы они были направлены друг на друга.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -84,4 +84,4 @@ Connects two networks in a straight line up to 512 blocks apart. Place one on ea
   ### <Color id="aqua">Omni-Directional Connector</Color>
 </Row>
 
-Connects networks in any direction, even across dimensions. Each connector is assigned a group ID, and all connectors sharing the same group ID are linked together. Each group displays a unique color of particles so you can tell them apart at a glance.
+Соединяет сети в любом направлении, в том числе между измерениями. Каждому соединителю назначается Group ID; все соединители с одинаковым ID связываются друг с другом. Для каждой группы используется свой цвет частиц, поэтому их легко различать.
