@@ -59,6 +59,8 @@ https://github.com/Sup4ezz/Architect-Exodus/tree/translation-source
 ## Уже выполненные изменения
 
 - [Integrated Dynamics — перевод 287 интерфейсных строк, операторов, типов данных и названий аспектов](https://github.com/Sup4ezz/Architect-Exodus/commit/c5d3b21dbec19f634a3c31353964f3a5bd86e71f)
+- [Apotheosis GuideME — перевод основных разделов, самоцветов, зачарования, Affix, спавнеров, сада, зелий и полок](https://github.com/Sup4ezz/Architect-Exodus/commit/fdd733a09f51f8119e552086401f4e5df6f00069)
+- [Actually Additions GuideME — перевод руководства, начала игры, генераторов, инструментов, Laser Relays, машин, линз и вспомогательных механизмов](https://github.com/Sup4ezz/Architect-Exodus/commit/da49072850c92368e27864b8dce13c0da1708e84)
 - [Chisel — перевод 14 элементов интерфейса и режимов обработки](https://github.com/Sup4ezz/Architect-Exodus/commit/6c4007e36d7fd5bf27be01339d90438e857b3419)
 - [Actually Additions — перевод оставшихся подписей интерфейса](https://github.com/Sup4ezz/Architect-Exodus/commit/7a500142e786c2128f9b08333f316d38f58b6a58)
 - [Apotheosis — улучшение русских руководств: самоцветы, броня, атрибуты, боссы, зачарования и рост растений](https://github.com/Sup4ezz/Architect-Exodus/commit/b50a838b2853f68cfe7a13b97fcf82804cbbead6)
