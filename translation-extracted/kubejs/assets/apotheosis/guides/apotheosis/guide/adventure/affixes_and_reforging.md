@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Affixes & Reforging
+  title: Affixes и перековка
   icon: apotheosis:sigil_of_rebirth
   parent: adventure.md
   position: 1
@@ -16,34 +16,34 @@ item_ids:
   - apotheosis:epic_material
   - apotheosis:mythic_material
 ---
-# <Color id="dark_purple">Affixes & Reforging</Color>
+# <Color id="dark_purple">Affixes и перековка</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="dark_purple">Affixes & Reforging</Color>
+  # <Color id="dark_purple">Affixes и перековка</Color>
   <ItemImage id="sigil_of_rebirth" scale="2" />
 
-  Affix Items are procedurally generated equipment with special modifiers called Affixes, similar to enchantments. Each item has a Rarity that determines how many stats, effects, and sockets it can roll.
+  Предметы с Affix — сгенерированное снаряжение с особыми модификаторами, похожими на зачарования. У каждого предмета есть редкость, определяющая возможное количество характеристик, эффектов и гнёзд.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Rarities</Color>
+  ## <Color id="gold">Редкости</Color>
 </Column>
 
 <Row>
 <Column>
 
-- <Color id="gray">Common</Color> — 1 stat, possibly a 2nd
-- <Color id="green">Uncommon</Color> — 2 stats, possibly a 3rd, may get 1 socket
-- <Color id="blue">Rare</Color> — 3 stats + 1 effect, possibly a 2nd effect, may get a socket, slight durability bonus
+- <Color id="gray">Common</Color> — 1 характеристика, иногда 2-я
+- <Color id="green">Uncommon</Color> — 2 характеристики, иногда 3-я; возможно 1 гнездо
+- <Color id="blue">Rare</Color> — 3 характеристики и 1 эффект, иногда 2-й эффект; возможно гнездо и небольшой бонус к прочности
 
 </Column>
 <Column>
 
-- <Color id="dark_purple">Epic</Color> — 3 stats + 1 effect, possibly a 4th stat + 2nd effect, up to 2 sockets, stronger durability bonus
-- <Color id="gold">Mythic</Color> — 4 stats + 2 effects, possibly a 3rd effect + 3 sockets, significant durability bonus
+- <Color id="dark_purple">Epic</Color> — 3 характеристики и 1 эффект, иногда 4-я характеристика и 2-й эффект; до 2 гнёзд и более высокий бонус к прочности
+- <Color id="gold">Mythic</Color> — 4 характеристики и 2 эффекта, иногда 3-й эффект и до 3 гнёзд; значительный бонус к прочности
 
 </Column>
 </Row>
@@ -52,13 +52,13 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Affix Types</Color>
+  ## <Color id="gold">Типы Affix</Color>
 </Column>
 
-- <Color id="aqua">Stat Affixes</Color> — Attribute bonuses such as increased damage, armor, or movement speed.
-- <Color id="light_purple">Effect Affixes</Color> — Special abilities that trigger during combat or other actions. Only appear on <Color id="blue">Rare</Color> or higher items.
-- <Color id="green">Socket Affixes</Color> — Empty slots that can hold Gems for additional bonuses.
-- <Color id="yellow">Durability Affix</Color> — A flat durability multiplier that stacks multiplicatively with Unbreaking. Only appears on <Color id="blue">Rare</Color> or higher items.
+- <Color id="aqua">Stat Affixes</Color> — бонусы к характеристикам, например к урону, броне или скорости передвижения.
+- <Color id="light_purple">Effect Affixes</Color> — особые способности, срабатывающие в бою или при других действиях. Появляются только на предметах редкости <Color id="blue">Rare</Color> и выше.
+- <Color id="green">Socket Affixes</Color> — пустые гнёзда для Gems, дающих дополнительные бонусы.
+- <Color id="yellow">Durability Affix</Color> — множитель прочности, который перемножается с эффектом Unbreaking. Доступен только на предметах редкости <Color id="blue">Rare</Color> и выше.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -72,7 +72,7 @@ item_ids:
   ### <Color id="aqua">Sigil of Rebirth</Color>
 </Row>
 
-Used in Reforging Tables to re-roll all Affixes on an item.
+Используется в Reforging Tables для повторного случайного выбора всех Affix предмета.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -81,7 +81,7 @@ Used in Reforging Tables to re-roll all Affixes on an item.
   ### <Color id="aqua">Sigil of Enhancement</Color>
 </Row>
 
-Used in the Augmenting Table to upgrade or reroll individual Affixes.
+Используется в Augmenting Table для улучшения или повторного выбора отдельных Affix.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -90,23 +90,21 @@ Used in the Augmenting Table to upgrade or reroll individual Affixes.
   ### <Color id="aqua">Sigil of Withdrawal</Color>
 </Row>
 
-Used in a Smithing Table to remove a socketed Gem from an Affix item.
+Используется в Smithing Table, чтобы извлечь Gem из предмета с Affix.
 
 ***
-
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Reforging & Augmenting</Color>
+  ## <Color id="gold">Перековка и улучшение</Color>
 </Column>
 
-Reforging re-rolls all Affixes on an item, potentially turning ordinary gear into powerful Affix items. Two tables are available:
+Перековка заново генерирует все Affix предмета и может превратить обычное снаряжение в мощный предмет с Affix. Для этого есть два стола:
 
 <Row>
   <ItemImage id="simple_reforging_table" />
   ### <Color id="aqua">Simple Reforging Table</Color>
 </Row>
 
-Can reforge items up to <Color id="blue">Rare</Color> quality. A good early-game option for improving your gear.
-
+Позволяет перековывать предметы вплоть до редкости <Color id="blue">Rare</Color>. Хороший выбор для улучшения снаряжения в начале игры.
 
 <ItemImage id="minecraft:air" scale="0.5" />
 
@@ -115,10 +113,9 @@ Can reforge items up to <Color id="blue">Rare</Color> quality. A good early-game
   ### <Color id="aqua">Reforging Table</Color>
 </Row>
 
-Can reforge items up to <Color id="gold">Mythic</Color> quality. The full-power version for late-game crafting.
+Позволяет перековывать предметы вплоть до редкости <Color id="gold">Mythic</Color>. Полноценная версия для поздних этапов игры.
 
-Reforging requires three inputs: the item to reforge, Rarity Materials, and a <ItemLink id="sigil_of_rebirth" />. You will be offered 3 choices, similar to enchanting. Items can be reforged multiple times.
-
+Для перековки нужны три компонента: предмет, материалы редкости и <ItemLink id="sigil_of_rebirth" />. Как и при зачаровывании, вам предложат 3 варианта. Предмет можно перековывать неоднократно.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -127,10 +124,7 @@ Reforging requires three inputs: the item to reforge, Rarity Materials, and a <I
   ### <Color id="aqua">Augmenting Table</Color>
 </Row>
 
-The Augmenting Table is an end-game station that lets you upgrade or reroll individual Affixes on an item using a <ItemLink id="sigil_of_enhancement" />.
+Augmenting Table — станция поздней игры, позволяющая улучшать или заново выбирать отдельные Affix с помощью <ItemLink id="sigil_of_enhancement" />.
 
-- <Color id="green">Upgrade</Color> — Costs <Color id="red">2 Sigils</Color>. Boosts the selected Affix by 25% strength.
-- <Color id="aqua">Reroll</Color> — Costs <Color id="red">1 Sigil</Color>. Randomly re-rolls the selected Affix.
-
-<ItemImage id="minecraft:air" scale="0.25" />
-
+- <Color id="green">Улучшение</Color> — стоит <Color id="red">2 Sigils</Color>. Повышает силу выбранного Affix на 25%.
+- <Color id="aqua">Повторный выбор</Color> — стоит <Color id="red">1 Sigil</Color>. Случайным образом заменяет выбранный Affix.
