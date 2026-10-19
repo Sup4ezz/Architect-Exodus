@@ -17,7 +17,7 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="red">Демоническая воля</Color>
   <ItemImage id="bloodmagic:basemonstersoul" scale="2" />
-  The Демоническая воля system is a separate resource used to fuel the <ItemLink id="bloodmagic:soulforge"/> и некоторых продвинутых предметов.
+  Система Демонической воли использует отдельный ресурс, необходимый для работы <ItemLink id="bloodmagic:soulforge"/> и создания некоторых продвинутых предметов.
 </Column>
 
 ***
@@ -29,7 +29,7 @@ item_ids:
     ### <Color id="gold">Ловушки душ</Color>
   </Column>
 </Row>
-Throw Ловушки душ at mobs to mark them. Marked mobs will have white particles. Killing a marked mob will drop Демоническая воля.
+Бросьте Soul Snare в моба, чтобы пометить его. У помеченного существа появятся белые частицы. После убийства такого моба выпадет Демоническая воля.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -39,7 +39,7 @@ Throw Ловушки душ at mobs to mark them. Marked mobs will have white pa
     ### <Color id="gold">Демоническая воля</Color>
   </Column>
 </Row>
-Демоническая воля drops from snared mobs and will have a random will quality. Pick them up to collect the will.
+Демоническая воля выпадает из мобов, помеченных Soul Snare. Качество воли определяется случайным образом. Подберите выпавшую волю, чтобы добавить её в запас.
 
 ***
 
@@ -47,9 +47,9 @@ Throw Ловушки душ at mobs to mark them. Marked mobs will have white pa
   ## <Color id="gold">Тартарские самоцветы</Color>
 </Column>
 
-Тартарские самоцветы absorb and store Демоническая воля as it is picked up, acting as a portable will battery.
+Тартарские самоцветы поглощают и хранят Демоническую волю, когда вы подбираете её, работая как переносной аккумулятор воли.
 
-| Gem | Capacity |
+| Самоцвет | Вместимость |
 |-----|----------|
 | <ItemImage id="bloodmagic:soulgempetty" scale="0.5" /> <Color id="green"><ItemLink id="bloodmagic:soulgempetty" /></Color> | 64 |
 | <ItemImage id="bloodmagic:soulgemlesser" scale="0.5" /> <Color id="aqua"><ItemLink id="bloodmagic:soulgemlesser" /></Color> | 256 |
