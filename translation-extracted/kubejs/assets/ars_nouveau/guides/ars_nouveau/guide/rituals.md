@@ -21,7 +21,7 @@ item_ids:
   # <Color id="light_purple">Ритуалы и фамильяры</Color>
   <ItemImage id="ritual_brazier" scale="2" />
 
-  Rituals provide powerful area effects and utility, while familiars grant passive bonuses to their summoner.
+  Ритуалы создают мощные эффекты в определённой области, а фамильяры дают призывателю постоянные бонусы.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -29,7 +29,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Performing Rituals</Color>
+  ## <Color id="gold">Проведение ритуалов</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -39,33 +39,33 @@ item_ids:
   ### <Color id="aqua">Ritual Brazier</Color>
 </Row>
 
-Rituals require a <Color id="green">Ritual Brazier</Color> and a <Color id="green">Ritual Tablet</Color>. Place the brazier, then use a tablet on it to set the ritual. Before activating, you can use augment items on the brazier one at a time to modify the ritual's behavior. Once augments are set, right click with an empty hand to activate. Most rituals require <Color id="green">Source</Color> from a nearby jar.
+Для ритуалов нужны <Color id="green">Ritual Brazier</Color> и <Color id="green">Ritual Tablet</Color>. Установите жаровню и примените к ней планшет, чтобы выбрать ритуал. Перед запуском можно по одному использовать на жаровне предметы-усилители, меняющие действие ритуала. После настройки нажмите ПКМ пустой рукой, чтобы активировать его. Большинству ритуалов требуется <Color id="green">Source</Color> из ближайшего сосуда.
 
-<ItemLink id="brazier_relay" /> blocks can bind a ritual's effect to a new location within 15 blocks of the brazier. Applying a redstone signal to a running brazier disables the ritual.
+Блоки <ItemLink id="brazier_relay" /> позволяют перенести эффект ритуала в другую точку в пределах 15 блоков от жаровни. Подача сигнала редстоуна на работающую жаровню отключает ритуал.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Notable Rituals</Color>
+  ## <Color id="gold">Важные ритуалы</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-- **Ritual of Awakening** — Creates Weald Walkers, Amethyst Golems, and Bookwyrms from appropriate creatures or blocks
-- **Ritual of Binding** — Obtains Bound Scripts for summoning familiars
-- **Ritual of Containment** — Captures mobs into Mob Jars
-- **Ritual of Flight** — Grants creative flight in an area around the brazier
-- **Ritual of Harvest** — Auto-harvests mature crops nearby
-- **Ritual of Fertility** — Breeds nearby animals automatically
-- **Ritual of Flowering / Overgrowth** — Accelerates crop and plant growth
-- **Ritual of Sanctuary** — Prevents hostile mob spawning in the area
-- **Ritual of Sunrise / Moonfall** — Controls the time of day
-- **Ritual of Cloudshaping** — Controls the weather
-- **Ritual of Scrying** — Reveals nearby ores through blocks
-- **Ritual of Warping** — Teleportation between linked locations
-- **Ritual of Wilden Summon** — Summons a Wilden boss fight for rare drops
+- **Ritual of Awakening** — создаёт Weald Walkers, Amethyst Golems и Bookwyrms из подходящих существ или блоков
+- **Ritual of Binding** — позволяет получить Bound Scripts для призыва фамильяров
+- **Ritual of Containment** — захватывает мобов в Mob Jars
+- **Ritual of Flight** — даёт возможность летать в режиме, подобном творческому, в области вокруг жаровни
+- **Ritual of Harvest** — автоматически собирает созревший урожай поблизости
+- **Ritual of Fertility** — автоматически размножает животных поблизости
+- **Ritual of Flowering / Overgrowth** — ускоряет рост культур и растений
+- **Ritual of Sanctuary** — предотвращает появление враждебных мобов в области действия
+- **Ritual of Sunrise / Moonfall** — управляет временем суток
+- **Ritual of Cloudshaping** — управляет погодой
+- **Ritual of Scrying** — показывает руды поблизости сквозь блоки
+- **Ritual of Warping** — телепортирует между связанными точками
+- **Ritual of Wilden Summon** — призывает Wilden для битвы с боссом и получения редкой добычи
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -94,14 +94,14 @@ Rituals require a <Color id="green">Ritual Brazier</Color> and a <Color id="gree
 
 <Row>
   <Column>
-    - **Starbuncle Familiar** — Item collection bonuses
-    - **Drygmy Familiar** — Mob loot bonuses
-    - **Whirlisprig Familiar** — Nature and growth bonuses
+    - **Starbuncle Familiar** — бонусы к сбору предметов
+    - **Drygmy Familiar** — бонусы к добыче с мобов
+    - **Whirlisprig Familiar** — бонусы к природе и росту растений
   </Column>
   <Column>
-    - **Bookwyrm Familiar** — Storage and crafting bonuses
-    - **Wixie Familiar** — Potion and crafting bonuses
-    - **Amethyst Golem Familiar** — Amethyst harvesting bonuses
+    - **Bookwyrm Familiar** — бонусы к хранению и созданию предметов
+    - **Wixie Familiar** — бонусы к зельям и созданию предметов
+    - **Amethyst Golem Familiar** — бонусы к сбору аметиста
   </Column>
 </Row>
 
@@ -120,4 +120,4 @@ Rituals require a <Color id="green">Ritual Brazier</Color> and a <Color id="gree
   ### <Color id="aqua">Summon Focus</Color>
 </Row>
 
-Фокус заклинателя, усиливающий призванных существ. Увеличивает длительность призыва, силу и скорость. Пока фокус экипирован, заклинания, направленные на вас, также копируются на ближайших призванных существ.
+Фокус заклинателя, усиливающий призванных существ: увеличивает длительность призыва, силу и скорость. Пока фокус экипирован, заклинания, направленные на вас, также применяются к ближайшим призванным существам.
