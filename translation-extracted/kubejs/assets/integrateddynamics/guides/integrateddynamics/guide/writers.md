@@ -12,13 +12,13 @@ item_ids:
   - integrateddynamics:part_inventory_writer
   - integrateddynamics:part_redstone_writer
 ---
-# <Color id="aqua">Writers</Color>
+# <Color id="aqua">Записыватели</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Writers</Color>
   <ItemImage id="part_redstone_writer" scale="2" />
 
-  Writers perform actions based on Variable Card values. Place them on Logic Cables facing a target block to write information or trigger behavior in the world.
+  Записыватели выполняют действия на основе значений Variable Cards. Установите Writer на Logic Cable, направив его на целевой блок, чтобы передавать данные или запускать действия в мире.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -26,7 +26,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Writer Types</Color>
+  ## <Color id="gold">Типы записывателей</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -36,7 +36,7 @@ item_ids:
   ### <Color id="aqua">Audio Writer</Color>
 </Row>
 
-Play sounds and music based on variable values. Insert a Variable Card to control which sound is played, its volume, and pitch.
+Воспроизводит звуки и музыку в зависимости от значений переменных. Вставьте Variable Card, чтобы управлять звуком, громкостью и высотой тона.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -46,7 +46,7 @@ Play sounds and music based on variable values. Insert a Variable Card to contro
   ### <Color id="aqua">Effect Writer</Color>
 </Row>
 
-Emit particles based on variable values and settings. Useful for visual indicators and decorative effects tied to your network logic.
+Создаёт частицы в зависимости от значений переменных и настроек. Подходит для визуальных индикаторов и декоративных эффектов, связанных с логикой сети.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -56,7 +56,7 @@ Emit particles based on variable values and settings. Useful for visual indicato
   ### <Color id="aqua">Entity Writer</Color>
 </Row>
 
-Configure and control entities in the world. Can be used to apply effects or modify entity behavior based on variable values.
+Настраивает и управляет существами в мире. Позволяет накладывать эффекты или менять поведение существ в зависимости от значений переменных.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -66,7 +66,7 @@ Configure and control entities in the world. Can be used to apply effects or mod
   ### <Color id="aqua">Machine Writer</Color>
 </Row>
 
-Configure and control machines. Use variable values to set machine parameters or trigger machine operations remotely through your network.
+Настраивает механизмы и управляет ими. Используйте значения переменных, чтобы задавать параметры механизмов или удалённо запускать операции через сеть.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -76,7 +76,7 @@ Configure and control machines. Use variable values to set machine parameters or
   ### <Color id="aqua">Inventory Writer</Color>
 </Row>
 
-Perform inventory-related actions on adjacent containers. Note that this writer does not transfer items itself; it configures inventory behavior based on variable values.
+Выполняет действия с инвентарями соседних контейнеров. Сам по себе этот Writer не перемещает предметы, а настраивает поведение инвентаря на основе значений переменных.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -86,5 +86,5 @@ Perform inventory-related actions on adjacent containers. Note that this writer 
   ### <Color id="aqua">Redstone Writer</Color>
 </Row>
 
-Output a specific redstone signal level based on a variable value. Insert an Integer Variable Card to control the exact redstone strength (0-15) emitted from the cable face.
+Выдаёт сигнал редстоуна заданной силы на основе значения переменной. Вставьте Variable Card типа Integer, чтобы точно установить мощность сигнала (0–15), выходящего со стороны кабеля.
 
