@@ -43,9 +43,9 @@ item_ids:
   ### <Color id="aqua">Starbuncle</Color>
 </Row>
 
-Handles item transport. Found naturally in caves, befriended by tossing a <ItemLink id="minecraft:gold_nugget" /> to one. Starbuncles pick up items and deliver them to nearby inventories.
+Starbuncle переносит предметы между местами. Его можно встретить в пещерах и приручить, бросив рядом <ItemLink id="minecraft:gold_nugget" />. Существо подбирает предметы и доставляет их в ближайшие хранилища.
 
-Use a <Color id="green">Dominion Wand</Color> on a chest, then on a Starbuncle to set a delivery destination. To have a Starbuncle pull items from a chest, select the chest first, then use the wand on the Starbuncle. Sneak-use the wand on a Starbuncle to clear its instructions. Control what they carry with <ItemLink id="allow_scroll" /> and <ItemLink id="deny_scroll" />. Can be dyed any color.
+Используйте <Color id="green">Dominion Wand</Color> сначала на сундуке, а затем на Starbuncle, чтобы назначить место доставки. Чтобы заставить его забирать предметы из сундука, сначала выберите сундук жезлом, затем примените жезл к Starbuncle. Используйте жезл с зажатым Shift на существе, чтобы сбросить указания. Содержимое можно ограничивать с помощью <ItemLink id="allow_scroll" /> и <ItemLink id="deny_scroll" />. Starbuncle можно перекрасить в любой цвет.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -54,9 +54,9 @@ Use a <Color id="green">Dominion Wand</Color> on a chest, then on a Starbuncle t
   ### <Color id="aqua">Wixie</Color>
 </Row>
 
-Auto-crafting assistant. Obtained by casting <Color id="green">Dispel</Color> on a Witch at half health. Place the charm on a Cauldron to summon the Wixie.
+Wixie автоматически создаёт предметы по рецептам. Чтобы получить её, примените заклинание <Color id="green">Dispel</Color> к ведьме, здоровье которой опустилось до половины. Поместите Wixie Charm на котёл, чтобы призвать существо.
 
-To set a crafting recipe, use the desired output item on the Wixie's Cauldron. Place chests nearby with the required ingredients, and keep a Source Jar next to the Cauldron — each craft requires a small amount of Source. Use a <Color id="green">Dominion Wand</Color> to set the output storage. Wixies can also auto-craft potions when Potion Jars are nearby.
+Чтобы задать рецепт, примените нужный предмет-результат к котлу Wixie. Поставьте рядом сундуки с необходимыми ингредиентами и Source Jar: для каждого создания предмета расходуется немного Source. Используйте <Color id="green">Dominion Wand</Color>, чтобы назначить хранилище для результата. Если поблизости есть Potion Jars, Wixie также может автоматически варить зелья.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -65,11 +65,11 @@ To set a crafting recipe, use the desired output item on the Wixie's Cauldron. P
   ### <Color id="aqua">Drygmy</Color>
 </Row>
 
-Produces mob drops without killing. Found naturally in the wild, befriended by throwing a <Color id="green">Wilden Horn</Color> nearby.
+Drygmy добывает трофеи мобов, не убивая их. Его можно встретить в мире и приручить, бросив рядом <Color id="green">Wilden Horn</Color>.
 
-Use the <Color id="light_purple">Drygmy Charm</Color> on a Mossy Cobblestone block to set its home, which converts into a <Color id="green">Drygmy Hedge</Color>. The Drygmy will harvest drops from any mob within 10 blocks of the Hedge, storing items in an adjacent chest. Each harvest requires Source from a nearby jar.
+Примените <Color id="light_purple">Drygmy Charm</Color> к блоку Mossy Cobblestone, чтобы назначить жилище: блок превратится в <Color id="green">Drygmy Hedge</Color>. Drygmy собирает добычу с мобов в радиусе 10 блоков от живой изгороди и складывает предметы в соседний сундук. Для каждого сбора требуется Source из ближайшего сосуда.
 
-Adding more Drygmys increases drop output, but the most effective method is increasing their happiness — each unique entity type within 10 blocks raises the happiness bonus. Drygmys can also harvest from mobs stored in <Color id="green">Containment Jars</Color>, allowing you to safely use hostile mobs.
+Чем больше Drygmy, тем выше выход добычи. Ещё эффективнее повышать их довольство: каждый уникальный вид существа в радиусе 10 блоков увеличивает бонус. Drygmy также могут собирать добычу с мобов, находящихся в <Color id="green">Containment Jars</Color>, поэтому опасных существ можно использовать безопасно.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -78,9 +78,9 @@ Adding more Drygmys increases drop output, but the most effective method is incr
   ### <Color id="aqua">Whirlisprig</Color>
 </Row>
 
-Produces natural materials such as wood, crops, seeds, and flowers from surrounding vegetation. Befriended by growing a tree near a wild Whirlisprig.
+Whirlisprig производит природные материалы — древесину, урожай, семена и цветы — из окружающей растительности. Чтобы приручить его, вырастите дерево рядом с диким Whirlisprig.
 
-Use the charm on any flower to summon the Whirlisprig and set its home. When provided Source and storage next to their home block, Whirlisprigs generate natural materials based on surrounding vegetation. A more diverse habitat increases their happiness and output.
+Примените амулет к любому цветку, чтобы призвать Whirlisprig и назначить ему жилище. Если рядом есть Source и хранилище, существо будет производить материалы в зависимости от окружающих растений. Разнообразная среда повышает его довольство и объём добычи.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -89,13 +89,13 @@ Use the charm on any flower to summon the Whirlisprig and set its home. When pro
   ### <Color id="aqua">Amethyst Golem</Color>
 </Row>
 
-Harvests, grows, and collects Amethyst clusters. Obtained via the <Color id="green">Ritual of Awakening</Color> performed near Budding Amethyst blocks.
+Amethyst Golem выращивает, собирает и добывает кластеры аметиста. Его можно получить с помощью <Color id="green">Ritual of Awakening</Color>, проведённого рядом с блоками Budding Amethyst.
 
-Use the charm to summon the Golem, then set its home with a <Color id="green">Dominion Wand</Color> — select the Golem first, then a chest. The Golem will harvest any crystals within 10 blocks of its home.
+Используйте амулет, чтобы призвать голема, а затем назначьте ему жилище с помощью <Color id="green">Dominion Wand</Color>: сначала выберите голема, затем сундук. Голем будет собирать кристаллы в радиусе 10 блоков от жилища.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-### <Color id="aqua">Other Golems</Color>
+### <Color id="aqua">Другие големы</Color>
 
 <ItemGrid>
   <ItemIcon id="georenouveau:coal_geore_golem_charm" />
@@ -111,7 +111,7 @@ Use the charm to summon the Golem, then set its home with a <Color id="green">Do
   <ItemIcon id="ars_nouveau:amethyst_golem_charm" />
 </ItemGrid>
 
-With <Color id="gold">GeOres</Color>, golems can harvest much more than just Amethyst. Perform the <Color id="green">Ritual of Awakening</Color> near a golem's respective block to summon and command it.
+Благодаря <Color id="gold">GeOres</Color> големы могут добывать не только аметист. Проведите <Color id="green">Ritual of Awakening</Color> рядом с соответствующим блоком, чтобы призвать голема и управлять им.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -128,7 +128,7 @@ With <Color id="gold">GeOres</Color>, golems can harvest much more than just Ame
   ### <Color id="aqua">Spell Turret</Color>
 </Row>
 
-Запускает заклинания по сигналу редстоуна, работая как магический раздатчик. Поддерживает формы заклинаний Touch и Projectile. Получает Source из ближайших сосудов. При наличии соседнего хранилища может использовать глифы Place Block и Item Pickup.
+Запускает заклинания по сигналу редстоуна, работая как магический раздатчик. Поддерживает формы заклинаний Touch и Projectile и получает Source из ближайших сосудов. При наличии соседнего хранилища может использовать глифы Place Block и Item Pickup.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -137,7 +137,7 @@ With <Color id="gold">GeOres</Color>, golems can harvest much more than just Ame
   ### <Color id="aqua">Spell Prism</Color>
 </Row>
 
-Перенаправляет снаряды заклинаний в сторону, куда обращён блок. Когда заклинание проходит через призму, соседние наблюдатели получают сигнал.
+Перенаправляет снаряды заклинаний в направлении, куда обращён блок. Когда заклинание проходит через призму, соседние наблюдатели получают сигнал.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -155,7 +155,7 @@ With <Color id="gold">GeOres</Color>, golems can harvest much more than just Ame
   ### <Color id="aqua">Void Prism</Color>
 </Row>
 
-Уничтожает снаряды заклинаний, проходящие через призму. Полезно для защиты автоматизированных механизмов от случайных заклинаний.
+Уничтожает снаряды заклинаний, проходящие через призму. Полезна для защиты автоматизированных механизмов от случайных заклинаний.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -172,7 +172,7 @@ With <Color id="gold">GeOres</Color>, golems can harvest much more than just Ame
   ### <Color id="aqua">Allow Scroll</Color>
 </Row>
 
-Magical creatures will only interact with items listed on this scroll. Use it to restrict a Starbuncle to specific materials.
+Магические существа взаимодействуют только с предметами, перечисленными в этом свитке. Используйте его, чтобы разрешить Starbuncle переносить только выбранные материалы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -181,7 +181,7 @@ Magical creatures will only interact with items listed on this scroll. Use it to
   ### <Color id="aqua">Deny Scroll</Color>
 </Row>
 
-Magical creatures will interact with everything except items listed on this scroll. The inverse of the Allow Scroll.
+Магические существа взаимодействуют со всеми предметами, кроме перечисленных в свитке. Это противоположность Allow Scroll.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -190,4 +190,4 @@ Magical creatures will interact with everything except items listed on this scro
   ### <Color id="aqua">Mimic Scroll</Color>
 </Row>
 
-Magical creatures will only insert items that match the contents of the attached inventory. Useful for sorting systems.
+Магические существа помещают в хранилище только предметы, соответствующие его содержимому. Полезно для систем сортировки.
