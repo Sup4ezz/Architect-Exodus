@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Lenses
+  title: Линзы
   icon: actuallyadditions:lens_of_color
   parent: index.md
   position: 4
@@ -12,28 +12,26 @@ item_ids:
   - actuallyadditions:lens_of_disenchanting
   - actuallyadditions:lens_of_the_miner
 ---
-# <Color id="green">Lenses</Color>
+# <Color id="green">Линзы</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="green">Lenses</Color>
+  # <Color id="green">Линзы</Color>
   <ItemImage id="actuallyadditions:lens" scale="2" />
 
-  Lenses can be attached to the <ItemLink id="atomic_reconstructor" /> to change its functionality.
-  
+  Линзы устанавливаются в <ItemLink id="atomic_reconstructor" /> и меняют его функциональность.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
 ***
-
 <Row>
   <ItemImage id="lens_of_the_miner" />
   ### <Color id="aqua">Lens of the Miner</Color>
 </Row>
 
-The <Color id="green">Lens of the Miner</Color> can create ores out of blocks in sight.
+<Color id="green">Lens of the Miner</Color> превращает блоки, на которые попадает луч, в руды.
 
-When the laser hits a block of stone, it will convert it into overworld ores, and when it hits a block of netherrack it will be converted into nether ores.
+Если лазер попадает в камень, тот превращается в руду Верхнего мира; если луч попадает в netherrack — блок превращается в руду Нижнего мира.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -42,7 +40,7 @@ When the laser hits a block of stone, it will convert it into overworld ores, an
   ### <Color id="aqua">Lens of Detonation</Color>
 </Row>
 
-<Color id="red">**WARNING!**</Color> The <Color id="green">Lens of Detonation</Color> will create a fiery explosion around the block hit by the laser.
+<Color id="red">**ВНИМАНИЕ!**</Color> Lens of Detonation вызывает мощный огненный взрыв вокруг блока, в который попал лазер.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -51,7 +49,7 @@ When the laser hits a block of stone, it will convert it into overworld ores, an
   ### <Color id="aqua">Lens of Certain Death</Color>
 </Row>
 
-The <Color id="green">Lens of Certain Death</Color> deals damage to all entities in the beam and is strong enough to one-hit a player.
+Lens of Certain Death наносит урон всем существам на пути луча и достаточно мощна, чтобы убить игрока с одного попадания.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -60,9 +58,9 @@ The <Color id="green">Lens of Certain Death</Color> deals damage to all entities
   ### <Color id="aqua">Lens of Disenchanting</Color>
 </Row>
 
-The <Color id="green">Lens of Disenchanting</Color> can be used to transfer a single enchantment from an enchanted item to a blank or already enchanted book.
+Lens of Disenchanting позволяет перенести одно зачарование с зачарованного предмета на пустую или уже зачарованную книгу.
 
-To do this, throw both items in the same blockspace in front of the laser (more than one of each type won't work). When the items are hit by the laser, the topmost enchantment from the non-book item is removed and added onto the book.
+Для этого выбросьте оба предмета в одно и то же пространство перед лазером (предметов каждого типа должно быть не больше одного). Когда луч попадёт по ним, самое верхнее зачарование с предмета, не являющегося книгой, будет снято и перенесено на книгу.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -71,4 +69,4 @@ To do this, throw both items in the same blockspace in front of the laser (more 
   ### <Color id="aqua">Lens of Color</Color>
 </Row>
 
-The <Color id="green">Lens of Color</Color> shoots a laser that phases through objects and changes the color of items like stained glass and stained glass panes, carpets, dyes, wool, and glazed terracotta.
+Lens of Color выпускает луч, проходящий сквозь объекты и меняющий цвет таких предметов, как цветное стекло и стеклянные панели, ковры, красители, шерсть и глазурованная керамика.
