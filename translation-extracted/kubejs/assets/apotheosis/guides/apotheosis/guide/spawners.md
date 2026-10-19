@@ -35,39 +35,39 @@ item_ids:
 
 У каждого спавнера есть настраиваемые характеристики, определяющие его работу:
 
-* <Color id="aqua">Min Spawn Delay</Color> — минимальное время (в тиках) между попытками появления мобов.
-* <Color id="aqua">Max Spawn Delay</Color> — максимальное время (в тиках) между попытками появления мобов.
+* <Color id="aqua">Min Spawn Delay</Color> — минимальное время в тиках между попытками появления мобов.
+* <Color id="aqua">Max Spawn Delay</Color> — максимальное время в тиках между попытками появления мобов.
 * <Color id="aqua">Spawn Count</Color> — количество мобов, появляющихся за одну активацию.
-* <Color id="aqua">Max Nearby Entities</Color> — спавнер перестаёт работать, если поблизости уже находится указанное количество мобов этого типа.
-* <Color id="aqua">Activation Range</Color> — расстояние, на котором игрок должен находиться, чтобы активировать спавнер.
+* <Color id="aqua">Max Nearby Entities</Color> — спавнер прекращает работу, если поблизости уже находится указанное количество мобов этого типа.
+* <Color id="aqua">Activation Range</Color> — расстояние, на котором игрок должен находиться для активации спавнера.
 * <Color id="aqua">Spawn Range</Color> — горизонтальный радиус, в котором могут появляться мобы.
 
 Также можно включать и отключать следующие параметры:
 
-* <Color id="aqua">Ignores Players</Color> — Spawner runs even without a player nearby.
-* <Color id="aqua">Ignores Conditions</Color> — Ignores vanilla spawn condition checks (light level, block type, etc.).
-* <Color id="aqua">Redstone Control</Color> — Spawner only runs when receiving a redstone signal.
-* <Color id="aqua">Ignores Light</Color> — Ignores light level requirements for spawning.
-* <Color id="aqua">No AI</Color> — Spawned mobs have no AI. Highly recommended for mob farms as it significantly reduces server load.
+* <Color id="aqua">Ignores Players</Color> — спавнер работает даже без игрока поблизости.
+* <Color id="aqua">Ignores Conditions</Color> — игнорирует стандартные условия появления мобов, например уровень освещения и тип блока.
+* <Color id="aqua">Redstone Control</Color> — спавнер работает только при наличии сигнала редстоуна.
+* <Color id="aqua">Ignores Light</Color> — игнорирует требования к уровню освещения.
+* <Color id="aqua">No AI</Color> — у появившихся мобов отсутствует искусственный интеллект. Для ферм это особенно полезно, поскольку заметно снижает нагрузку на сервер.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Spawner Modifiers</Color>
+  ## <Color id="gold">Модификаторы спавнера</Color>
 </Column>
 
-Spawner stats are changed by right-clicking the spawner while holding a modifier item. Each modifier adjusts one or more stats and has a cap on how many times it can be applied.
+Чтобы изменить характеристики, нажмите ПКМ по спавнеру, держа в руке предмет-модификатор. Каждый модификатор изменяет одну или несколько характеристик и имеет ограничение на число применений.
 
-All spawner modifiers and their effects are visible in <Color id="aqua">JEI</Color> — search for "Spawner Modifier" to see the full list.
+Все модификаторы спавнеров и их эффекты перечислены в <Color id="aqua">JEI</Color>. Найдите там «Spawner Modifier», чтобы увидеть полный список.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Capturing Enchantment</Color>
+  ## <Color id="gold">Зачарование Capturing</Color>
 </Column>
 
-<Color id="aqua">Capturing</Color> is a sword enchantment that gives mobs a chance to drop their spawn egg on death. The chance is <Color id="red">0.4% per enchantment level</Color>.
+<Color id="aqua">Capturing</Color> — зачарование меча, дающее мобам шанс оставить яйцо призыва после смерти. Вероятность составляет <Color id="red">0,4% за каждый уровень зачарования</Color>.
 
-Use the dropped spawn egg on a spawner by right-clicking to change the spawner's entity type. This is the primary method for creating spawners of specific mob types.
+Нажмите ПКМ по спавнеру, используя выпавшее яйцо призыва, чтобы изменить тип существа. Это основной способ создавать спавнеры конкретных мобов.
