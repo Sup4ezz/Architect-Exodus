@@ -25,13 +25,13 @@ item_ids:
 
 Potion Charms создаются из <Color id="aqua">3 зелий</Color> и <Color id="aqua">Blaze Powder</Color>. Один амулет действует дольше, чем все три зелья вместе.
 
-Щёлкните ПКМ, чтобы активировать амулет: во включённом состоянии он будет светиться. Пока амулет активен и находится в любом месте инвентаря, он постоянно накладывает свой эффект зелья и постепенно теряет прочность. Амулеты также работают в слоте <Color id="aqua">Curios для амулетов</Color>.
+Нажмите ПКМ, чтобы активировать амулет: во включённом состоянии он будет светиться. Пока амулет активен и находится в любой ячейке инвентаря, он постоянно накладывает свой эффект и постепенно теряет прочность. Амулеты также работают в слоте <Color id="aqua">Curios для амулетов</Color>.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
 ### <Color id="aqua">Неразрушимые амулеты</Color>
 
-С помощью <Color id="aqua">Infusion Enchanting</Color> Potion Charms можно сделать неразрушимыми. Для этого нужны высокие характеристики зачарования, но результат позволяет бесконечно поддерживать любой эффект зелья — постоянный пассивный бонус, пока амулет активен в инвентаре.
+С помощью <Color id="aqua">Infusion Enchanting</Color> Potion Charms можно сделать неразрушимыми. Для этого нужны высокие характеристики зачарования, зато после улучшения амулет может бесконечно поддерживать эффект зелья — как постоянный пассивный бонус, пока он активен в инвентаре.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
@@ -42,26 +42,26 @@ Potion Charms создаются из <Color id="aqua">3 зелий</Color> и <
 
 Apotheosis добавляет рецепты варки для эффектов, которых нет в ванильной игре:
 
-* <Color id="aqua">Absorption</Color> — Grants golden absorption hearts.
-* <Color id="aqua">Haste</Color> — Increases mining speed.
-* <Color id="aqua">Mining Fatigue</Color> — Decreases mining speed.
-* <Color id="aqua">Luck</Color> — Improves loot table rolls.
-* <Color id="aqua">Resistance</Color> — Reduces all incoming damage.
-* <Color id="aqua">Wither</Color> — Applies wither damage over time.
+* <Color id="aqua">Absorption</Color> — даёт дополнительные золотые сердца поглощения.
+* <Color id="aqua">Haste</Color> — повышает скорость добычи блоков.
+* <Color id="aqua">Mining Fatigue</Color> — снижает скорость добычи блоков.
+* <Color id="aqua">Luck</Color> — повышает качество добычи.
+* <Color id="aqua">Resistance</Color> — уменьшает весь получаемый урон.
+* <Color id="aqua">Wither</Color> — наносит периодический урон эффектом иссушения.
 
-Check JEI for the specific brewing ingredients.
+Точные ингредиенты для варки смотрите в JEI.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">New Effects</Color>
+  ## <Color id="gold">Новые эффекты</Color>
 </Column>
 
-Apotheosis introduces several new status effects:
+Apotheosis добавляет несколько новых эффектов состояния:
 
-* <Color id="aqua">Bleeding</Color> — Applied by Broadhead Arrows. Stacking damage-over-time effect.
-* <Color id="aqua">Grievous Wounds</Color> — Reduces healing received.
-* <Color id="aqua">Knowledge</Color> — Increases experience gained from all sources.
-* <Color id="aqua">Sundering</Color> — Reduces the target's armor value.
-* <Color id="aqua">Vitality</Color> — Increases maximum health.
+* <Color id="aqua">Bleeding</Color> — накладывается Broadhead Arrows и наносит периодический урон, который может суммироваться.
+* <Color id="aqua">Grievous Wounds</Color> — уменьшает эффективность получаемого лечения.
+* <Color id="aqua">Knowledge</Color> — увеличивает количество опыта, получаемого из всех источников.
+* <Color id="aqua">Sundering</Color> — снижает показатель брони цели.
+* <Color id="aqua">Vitality</Color> — увеличивает максимальное здоровье.
