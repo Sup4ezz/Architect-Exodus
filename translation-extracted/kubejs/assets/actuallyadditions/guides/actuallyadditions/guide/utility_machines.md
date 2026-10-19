@@ -50,7 +50,7 @@ Enervator выполняет обратную задачу: извлекает C
   ### <Color id="aqua">Farmer</Color>
 </Row>
 
-Automatically plants and harvests crops in a <Color id="green">9x9 area</Color>. Place seeds in the left side of its inventory and collect harvested items from the right side.
+Автоматически сажает и собирает урожай на участке <Color id="green">9×9 блоков</Color>. Положите семена в левую часть инвентаря механизма, а собранные предметы забирайте из правой.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -59,16 +59,16 @@ Automatically plants and harvests crops in a <Color id="green">9x9 area</Color>.
   ### <Color id="aqua">Vertical Digger</Color>
 </Row>
 
-Mines blocks below it using CF. It has two modes: <Color id="green">ores only</Color> or <Color id="green">everything</Color>. Its mining range can be upgraded.
+Добывает блоки под собой, расходуя CF. Есть два режима: <Color id="green">только руды</Color> или <Color id="green">все блоки</Color>. Радиус добычи можно улучшать.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 <Row>
   <ItemImage id="breaker" />
-  ### <Color id="aqua">Breaker & Placer</Color>
+  ### <Color id="aqua">Breaker и Placer</Color>
 </Row>
 
-The Breaker breaks blocks in front of it. The Placer places blocks from its inventory. Use a Redstone Torch to toggle the operating mode.
+Breaker ломает блоки перед собой, а Placer устанавливает блоки из своего инвентаря. Используйте Redstone Torch, чтобы переключить режим работы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -77,7 +77,7 @@ The Breaker breaks blocks in front of it. The Placer places blocks from its inve
   ### <Color id="aqua">Precision Dropper</Color>
 </Row>
 
-Drops items precisely in front of it without needing a redstone signal. Useful for automation setups that require exact item placement.
+Точно выбрасывает предметы перед собой без сигнала редстоуна. Полезен в автоматических системах, где важно размещать предметы в определённом месте.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -86,7 +86,7 @@ Drops items precisely in front of it without needing a redstone signal. Useful f
   ### <Color id="aqua">Ranged Collector</Color>
 </Row>
 
-Picks up items within a configurable area. Supports item filters to only collect specific items.
+Подбирает предметы в настраиваемой области. Поддерживает фильтры, позволяющие собирать только нужные предметы.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -95,5 +95,4 @@ Picks up items within a configurable area. Supports item filters to only collect
   ### <Color id="aqua">Feeder</Color>
 </Row>
 
-Automatically feeds animals within its range using food items placed in its inventory.
-
+Автоматически кормит животных в пределах радиуса действия, используя еду из своего инвентаря.
