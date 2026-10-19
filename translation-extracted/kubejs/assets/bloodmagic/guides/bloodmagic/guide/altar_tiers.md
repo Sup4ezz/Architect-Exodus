@@ -16,7 +16,7 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="red">Уровни алтаря</Color>
   <ItemImage id="bloodmagic:blankrune" scale="2" />
-  Blood Altar можно улучшить до <Color id="gold">5 tiers</Color> уровней, размещая вокруг него определённые руны и блоки. Для некоторых рецептов нужны более высокие уровни.
+  Blood Altar можно улучшить до <Color id="gold">6 уровней</Color>, размещая вокруг него определённые руны и блоки. Для некоторых рецептов нужны более высокие уровни.
 </Column>
 
 ***
@@ -73,7 +73,7 @@ item_ids:
   ## <Color id="gold">Уровень 5</Color>
 </Column>
 
-<Color id="yellow">Примечание:</Color> The Уровень 5 altar can only be assembled once you have access to <Color id="aqua">Niflheim</Color>: необходимые материалы доступны только в этом измерении.
+<Color id="yellow">Примечание:</Color> Алтарь 5-го уровня можно построить только после получения доступа к <Color id="aqua">Niflheim</Color>: необходимые материалы встречаются лишь в этом измерении.
 
 <GameScene zoom="1.5" background="#222222" interactive={true}>
   <ImportStructure src="assets/tier_5.nbt" />
