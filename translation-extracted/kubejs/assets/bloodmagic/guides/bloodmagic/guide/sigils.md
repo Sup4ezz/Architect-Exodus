@@ -25,14 +25,14 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="red">Сигилы</Color>
   <ItemImage id="bloodmagic:divinationsigil" scale="2" />
-  Сигилы use LP from your Soul Network to perform a variety of functions and tasks. They are crafted using Arcane Ashes and Alchemy Arrays.
+  Сигилы расходуют LP из Soul Network для выполнения различных задач. Их создают с помощью Arcane Ashes и Alchemy Arrays.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Utility Сигилы</Color>
+  ## <Color id="gold">Практические сигилы</Color>
 </Column>
 
 <Row>
@@ -57,7 +57,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Elemental Сигилы</Color>
+  ## <Color id="gold">Стихийные сигилы</Color>
 </Column>
 
 <Row>
@@ -105,7 +105,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Other Сигилы</Color>
+  ## <Color id="gold">Другие сигилы</Color>
 </Column>
 
 <Row>
