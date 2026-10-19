@@ -27,7 +27,7 @@ item_ids:
   # <Color id="light_purple">Аксессуары и полезные предметы</Color>
   <ItemImage id="amulet_of_mana_boost" scale="2" />
 
-  Curios, trinkets, и utility items that enhance your magical capabilities и provide convenient tools for travel и combat.
+  Curios, аксессуары и полезные предметы, расширяющие магические возможности и помогающие в путешествиях и бою.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -45,7 +45,7 @@ item_ids:
   ### <Color id="aqua">Amulet of Mana Boost / Regen</Color>
 </Row>
 
-<ItemLink id="amulet_of_mana_boost" /> даёт <Color id="green">+50 Mana</Color> to your pool. <ItemLink id="amulet_of_mana_regen" /> увеличивает скорость восстановления маны.
+<ItemLink id="amulet_of_mana_boost" /> увеличивает запас маны на <Color id="green">50 единиц</Color>. <ItemLink id="amulet_of_mana_regen" /> повышает скорость восстановления маны.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -54,7 +54,7 @@ item_ids:
   ### <Color id="aqua">Rings of Discount</Color>
 </Row>
 
-<ItemLink id="ring_of_lesser_discount" /> и <ItemLink id="ring_of_greater_discount" /> reduce spell mana costs. They also provide small bonuses to max mana и mana regeneration.
+<ItemLink id="ring_of_lesser_discount" /> и <ItemLink id="ring_of_greater_discount" /> снижают стоимость заклинаний в мане. Также они дают небольшие бонусы к максимальному запасу маны и скорости её восстановления.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -63,7 +63,7 @@ item_ids:
   ### <Color id="aqua">Jump Ring</Color>
 </Row>
 
-Позволяет прыгать повторно, находясь в воздухе. Каждый дополнительный прыжок расходует ману.
+Позволяет совершать дополнительные прыжки в воздухе. Каждый повторный прыжок расходует ману.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -72,7 +72,7 @@ item_ids:
   ### <Color id="aqua">Belt of Levitation</Color>
 </Row>
 
-Позволяет подниматься в воздух, удерживая Shift во время полёта. Немного снижает урон от падения.
+Позволяет подниматься в воздух, удерживая Shift во время полёта. Также немного снижает урон от падения.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -81,7 +81,7 @@ item_ids:
   ### <Color id="aqua">Belt of Unstable Gifts</Color>
 </Row>
 
-Periodically даёт random positive potion effects while worn.
+Периодически накладывает случайные положительные эффекты зелий, пока пояс надет.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -99,7 +99,7 @@ Periodically даёт random positive potion effects while worn.
   ### <Color id="aqua">Void Jar</Color>
 </Row>
 
-Automatically destroys specified items when you pick them up. Даёт бонусы a small amount of mana for each item voided.
+Автоматически уничтожает выбранные предметы при подборе. За каждый уничтоженный предмет вы получаете небольшой бонус к мане.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -134,13 +134,13 @@ Automatically destroys specified items when you pick them up. Даёт бону�
   ### <Color id="aqua">Potion Flask</Color>
 </Row>
 
-Хранит до <Color id="green">8 charges</Color> of a potion for convenient repeated use.
+Хранит до <Color id="green">8 зарядов</Color> зелья для многократного применения.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">Flask Cannons</Color>
 
-Бросает зелья из инвентаря, создавая взрывной или продолжительный эффект. Удобно для быстрого применения зелий в бою.
+Позволяют метать зелья из инвентаря, создавая взрывной или продолжительный эффект. Удобны для быстрого применения зелий в бою.
 
 <ItemGrid>
   <ItemIcon id="splash_flask_cannon" />
