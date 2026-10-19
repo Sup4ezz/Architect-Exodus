@@ -67,18 +67,18 @@ Squeezer — механизм для ранних этапов игры, кот�
   ### <Color id="aqua">Drying Basin</Color>
 </Row>
 
-Drying out blocks and items can be done using the Drying Basin. This can for instance be useful when you want to let your Menril Resin dry into <ItemLink id="crystalized_menril_chunk" />.
+В Drying Basin можно высушивать блоки и предметы. Например, с его помощью Menril Resin превращается в <ItemLink id="crystalized_menril_chunk" />.
 
-Place a Drying Basin next to the Squeezer to collect the resin automatically. The resin will flow from the Squeezer into the adjacent basin and dry into crystals over time.
+Поставьте Drying Basin рядом с Squeezer, чтобы автоматически собирать смолу. Она будет перетекать из Squeezer в соседний бассейн и постепенно высыхать, превращаясь в кристаллы.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-### <Color id="aqua">Mechanical Upgrades</Color>
+### <Color id="aqua">Механические улучшения</Color>
 
 <Row>
   <ItemImage id="mechanical_squeezer" />
   <ItemImage id="mechanical_drying_basin" />
 </Row>
 
-Later on, you can upgrade to the <ItemLink id="mechanical_squeezer" /> and <ItemLink id="mechanical_drying_basin" />. These powered versions consume energy (FE) but are significantly faster and do not require manual jumping. They are a worthwhile investment once you have a reliable power source.
+Позже можно перейти на <ItemLink id="mechanical_squeezer" /> и <ItemLink id="mechanical_drying_basin" />. Эти версии работают от энергии (FE), значительно быстрее и не требуют, чтобы игрок прыгал на механизм вручную. Их стоит создать, когда у вас появится надёжный источник энергии.
