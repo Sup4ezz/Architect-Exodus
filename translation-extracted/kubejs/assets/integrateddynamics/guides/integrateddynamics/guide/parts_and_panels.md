@@ -9,13 +9,13 @@ item_ids:
   - integrateddynamics:part_static_light_panel
   - integrateddynamics:part_dynamic_light_panel
 ---
-# <Color id="aqua">Parts & Panels</Color>
+# <Color id="aqua">Компоненты и панели</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Parts & Panels</Color>
   <ItemImage id="part_display_panel" scale="2" />
 
-  Parts and panels are components that attach directly to Logic Cables. They provide visual feedback, lighting, and network connectivity options.
+  Компоненты и панели устанавливаются непосредственно на Logic Cables. Они отображают данные, обеспечивают освещение и расширяют возможности подключения к сети.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -23,24 +23,24 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Part Settings</Color>
+  ## <Color id="gold">Настройки компонентов</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Most parts have a Settings panel accessible from their GUI. Common settings include:
+У большинства компонентов в интерфейсе есть панель Settings. Основные параметры:
 
-- **Target Side** — Which face of the adjacent block the part interacts with.
-- **Ticks/Operation** — How frequently the part updates. Higher values mean slower updates but less network load.
-- **Priority** — Execution order when multiple parts compete. Higher priority parts execute first.
-- **Energy Channel** — Which energy channel the part draws from on the network.
+- **Target Side** — сторона соседнего блока, с которой взаимодействует компонент.
+- **Ticks/Operation** — частота обновления компонента. Чем выше значение, тем реже обновления и ниже нагрузка на сеть.
+- **Priority** — порядок выполнения, если одновременно работают несколько компонентов. Компоненты с более высоким приоритетом выполняются первыми.
+- **Energy Channel** — энергетический канал сети, из которого компонент получает энергию.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Display Panel</Color>
+  ## <Color id="gold">Панель отображения</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -50,7 +50,7 @@ Most parts have a Settings panel accessible from their GUI. Common settings incl
   ### <Color id="aqua">Display Panel</Color>
 </Row>
 
-Shows the current value of an inserted Variable Card on its face. Can be rotated with a <ItemLink id="wrench" />. The GUI includes a Copy button that copies the displayed value to your clipboard, which is handy for debugging complex logic setups.
+Отображает на своей поверхности текущее значение вставленной Variable Card. Панель можно повернуть с помощью <ItemLink id="wrench" />. В интерфейсе есть кнопка Copy, копирующая отображаемое значение в буфер обмена; это удобно при отладке сложных логических схем.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -58,7 +58,7 @@ Shows the current value of an inserted Variable Card on its face. Can be rotated
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Light Panels</Color>
+  ## <Color id="gold">Световые панели</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -68,7 +68,7 @@ Shows the current value of an inserted Variable Card on its face. Can be rotated
   ### <Color id="aqua">Static Light Panel</Color>
 </Row>
 
-Emits a constant light source when placed on a cable. It is always on and requires no variable input. A simple way to add lighting to your cable runs.
+При установке на кабель создаёт постоянный источник света. Всегда включена и не требует входной переменной. Простой способ осветить трассу кабелей.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -78,5 +78,5 @@ Emits a constant light source when placed on a cable. It is always on and requir
   ### <Color id="aqua">Dynamic Light Panel</Color>
 </Row>
 
-Can be controlled with a Boolean or Integer Variable Card. A Boolean toggles the light on or off, while an Integer sets the light level directly. Useful for indicator lights or automated lighting systems.
+Управляется Variable Card типа Boolean или Integer. Boolean включает и выключает свет, а Integer напрямую задаёт уровень освещения. Подходит для индикаторов и автоматизированных систем освещения.
 
