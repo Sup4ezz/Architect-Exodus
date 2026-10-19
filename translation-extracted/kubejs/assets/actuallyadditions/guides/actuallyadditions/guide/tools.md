@@ -28,7 +28,6 @@ item_ids:
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
-
 ***
 
 <Column alignItems="center" fullWidth={true}>
@@ -37,15 +36,15 @@ item_ids:
 
 ### <Color id="aqua">Drills</Color>
 <ItemImage id="drill_light_blue" />
-Drills — энергетические инструменты для добычи, совмещающие функции кирки и лопаты. Щёлкните ПКМ с зажатым Shift, чтобы открыть меню улучшений. Доступны улучшения добычи (3×3, 5×5), скорости, Fortune и размещения блоков. Для установки улучшений добычи высокого уровня сначала нужны предыдущие уровни. Drill можно перекрасить в любой из 16 цветов.
+Drills — энергетические инструменты для добычи, совмещающие функции кирки и лопаты. Нажмите ПКМ с зажатым Shift, чтобы открыть меню улучшений. Доступны улучшения области добычи (3×3 и 5×5), скорости, Fortune и размещения блоков. Для установки улучшений области высокого уровня сначала требуются предыдущие уровни. Drill можно перекрасить в любой из 16 цветов.
 
-Примечание: для работы улучшений с уровнями сначала необходимо установить предыдущий уровень.
+Примечание: улучшения с уровнями нужно устанавливать последовательно, начиная с первого.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
 ### <Color id="aqua">Batteries</Color>
 
-Batteries хранят Crystal Flux и заряжаются в Energizer. Щёлкните ПКМ с зажатым Shift, чтобы включить или выключить режим разрядки: в этом режиме батарея заряжает другие предметы на CF в вашем инвентаре.
+Batteries хранят Crystal Flux и заряжаются в Energizer. Нажмите ПКМ с зажатым Shift, чтобы включить или выключить режим разрядки: в этом режиме батарея заряжает другие предметы на CF в вашем инвентаре.
 
 <ItemGrid>
   <ItemIcon id="single_battery" />
@@ -55,27 +54,24 @@ Batteries хранят Crystal Flux и заряжаются в Energizer. Щёл
   <ItemIcon id="quintuple_battery" />
 </ItemGrid>
 
-
-
 <ItemImage id="minecraft:air" scale="0.25" />
 
 ### <Color id="aqua">Teleport Staff</Color>
 <ItemImage id="teleport_staff" />
-Right-click to teleport to the block you are looking at. Consumes sCF per use. Great for crossing gaps and reaching high places quickly.
+Нажмите ПКМ, чтобы телепортироваться к блоку, на который смотрите. Каждое использование расходует sCF. Удобно для преодоления пропастей и быстрого подъёма на высоту.
 
 <ItemImage id="minecraft:air" scale="0.25" />
-
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Rings</Color>
+  ## <Color id="gold">Кольца</Color>
 </Column>
 
 <Row>
   <ItemImage id="ring_of_magnetizing" />
   ### <Color id="aqua">Ring of Magnetizing</Color>
 </Row>
-Pulls distant items toward you when powered. Sneak + Right-click to toggle it on and off.
+Притягивает к вам находящиеся поблизости предметы, если кольцо заряжено. Нажмите Shift + ПКМ, чтобы включить или выключить его.
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -83,25 +79,24 @@ Pulls distant items toward you when powered. Sneak + Right-click to toggle it on
   <ItemImage id="ring_of_growth" />
   ### <Color id="aqua">Ring of Growth</Color>
 </Row>
-Accelerates plant growth in a nearby area when powered. It must be held in your hand to function.
+Ускоряет рост растений поблизости, если кольцо заряжено. Для работы его нужно держать в руке.
 
 <ItemImage id="minecraft:air" scale="0.25" />
-
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Other Tools</Color>
+  ## <Color id="gold">Другие инструменты</Color>
 </Column>
 
 <Row>
   <ItemImage id="handheld_filler" />
   ### <Color id="aqua">Handheld Filler</Color>
 </Row>
-Fills areas with blocks. Sneak + Right-click a block to select the material, then right-click two corners to define and fill the area.
+Заполняет области блоками. Нажмите Shift + ПКМ по блоку, чтобы выбрать материал, затем нажмите ПКМ по двум углам области, которую нужно заполнить.
 
 ### <Color id="aqua">Leaf Blowers</Color>
 
-Quickly clears grass and flowers. The Advanced version also breaks leaves and works faster.
+Быстро удаляют траву и цветы. Продвинутая версия также ломает листву и работает быстрее.
 
 <ItemGrid>
   <ItemIcon id="leaf_blower" />
