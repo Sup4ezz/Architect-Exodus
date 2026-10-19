@@ -13,13 +13,13 @@ item_ids:
   - integrateddynamics:mechanical_squeezer
   - integrateddynamics:mechanical_drying_basin
 ---
-# <Color id="aqua">Machines</Color>
+# <Color id="aqua">Механизмы</Color>
 
 <Column alignItems="center" fullWidth={true}>
   # <Color id="aqua">Machines</Color>
   <ItemImage id="materializer" scale="2" />
 
-  Integrated Dynamics includes several machines that extend the capabilities of your logic networks. From variable manipulation to energy generation and material processing, these machines are essential for advanced automation.
+  Integrated Dynamics добавляет механизмы, расширяющие возможности логических сетей. Они позволяют обрабатывать переменные, вырабатывать энергию и перерабатывать материалы, что необходимо для продвинутой автоматизации.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -27,7 +27,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Variable Machines</Color>
+  ## <Color id="gold">Механизмы для переменных</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -37,7 +37,7 @@ item_ids:
   ### <Color id="aqua">Materializer</Color>
 </Row>
 
-Converts dynamic Variable Cards into static ones. Insert a dynamic card in the top slot and an empty card in the left slot to copy the current value as a static snapshot. This is useful when you need to freeze a value at a specific moment in time.
+Преобразует динамические Variable Cards в статические. Вставьте динамическую карту в верхний слот, а пустую — в левый, чтобы сохранить текущее значение в виде статического снимка. Это полезно, когда нужно зафиксировать значение на определённый момент времени.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -47,7 +47,7 @@ Converts dynamic Variable Cards into static ones. Insert a dynamic card in the t
   ### <Color id="aqua">Proxy</Color>
 </Row>
 
-Adds a layer of indirection for variables. Insert a card in the top slot to write a proxy card that dynamically references that card's value. You can swap the referenced card at any time without updating every place the proxy is used, making it easy to reconfigure complex logic.
+Добавляет промежуточный уровень ссылок для переменных. Вставьте карту в верхний слот, чтобы создать Proxy Card, динамически ссылающуюся на её значение. Можно заменить исходную карту в любой момент, не меняя все места, где используется прокси, — это упрощает перенастройку сложной логики.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -57,7 +57,7 @@ Adds a layer of indirection for variables. Insert a card in the top slot to writ
   ### <Color id="aqua">Delay</Color>
 </Row>
 
-Maintains a history of variable values over time. Insert a card in the top slot to create cards that reference the history as a list. This is useful for calculating averages, detecting changes, or computing differences over a configurable time window.
+Сохраняет историю значений переменной во времени. Вставьте карту в верхний слот, чтобы создать карты, обращающиеся к истории как к списку. Это позволяет вычислять средние значения, обнаруживать изменения и рассчитывать разницу за настраиваемый промежуток времени.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -65,7 +65,7 @@ Maintains a history of variable values over time. Insert a card in the top slot 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Energy</Color>
+  ## <Color id="gold">Энергия</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -75,7 +75,7 @@ Maintains a history of variable values over time. Insert a card in the top slot 
   ### <Color id="aqua">Energy Battery</Color>
 </Row>
 
-Provides energy storage for your networks. Accepts RF from any compatible energy source. Apply a redstone signal to enable automatic energy export to adjacent machines. Shift+right-click with the battery in your inventory to enable auto-supply mode, which will charge held items.
+Хранит энергию для сети. Принимает RF от любого совместимого источника. Подайте сигнал редстоуна, чтобы автоматически передавать энергию соседним механизмам. Зажмите Shift и щёлкните ПКМ, держа батарею в инвентаре, чтобы включить автоматическую зарядку предметов, которые вы держите.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -85,7 +85,7 @@ Provides energy storage for your networks. Accepts RF from any compatible energy
   ### <Color id="aqua">Coal Generator</Color>
 </Row>
 
-A simple RF energy generator that burns any burnable fuel item. A good early-game power source for your Integrated Dynamics machines before you have access to more advanced energy systems.
+Простой генератор RF, сжигающий любое топливо для печи. Подходит для питания механизмов Integrated Dynamics в начале игры, пока вам недоступны более продвинутые энергетические системы.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -93,7 +93,7 @@ A simple RF energy generator that burns any burnable fuel item. A good early-gam
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Mechanical Processing</Color>
+  ## <Color id="gold">Механическая переработка</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -103,7 +103,7 @@ A simple RF energy generator that burns any burnable fuel item. A good early-gam
   ### <Color id="aqua">Mechanical Squeezer</Color>
 </Row>
 
-An energy-powered upgrade to the manual <ItemLink id="squeezer" />. Significantly faster and produces higher yields. Consumes RF but eliminates the need for manual jumping. A worthwhile investment once you have reliable power.
+Энергетическая версия ручного <ItemLink id="squeezer" />. Работает значительно быстрее и даёт больший выход ресурсов. Расходует RF, но не требует ручных прыжков. Полезное улучшение после создания надёжного источника энергии.
 
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -113,5 +113,5 @@ An energy-powered upgrade to the manual <ItemLink id="squeezer" />. Significantl
   ### <Color id="aqua">Mechanical Drying Basin</Color>
 </Row>
 
-An energy-powered upgrade to the manual <ItemLink id="drying_basin" />. Processes items faster and unlocks additional recipes not available in the basic version. Consumes RF for operation.
+Энергетическая версия ручного <ItemLink id="drying_basin" />. Быстрее обрабатывает предметы и открывает дополнительные рецепты, недоступные базовой версии. Для работы расходует RF.
 
