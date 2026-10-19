@@ -11,7 +11,7 @@ navigation:
 
   <ItemImage id="atomic_reconstructor" scale="2" />
 
-  Actually Additions is a technology mod focused on automation and convenience. It adds Crystal Flux (CF) powered machines, an Atomic Reconstructor for crystal crafting, Laser Relay networks for wireless energy, item, and fluid transport, and a variety of useful tools and gadgets.
+  Actually Additions — технологический мод, посвящённый автоматизации и удобству. Он добавляет механизмы на Crystal Flux (CF), Atomic Reconstructor для создания кристаллов, сети Laser Relay для беспроводной передачи энергии, предметов и жидкостей, а также множество полезных инструментов и устройств.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
@@ -19,34 +19,34 @@ navigation:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Page Links</Color>
+  ## <Color id="gold">Разделы руководства</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.5" />
 
 <Row>
   <Column>
-    * <ItemImage id="atomic_reconstructor" scale="0.75" /> [Getting Started](getting_started.md)
+    * <ItemImage id="atomic_reconstructor" scale="0.75" /> [Начало работы](getting_started.md)
   </Column>
   <Column>
-    * <ItemImage id="coal_generator" scale="0.75" /> [Generators](generators.md)
+    * <ItemImage id="coal_generator" scale="0.75" /> [Генераторы](generators.md)
   </Column>
   <Column>
-    * <ItemImage id="drill_light_blue" scale="0.75" /> [Tools & Items](tools.md)
+    * <ItemImage id="drill_light_blue" scale="0.75" /> [Инструменты и предметы](tools.md)
   </Column>
   <Column>
-    * <ItemImage id="lens_of_color" scale="0.75" /> [Lenses](lenses.md)
+    * <ItemImage id="lens_of_color" scale="0.75" /> [Линзы](lenses.md)
   </Column>
   <Column>
-    * <ItemImage id="laser_relay" scale="0.75" /> [Laser Relays](laser_relays.md)
+    * <ItemImage id="laser_relay" scale="0.75" /> [Laser Relay](laser_relays.md)
   </Column>
   <Column>
-    * <ItemImage id="crusher" scale="0.75" /> [Processing Machines](processing_machines.md)
+    * <ItemImage id="crusher" scale="0.75" /> [Обрабатывающие механизмы](processing_machines.md)
   </Column>
   <Column>
-    * <ItemImage id="farmer" scale="0.75" /> [Utility Machines](utility_machines.md)
+    * <ItemImage id="farmer" scale="0.75" /> [Вспомогательные механизмы](utility_machines.md)
   </Column>
   <Column>
-    * <ItemImage id="greenhouse_glass" scale="0.75" /> [Miscellaneous](miscellaneous.md)
+    * <ItemImage id="greenhouse_glass" scale="0.75" /> [Прочее](miscellaneous.md)
   </Column>
 </Row>
