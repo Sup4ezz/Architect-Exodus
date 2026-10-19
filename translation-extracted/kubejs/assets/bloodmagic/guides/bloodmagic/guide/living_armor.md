@@ -16,17 +16,17 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="red">Живая броня</Color>
   <ItemImage id="bloodmagic:livinghelmet" scale="2" />
-  Живая броня is an incredibly powerful armor set that <Color id="light_purple">самостоятельно улучшается по мере использования</Color>. Чем больше вы сражаетесь, добываете руду, бегаете и получаете урон в этой броне, тем сильнее она становится.
+  Живая броня — невероятно мощный комплект, который <Color id="light_purple">самостоятельно улучшается по мере использования</Color>. Чем больше вы сражаетесь, добываете руду, бегаете и получаете урон в этой броне, тем сильнее она становится.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25" />
 ***
 
 <Column alignItems="center" fullWidth={true}>
-## <Color id="gold">Crafting Живая броня</Color>
+## <Color id="gold">Создание Живой брони</Color>
 </Column>
 
-Живая броня is crafted using <ItemLink id="bloodmagic:reagentbinding" /> в Alchemy Array. Вам понадобится комплект железной брони и Binding Reagent для каждой части.
+Живая броня создаётся с помощью <ItemLink id="bloodmagic:reagentbinding" /> в Alchemy Array. Для каждой части понадобится соответствующая железная броня и Binding Reagent.
 <ItemImage id="minecraft:air" scale="0.05" />
 
 ### <Color id="aqua">Полный комплект</Color>
@@ -43,7 +43,7 @@ item_ids:
 ## <Color id="gold">Система улучшений</Color>
 </Column>
 
-Живая броня has a point-based upgrade system. As you perform various activities while wearing the armor, you will unlock and level up different upgrades:
+У Живой брони есть система улучшений на основе очков. Выполняя различные действия в надетой броне, вы открываете и повышаете уровни разных улучшений:
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
@@ -55,7 +55,7 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25" />
 
-В начале у брони есть <Color id="red">100 upgrade points</Color> and each upgrade costs a certain number of points. Choose wisely which upgrades to invest in!
+Изначально у брони есть <Color id="red">100 очков улучшений</Color>, а каждое улучшение расходует определённое количество очков. Выбирайте, какие характеристики улучшать, с умом!
 
 <ItemImage id="minecraft:air" scale="0.5" />
 
@@ -68,4 +68,4 @@ item_ids:
 
 При щелчке ПКМ <ItemLink id="bloodmagic:upgradetrainer"/> открывает меню, где можно выбрать, какие способности развивать, а какие игнорировать. Одновременно можно использовать только один такой предмет, но он способен отслеживать до 16 <Color id="green">Tomes</Color> одновременно.
 
-You can randomly find or craft specific tomes to use with your [Живая броня](living_armor.md).
+Специальные тома можно найти случайным образом или создать, а затем использовать вместе с [Живой бронёй](living_armor.md).
