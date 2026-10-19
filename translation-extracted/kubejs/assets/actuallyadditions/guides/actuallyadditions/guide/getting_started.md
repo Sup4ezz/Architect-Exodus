@@ -45,12 +45,12 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Atomic Reconstruction</Color>
+  ## <Color id="gold">Atomic Reconstructor</Color>
 </Column>
 
-The <Color id="green"><ItemLink id="atomic_reconstructor"/></Color> is the first of two core machines used in Actually Additions. It shoots a laser beam that converts items and blocks placed or dropped in front of it. When supplied with power (<Color id="red">1,000 FE/CF</Color> per shot), it can convert ores and materials.
+<Color id="green"><ItemLink id="atomic_reconstructor"/></Color> — первый из двух основных механизмов Actually Additions. Он выпускает лазерный луч, преобразующий предметы и блоки, расположенные или выброшенные перед ним. При подаче энергии ( <Color id="red">1 000 FE/CF</Color> за выстрел) он может преобразовывать руды и материалы.
 
-Among these conversions are 6 types of crystals used in most early-game and mid-game Actually Additions recipes:
+Среди результатов преобразования — 6 видов кристаллов, используемых во многих рецептах Actually Additions на раннем и среднем этапах игры:
 
 <ItemGrid>
   <ItemIcon id="restonia_crystal" />
@@ -61,9 +61,9 @@ Among these conversions are 6 types of crystals used in most early-game and mid-
   <ItemIcon id="enori_crystal" />
 </ItemGrid>
 
-Right-click the Atomic Reconstructor with a <ItemLink id="minecraft:redstone_torch" /> to toggle between deactivated-by-redstone and pulse modes. This allows you to set up a very early automation using a pressure plate on top of or next to the Atomic Reconstructor and dropping items on it.
+Нажмите правой кнопкой мыши по Atomic Reconstructor с <ItemLink id="minecraft:redstone_torch" />, чтобы переключить режим между отключением редстоун-сигналом и импульсным режимом. Так можно организовать простую автоматизацию в самом начале игры: установите нажимную плиту сверху или рядом с Atomic Reconstructor и сбрасывайте на неё предметы.
 
-The Atomic Reconstructor can also be fitted with <ItemImage id="actuallyadditions:lens" scale="0.5" /> [Lenses](actuallyadditions:lenses.md) to change or enhance its beam behavior.
+В Atomic Reconstructor также можно установить <ItemImage id="actuallyadditions:lens" scale="0.5" /> [линзы](lenses.md), меняющие или усиливающие свойства луча.
 
 <RecipeFor id="atomic_reconstructor" />
 
@@ -75,18 +75,17 @@ The Atomic Reconstructor can also be fitted with <ItemImage id="actuallyaddition
   ## <Color id="gold">Empowerer</Color>
 </Column>
 
-The <Color id="green"><ItemLink id="empowerer"/></Color> is the second core machine used in Actually Additions. It is used to empower crystals into stronger versions. Place the item to empower on the Empowerer block, then place the 4 required empowering items on <ItemLink id="display_stand" /> blocks positioned exactly 2 blocks away in each cardinal direction. The Display Stands need CF power to perform the empowerment.
-
+<Color id="green"><ItemLink id="empowerer"/></Color> — второй основной механизм Actually Additions. Он усиливает кристаллы, превращая их в более мощные варианты. Положите предмет для усиления на блок Empowerer, а четыре требуемых компонента разместите на блоках <ItemLink id="display_stand" />, расположенных точно в двух блоках от устройства по четырём сторонам света. Для работы Display Stands требуется энергия CF.
 
 <ItemImage id="minecraft:air" scale="0.5" />
 
-### <Color id="aqua">Empowerer Setup</Color>
+### <Color id="aqua">Сборка Empowerer</Color>
 
-You will also need 4 <Color id="dark_green"><ItemLink id="display_stand" />s</Color> provided with energy to finish setting up your <Color id="green"><ItemLink id="empowerer"/></Color>. They must be placed 3 blocks away from the Display stand as seen on the diagram below.
+Для настройки также понадобятся четыре <Color id="dark_green"><ItemLink id="display_stand" />s</Color>, подключённых к энергии. Они должны располагаться на расстоянии трёх блоков от Empowerer, как показано на схеме ниже.
 
-To craft with this setup you will need to place the main crystal on the Empowerer, while the other resources should be placed around it on top of the <Color id="dark_green"><ItemLink id="display_stand" />s</Color>.
+Чтобы выполнить рецепт, положите основной кристалл на Empowerer, а остальные материалы разместите сверху на <Color id="dark_green"><ItemLink id="display_stand" />s</Color> вокруг него.
 
-> <Color id="yellow">Tip</Color>: Empowering entire crystal blocks at once is cheaper than individual ingots as both recipes consume the same amount of extra resources.
+> <Color id="yellow">Совет</Color>: усиливать целые блоки кристаллов выгоднее, чем отдельные слитки: в обоих рецептах расходуется одинаковое количество дополнительных ресурсов.
 
 <GameScene zoom="2.5" background="#333333">
   <IsometricCamera yaw="30" roll="60" pitch="90" />
