@@ -11,7 +11,7 @@ item_ids:
   - woot_revived:diamond_decapitate_upgrade
   - woot_revived:netherite_decapitate_upgrade
 ---
-# Обезглавливание Upgrade
+# Decapitate Upgrade
 
 <Row>
   <ItemImage id="copper_decapitate_upgrade" scale="3"/>
@@ -21,34 +21,34 @@ item_ids:
   <ItemImage id="netherite_decapitate_upgrade" scale="3"/>
 </Row>
 
-The decapitate upgrade simulate a charged creeper explosion and add the dropped head to the drops.
+Decapitate Upgrade имитирует взрыв заряженного крипера и добавляет выпавшую голову в добычу.
 
-## Обезглавливание I Upgrade
+### Decapitate I Upgrade
 
-Drop one head
+Даёт одну голову.
 
 <RecipeFor id="copper_decapitate_upgrade" />
 
-## Обезглавливание II Upgrade
+### Decapitate II Upgrade
 
-Drop two heads
+Даёт две головы.
 
 <RecipeFor id="iron_decapitate_upgrade" />
 
-## Обезглавливание III Upgrade
+### Decapitate III Upgrade
 
-Drop three heads
+Даёт три головы.
 
 <RecipeFor id="gold_decapitate_upgrade" />
 
-## Обезглавливание IV Upgrade
+### Decapitate IV Upgrade
 
-Drop four heads
+Даёт четыре головы.
 
 <RecipeFor id="diamond_decapitate_upgrade" />
 
-## Обезглавливание V Upgrade
+### Decapitate V Upgrade
 
-Drop five heads
+Даёт пять голов.
 
 <RecipeFor id="netherite_decapitate_upgrade" />
