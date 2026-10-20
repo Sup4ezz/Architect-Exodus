@@ -28,7 +28,7 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="green">Производящая флора</Color>
   <ItemImage id="endoflame" scale="2" />
-  Generating Flora производят Mana из различных ресурсов. Размещайте их рядом с Mana Spreader, чтобы собирать произведённую Mana.
+  Производящие цветы производят Mana из различных ресурсов. Размещайте их рядом с Mana Spreader, чтобы собирать произведённую Mana.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
