@@ -9,22 +9,22 @@ item_ids:
   - woot_revived:netherite_plinth
   - woot_revived:netherite_cell
 ---
-# Netherite
+# Netherite Factory
 
-The fifth and last tier of your factory.
+Пятый и последний уровень фабрики.
 
-## Design
+## Постройка
 
-Note that the Fake Spawner that are small in the preview are optional
+Обратите внимание: маленькие Fake Spawner на схеме необязательны.
 
-The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#netherite) configured on the fifth tier can help you to build it
+При строительстве поможет <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#netherite), настроенный на пятый уровень.
 
 <GameScene zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/factory/netherite.snbt" />
   <IsometricCamera yaw="195" pitch="6" />
 </GameScene>
 
-## Netherite Blocks
+## Netherite Factory Blocks
 
 <Row>
   <BlockImage id="netherite_pylon" scale="4" p:attached="true" />
@@ -33,7 +33,7 @@ The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#n
 </Row>
 
 
-For this one you will need
+Для этого уровня понадобится:
 12 <ItemImage id="netherite_pylon" scale="0.5"/> Netherite Pylon,
 24 <ItemImage id="netherite_plinth" scale="0.5"/> Netherite Plinth,
 1 <ItemImage id="netherite_cell" scale="0.5"/> Netherite Vitality Cell
