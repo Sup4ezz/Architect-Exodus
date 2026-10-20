@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: "Getting Started"
+  title: "Начало работы"
   position: 10
   icon: "woot_revived:stygian_ingot"
 item_ids:
@@ -13,31 +13,31 @@ item_ids:
   - woot_revived:stygian_plate
   - woot_revived:factory_base
 ---
-# Getting Started
+# Начало работы
 
-## Getting the Stygian Ingot
+## Получение Stygian Ingot
 
-To get started with Woot Revived, you first need to craft some <ItemImage id="stygian_dust" scale="0.5"/> Stygian Dust
+Для начала работы с Woot Revived создайте немного <ItemImage id="stygian_dust" scale="0.5"/> Stygian Dust
 <Recipe id="stygian_dust" />
 
-Then you will need to cook them to do <ItemImage id="stygian_ingot" scale="0.5"/> Stygian Ingot
+Затем переплавьте его, чтобы получить <ItemImage id="stygian_ingot" scale="0.5"/> Stygian Ingot
 <Recipe id="stygian_ingot_cook" />
 
-## Getting the Molds
+## Изготовление форм
 
-First you will need to do a <ItemImage id="stygian_anvil" scale="0.5"/> Stygian Anvil and a <ItemImage id="stygian_hammer" scale="0.5"/> Stygian Hammer
+Сначала изготовьте <ItemImage id="stygian_anvil" scale="0.5"/> Stygian Anvil и <ItemImage id="stygian_hammer" scale="0.5"/> Stygian Hammer
 <Row>
   <Recipe id="stygian_anvil" />
   <Recipe id="stygian_hammer" />
 </Row>
 
-Then you will need to put the Stygian Anvil on a <ItemImage id="minecraft:magma_block" scale="0.5"/> Magma Block
+Поставьте Stygian Anvil на <ItemImage id="minecraft:magma_block" scale="0.5"/> Magma Block
 
-To craft items with the Stygian Anvil, you will need to right click it with the Stygian Hammer
+Чтобы создавать предметы на Stygian Anvil, нажмите по наковальне правой кнопкой мыши, держа Stygian Hammer
 
-For each mold you will need a <ItemImage id="minecraft:quartz" scale="0.5"/> Quartz, and a <ItemImage id="stygian_ingot" scale="0.5"/> Stygian Ingot
+Для каждой формы понадобятся <ItemImage id="minecraft:quartz" scale="0.5"/> Quartz и <ItemImage id="stygian_ingot" scale="0.5"/> Stygian Ingot
 
-Note that molds don't consume when you craft with them, you only need one of them
+Формы не расходуются при изготовлении предметов, поэтому достаточно создать по одной каждой формы.
 
 <Row alignItems="center">
   <GameScene zoom="5">
@@ -45,7 +45,7 @@ Note that molds don't consume when you craft with them, you only need one of the
     <IsometricCamera yaw="180" pitch="40" />
   </GameScene>
   <ItemImage id="plate_mold" scale="2"/>
-  To craft a plate mold you will need an <ItemImage id="minecraft:iron_trapdoor" scale="0.5"/> Iron Trapdoor
+  Для создания plate mold понадобится <ItemImage id="minecraft:iron_trapdoor" scale="0.5"/> Iron Trapdoor
 </Row>
 
 <Row alignItems="center">
@@ -54,7 +54,7 @@ Note that molds don't consume when you craft with them, you only need one of the
     <IsometricCamera yaw="180" pitch="40" />
   </GameScene>
   <ItemImage id="shard_mold" scale="2"/>
-  To craft a shard mold you will need a <ItemImage id="minecraft:prismarine_shard" scale="0.5"/> Prismarine Shard
+  Для создания shard mold понадобится <ItemImage id="minecraft:prismarine_shard" scale="0.5"/> Prismarine Shard
 </Row>
 
 <Row alignItems="center">
@@ -63,14 +63,14 @@ Note that molds don't consume when you craft with them, you only need one of the
     <IsometricCamera yaw="180" pitch="40" />
   </GameScene>
   <ItemImage id="dye_casing_mold" scale="2"/>
-  To craft a dye casing mold you will need <ItemImage id="minecraft:white_dye" scale="0.5"/> any dye
+  Для создания dye casing mold понадобится любой краситель, например <ItemImage id="minecraft:white_dye" scale="0.5"/> White Dye
 </Row>
 
-## Crafting the Factory Base
+## Создание Factory Base
 
-To create all the blocks of the mod you will need to craft the Factory Base
+Для изготовления всех блоков мода сначала потребуется Factory Base.
 
-First you will need some <ItemImage id="stygian_plate" scale="0.5"/> Stygian Plate
+Сначала изготовьте <ItemImage id="stygian_plate" scale="0.5"/> Stygian Plate.
 
 <Row alignItems="center">
   <GameScene zoom="5">
@@ -78,13 +78,13 @@ First you will need some <ItemImage id="stygian_plate" scale="0.5"/> Stygian Pla
     <IsometricCamera yaw="180" pitch="40" />
   </GameScene>
   <ItemImage id="stygian_plate" scale="2"/>
-  To craft it you need the <ItemImage id="plate_mold" scale="0.5"/> plate mold and a <ItemImage id="stygian_ingot" scale="0.5"/> Stygian Ingot
+  Для этого нужны <ItemImage id="plate_mold" scale="0.5"/> plate mold и <ItemImage id="stygian_ingot" scale="0.5"/> Stygian Ingot.
 </Row>
 
-Then you will be able to craft a Factory Base block
+После этого вы сможете создать блок Factory Base.
 
 <Recipe id="factory_base" />
 
-## And after?
+## Что дальше?
 
-Now you can start to [capture mobs](mob-shard.md), or you can start [building your first factory](factory/copper.md)!
+Теперь можно [ловить мобов](mob-shard.md) или [строить первую фабрику](factory/copper.md)!
