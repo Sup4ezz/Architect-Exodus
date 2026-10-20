@@ -9,22 +9,22 @@ item_ids:
   - woot_revived:gold_plinth
   - woot_revived:gold_cell
 ---
-# Gold
+# Gold Factory
 
-The third tier of your factory.
+Третий уровень фабрики.
 
-## Design
+## Постройка
 
-Note that the Fake Spawner that are small in the preview are optional
+Обратите внимание: маленькие Fake Spawner на схеме необязательны.
 
-The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#gold) configured on the third tier can help you to build it
+При строительстве поможет <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#gold), настроенный на третий уровень.
 
 <GameScene zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/factory/gold.snbt" />
   <IsometricCamera yaw="195" pitch="6" />
 </GameScene>
 
-## Gold Blocks
+## Gold Factory Blocks
 
 <Row>
   <BlockImage id="gold_pylon" scale="4" p:attached="true" />
@@ -33,7 +33,7 @@ The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#g
 </Row>
 
 
-For this one you will need
+Для этого уровня понадобится:
 36 <ItemImage id="gold_pylon" scale="0.5"/> Gold Pylon,
 24 <ItemImage id="gold_plinth" scale="0.5"/> Gold Plinth,
 1 <ItemImage id="gold_cell" scale="0.5"/> Gold Vitality Cell
