@@ -10,14 +10,14 @@ item_ids:
 
 <BlockImage id="stygian_anvil" scale="5"/>
 
-The <ItemImage id="stygian_anvil" scale="0.5"/> Stygian Anvil is where you start your journey on Woot Revived
+<ItemImage id="stygian_anvil" scale="0.5"/> Stygian Anvil — отправная точка вашего пути в Woot Revived.
 
-To craft with it, you need to right-click it with a <ItemImage id="stygian_hammer" scale="0.5"/> Stygian Hammer. More info at [Getting Started](../getting-started.md)
+Чтобы создавать предметы, нажмите по наковальне правой кнопкой мыши, держа <ItemImage id="stygian_hammer" scale="0.5"/> Stygian Hammer. Подробнее — в разделе [Начало работы](../getting-started.md).
 
-You can take items back by shift-clicking the anvil with an empty hand
+Чтобы забрать предметы обратно, нажмите Shift и щёлкните по наковальне пустой рукой.
 
-The anvil can be automated using item pipe and a <ItemImage id="netherite_magmator" scale="0.5"/> [Magmator](magmator.md)
+Наковальню можно автоматизировать с помощью предметных труб и <ItemImage id="netherite_magmator" scale="0.5"/> [Magmator](magmator.md).
 
-## Craft
+## Изготовление
 
 <RecipeFor id="stygian_anvil" />
