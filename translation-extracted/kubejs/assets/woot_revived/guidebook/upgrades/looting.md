@@ -11,7 +11,7 @@ item_ids:
   - woot_revived:diamond_looting_upgrade
   - woot_revived:netherite_looting_upgrade
 ---
-# Добыча Upgrade
+# Looting Upgrade
 
 <Row>
   <ItemImage id="copper_looting_upgrade" scale="3"/>
@@ -21,37 +21,36 @@ item_ids:
   <ItemImage id="netherite_looting_upgrade" scale="3"/>
 </Row>
 
-The looting upgrade apply looting enchantment to the item used to kill the mob
+Looting Upgrade применяет зачарование Looting к оружию, которым имитируется убийство моба.
 
-Note that the vanilla mobs only have higher drop rates until Looting III, so you don't need to have Looting IV or Looting V for them.
-But if modded mobs have higher rates at higher looting level, you have 2 more
+У ванильных мобов шанс добычи повышается только до Looting III, поэтому Looting IV и Looting V для них не нужны. Однако у мобов из модов более высокие уровни могут давать дополнительный эффект.
 
-## Добыча I Upgrade
+## Looting I Upgrade
 
-Apply Looting I
+Применяет Looting I.
 
 <RecipeFor id="copper_looting_upgrade" />
 
-## Добыча II Upgrade
+## Looting II Upgrade
 
-Apply Looting II
+Применяет Looting I.I
 
 <RecipeFor id="iron_looting_upgrade" />
 
-## Добыча III Upgrade
+## Looting III Upgrade
 
-Apply Looting III
+Применяет Looting I.II
 
 <RecipeFor id="gold_looting_upgrade" />
 
-## Добыча IV Upgrade
+## Looting IV Upgrade
 
-Apply Looting IV
+Применяет Looting I.V
 
 <RecipeFor id="diamond_looting_upgrade" />
 
-## Добыча V Upgrade
+## Looting V Upgrade
 
-Apply Looting V
+Применяет Looting V.
 
 <RecipeFor id="netherite_looting_upgrade" />
