@@ -7,12 +7,12 @@ navigation:
 item_ids:
   - woot_revived:burn_upgrade
 ---
-# Burn Upgrade
+# Сжигание Upgrade
 
 <ItemImage id="burn_upgrade" scale="3"/>
 
 The <ItemImage id="burn_upgrade" scale="0.5"/> Burn Upgrade applies fire to the simulated mob.
 
-## Craft
+## Изготовление
 
 <RecipeFor id="burn_upgrade" />
