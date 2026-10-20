@@ -13,7 +13,7 @@ item_ids:
   - woot_revived:xp_shard
   - woot_revived:xp_splinter
 ---
-# XP Upgrade
+# Опыт Upgrade
 
 <Row>
   <ItemImage id="copper_xp_upgrade" scale="3"/>
@@ -27,31 +27,31 @@ The XP upgrade add <ItemImage id="xp_shard" scale="0.5" /> XP Shard and <ItemIma
 
 The shard represent 9 XP and the splinter represent only 1 XP
 
-## XP I Upgrade
+## Опыт I Upgrade
 
 Drop 50% of the XP
 
 <RecipeFor id="copper_xp_upgrade" />
 
-## XP II Upgrade
+## Опыт II Upgrade
 
 Drop 75% of the XP
 
 <RecipeFor id="iron_xp_upgrade" />
 
-## XP III Upgrade
+## Опыт III Upgrade
 
 Drop 100% of the XP
 
 <RecipeFor id="gold_xp_upgrade" />
 
-## XP IV Upgrade
+## Опыт IV Upgrade
 
 Drop 125% of the XP
 
 <RecipeFor id="diamond_xp_upgrade" />
 
-## XP V Upgrade
+## Опыт V Upgrade
 
 Drop 150% of the XP
 
