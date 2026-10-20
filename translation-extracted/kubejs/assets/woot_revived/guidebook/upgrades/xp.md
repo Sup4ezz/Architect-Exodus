@@ -13,7 +13,7 @@ item_ids:
   - woot_revived:xp_shard
   - woot_revived:xp_splinter
 ---
-# Опыт Upgrade
+# XP Upgrade
 
 <Row>
   <ItemImage id="copper_xp_upgrade" scale="3"/>
@@ -23,36 +23,36 @@ item_ids:
   <ItemImage id="netherite_xp_upgrade" scale="3"/>
 </Row>
 
-The XP upgrade add <ItemImage id="xp_shard" scale="0.5" /> XP Shard and <ItemImage id="xp_splinter" scale="0.5" /> XP Splinter to the drops.
+XP Upgrade добавляет в добычу <ItemImage id="xp_shard" scale="0.5" /> XP Shard и <ItemImage id="xp_splinter" scale="0.5" /> XP Splinter.
 
-The shard represent 9 XP and the splinter represent only 1 XP
+XP Shard даёт 9 единиц опыта, а XP Splinter — 1 единицу.
 
-## Опыт I Upgrade
+## XP I Upgrade
 
-Drop 50% of the XP
+Даёт 50% опыта.
 
 <RecipeFor id="copper_xp_upgrade" />
 
-## Опыт II Upgrade
+## XP II Upgrade
 
-Drop 75% of the XP
+Даёт 75% опыта.
 
 <RecipeFor id="iron_xp_upgrade" />
 
-## Опыт III Upgrade
+## XP III Upgrade
 
-Drop 100% of the XP
+Даёт 100% опыта.
 
 <RecipeFor id="gold_xp_upgrade" />
 
-## Опыт IV Upgrade
+## XP IV Upgrade
 
-Drop 125% of the XP
+Даёт 125% опыта.
 
 <RecipeFor id="diamond_xp_upgrade" />
 
-## Опыт V Upgrade
+## XP V Upgrade
 
-Drop 150% of the XP
+Даёт 150% опыта.
 
 <RecipeFor id="netherite_xp_upgrade" />
