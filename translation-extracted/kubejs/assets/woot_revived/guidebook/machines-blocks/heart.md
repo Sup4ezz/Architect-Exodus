@@ -10,11 +10,9 @@ item_ids:
 
 <BlockImage id="heart" scale="5"/>
 
-The <ItemImage id="heart" scale="0.5"/> Factory Heart is the main controller of your factory
+<ItemImage id="heart" scale="0.5"/> Factory Heart — главный контроллер фабрики.
 
-It helps you to monitor your factory, shows you the <ItemImage id="vitality_fuel_fluid_bucket" scale="0.5"/> Vitality Fuel Fluid remaining, the upgrades that you installed,
-the mobs that you are simulating with the <ItemImage id="fake_spawner" scale="0.5"/> Fake Spawners, the progress of each mobs, and the items or fluids you need to import
-for the mob to be simulated
+Он позволяет следить за работой фабрики: показывает остаток <ItemImage id="vitality_fuel_fluid_bucket" scale="0.5"/> Vitality Fuel Fluid, установленные улучшения, мобов, заданных через <ItemImage id="fake_spawner" scale="0.5"/> Fake Spawner, прогресс каждой симуляции и предметы или жидкости, которые нужно импортировать для её выполнения.
 
 ## Изготовление
 
