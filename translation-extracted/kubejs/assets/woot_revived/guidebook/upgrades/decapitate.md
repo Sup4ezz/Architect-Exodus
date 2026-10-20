@@ -11,7 +11,7 @@ item_ids:
   - woot_revived:diamond_decapitate_upgrade
   - woot_revived:netherite_decapitate_upgrade
 ---
-# Decapitate Upgrade
+# Обезглавливание Upgrade
 
 <Row>
   <ItemImage id="copper_decapitate_upgrade" scale="3"/>
@@ -23,31 +23,31 @@ item_ids:
 
 The decapitate upgrade simulate a charged creeper explosion and add the dropped head to the drops.
 
-## Decapitate I Upgrade
+## Обезглавливание I Upgrade
 
 Drop one head
 
 <RecipeFor id="copper_decapitate_upgrade" />
 
-## Decapitate II Upgrade
+## Обезглавливание II Upgrade
 
 Drop two heads
 
 <RecipeFor id="iron_decapitate_upgrade" />
 
-## Decapitate III Upgrade
+## Обезглавливание III Upgrade
 
 Drop three heads
 
 <RecipeFor id="gold_decapitate_upgrade" />
 
-## Decapitate IV Upgrade
+## Обезглавливание IV Upgrade
 
 Drop four heads
 
 <RecipeFor id="diamond_decapitate_upgrade" />
 
-## Decapitate V Upgrade
+## Обезглавливание V Upgrade
 
 Drop five heads
 
