@@ -11,14 +11,14 @@ item_ids:
 
 <BlockImage id="enchanted_liquifier" scale="5"/>
 
-The <ItemImage id="enchanted_liquifier" scale="0.5"/> Enchanted Liquifier produces <ItemImage id="enchanted_fluid_bucket" scale="0.5"/> Enchanted Fluid by liquifying enchanted books.
+<ItemImage id="enchanted_liquifier" scale="0.5"/> Enchanted Liquifier превращает зачарованные книги в <ItemImage id="enchanted_fluid_bucket" scale="0.5"/> Enchanted Fluid.
 
-Each <ItemImage id="minecraft:enchanted_book" scale="0.5"/> enchanted book level will produce <WootConfig key="enchanted_liquifier.per_enchant_fluid" />mB of <ItemImage id="enchanted_fluid_bucket" scale="0.5"/>  Enchanted Fluid. To a limit of <WootConfig key="enchanted_liquifier.max_enchant_lvl" /> levels.
+Каждый уровень зачарования в <ItemImage id="minecraft:enchanted_book" scale="0.5"/> зачарованной книге даёт <WootConfig key="enchanted_liquifier.per_enchant_fluid" /> мБ <ItemImage id="enchanted_fluid_bucket" scale="0.5"/> Enchanted Fluid. Учитывается не более <WootConfig key="enchanted_liquifier.max_enchant_lvl" /> уровней.
 
-That means if the book have an enchantment with a level higher than <WootConfig key="enchanted_liquifier.max_enchant_lvl" /> it will count as a <WootConfig key="enchanted_liquifier.max_enchant_lvl" /> level enchantment.
+Если уровень зачарования выше <WootConfig key="enchanted_liquifier.max_enchant_lvl" />, он будет считаться равным этому пределу.
 
 <EnchantedRecipe />
 
-## Craft
+## Изготовление
 
 <RecipeFor id="enchanted_liquifier" />
