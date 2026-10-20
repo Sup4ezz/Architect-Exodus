@@ -9,22 +9,22 @@ item_ids:
   - woot_revived:diamond_plinth
   - woot_revived:diamond_cell
 ---
-# Diamond
+# Diamond Factory
 
-The fourth tier of your factory.
+Четвёртый уровень фабрики.
 
-## Design
+## Постройка
 
-Note that the Fake Spawner that are small in the preview are optional
+Обратите внимание: маленькие Fake Spawner на схеме необязательны.
 
-The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#diamond) configured on the fourth tier can help you to build it
+При строительстве поможет <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#diamond), настроенный на четвёртый уровень.
 
 <GameScene zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/factory/diamond.snbt" />
   <IsometricCamera yaw="195" pitch="6" />
 </GameScene>
 
-## Diamond Blocks
+## Diamond Factory Blocks
 
 <Row>
   <BlockImage id="diamond_pylon" scale="4" p:attached="true" />
@@ -33,7 +33,7 @@ The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#d
 </Row>
 
 
-For this one you will need
+Для этого уровня понадобится:
 32 <ItemImage id="diamond_pylon" scale="0.5"/> Diamond Pylon,
 32 <ItemImage id="diamond_plinth" scale="0.5"/> Diamond Plinth,
 1 <ItemImage id="diamond_cell" scale="0.5"/> Diamond Vitality Cell
