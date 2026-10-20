@@ -9,22 +9,22 @@ item_ids:
   - woot_revived:iron_plinth
   - woot_revived:iron_cell
 ---
-# Iron
+# Iron Factory
 
-The second tier of your factory.
+Второй уровень фабрики.
 
-## Design
+## Постройка
 
-Note that the Fake Spawner that are small in the preview are optional
+Обратите внимание: маленькие Fake Spawner на схеме необязательны.
 
-The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#iron) configured on the second tier can help you to build it
+При строительстве поможет <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#iron), настроенный на второй уровень.
 
 <GameScene zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/factory/iron.snbt" />
   <IsometricCamera yaw="195" pitch="6" />
 </GameScene>
 
-## Iron Blocks
+## Iron Factory Blocks
 
 <Row>
   <BlockImage id="iron_pylon" scale="4" p:attached="true" />
@@ -33,7 +33,7 @@ The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#i
 </Row>
 
 
-For this one you will need
+Для этого уровня понадобится:
 20 <ItemImage id="iron_pylon" scale="0.5"/> Iron Pylon,
 12 <ItemImage id="iron_plinth" scale="0.5"/> Iron Plinth,
 1 <ItemImage id="iron_cell" scale="0.5"/> Iron Vitality Cell
