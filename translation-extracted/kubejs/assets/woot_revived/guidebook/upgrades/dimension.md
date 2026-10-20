@@ -2,29 +2,29 @@
 navigation:
   parent: upgrades/upgrades-index.md
   title: "Dimension Upgrade"
-  icon: "woot_revived:end_измерения_upgrade"
+  icon: "woot_revived:end_dimension_upgrade"
   position: 1
 item_ids:
-  - woot_revived:nether_измерения_upgrade
-  - woot_revived:end_измерения_upgrade
+  - woot_revived:nether_dimension_upgrade
+  - woot_revived:end_dimension_upgrade
 ---
-# Измерение Upgrade
+# Dimension Upgrade
 
 <Row>
-  <ItemImage id="nether_измерения_upgrade" scale="3"/>
-  <ItemImage id="end_измерения_upgrade" scale="3"/>
+  <ItemImage id="nether_dimension_upgrade" scale="3"/>
+  <ItemImage id="end_dimension_upgrade" scale="3"/>
 </Row>
 
-The измерения upgrade change the измерения of the simulation
+Dimension Upgrade меняет измерение, в котором имитируются мобы.
 
 ## Nether Dimension Upgrade
 
-Set the измерения to the nether
+Переключает имитацию на Nether.
 
-<RecipeFor id="nether_измерения_upgrade" />
+<RecipeFor id="nether_dimension_upgrade" />
 
 ## End Dimension Upgrade
 
-Set the измерения to the end
+Переключает имитацию на End.
 
-<RecipeFor id="end_измерения_upgrade" />
+<RecipeFor id="end_dimension_upgrade" />
