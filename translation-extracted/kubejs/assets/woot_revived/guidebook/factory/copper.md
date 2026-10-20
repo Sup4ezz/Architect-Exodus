@@ -9,17 +9,17 @@ item_ids:
   - woot_revived:copper_plinth
   - woot_revived:copper_cell
 ---
-# Copper
+# Copper Factory
 
-The first tier of your factory, it is the minimal version of it.
+Это первый и самый простой уровень фабрики.
 
-Perfect to start the mod, or to build a basic one mob factory!
+Он отлично подходит для знакомства с модом и создания простой фабрики для одного моба!
 
-## Design
+## Постройка
 
-First you will need to build the middle base of the factory, then you can finish with the surrounding
+Сначала постройте центральное основание фабрики, затем достройте внешнюю часть.
 
-The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#copper) configured on the first tier can help you to build it
+При строительстве поможет <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#copper), настроенный на первый уровень.
 
 <Row>
   <GameScene zoom="2.5" interactive={true}>
@@ -33,7 +33,7 @@ The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#c
   </GameScene>
 </Row>
 
-## Copper Blocks
+## Copper Factory Blocks
 
 <Row>
   <BlockImage id="copper_pylon" scale="4" p:attached="true" />
@@ -41,9 +41,9 @@ The <ItemImage id="layout" scale="0.5"/> [Layout](../machines-blocks/layout.md#c
   <BlockImage id="copper_cell" scale="4" p:attached="true" />
 </Row>
 
-For the factory, you will need the blocks from [Common Blocks](common-blocks.md) but also some tier specific blocks
+Для фабрики нужны блоки из раздела [Основные блоки](common-blocks.md), а также специальные блоки этого уровня.
 
-For this one you will need
+Для этого уровня понадобится:
 17 <ItemImage id="copper_pylon" scale="0.5"/> Copper Pylon,
 6 <ItemImage id="copper_plinth" scale="0.5"/> Copper Plinth,
 1 <ItemImage id="copper_cell" scale="0.5"/> Copper Vitality Cell
