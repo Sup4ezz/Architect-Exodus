@@ -1,26 +1,26 @@
 ---
 navigation:
   parent: machines-blocks/machines-blocks-index.md
-  title: "Layout"
+  title: "Схема"
   icon: "woot_revived:layout"
 item_ids:
   - woot_revived:layout
 ---
-# Layout
+# Схема
 
 <BlockImage id="layout" scale="5"/>
 
-The <ItemImage id="layout" scale="0.5"/> Layout show you a blueprint of the factory
+<ItemImage id="layout" scale="0.5"/> Layout показывает чертёж фабрики.
 
-You can right-click it to change the tier of the shown factory
+Нажмите по нему правой кнопкой мыши, чтобы изменить отображаемый уровень фабрики.
 
-All block in the preview have no collision, are unbreakable, and can be replaced directly with their respective block.
+Блоки в предварительном просмотре не имеют столкновений, их нельзя сломать, а вместо них можно сразу поставить соответствующие настоящие блоки.
 
-## Craft
+## Изготовление
 
 <RecipeFor id="layout" />
 
-# Previews
+# Предварительный просмотр
 
 <Row>
   <Column>
