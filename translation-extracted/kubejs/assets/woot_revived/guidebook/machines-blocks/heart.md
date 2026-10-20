@@ -16,6 +16,6 @@ It helps you to monitor your factory, shows you the <ItemImage id="vitality_fuel
 the mobs that you are simulating with the <ItemImage id="fake_spawner" scale="0.5"/> Fake Spawners, the progress of each mobs, and the items or fluids you need to import
 for the mob to be simulated
 
-## Craft
+## Изготовление
 
 <RecipeFor id="heart" />
