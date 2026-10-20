@@ -61,7 +61,7 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="green">Эльфийская магия</Color>
   <ItemImage id="flight_tiara" scale="2" />
-  Alfhomancy is the art of trading with the Elves of Alfheim. By opening a portal and sending items through, you gain access to powerful Elven materials — and eventually face the ultimate Botania challenge: the Gaia Guardian.
+  Алфомантия is the art of trading with the Elves of Alfheim. By opening a portal and sending items through, you gain access to powerful Elven materials — and eventually face the ultimate Botania challenge: the Gaia Guardian.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
