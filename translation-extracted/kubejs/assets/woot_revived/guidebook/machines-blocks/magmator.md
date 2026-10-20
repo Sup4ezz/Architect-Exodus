@@ -20,21 +20,20 @@ item_ids:
   <BlockImage id="netherite_magmator" scale="2" />
 </Row>
 
-The Magmator is the automation block for the <ItemImage id="stygian_anvil" scale="0.5"/> [Stygian Anvil](anvil.md).
+Magmator автоматизирует работу <ItemImage id="stygian_anvil" scale="0.5"/> [Stygian Anvil](anvil.md).
 
-Place it underneath the anvil and each X ticks, it will try to craft the item and place it inside a neighbor chest.
-It will don't do anything if no chest are available at the side of the block.
+Поставьте его под наковальню: через заданное количество тиков он будет пытаться изготовить предмет и помещать его в соседний сундук. Если рядом нет сундука, блок ничего не сделает.
 
-You can also shift click the block to change the redstone mode of it.
+Нажмите Shift и щёлкните по блоку, чтобы изменить режим работы с редстоуном.
 
-Here is the tick rate of each magmator:
+Скорость работы каждого Magmator:
 - <ItemImage id="copper_magmator" scale="0.5"/> Copper Magmator: <WootConfig key="magmator.copper_tick_rate" /> ticks/craft
 - <ItemImage id="iron_magmator" scale="0.5"/> Iron Magmator: <WootConfig key="magmator.iron_tick_rate" /> ticks/craft
 - <ItemImage id="gold_magmator" scale="0.5"/> Gold Magmator: <WootConfig key="magmator.gold_tick_rate" /> ticks/craft
 - <ItemImage id="diamond_magmator" scale="0.5"/> Diamond Magmator: <WootConfig key="magmator.diamond_tick_rate" /> ticks/craft
 - <ItemImage id="netherite_magmator" scale="0.5"/> Netherite Magmator: <WootConfig key="magmator.netherite_tick_rate" /> ticks/craft
 
-## Craft
+## Изготовление
 
 <Row>
   <RecipeFor id="copper_magmator" />
