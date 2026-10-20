@@ -14,7 +14,7 @@ item_ids:
   # <Color id="aqua">Заряженный Certus Quartz</Color>
   <ItemImage id="ae2:charged_certus_quartz_crystal" scale="2" />
 
-  Заряженный Certus Quartz нужен для рецептов Fluix и нескольких компонентов AE2 среднего уровня. Стандартный <Color id="red">Charger has been removed</Color> from this pack — you charge certus another way.
+  Заряженный Certus Quartz нужен для рецептов Fluix и нескольких компонентов AE2 среднего уровня. Стандартный <Color id="red">Charger удалён из этой сборки</Color> — заряжать Certus Quartz нужно другим способом.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -32,7 +32,7 @@ item_ids:
   ### <Color id="aqua">Energizing Orb</Color>
 </Row>
 
-Бросьте стопку <ItemLink id="ae2:certus_quartz_crystal" /> на пьедестал под <ItemLink id="powah:energizing_orb" /> и подайте <Color id="green">10,000 FE</Color> от Powah Energizing Rods. Каждый кристалл превратится в <ItemLink id="ae2:charged_certus_quartz_crystal" />.
+Бросьте стопку <ItemLink id="ae2:certus_quartz_crystal" /> на пьедестал под <ItemLink id="powah:energizing_orb" /> и подайте энергию <Color id="green">10 000 FE</Color> с помощью Powah Energizing Rods. Каждый кристалл превратится в <ItemLink id="ae2:charged_certus_quartz_crystal" />.
 
 Инструкции по настройке шара, размещению стержней и ранним источникам энергии смотрите в [руководстве Powah](powah:guide:energizing_orb.md). Для начала подойдёт Furnator на угле.
 
