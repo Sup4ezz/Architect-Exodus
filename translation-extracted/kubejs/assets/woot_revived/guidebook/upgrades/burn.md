@@ -7,11 +7,11 @@ navigation:
 item_ids:
   - woot_revived:burn_upgrade
 ---
-# Сжигание Upgrade
+# Burn Upgrade
 
 <ItemImage id="burn_upgrade" scale="3"/>
 
-The <ItemImage id="burn_upgrade" scale="0.5"/> Burn Upgrade applies fire to the simulated mob.
+<ItemImage id="burn_upgrade" scale="0.5"/> Burn Upgrade поджигает моба, убийство которого имитируется.
 
 ## Изготовление
 
