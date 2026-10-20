@@ -15,7 +15,7 @@ item_ids:
   - woot_revived:diamond_shard
   - woot_revived:netherite_shard
 ---
-# Shard Drop Upgrade
+# Выпадение осколков Upgrade
 
 <Row>
   <ItemImage id="iron_shard_drop_upgrade" scale="3"/>
@@ -41,7 +41,7 @@ It's because the <ItemImage id="copper_shard" scale="0.5"/> Copper Shard need to
   To craft it you need the <ItemImage id="shard_mold" scale="0.5"/> shard mold and 4 <ItemImage id="minecraft:copper_ingot" scale="0.5"/> Copper Ingot
 </Row>
 
-## Shard Drop I Upgrade
+## Выпадение осколков I Upgrade
 
 Drop <ItemImage id="iron_shard" scale="0.5"/> Iron Shard with a 50% drop chance.
 
@@ -49,7 +49,7 @@ The upgrade need to be applied at least on Copper Factory for the <ItemImage id=
 
 <RecipeFor id="iron_shard_drop_upgrade" />
 
-## Shard Drop II Upgrade
+## Выпадение осколков II Upgrade
 
 Drop <ItemImage id="iron_shard" scale="0.5"/> Iron Shard with a 50% drop chance.
 
@@ -59,7 +59,7 @@ The upgrade need to be applied at least on Iron Factory for the <ItemImage id="g
 
 <RecipeFor id="gold_shard_drop_upgrade" />
 
-## Shard Drop III Upgrade
+## Выпадение осколков III Upgrade
 
 Drop <ItemImage id="iron_shard" scale="0.5"/> Iron Shard with a 50% drop chance.
 
@@ -71,7 +71,7 @@ The upgrade need to be applied at least on Gold Factory for the <ItemImage id="d
 
 <RecipeFor id="diamond_shard_drop_upgrade" />
 
-## Shard Drop IV Upgrade
+## Выпадение осколков IV Upgrade
 
 Drop <ItemImage id="iron_shard" scale="0.5"/> Iron Shard with a 50% drop chance.
 
