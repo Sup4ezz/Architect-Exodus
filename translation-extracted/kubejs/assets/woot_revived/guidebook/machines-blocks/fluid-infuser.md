@@ -12,16 +12,15 @@ item_ids:
 
 <BlockImage id="fluid_infuser" scale="5"/>
 
-The <ItemImage id="fluid_infuser" scale="0.5"/> Fluid Infuser produces liquid by injecting items in another liquid.
+<ItemImage id="fluid_infuser" scale="0.5"/> Fluid Infuser создаёт жидкости, добавляя предметы в другую жидкость.
 
-## Craft
+## Изготовление
 
 <RecipeFor id="fluid_infuser" />
 
 ## Mob Tears Fluid
 
-<ItemImage id="mob_tears_fluid_bucket" scale="0.5"/> Mob Tears Fluid is used to produce <ItemImage id="vitality_fuel_fluid_bucket" scale="0.5"/> Vitality Fuel Fluid
-and can also be used to craft some items using the <ItemImage id="item_infuser" scale="0.5"/> [Item Infuser](item-infuser.md)
+<ItemImage id="mob_tears_fluid_bucket" scale="0.5"/> Mob Tears Fluid используется для производства <ItemImage id="vitality_fuel_fluid_bucket" scale="0.5"/> Vitality Fuel Fluid, а также для создания некоторых предметов с помощью <ItemImage id="item_infuser" scale="0.5"/> [Item Infuser](item-infuser.md).
 
 <Row>
   <Recipe id="fluid_infuser/mob_tears_0" />
@@ -38,7 +37,7 @@ and can also be used to craft some items using the <ItemImage id="item_infuser" 
 
 ## Vitality Fuel Fluid
 
-<ItemImage id="vitality_fuel_fluid_bucket" scale="0.5"/> Vitality Fuel Fluid is the fuel of your factory, you need it to simulate mobs
+<ItemImage id="vitality_fuel_fluid_bucket" scale="0.5"/> Vitality Fuel Fluid — топливо фабрики, необходимое для симуляции мобов.
 
 <Row>
   <Recipe id="fluid_infuser/vitality_fuel_0" />
