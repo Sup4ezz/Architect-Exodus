@@ -15,7 +15,7 @@ item_ids:
   - woot_revived:diamond_shard
   - woot_revived:netherite_shard
 ---
-# Выпадение осколков Upgrade
+# Shard Drop Upgrade
 
 <Row>
   <ItemImage id="iron_shard_drop_upgrade" scale="3"/>
@@ -24,13 +24,13 @@ item_ids:
   <ItemImage id="netherite_shard_drop_upgrade" scale="3"/>
 </Row>
 
-The shard drop upgrade drops tier shards
+Shard Drop Upgrade позволяет мобам ронять осколки соответствующих уровней.
 
-## How to get Copper Shard
+## Как получить Copper Shard
 
-Has you can see, the upgrades don't produce <ItemImage id="copper_shard" scale="0.5"/> Copper Shard
+Как видите, улучшения не создают <ItemImage id="copper_shard" scale="0.5"/> Copper Shard.
 
-It's because the <ItemImage id="copper_shard" scale="0.5"/> Copper Shard need to be crafted using the <ItemImage id="stygian_anvil" scale="0.5"/> Stygian Anvil
+Это связано с тем, что <ItemImage id="copper_shard" scale="0.5"/> Copper Shard нужно изготовить на <ItemImage id="stygian_anvil" scale="0.5"/> Stygian Anvil.
 
 <Row alignItems="center">
   <GameScene zoom="5">
@@ -38,7 +38,7 @@ It's because the <ItemImage id="copper_shard" scale="0.5"/> Copper Shard need to
     <IsometricCamera yaw="180" pitch="40" />
   </GameScene>
   <ItemImage id="copper_shard" scale="2"/>
-  To craft it you need the <ItemImage id="shard_mold" scale="0.5"/> shard mold and 4 <ItemImage id="minecraft:copper_ingot" scale="0.5"/> Copper Ingot
+  Для изготовления нужны <ItemImage id="shard_mold" scale="0.5"/> shard mold и 4 <ItemImage id="minecraft:copper_ingot" scale="0.5"/> Copper Ingot.
 </Row>
 
 ## Выпадение осколков I Upgrade
