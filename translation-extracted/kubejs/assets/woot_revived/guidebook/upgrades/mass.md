@@ -11,7 +11,7 @@ item_ids:
   - woot_revived:diamond_mass_upgrade
   - woot_revived:netherite_mass_upgrade
 ---
-# Масса Upgrade
+# Mass Upgrade
 
 <Row>
   <ItemImage id="copper_mass_upgrade" scale="3"/>
@@ -21,34 +21,34 @@ item_ids:
   <ItemImage id="netherite_mass_upgrade" scale="3"/>
 </Row>
 
-The mass upgrade kill more mobs per simulation.
+Mass Upgrade увеличивает число мобов, убиваемых за одну симуляцию.
 
-## Масса I Upgrade
+## Mass I Upgrade
 
-Kill 2 mobs
+Имитирует убийство 2 мобов.
 
 <RecipeFor id="copper_mass_upgrade" />
 
-## Масса II Upgrade
+## Mass II Upgrade
 
-Kill 4 mobs
+Имитирует убийство 4 мобов.
 
 <RecipeFor id="iron_mass_upgrade" />
 
-## Масса III Upgrade
+## Mass III Upgrade
 
-Kill 6 mobs
+Имитирует убийство 6 мобов.
 
 <RecipeFor id="gold_mass_upgrade" />
 
-## Масса IV Upgrade
+## Mass IV Upgrade
 
-Kill 8 mobs
+Имитирует убийство 8 мобов.
 
 <RecipeFor id="diamond_mass_upgrade" />
 
-## Масса V Upgrade
+## Mass V Upgrade
 
-Kill 10 mobs
+Имитирует убийство 10 мобов.
 
 <RecipeFor id="netherite_mass_upgrade" />
