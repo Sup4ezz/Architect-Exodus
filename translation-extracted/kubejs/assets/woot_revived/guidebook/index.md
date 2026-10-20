@@ -6,19 +6,17 @@ navigation:
 item_ids:
   - woot_revived:guide
 ---
-# What is Woot Revived?
+# Что такое Woot Revived?
 
-Woot Revived introduces a tiered multiblock system that simulates mob kills and delivers drops directly
-without spawning any mobs. Build the factory with your fake spawner, add some vitality fuel, maybe
-some items you'll need to import, and it will auto generate the loot into your chests.
+Woot Revived добавляет многоуровневую многоблочную систему, которая имитирует убийство мобов и выдаёт добычу напрямую, не создавая самих мобов. Постройте фабрику с Fake Spawner, добавьте топливо жизненной силы и, при необходимости, предметы для импорта — после этого добыча будет автоматически появляться в сундуках.
 
-* [Getting Started](getting-started.md)
-* [How to capture a mob?](mob-shard.md)
-* [Machines/Layout](machines-blocks/machines-blocks-index.md)
-* [Factory](factory/factory-index.md)
-* [Upgrades](upgrades/upgrades-index.md)
-* [Mobs (may lag)](mobs.md)
+* [Начало работы](getting-started.md)
+* [Как поймать моба?](mob-shard.md)
+* [Механизмы и схема](machines-blocks/machines-blocks-index.md)
+* [Фабрика](factory/factory-index.md)
+* [Улучшения](upgrades/upgrades-index.md)
+* [Мобы (возможно, будут лаги)](mobs.md)
 
-### How to recraft the guide book?
+### Как повторно создать книгу руководства?
 
 <RecipeFor id="guide" />
