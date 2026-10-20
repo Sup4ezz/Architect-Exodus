@@ -11,7 +11,7 @@ item_ids:
   - woot_revived:diamond_rate_upgrade
   - woot_revived:netherite_rate_upgrade
 ---
-# Rate Upgrade
+# Скорость Upgrade
 
 <Row>
   <ItemImage id="copper_rate_upgrade" scale="3"/>
@@ -23,31 +23,31 @@ item_ids:
 
 The rate upgrade reduce the spawn rate between each simulation.
 
-## Rate I Upgrade
+## Скорость I Upgrade
 
 Reduce rate by 10%
 
 <RecipeFor id="copper_rate_upgrade" />
 
-## Rate II Upgrade
+## Скорость II Upgrade
 
 Reduce rate by 20%
 
 <RecipeFor id="iron_rate_upgrade" />
 
-## Rate III Upgrade
+## Скорость III Upgrade
 
 Reduce rate by 30%
 
 <RecipeFor id="gold_rate_upgrade" />
 
-## Rate IV Upgrade
+## Скорость IV Upgrade
 
 Reduce rate by 50%
 
 <RecipeFor id="diamond_rate_upgrade" />
 
-## Rate V Upgrade
+## Скорость V Upgrade
 
 Reduce rate by 75%
 
