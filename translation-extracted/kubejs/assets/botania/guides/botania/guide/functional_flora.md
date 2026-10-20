@@ -33,7 +33,7 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
   # <Color id="green">Функциональная флора</Color>
   <ItemImage id="hopperhock" scale="2" />
-  Functional Flora используют Mana для выполнения различных задач. Для получения энергии они должны находиться рядом с Mana Pool.
+  Функциональные цветы используют Mana для выполнения различных задач. Для получения энергии они должны находиться рядом с Mana Pool.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
