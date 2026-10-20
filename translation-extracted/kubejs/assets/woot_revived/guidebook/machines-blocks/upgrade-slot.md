@@ -10,14 +10,14 @@ item_ids:
 
 <BlockImage id="factory_upgrade" scale="5" p:attached="true" />
 
-The <ItemImage id="factory_upgrade" scale="0.5"/> Upgrade Slot store your upgrade items for the factory
+<ItemImage id="factory_upgrade" scale="0.5"/> Upgrade Slot хранит улучшения, установленные на фабрике.
 
-You can right-click it with any upgrade to apply it to the block
+Нажмите по блоку правой кнопкой мыши, держа улучшение, чтобы установить его.
 
-You can get the list of upgrades [here](../upgrades/upgrades-index.md)
+Полный список улучшений находится [здесь](../upgrades/upgrades-index.md).
 
-## Craft
+## Изготовление
 
-To know how to craft the Upgrade Base, go [here](../upgrades/upgrade-base.md)
+Инструкцию по созданию Upgrade Base смотрите [здесь](../upgrades/upgrade-base.md).
 
 <RecipeFor id="factory_upgrade" />
