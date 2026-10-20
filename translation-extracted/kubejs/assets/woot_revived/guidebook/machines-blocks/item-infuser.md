@@ -48,21 +48,21 @@ item_ids:
 
 <BlockImage id="item_infuser" scale="5"/>
 
-The <ItemImage id="item_infuser" scale="0.5"/> Item Infuser produces items by combining ingredients and injecting fluid in them
+<ItemImage id="item_infuser" scale="0.5"/> Item Infuser создаёт предметы, объединяя ингредиенты и добавляя в них жидкость.
 
-## Craft
+## Изготовление
 
 <RecipeFor id="item_infuser" />
 
 ## Prism
 
-The <ItemImage id="prism" scale="0.5"/> prism is the main ingredient to craft a <ItemImage id="fake_spawner" scale="0.5"/> Fake Spawner
+<ItemImage id="prism" scale="0.5"/> Prism — основной ингредиент для создания <ItemImage id="fake_spawner" scale="0.5"/> Fake Spawner.
 
 <Recipe id="item_infuser/prism" />
 
 ## Dye Plates
 
-Before getting Dye Plates you will need to get the specific Dye Casing
+Перед созданием Dye Plates необходимо изготовить соответствующий Dye Casing.
 
 Here is the example on how to create a <ItemImage id="white_dye_casing" scale="0.5"/> White Casing Dye, but you can create one of each dye.
 
