@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 90,
+      "tag": "forge:molten_gold"
+    },
+    {
+      "amount": 250,
+      "tag": "tconstruct:ichor"
+    },
+    {
+      "amount": 250,
+      "tag": "tconstruct:scorched_stone"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "tag": "tconstruct:molten_cinderslime"
+  }
+}

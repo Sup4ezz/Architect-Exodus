@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_overworld"
+  ],
+  "remove": [
+    "#ftb:is_niflheim",
+    "#ftb:is_jotunheim",
+    "#ftb:is_musp",
+    "#ftb:is_hel",
+    "#ftb:is_alfheim",
+    "#ftb:is_asgard"
+  ]
+}

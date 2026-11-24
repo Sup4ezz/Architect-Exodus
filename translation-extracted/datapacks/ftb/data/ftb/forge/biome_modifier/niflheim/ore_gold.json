@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_niflheim",
+  "features": [
+    "ftb:niflheim/ore_gold",
+    "ftb:niflheim/ore_gold_lower",
+    "ftb:niflheim/cave_ore_gold",
+    "ftb:niflheim/ceiling_ore_gold"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "inputs": [
+    "malum:tyrving"
+  ],
+  "itemIdRegex": "",
+  "modIdRegex": "",
+  "repairMaterial": {
+    "count": 2,
+    "item": "malum:twisted_rock"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 4
+    },
+    {
+      "type": "arcane",
+      "count": 2
+    },
+    {
+      "type": "earthen",
+      "count": 2
+    },
+    {
+      "type": "eldritch",
+      "count": 1
+    }
+  ]
+}

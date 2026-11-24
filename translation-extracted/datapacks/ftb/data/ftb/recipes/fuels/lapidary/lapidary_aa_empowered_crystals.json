@@ -1,0 +1,7 @@
+{
+  "type": "thermal:lapidary_fuel",
+  "ingredient": {
+    "tag": "actuallyadditions:empowered_crystals"
+  },
+  "energy": 400000
+}

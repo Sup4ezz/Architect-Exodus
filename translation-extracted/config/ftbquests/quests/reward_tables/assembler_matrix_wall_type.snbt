@@ -1,0 +1,12 @@
+{
+	icon: "expatternprovider:assembler_matrix_frame"
+	id: "07214128BF827D0E"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 64, item: "expatternprovider:assembler_matrix_wall" }
+		{ count: 64, item: "expatternprovider:assembler_matrix_glass" }
+	]
+	title: "{ftbquests.loot_table.513763475764444430.title}"
+	use_title: true
+}

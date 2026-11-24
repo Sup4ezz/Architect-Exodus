@@ -1,0 +1,2 @@
+#Preferences for outputs from tags used in automatic compat in recipes
+tagPreferences = ["minecraft","kubejs","ftbmaterials","thermal","mekanism","ae2","enderio","tconstruct","tmechworks"]

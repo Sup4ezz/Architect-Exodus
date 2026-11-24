@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#ftb:is_hel",
+    "#ftb:is_musp",
+    "#ftb:is_jotunheim",
+    "#ftb:is_niflheim",
+    "#ftb:is_midgard",
+    "#ftb:is_alfheim",
+    "#ftb:is_asgard"
+  ]
+}

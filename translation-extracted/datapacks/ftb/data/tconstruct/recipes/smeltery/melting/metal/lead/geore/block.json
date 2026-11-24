@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "geore:geore_blocks/lead"
+    },
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:molten_lead"
+    }
+  ],
+  "ingredient": {
+    "tag": "geore:geore_blocks/lead"
+  },
+  "result": {
+    "amount": 360,
+    "tag": "forge:molten_lead"
+  },
+  "temperature": 330,
+  "time": 86
+}

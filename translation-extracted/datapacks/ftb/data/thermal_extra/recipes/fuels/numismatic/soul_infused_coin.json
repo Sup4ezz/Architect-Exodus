@@ -1,0 +1,7 @@
+{
+  "type": "thermal:numismatic_fuel",
+  "energy": 125000,
+  "ingredient": {
+    "tag": "forge:coins/soul_infused"
+  }
+}

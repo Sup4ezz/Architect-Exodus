@@ -1,0 +1,7 @@
+{
+  "target": "/ftbragnarok:.*/",
+  "buffs": {
+    "deus_ex_machina:resistance": { "min": 0, "max": 95, "increase": 10, "reset": "FULL" },
+    "deus_ex_machina:attack_boost": { "min": 0, "max": 50, "increase": 10, "reset": "FULL" }
+  }
+}

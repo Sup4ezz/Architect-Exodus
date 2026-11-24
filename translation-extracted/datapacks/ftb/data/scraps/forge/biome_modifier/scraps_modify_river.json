@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_river",
+  "features": [],
+  "step": "top_layer_modification"
+  
+}

@@ -1,0 +1,15 @@
+{
+	icon: "projecte:black_alchemical_bag"
+	id: "3A05DFEFB6A406FE"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 8, item: "geore:iron_shard" }
+		{ count: 8, item: "geore:copper_shard" }
+		{ count: 8, item: "geore:coal_shard" }
+		{ count: 8, item: "geore:redstone_shard" }
+		{ count: 8, item: "geore:quartz_shard" }
+	]
+	title: "{ftbquests.loot_table.4180994049737754366.title}"
+	use_title: true
+}

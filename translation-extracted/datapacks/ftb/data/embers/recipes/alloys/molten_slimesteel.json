@@ -1,0 +1,21 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 90,
+      "tag": "forge:molten_iron"
+    },
+    {
+      "amount": 250,
+      "tag": "tconstruct:sky_slime"
+    },
+    {
+      "amount": 250,
+      "tag": "tconstruct:seared_stone"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "tag": "tconstruct:molten_slimesteel"
+  }
+}

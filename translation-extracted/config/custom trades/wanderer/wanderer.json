@@ -1,0 +1,974 @@
+{
+  "profession": "wanderer",
+  "removeOtherTrades": true,
+  "maxCommonTrades": 5,
+  "maxRareTrades": 1,
+  "trades": [
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:diamond_horse_armor",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:iron_horse_armor",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:skeleton_skull",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:saddle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 2,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:zombie_head",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:iron_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,affix_data:{affixes:{\"apotheosis:durable\":0.17f,\"apotheosis:heavy_weapon/attribute/berserking\":0.018464267f,\"apotheosis:heavy_weapon/attribute/decimating\":0.17282629f,\"apotheosis:heavy_weapon/attribute/forceful\":0.007819951f,\"apotheosis:sword/mob_effect/elusive\":0.74766314f},name:'{\"color\":\"#5555FF\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/berserking\"},\"\",{\"translate\":\"affix.apotheosis:sword/mob_effect/elusive.suffix\"}]}',rarity:\"apotheosis:rare\",sockets:2},apoth_merchant:1b}"
+      },
+      "request": {
+        "itemKey": "occultism:iesnium_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:wither_skeleton_skull",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "embers:ember_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:blaze_powder",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:honeycomb",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:prismarine_shard",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:golden_horse_armor",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 4,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:ender_eye",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 15,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:scroll",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{ISB_Spells:{data:[{id:\"irons_spellbooks:blessing_of_life\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:scroll",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{ISB_Spells:{data:[{id:\"irons_spellbooks:summon_polar_bear\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 19,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:scroll",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{ISB_Spells:{data:[{id:\"irons_spellbooks:healing_circle\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}"
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:arcane_essence",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "irons_spellbooks:rare_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:arcane_essence",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "irons_spellbooks:epic_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:common_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:uncommon_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:rare_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 19,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:epic_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 26,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:legendary_ink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 35,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "irons_spellbooks:fireward_ring",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.5,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "ftb:codex_glyph_1",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "ftb:sealed_scroll_common",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:10b},{id:\"apotheosis:life_mending\",lvl:5b},{id:\"minecraft:looting\",lvl:5b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:scavenger\",lvl:5b}],display:{Name:'{\"translate\":\"name.apotheosis.vigilance\", \"italic\": false, \"color\": \"#1ABBE0\"}'}}"
+      },
+      "request": {
+        "itemKey": "thermal:signalum_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1000,
+      "maxUses": 1,
+      "priceMultiplier": 0,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:10b},{id:\"minecraft:mending\",lvl:1b},{id:\"apotheosis:scavenger\",lvl:2b},{id:\"apotheosis:capturing\",lvl:2b},{id:\"minecraft:looting\",lvl:5b},{id:\"minecraft:unbreaking\",lvl:3b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_axe2\", \"italic\": false, \"color\": \"#9AB091\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "minecraft:enchanted_golden_apple",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"minecraft:respiration\",lvl:5b},{id:\"minecraft:aqua_affinity\",lvl:1b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_helm\", \"italic\": false, \"color\": \"#1ABBE0\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,affix_data:{affixes:{\"apotheosis:breaker/attribute/destructive\":0.472502f,\"apotheosis:breaker/attribute/experienced\":0.6437115f,\"apotheosis:breaker/attribute/lucky\":0.44096303f,\"apotheosis:breaker/mob_effect/spelunkers\":0.24377781f,\"apotheosis:breaker/special/enlightened\":0.7914279f,\"apotheosis:durable\":0.35000002f,\"apotheotic_additions:breaker/attribute/speed\":0.114150405f},name:'{\"color\":\"#BB00BB\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:breaker/attribute/destructive\"},\"\",{\"translate\":\"affix.apotheosis:breaker/mob_effect/spelunkers.suffix\"}]}',rarity:\"apotheosis:epic\",sockets:3},apoth_merchant:1b}"
+      },
+      "request": {
+        "itemKey": "botania:manasteel_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:stable_footing\",lvl:1b},{id:\"minecraft:feather_falling\",lvl:5b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_boots\", \"italic\": false, \"color\": \"#1ABBE0\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:5b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:fortune\",lvl:4b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:earths_boon\",lvl:4b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_pick\", \"italic\": false, \"color\": \"#1ABBE0\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:10b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:looting\",lvl:5b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"minecraft:fire_aspect\",lvl:5b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_spider_sword\", \"italic\": false, \"color\": \"#C11101\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:10b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:silk_touch\",lvl:1b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:chainsaw\",lvl:1b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_axe\",  \"italic\": false, \"color\": \"#608F07\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:rebounding\",lvl:10b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_legs\", \"italic\": false, \"color\": \"#1ABBE0\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5b},{id:\"minecraft:projectile_protection\",lvl:5b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:berserkers_fury\",lvl:2b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_chest\", \"italic\": false, \"color\": \"#1ABBE0\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "minecraft:beacon",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "minecraft:totem_of_undying",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "malum:soul_stained_steel_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:5b},{id:\"minecraft:mending\",lvl:1b},{id:\"minecraft:looting\",lvl:4b},{id:\"minecraft:unbreaking\",lvl:5b},{id:\"apotheosis:capturing\",lvl:5b}],display:{Name:'{\"translate\":\"name.apotheosis.merch_sword\", \"italic\": false, \"color\": \"#ADD8E6\"}'}}"
+      },
+      "request": {
+        "itemKey": "malum:soul_stained_steel_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 500,
+      "maxUses": 1,
+      "priceMultiplier": 1,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "irons_spellbooks:ancient_knowledge_fragment",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 63,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:echo_shard",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "irons_spellbooks:hither_thither_wand",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{ISB_Spells:{data:[{id:\"irons_spellbooks:portal\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}"
+      },
+      "request": {
+        "itemKey": "botania:manasteel_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "ftb:distilled_power",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "irons_spellbooks:frostward_ring",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.5,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "irons_spellbooks:cast_time_ring",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.5,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "irons_spellbooks:heavy_chain_necklace",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "ftb:unrefined_spirit",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.5,
+      "demand": 0,
+      "tradeLevel": 1
+    }
+  ]
+}

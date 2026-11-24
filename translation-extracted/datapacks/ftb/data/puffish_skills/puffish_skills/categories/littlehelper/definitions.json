@@ -1,0 +1,1268 @@
+{
+  "hel_buff": {
+    "title": {"translate": "puffish_skills.littlehelper.hel_buff"},
+    "description": {"translate": "puffish_skills.littlehelper.hel_buff.description"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "malum:textures/gui/book/icons/void_button.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 3.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+	      "type": "puffish_skills:points",
+	      "data": {
+		      "category": "puffish_skills:littlehelper",
+		      "points": 5
+	      }
+      }
+    ]
+  },
+
+  "lh_spirit_shield_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spirit_shield_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spirit_shield_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/shield.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spirit_shield", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_spirit_shield_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spirit_shield_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spirit_shield_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/shield.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spirit_shield", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_spirit_shield_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spirit_shield_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spirit_shield_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/shield.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spirit_shield", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_soul_heal_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_soul_heal_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_soul_heal_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_soul_heal", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_soul_heal_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_soul_heal_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_soul_heal_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_soul_heal", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_soul_heal_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_soul_heal_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_soul_heal_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/heal.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_soul_heal", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_spectral_phase_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spectral_phase_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spectral_phase_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/oakskin.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spectral_phase", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_spectral_phase_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spectral_phase_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spectral_phase_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/oakskin.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spectral_phase", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_spectral_phase_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spectral_phase_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spectral_phase_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/oakskin.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spectral_phase", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_spirit_release_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spirit_release_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spirit_release_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "item", "data": { "item": "quark:soul_bead" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spirit_release", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_spirit_release_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spirit_release_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spirit_release_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "item", "data": { "item": "quark:soul_bead" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spirit_release", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_spirit_release_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_spirit_release_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_spirit_release_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "item", "data": { "item": "quark:soul_bead" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_spirit_release", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "ymir_buff": {
+    "title": {"translate": "puffish_skills.littlehelper.ymir_buff"},
+    "description": {"translate": "puffish_skills.littlehelper.ymir_buff.description"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "ftbragnarok:buff_heart"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 2.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+	      "type": "puffish_skills:points",
+	      "data": {
+		      "category": "puffish_skills:littlehelper",
+		      "points": 4
+	      }
+      }
+    ]
+  },
+
+  "lh_frost_aura_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_frost_aura_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_frost_aura_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/frostwave.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_frost_aura", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_frost_aura_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_frost_aura_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_frost_aura_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/frostwave.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_frost_aura", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_frost_aura_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_frost_aura_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_frost_aura_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/frostwave.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_frost_aura", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_frost_hex_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_frost_hex_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_frost_hex_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "ftb:textures/mob_effect/maze_debuff.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_frost_hex", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_frost_hex_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_frost_hex_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_frost_hex_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "ftb:textures/mob_effect/maze_debuff.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_frost_hex", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_frost_hex_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_frost_hex_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_frost_hex_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "ftb:textures/mob_effect/maze_debuff.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_frost_hex", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_shockwave_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_shockwave_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_shockwave_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/gust.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_shockwave", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_shockwave_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_shockwave_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_shockwave_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/gust.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_shockwave", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_shockwave_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_shockwave_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_shockwave_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/gust.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_shockwave", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "jormungandr_buff": {
+    "title": {"translate": "puffish_skills.littlehelper.jormungandr_buff"},
+    "description": {"translate": "puffish_skills.littlehelper.jormungandr_buff.description"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "ftbragnarok:buff_heart"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 2.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+	      "type": "puffish_skills:points",
+	      "data": {
+		      "category": "puffish_skills:littlehelper",
+		      "points": 3
+	      }
+      }
+    ]
+  },
+
+  "lh_serpents_gift_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_serpents_gift_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_serpents_gift_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/mob_effect/guided.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_serpents_gift", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_serpents_gift_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_serpents_gift_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_serpents_gift_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/mob_effect/guided.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_serpents_gift", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_serpents_gift_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_serpents_gift_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_serpents_gift_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/mob_effect/guided.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_serpents_gift", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_tidal_pull_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_tidal_pull_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_tidal_pull_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/black_hole.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_tidal_pull", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_tidal_pull_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_tidal_pull_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_tidal_pull_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/black_hole.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_tidal_pull", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_tidal_pull_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_tidal_pull_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_tidal_pull_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/black_hole.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_tidal_pull", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "surtr_buff": {
+    "title": {"translate": "puffish_skills.littlehelper.surtr_buff"},
+    "description": {"translate": "puffish_skills.littlehelper.surtr_buff.description"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "ftbragnarok:buff_heart"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 2.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+	      "type": "puffish_skills:points",
+	      "data": {
+		      "category": "puffish_skills:littlehelper",
+		      "points": 4
+	      }
+      }
+    ]
+  },
+
+  "lh_inferno_armor_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_inferno_armor_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_inferno_armor_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/fortify.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_inferno_armor", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_inferno_armor_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_inferno_armor_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_inferno_armor_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/fortify.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_inferno_armor", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_inferno_armor_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_inferno_armor_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_inferno_armor_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/fortify.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_inferno_armor", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_heat_surge_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_heat_surge_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_heat_surge_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/heat_surge.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_heat_surge", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_heat_surge_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_heat_surge_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_heat_surge_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/heat_surge.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_heat_surge", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_heat_surge_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_heat_surge_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_heat_surge_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/heat_surge.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_heat_surge", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_fire_ward_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_fire_ward_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_fire_ward_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "effect", "data": { "effect": "fire_resistance" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_fire_ward", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_fire_ward_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_fire_ward_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_fire_ward_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "effect", "data": { "effect": "fire_resistance" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_fire_ward", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_fire_ward_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_fire_ward_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_fire_ward_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "effect", "data": { "effect": "fire_resistance" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_fire_ward", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "skoll_buff": {
+    "title": {"translate": "puffish_skills.littlehelper.skoll_buff"},
+    "description": {"translate": "puffish_skills.littlehelper.skoll_buff.description"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "ftbragnarok:buff_heart"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 2.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+	      "type": "puffish_skills:points",
+	      "data": {
+		      "category": "puffish_skills:littlehelper",
+		      "points": 4
+	      }
+      }
+    ]
+  },
+
+  "lh_shadow_step_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_shadow_step_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_shadow_step_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "relics:textures/gui/description/cards/shadow_glaive/glaive.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_shadow_step", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_shadow_step_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_shadow_step_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_shadow_step_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "relics:textures/gui/description/cards/shadow_glaive/glaive.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_shadow_step", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_shadow_step_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_shadow_step_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_shadow_step_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "relics:textures/gui/description/cards/shadow_glaive/glaive.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_shadow_step", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_eclipse_strike_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_eclipse_strike_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_eclipse_strike_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/echoing_strikes.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_eclipse_strike", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_eclipse_strike_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_eclipse_strike_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_eclipse_strike_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/echoing_strikes.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_eclipse_strike", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_eclipse_strike_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_eclipse_strike_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_eclipse_strike_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/echoing_strikes.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_eclipse_strike", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_blood_needles_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_blood_needles_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_blood_needles_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/blood_needles.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_blood_needles", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_blood_needles_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_blood_needles_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_blood_needles_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/blood_needles.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_blood_needles", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_blood_needles_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_blood_needles_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_blood_needles_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/blood_needles.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_blood_needles", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "nidhogg_buff": {
+    "title": {"translate": "puffish_skills.littlehelper.nidhogg_buff"},
+    "description": {"translate": "puffish_skills.littlehelper.nidhogg_buff.description"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "ftbragnarok:buff_heart"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 2.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+	      "type": "puffish_skills:points",
+	      "data": {
+		      "category": "puffish_skills:littlehelper",
+		      "points": 2
+	      }
+      }
+    ]
+  },
+
+  "lh_soul_devour_1": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_soul_devour_1"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_soul_devour_1.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/devour.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_soul_devour", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_soul_devour_2": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_soul_devour_2"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_soul_devour_2.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 1.0,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/devour.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_soul_devour", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+  "lh_soul_devour_3": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_soul_devour_3"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_soul_devour_3.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "size": 1.50,
+    "icon": { "type": "texture", "data": { "texture": "irons_spellbooks:textures/gui/spell_icons/devour.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_soul_devour", "value": 1, "operation": "addition" }
+      }
+    ]
+  },
+
+  "lh_deaths_defiance": {
+    "title": {"translate": "puffish_skills.littlehelper.lh_deaths_defiance"},
+    "description": {"translate": "puffish_skills.littlehelper.lh_deaths_defiance.description"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 2.5,
+    "icon": { "type": "texture", "data": { "texture": "relics:textures/gui/description/cards/holy_locket/blessing.png" } },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": { "attribute": "ftb:lh_death_defiance", "value": 1, "operation": "addition" }
+      }
+    ]
+  }
+}

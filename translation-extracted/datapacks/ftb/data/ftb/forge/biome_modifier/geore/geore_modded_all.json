@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:has_all_modded_geores",
+  "features": [
+    "ftb:geore_tin",
+    "ftb:geore_silver",
+    "ftb:geore_lead",
+    "ftb:geore_nickel",
+    "ftb:geore_black_quartz"
+  ],
+  "step": "underground_decoration"
+}

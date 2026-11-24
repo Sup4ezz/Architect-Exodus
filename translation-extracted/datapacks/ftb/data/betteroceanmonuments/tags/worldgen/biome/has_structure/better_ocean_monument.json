@@ -1,0 +1,6 @@
+{
+    "replace": true,
+    "values": [
+        "#ftb:has_ocean_monuments"
+    ]
+}

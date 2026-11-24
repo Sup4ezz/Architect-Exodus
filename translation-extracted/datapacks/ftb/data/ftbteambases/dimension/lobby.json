@@ -1,0 +1,79 @@
+{
+  "type": "ftbteambases:default",
+  "generator": {
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "experienceobelisk:whisperglass",
+          "height": 1
+        }
+        
+
+
+
+      ],
+      "biome": "ftbteambases:default",
+      "features": false
+    },
+    "type": "minecraft:flat"
+  }
+}

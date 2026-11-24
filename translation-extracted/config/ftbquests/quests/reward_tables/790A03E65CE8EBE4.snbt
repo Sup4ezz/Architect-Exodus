@@ -1,0 +1,30 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:particle/heart"
+		}
+	}
+	id: "790A03E65CE8EBE4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "farmersdelight:cabbage_rolls", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:grilled_salmon", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:dumplings", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:cod_roll", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:baked_cod_stew", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:bacon_sandwich", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:chicken_sandwich", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:mutton_wrap", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:hamburger", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:stuffed_potato", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:egg_sandwich", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:salmon_roll", random_bonus: 8 }
+		{ count: 4, item: "farmersdelight:barbecue_stick", random_bonus: 8 }
+	]
+	title: "{ftbquests.loot_table.8721787916292516836.title}"
+	use_title: true
+}

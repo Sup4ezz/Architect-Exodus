@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "#minecraft:is_overworld",
+        "#ftb:is_alfheim",
+        "#ftb:is_asgard"
+    ]
+}

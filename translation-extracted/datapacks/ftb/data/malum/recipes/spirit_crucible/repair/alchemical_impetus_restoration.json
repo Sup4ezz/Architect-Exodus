@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1.0,
+  "inputs": [
+    "malum:cracked_alchemical_impetus"
+  ],
+  "itemIdRegex": "none",
+  "modIdRegex": "",
+  "repairMaterial": {
+    "count": 1,
+    "item": "malum:alchemical_calx"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 1
+    },
+    {
+      "type": "arcane",
+      "count": 1
+    }
+  ]
+}

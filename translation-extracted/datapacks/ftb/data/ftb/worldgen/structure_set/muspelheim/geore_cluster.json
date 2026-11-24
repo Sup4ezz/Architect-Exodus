@@ -1,0 +1,15 @@
+{
+  "structures": [
+    { "structure": "ftb:hel/geore_clusters/coal", "weight": 1 },
+    { "structure": "ftb:hel/geore_clusters/copper", "weight": 1 },
+    { "structure": "ftb:hel/geore_clusters/iron", "weight": 1 },
+    { "structure": "ftb:hel/geore_clusters/quartz", "weight": 1 },
+    { "structure": "ftb:hel/geore_clusters/redstone", "weight": 1 }
+  ],
+  "placement": {
+    "salt": 21061990,
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16
+  }
+}

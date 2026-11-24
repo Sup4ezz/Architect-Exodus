@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_musp",
+  "features": "ftb:muspelheim/draconium_ore",
+  "step": "underground_ores"
+}

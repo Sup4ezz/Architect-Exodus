@@ -1,0 +1,86 @@
+{
+	icon: {
+		Count: 1
+		id: "simplyswords:toxic_longsword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4D7B2A9F5C18E36A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:tainted_relic"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aTainted Relic"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:frostfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aFrostfall"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:arcanethyst"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aArcanethyst"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:emberblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aEmberblade"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:toxic_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aToxic Longsword"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:shadowsting"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aShadowsting"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:thunderbrand"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aThunderbrand"
+		}
+	]
+	title: "{ftbquests.loot_table.5583103026989163370.title}"
+	use_title: true
+}

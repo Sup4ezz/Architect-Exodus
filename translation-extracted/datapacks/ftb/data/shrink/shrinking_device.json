@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:polished_blackstone_button"
+    },
+    "e": {
+      "tag": "forge:ender_pearls"
+    },
+    "g": {
+      "tag": "forge:glass"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": ["iei", "igi", "ibi"],
+  "result": {
+    "item": "shrink:shrinking_device"
+  }
+}

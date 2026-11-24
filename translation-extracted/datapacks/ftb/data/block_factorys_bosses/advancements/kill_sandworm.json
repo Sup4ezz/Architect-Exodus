@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{CustomModelData:7}"
+    },
+    "title": {
+      "translate": "advancements.kill_sandworm.title"
+    },
+    "description": {
+      "translate": "advancements.kill_sandworm.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_worm": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "block_factorys_bosses:sandworm"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "block_factorys_bosses:die_boss"
+}

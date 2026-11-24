@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:jotunheim/water_dungeon_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 1734154888,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.4,
+    "spacing": 12,
+    "separation": 6
+  },
+  "exclusion_zone": {
+    "other_set": "ftb:jotunheim/water_dungeon_1",
+    "chunk_count": 10
+  }
+}

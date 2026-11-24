@@ -1,0 +1,105 @@
+{
+  "temperature": 2.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 10518688,
+    "water_color": 9995221,
+    "water_fog_color": 329011,
+    "grass_color": 10717400,
+    "foliage_color": 4561369,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:draugr",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "iceandfire:dread_thrall",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "iceandfire:dread_beast",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quark:wraith",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "alexscaves:gloomoth",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "energy_budget": 0.4,
+      "charge": 0.4
+    },
+    "cataclysm:draugr": {
+      "energy_budget": 0.4,
+      "charge": 0.3
+    },
+    "iceandfire:dread_thrall": {
+      "energy_budget": 0.4,
+      "charge": 0.3
+    },
+    "iceandfire:dread_beast": {
+      "energy_budget": 0.4,
+      "charge": 0.5
+    },
+    "quark:wraith": {
+      "energy_budget": 0.4,
+      "charge": 0.4
+    },
+    "alexscaves:gloomoth": {
+      "energy_budget": 0.8,
+      "charge": 0.9
+    }
+  },
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    ["minecraft:end_gateway_return"],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

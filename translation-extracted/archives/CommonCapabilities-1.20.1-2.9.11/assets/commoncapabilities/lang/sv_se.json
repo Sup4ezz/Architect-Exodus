@@ -1,0 +1,11 @@
+{
+    "_comment": "Configuration",
+    "config.commoncapabilities": "Konfiguration av %s",
+
+    "_comment": "# Capability settings",
+    "capability.commoncapabilities.inventoryState": "Utrustningstillstånd",
+    "capability.commoncapabilities.temperature": "Temperatur",
+    "capability.commoncapabilities.worker": "Arbetare",
+    "capability.commoncapabilities.worldNameable": "Värld kan byta namn",
+    "capability.commoncapabilities.wrench": "Blocknyckel"
+}

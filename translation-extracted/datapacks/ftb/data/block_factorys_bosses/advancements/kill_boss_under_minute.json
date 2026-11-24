@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{CustomModelData:6}"
+    },
+    "title": {
+      "translate": "advancements.kill_boss_under_minute.title"
+    },
+    "description": {
+      "translate": "advancements.kill_boss_under_minute.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_boss_under_minute_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "block_factorys_bosses:die_boss"
+}

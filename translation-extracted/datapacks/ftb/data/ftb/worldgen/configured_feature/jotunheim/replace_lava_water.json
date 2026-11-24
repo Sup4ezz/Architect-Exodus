@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "target": {
+      "Name": "powah:dry_ice",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "radius": 12
+  }
+}

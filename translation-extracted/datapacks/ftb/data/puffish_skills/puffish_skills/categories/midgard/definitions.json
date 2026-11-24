@@ -1,0 +1,599 @@
+{
+  "root_critical_damage+5%": {
+    "title": {"translate": "puffish_skills.midgard.root_critical_damage+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "draconicevolution:textures/module/draconic_damage.png"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "protection_pierce+2": {
+    "title": {"translate": "puffish_skills.midgard.protection_pierce+2"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "tconstruct:pierce"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:prot_pierce",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "protection_pierce+3": {
+    "title": {"translate": "puffish_skills.midgard.protection_pierce+3"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "tconstruct:pierce"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:prot_pierce",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "protection_shred+2%": {
+    "title": {"translate": "puffish_skills.midgard.protection_shred+2%"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alexscaves:gingerbread_chestplate"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:prot_shred",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "protection_shred+3%": {
+    "title": {"translate": "puffish_skills.midgard.protection_shred+3%"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alexscaves:gingerbread_chestplate"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:prot_shred",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "protection_shred+5%": {
+    "title": {"translate": "puffish_skills.midgard.protection_shred+5%"},
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alexscaves:gingerbread_chestplate"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:prot_shred",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce+1": {
+    "title": {"translate": "puffish_skills.midgard.armor_pierce+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "tconstruct:pierce"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_pierce",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce+2": {
+    "title": {"translate": "puffish_skills.midgard.armor_pierce+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "tconstruct:pierce"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_pierce",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_shred+5%": {
+    "title": {"translate": "puffish_skills.midgard.armor_shred+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "fluffy_fur:textures/mob_effect/knockback_sensibility.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_shred",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_shred+10%": {
+    "title": {"translate": "puffish_skills.midgard.armor_shred+10%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "fluffy_fur:textures/mob_effect/knockback_sensibility.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_shred",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "critical_damage+3%": {
+    "title": {"translate": "puffish_skills.midgard.critical_damage+3%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "draconicevolution:textures/module/draconic_damage.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "critical_damage+5%": {
+    "title": {"translate": "puffish_skills.midgard.critical_damage+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "draconicevolution:textures/module/draconic_damage.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "critical_damage+10%": {
+    "title": {"translate": "puffish_skills.midgard.critical_damage+10%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "draconicevolution:textures/module/draconic_damage.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_resistance+2%": {
+    "title": {"translate": "puffish_skills.midgard.melee_resistance+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/gui/modifiers/armor/melee_protection.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_resistance",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "armor+1": {
+    "title": {"translate": "puffish_skills.midgard.armor+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+2": {
+    "title": {"translate": "puffish_skills.midgard.armor+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness+1": {
+    "title": {"translate": "puffish_skills.midgard.armor_toughness+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "fluffy_fur:textures/mob_effect/armor_toughness_strength.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+1": {
+    "title": {"translate": "puffish_skills.midgard.max_health_+1"},
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+3": {
+    "title": {"translate": "puffish_skills.midgard.max_health_+3"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "stamina+3%": {
+    "title": {"translate": "puffish_skills.midgard.stamina+3%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "stamina+5%": {
+    "title": {"translate": "puffish_skills.midgard.stamina+5%"},
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "stamina+10%": {
+    "title": {"translate": "puffish_skills.midgard.stamina+10%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

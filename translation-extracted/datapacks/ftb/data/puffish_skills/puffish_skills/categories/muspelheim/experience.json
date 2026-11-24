@@ -1,0 +1,9 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level^3.432 + 500, 10000)"
+		}
+	},
+	"sources": []
+}

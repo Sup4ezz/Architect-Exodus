@@ -1,0 +1,23 @@
+
+[core]
+
+	[core.general]
+		#If mod compatibility loader should crash hard if errors occur in that process.
+		crashOnModCompatCrash = false
+		#Set 'true' to enable development debug mode. This will result in a lower performance!
+		debug = false
+		#The anonymous id used by the analytics service.
+		anonymousAnalyticsID = "df54a18b-047a-477a-91ba-2cb2ecac04c4"
+		#If the recipe loader should crash when finding invalid recipes.
+		crashOnInvalidRecipe = false
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = true
+		#If the version checker should be enabled.
+		versionChecker = true
+
+[general]
+
+	[general.general]
+		#If a button should be added to the main menu to open a dev world (shift-click creates a new world).
+		devWorldButton = false
+

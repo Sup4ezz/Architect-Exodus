@@ -1,0 +1,209 @@
+{
+  "has_precipitation": true,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "snowflake"
+      },
+      "probability": 0.04
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.snowy_slopes",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "sky_color": 8560639,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "foliage_color": 12906201
+  },
+  "carvers": {
+    "air": ["ftb:cave", "ftb:cave_extra_underground", "ftb:canyon"]
+  },
+  "features": [
+    [],
+    [],
+    ["minecraft:amethyst_geode", "ftb:jotunheim/ae2_geode"],
+    ["minecraft:fossil_upper", "minecraft:fossil_lower", "minecraft:monster_room", "minecraft:monster_room_deep"],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    ["ftb:jotunheim/bog/tree1", "ftb:jotunheim/bog/tree_icycle1", "ftb:jotunheim/bog/tree_icycle2"],
+    ["minecraft:spring_water"],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_grass_normal",
+      "minecraft:patch_waterlily",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:seagrass_swamp"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "creature_spawn_probability": 0.20,
+  "spawners": {
+    "monster": [
+      {
+        "type": "iceandfire:amphithere",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "alexscaves:relicheirus",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "thermal:blizz",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "iceandfire:troll",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "cataclysm:deepling",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling_brute",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling_angler",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cataclysm:deepling_priest",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cataclysm:deepling_warlock",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:stray",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "alexscaves:vallumraptor",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "irons_spellbooks:ice_spider",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "alexscaves:relicheirus": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:amphithere": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:sea_serpent": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:troll": {
+      "charge": 1,
+      "energy_budget":1.0
+    },
+    "thermal:blizz": {
+      "charge": 1,
+      "energy_budget": 0.3
+    },
+    "minecraft:stray": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "alexscaves:vallumraptor": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "irons_spellbooks:ice_spider": {
+      "charge": 1,
+      "energy_budget": 0.15
+    },
+    "cataclysm:deepling": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "cataclysm:deepling_brute": {
+      "charge": 0.8,
+      "energy_budget": 0.2
+    },
+    "cataclysm:deepling_angler": {
+      "charge": 0.6,
+      "energy_budget": 0.3
+    },
+    "cataclysm:deepling_priest": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    },
+    "cataclysm:deepling_warlock": {
+      "charge": 0.8,
+      "energy_budget": 0.15
+    }
+  },
+  "precipitation": "snow",
+  "temperature": 0,
+  "temperature_modifier": "frozen",
+  "downfall": 0.5,
+  "category": "swamp"
+}

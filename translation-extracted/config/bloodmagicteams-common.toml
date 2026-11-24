@@ -1,0 +1,16 @@
+
+#BloodMagic Teams Configuration
+[general]
+	#Enable team-level soul network binding
+	enableTeamBinding = true
+	#Show UI when binding items to choose between personal and team binding
+	showBindingUI = true
+	#Allow players to use /bmteams bindingmode command to set their default binding mode
+	allowBindingModeCommand = true
+	#Default binding mode when UI is disabled or player hasn't set a preference
+	#PERSONAL = bind to player's personal soul network
+	#TEAM = bind to team's shared soul network
+	#ASK = always show the binding UI
+	#Allowed Values: PERSONAL, TEAM, ASK
+	defaultBindingMode = "ASK"
+

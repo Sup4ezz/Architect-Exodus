@@ -1,0 +1,18 @@
+{
+	icon: "tconstruct:pick_head_cast"
+	id: "449AE273605EF12B"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "tconstruct:helmet_plating_cast" }
+		{ item: "tconstruct:chestplate_plating_cast" }
+		{ item: "tconstruct:leggings_plating_cast" }
+		{ item: "tconstruct:boots_plating_cast" }
+		{ item: "tconstruct:pick_head_cast" }
+		{ item: "tconstruct:small_blade_cast" }
+		{ item: "tconstruct:tool_handle_cast" }
+		{ item: "tconstruct:tool_binding_cast" }
+	]
+	title: "{ftbquests.loot_table.4943512526158491947.title}"
+	use_title: true
+}

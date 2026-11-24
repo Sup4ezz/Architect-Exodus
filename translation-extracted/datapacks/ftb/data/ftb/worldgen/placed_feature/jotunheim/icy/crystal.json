@@ -1,0 +1,16 @@
+{
+  "feature": "ftb:jotunheim/icy/crystal",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 8
+    },
+    {
+      "type": "minecraft:carving_mask",
+      "step": "liquid"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

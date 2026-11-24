@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:has_dragon_worldgen",
+  "features": [
+    "iceandfire:fire_dragon_cave",
+    "iceandfire:ice_dragon_cave",
+    "iceandfire:lightning_dragon_cave"
+  ],
+  "step": "underground_structures"
+}

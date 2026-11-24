@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "nullscape:crystal_peaks",
+  "features": ["scraps:metal_stone","scraps:trash_stone"],
+  "step": "top_layer_modification"
+}

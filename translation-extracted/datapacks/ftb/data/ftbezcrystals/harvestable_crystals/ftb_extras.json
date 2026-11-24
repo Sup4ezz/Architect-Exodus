@@ -1,0 +1,32 @@
+{
+  "geore:tin_cluster": {
+    "bud": "geore:small_tin_bud",
+    "budding_block": [
+      "geore:budding_tin"
+    ]
+  },
+  "geore:silver_cluster": {
+    "bud": "geore:small_silver_bud",
+    "budding_block": [
+      "geore:budding_silver"
+    ]
+  },
+  "geore:lead_cluster": {
+    "bud": "geore:small_lead_bud",
+    "budding_block": [
+      "geore:budding_lead"
+    ]
+  },
+  "geore:nickel_cluster": {
+    "bud": "geore:small_nickel_bud",
+    "budding_block": [
+      "geore:budding_nickel"
+    ]
+  },
+  "geore:black_quartz_cluster": {
+    "bud": "geore:small_black_quartz_bud",
+    "budding_block": [
+      "geore:budding_black_quartz"
+    ]
+  }
+}

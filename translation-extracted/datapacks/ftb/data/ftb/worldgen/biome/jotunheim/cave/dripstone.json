@@ -1,0 +1,105 @@
+{
+  "has_precipitation": true,
+
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.dripstone_caves",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "carvers": {
+    "air": ["ftb:cave", "ftb:cave_extra_underground", "ftb:canyon"]
+  },
+  "features": [
+    [],
+    [],
+    ["minecraft:amethyst_geode", "minecraft:large_dripstone"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    ["minecraft:dripstone_cluster", "minecraft:pointed_dripstone"],
+    ["minecraft:spring_water"],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:trees_plains",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "alexscaves:relicheirus",
+        "weight": 50,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "iceandfire:troll",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      
+    ],
+    "ambient": [
+    ],
+    "underground_water_creature": [
+    ]
+  },
+  "spawn_costs": {
+    "alexscaves:relicheirus": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:amphithere": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:sea_serpent": {
+      "charge": 1,
+      "energy_budget":0.5
+    },
+    "iceandfire:troll": {
+      "charge": 1,
+      "energy_budget":1.0
+    }
+  },
+  "precipitation": "rain",
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "category": "underground"
+}

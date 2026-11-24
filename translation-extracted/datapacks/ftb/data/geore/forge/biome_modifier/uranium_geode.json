@@ -1,0 +1,7 @@
+{
+  "type": "forge:none",
+  "biomes": "#minecraft:is_overworld",
+  "enabledConfig": "uranium",
+  "features": "geore:uranium_geode",
+  "step": "local_modifications"
+}

@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "ftb:niflheim/permafrost",
+        "ftb:niflheim/frozen_cliffs",
+        "ftb:niflheim/frosty_caves",
+        "ftb:niflheim/nastrand",
+        "terralith:cave/frostfire_caves",
+        "terralith:cave/ice_caves",
+        "minecraft:lush_caves"
+    ]
+}

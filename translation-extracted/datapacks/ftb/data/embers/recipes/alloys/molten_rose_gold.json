@@ -1,0 +1,17 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 90,
+      "tag": "forge:molten_copper"
+    },
+    {
+      "amount": 90,
+      "tag": "forge:molten_gold"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "tag": "forge:molten_rose_gold"
+  }
+}

@@ -1,0 +1,771 @@
+{
+	"root_spell_damage+10%": {
+		"title": {"translate": "puffish_skills.magic.root_spell_damage+10%"},
+		"frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"size": 1.25,
+		"extra_description": {"translate": "puffish_skills.magic.root_spell_damage+10%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 1.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_damage+1%": {
+		"title": {"translate": "puffish_skills.magic.spell_damage+1%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    	},
+		"size": 0.5,
+		"extra_description": {"translate": "puffish_skills.magic.spell_damage+1%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_damage+5%": {
+		"title": {"translate": "puffish_skills.magic.spell_damage+5%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    	},
+		"extra_description": {"translate": "puffish_skills.magic.spell_damage+5%.extra_description"},
+		"size": 0.75,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 0.50,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_damage+10%": {
+		"title": {"translate": "puffish_skills.magic.spell_damage+10%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        	"locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        	"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        	"available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      		}
+    	},
+		"extra_description": {"translate": "puffish_skills.magic.spell_damage+10%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 1.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_damage+20%": {
+		"title": {"translate": "puffish_skills.magic.spell_damage+20%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        	"locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        	"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        	"available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      		}
+    	},
+		"extra_description": {"translate": "puffish_skills.magic.spell_damage+20%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 2.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_damage+25%": {
+		"title": {"translate": "puffish_skills.magic.spell_damage+25%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      		}
+    	},
+		"extra_description": {"translate": "puffish_skills.magic.spell_damage+25%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 2.50,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_damage+50%": {
+		"title": {"translate": "puffish_skills.magic.spell_damage+50%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"extra_description": {"translate": "puffish_skills.magic.spell_damage+50%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.50,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 5.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"max_mana+5": {
+		"title": {"translate": "puffish_skills.magic.max_mana+5"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "botania:mana_bottle"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+      		"data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      			}
+    	},
+		"size": 0.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:max_mana",
+					"value": 5.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"max_mana+10": {
+		"title": {"translate": "puffish_skills.magic.max_mana+10"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "botania:mana_bottle"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        	"locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        	"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        	"available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      		}
+    	},
+		"size": 0.75,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:max_mana",
+					"value": 10.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"max_mana+25": {
+		"title": {"translate": "puffish_skills.magic.max_mana+25"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "botania:mana_bottle"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:max_mana",
+					"value": 25.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"max_mana+50": {
+		"title": {"translate": "puffish_skills.magic.max_mana+50"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "botania:mana_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:max_mana",
+					"value": 50.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"max_mana+100": {
+		"title": {"translate": "puffish_skills.magic.max_mana+100"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "botania:mana_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:max_mana",
+					"value": 100.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"summon_damage+5%": {
+		"title": {"translate": "puffish_skills.magic.summon_damage+5%"},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/summon_polar_bear.png"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      		}
+    	},
+		"size": 0.75,
+		"extra_description": {"translate": "puffish_skills.magic.summon_damage+5%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"summon_damage+10%": {
+		"title": {"translate": "puffish_skills.magic.summon_damage+10%"},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/summon_polar_bear.png"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      		}
+    	},
+		"extra_description": {"translate": "puffish_skills.magic.summon_damage+10%.extra_description"},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"mana_regen+2%": {
+		"title": {"translate": "puffish_skills.magic.mana_regen+2%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    	},
+		"size": 0.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:mana_regen",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mana_regen+5%": {
+		"title": {"translate": "puffish_skills.magic.mana_regen+5%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      		}
+    	},
+		"size": 0.75,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:mana_regen",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mana_regen+10%": {
+		"title": {"translate": "puffish_skills.magic.mana_regen+10%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      		}
+    	},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:mana_regen",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mana_regen+20%": {
+		"title": {"translate": "puffish_skills.magic.mana_regen+20%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:mana_regen",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mana_regen+25%": {
+		"title": {"translate": "puffish_skills.magic.mana_regen+25%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "manaunification:mana_regen",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+
+	"iron_cast_speed+5%": {
+		"title": {"translate": "puffish_skills.magic.iron_cast_speed+5%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    	},
+		"size": 0.75,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_cast_speed+10%": {
+		"title": {"translate": "puffish_skills.magic.iron_cast_speed+10%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      		}
+    	},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_cast_speed+25%": {
+		"title": {"translate": "puffish_skills.magic.iron_cast_speed+25%"},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_cast_speed+50%": {
+		"title": {"translate": "puffish_skills.magic.iron_cast_speed+50%"},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.50,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	
+	"iron_cooldown-5%": {
+		"title": {"translate": "puffish_skills.magic.iron_cooldown-5%"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": {
+      	"type": "texture",
+      	"data": {
+        	"locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        	"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        	"available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    	},
+		"size": 0.75,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_cooldown-10%": {
+		"title": {"translate": "puffish_skills.magic.iron_cooldown-10%"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": {
+      		"type": "texture",
+     		 "data": {
+        		"locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        		"unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        		"available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      		}
+    	},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_cooldown-25%": {
+		"title": {"translate": "puffish_skills.magic.iron_cooldown-25%"},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"iron_cooldown-50%": {
+		"title": {"translate": "puffish_skills.magic.iron_cooldown-50%"},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+}

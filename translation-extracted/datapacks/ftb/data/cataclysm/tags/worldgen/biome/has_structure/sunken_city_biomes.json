@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:deep_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:deep_frozen_ocean",
+    "ftb:jotunheim/glacial_ocean",
+    "ftb:jotunheim/ice_bog"
+  ]
+}

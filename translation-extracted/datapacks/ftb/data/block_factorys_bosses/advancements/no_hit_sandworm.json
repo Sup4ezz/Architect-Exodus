@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{CustomModelData:8}"
+    },
+    "title": {
+      "translate": "advancements.no_hit_sandworm.title"
+    },
+    "description": {
+      "translate": "advancements.no_hit_sandworm.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "no_hit_sandworm_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "block_factorys_bosses:kill_sandworm"
+}

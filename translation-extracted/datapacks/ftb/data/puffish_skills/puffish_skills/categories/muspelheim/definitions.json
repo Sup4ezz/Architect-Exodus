@@ -1,0 +1,993 @@
+{
+  "root_resistance_+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.root_resistance_+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.resistance",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "armor_pierce+1": {
+    "title": {"translate": "puffish_skills.muspelheim.armor_pierce+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "tconstruct:pierce"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_pierce",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce+2": {
+    "title": {"translate": "puffish_skills.muspelheim.armor_pierce+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "tconstruct:pierce"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_pierce",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_shred+10%": {
+    "title": {"translate": "puffish_skills.muspelheim.armor_shred+10%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "fluffy_fur:textures/mob_effect/knockback_sensibility.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_shred",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+1": {
+    "title": {"translate": "puffish_skills.muspelheim.armor+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+2": {
+    "title": {"translate": "puffish_skills.muspelheim.armor+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor+3": {
+    "title": {"translate": "puffish_skills.muspelheim.armor+3"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness+1": {
+    "title": {"translate": "puffish_skills.muspelheim.armor_toughness+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "size": 0.75,
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "fluffy_fur:textures/mob_effect/armor_toughness_strength.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness+2": {
+    "title": {"translate": "puffish_skills.muspelheim.armor_toughness+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness+3": {
+    "title": {"translate": "puffish_skills.muspelheim.armor_toughness+3"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "size": 1.25,
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "experience_gained+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.experience_gained+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/mob_effect/experienced.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "experience_gained+10%": {
+    "title": {"translate": "puffish_skills.muspelheim.experience_gained+10%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/mob_effect/experienced.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "healing+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.healing+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "attributeslib:textures/mob_effect/vitality.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "healing+10%": {
+    "title": {"translate": "puffish_skills.muspelheim.healing+10%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.healing",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "life_steal+2%": {
+    "title": {"translate": "puffish_skills.muspelheim.life_steal+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "botania:textures/mob_effect/bloodthirst.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:life_steal",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "life_steal+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.life_steal+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "botania:textures/mob_effect/bloodthirst.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:life_steal",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "magic_resistance+2%": {
+    "title": {"translate": "puffish_skills.muspelheim.magic_resistance+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:magic_resistance"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.magic_resistance",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "magic_resistance+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.magic_resistance+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "cofh_core:magic_resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.magic_resistance",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "melee_resistance+2%": {
+    "title": {"translate": "puffish_skills.muspelheim.melee_resistance+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/gui/modifiers/armor/melee_protection.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_resistance",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "melee_resistance+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.melee_resistance+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "tconstruct:textures/gui/modifiers/armor/melee_protection.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_resistance",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "pickaxe_speed+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.pickaxe_speed+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "haste"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.pickaxe_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "max_health_+1": {
+    "title": {"translate": "puffish_skills.muspelheim.max_health_+1"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+2": {
+    "title": {"translate": "puffish_skills.muspelheim.max_health_+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+3": {
+    "title": {"translate": "puffish_skills.muspelheim.max_health_+3"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_+5": {
+    "title": {"translate": "puffish_skills.muspelheim.max_health_+5"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_1.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_1.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_1.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "instant_health"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 10,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage+2%": {
+    "title": {"translate": "puffish_skills.muspelheim.melee_damage+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_damage",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "melee_damage+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.melee_damage+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "melee_damage+7%": {
+    "title": {"translate": "puffish_skills.muspelheim.melee_damage+7%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_2.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_2.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_2.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.melee_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "resistance_+2%": {
+    "title": {"translate": "puffish_skills.muspelheim.resistance_+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.resistance",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "resistance_+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.resistance_+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.resistance",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "ranged_resistance_+2%": {
+    "title": {"translate": "puffish_skills.muspelheim.ranged_resistance_+2%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "size": 0.75,
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "irons_spellbooks:rend"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.ranged_resistance",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "ranged_resistance_+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.ranged_resistance_+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "irons_spellbooks:rend"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.ranged_resistance",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "stamina+5%": {
+    "title": {"translate": "puffish_skills.muspelheim.stamina+5%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_3.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_3.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_3.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "stamina+10%": {
+    "title": {"translate": "puffish_skills.muspelheim.stamina+10%"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "farmersdelight:textures/mob_effect/nourishment.png"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.stamina",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "fire_damage+2": {
+    "title": {"translate": "puffish_skills.muspelheim.fire_damage+2"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "attributeslib:detonation"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:fire_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ultimine+8": {
+    "title": {"translate": "puffish_skills.muspelheim.ultimine+8"},
+    "frame": {
+      "type": "texture",
+      "data": {
+        "locked": "ftb:textures/skills/frames/locked/locked_frame_5.png",
+        "unlocked": "ftb:textures/skills/frames/unlocked/unlocked_frame_5.png",
+        "available": "ftb:textures/skills/frames/available/available_frame_5.png"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "size": 1.5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

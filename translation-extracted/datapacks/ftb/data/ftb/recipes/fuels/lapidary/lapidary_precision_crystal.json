@@ -1,0 +1,7 @@
+{
+  "type": "thermal:lapidary_fuel",
+  "ingredient": {
+    "tag": "forge:gems/precision_crystal"
+  },
+  "energy": 200000
+}

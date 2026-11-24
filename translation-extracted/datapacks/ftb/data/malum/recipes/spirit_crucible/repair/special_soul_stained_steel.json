@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1.0,
+  "inputs": [
+    "malum:soul_stained_steel_scythe",
+    "malum:soul_stained_steel_helmet",
+    "malum:soul_stained_steel_chestplate",
+    "malum:soul_stained_steel_leggings",
+    "malum:soul_stained_steel_boots"
+  ],
+  "itemIdRegex": "",
+  "modIdRegex": "",
+  "repairMaterial": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_ingot"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 4
+    },
+    {
+      "type": "earthen",
+      "count": 2
+    },
+    {
+      "type": "wicked",
+      "count": 1
+    }
+  ]
+}

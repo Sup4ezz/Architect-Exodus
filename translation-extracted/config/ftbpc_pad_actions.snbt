@@ -1,0 +1,25 @@
+{
+	actions: [
+    {
+			command_action: {
+				command: "/bifrost"
+			}
+			name: "ftbpackcompanion.bifrost"
+			icon: "botania:item/rainbow_rod"
+		}
+    {
+			command_action: {
+				command: "/home"
+			}
+			name: "ftbpackcompanion.home"
+			icon: "ftblibrary:icons/bed"
+		}
+		{
+			command_action: {
+				command: "/ftbteambases lobby"
+			}
+			name: "ftbpackcompanion.spawn"
+			icon: "ftblibrary:icons/globe"
+		}
+	]
+}

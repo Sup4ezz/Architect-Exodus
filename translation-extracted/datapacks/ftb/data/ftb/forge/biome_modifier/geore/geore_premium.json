@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:has_geores_premium",
+  "features": [
+    "geore:coal_geode",
+    "geore:copper_geode",
+    "geore:diamond_geode",
+    "geore:emerald_geode",
+    "geore:gold_geode",
+    "geore:lapis_geode",
+    "geore:iron_geode",
+    "geore:quartz_geode",
+    "geore:redstone_geode"
+  ],
+  "step": "local_modifications"
+}

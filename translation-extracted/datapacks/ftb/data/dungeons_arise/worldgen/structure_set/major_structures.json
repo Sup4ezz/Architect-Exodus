@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:monastery",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:infested_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 88371663,
+    "spacing": 240,
+    "separation": 200,
+    "type": "minecraft:random_spread"
+  }
+}

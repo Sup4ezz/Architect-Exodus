@@ -1,0 +1,6 @@
+{
+  "icon": "ftb:slot/empty_bifrost_key",
+  "size": 1,
+  "order": 800,
+  "validators": ["curios:tag"]
+}

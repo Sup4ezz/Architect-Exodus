@@ -1,0 +1,8 @@
+{
+  "ftblh.chat_prefix": "[Vaett] ",
+  "entity.ftblh.little_helper": "Vaett",
+  "ftblh.npc.vaett": "Vaett",
+  "ftblh.respawn.welcome_back": "Ei, você enfraqueceu demais por um instante lá atrás, mas eu te peguei e te trouxe de volta para cá! Nós faremos melhor da próxima vez, a gente consegue!",
+  "ftblh.respawn.food_eaten": "Carregar você deu muito trabalho e me deixou com muita fome, então tive que comer um pouco de %s. Espero que não se importe.",
+  "ftblh.respawn.no_food": "Carregar você deu muito trabalho, tem algo para comer?"
+}

@@ -1,0 +1,12 @@
+//priority: 99951
+const FTBUtilsKJS = {
+  NIL_UUID: new Java$UUID(0,0),
+  createConsumer: function (fun) {
+    return KubeJS$UtilsJS.makeFunctionProxy("startup", Java$Consumer, fun);
+  },
+  createPredicate: function (match) {
+    return KubeJS$UtilsJS.makeFunctionProxy("startup", Java$Predicate, (id) => {
+      return id == match;
+    });
+  }
+}

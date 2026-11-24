@@ -1,0 +1,16 @@
+{
+	"feature": "ftb:jotunheim/frozen_delta",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 15
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

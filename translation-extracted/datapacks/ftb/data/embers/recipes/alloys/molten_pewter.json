@@ -1,0 +1,17 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 270,
+      "tag": "forge:molten_tin"
+    },
+    {
+      "amount": 90,
+      "tag": "forge:molten_lead"
+    }
+  ],
+  "output": {
+    "amount": 360,
+    "tag": "forge:molten_pewter"
+  }
+}

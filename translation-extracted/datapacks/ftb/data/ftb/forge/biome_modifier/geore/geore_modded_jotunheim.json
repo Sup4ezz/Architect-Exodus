@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_jotunheim",
+  "features": [
+    "ftb:geore_tin",
+    "ftb:geore_lead",
+    "ftb:geore_nickel",
+    "ftb:jotunheim/geore_black_quartz"
+  ],
+  "step": "underground_decoration"
+}

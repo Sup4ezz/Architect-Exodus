@@ -1,0 +1,79 @@
+{
+  "type": "ftb:ginnungagap",
+  "generator": {
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "connectedglass:clear_glass_black",
+          "height": 1
+        }
+        
+
+
+
+      ],
+      "biome": "minecraft:the_void",
+      "features": false
+    },
+    "type": "minecraft:flat"
+  }
+}

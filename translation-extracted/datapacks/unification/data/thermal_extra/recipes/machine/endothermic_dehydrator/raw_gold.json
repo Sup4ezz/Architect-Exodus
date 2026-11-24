@@ -1,0 +1,25 @@
+{
+  "type": "thermal_extra:endothermic_dehydrator",
+  "energy": 100000,
+  "ingredients": [
+    {
+      "amount": 90,
+      "fluid": "thermal_extra:raw_gold"
+    }
+  ],
+  "result": [
+    {
+      "chance": 1.25,
+      "count": 2,
+      "item": "ftbmaterials:gold_dust"
+    },
+    {
+      "chance": 0.5,
+      "item": "ftbmaterials:gold_dust"
+    },
+    {
+      "chance": 0.15,
+      "item": "ftbmaterials:copper_dust"
+    }
+  ]
+}

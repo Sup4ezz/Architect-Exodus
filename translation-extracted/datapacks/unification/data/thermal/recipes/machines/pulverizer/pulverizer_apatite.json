@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:gems/apatite"
+  },
+  "result": [
+    {
+      "item": "ftbmaterials:apatite_dust",
+      "count": 1
+    }
+  ]
+}

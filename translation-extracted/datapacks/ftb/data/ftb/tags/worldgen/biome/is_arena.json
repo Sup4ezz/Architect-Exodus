@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ftb:arena/asgard",
+    "ftb:arena/ginnungagap",
+    "ftb:arena/hel",
+    "ftb:arena/jotunheim",
+    "ftb:arena/muspelheim",
+    "ftb:arena/niflheim"
+  ]
+}

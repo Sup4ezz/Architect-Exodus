@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:weighted_selector",
+  "config": {
+    "features": [
+      {
+        "data": "ftb:jotunheim/bog/tree1",
+        "weight": 3
+      },
+      {
+        "data": "ftb:jotunheim/bog/tree1",
+        "weight": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+	icon: {
+		Count: 1
+		id: "simplyswords:soulrender"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6B1A7F4E2C8D9053"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:whisperwind"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&6Whisperwind"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:stars_edge"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&6Star's Edge"
+		}
+		{ item: "mythicbotany:mjoellnir", title: "&6Mjölnir" }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:brimstone_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&6Brimstone Claymore"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:soulrender"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&6Soulrender"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:watcher_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&dWatcher Claymore"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:molten_edge"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&dMolten Edge"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:harbinger"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&dHarbinger"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:enigma"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&dEnigma"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:livyatan"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&dLivyatan"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:magiscythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&dMagiscythe"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:watching_warglaive"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Watching Warglaive"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:soulstealer"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Soulstealer"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:stormbringer"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Stormbringer"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:caelestis"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Caelestis"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:twisted_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Twisted Blade"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:icewhisper"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Icewhisper"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:emberlash"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&3Emberlash"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:tainted_relic"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aTainted Relic"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:frostfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aFrostfall"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:arcanethyst"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aArcanethyst"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:emberblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aEmberblade"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:toxic_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aToxic Longsword"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:shadowsting"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aShadowsting"
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:thunderbrand"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "&aThunderbrand"
+		}
+	]
+	title: "{ftbquests.loot_table.7717620885184417875.title}"
+	use_title: true
+}

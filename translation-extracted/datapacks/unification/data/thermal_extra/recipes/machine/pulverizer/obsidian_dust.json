@@ -1,0 +1,14 @@
+{
+  "type": "thermal:pulverizer",
+  "energy": 7000,
+  "ingredients": [
+    {
+      "tag": "forge:obsidian"
+    }
+  ],
+  "result": [
+    {
+      "item": "ftbmaterials:obsidian_dust"
+    }
+  ]
+}

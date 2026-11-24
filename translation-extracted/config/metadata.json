@@ -1,0 +1,11 @@
+{
+  "id": 127,
+  "name": "FTB Presents Architect's Exodus",
+  "slug": "ftb-presents-architects-exodus",
+  "type": "release",
+  "version": {
+    "id": 100498,
+    "name": "1.14.0",
+    "type": "release"
+  }
+}

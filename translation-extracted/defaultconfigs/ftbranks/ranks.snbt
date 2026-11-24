@@ -1,0 +1,31 @@
+{
+	member: {
+		name: "member"
+		power: 1
+	},	
+	ultimine_upgrade1: {
+		name: "ultimine_upgrade1"
+		power: 2
+		ftbultimine.max_blocks: 16.0d
+	}
+	ultimine_upgrade2: {
+		name: "ultimine_upgrade2"
+		power: 3
+		ftbultimine.max_blocks: 24.0d
+	}
+	ultimine_upgrade3: {
+		name: "ultimine_upgrade3"
+		power: 4
+		ftbultimine.max_blocks: 32.0d
+	}
+	ultimine_upgrade4: {
+		name: "ultimine_upgrade4"
+		power: 5
+		ftbultimine.max_blocks: 40.0d
+	}
+	ultimine_upgrade5: {
+		name: "ultimine_upgrade5"
+		power: 6
+		ftbultimine.max_blocks: 48.0d
+	}
+}

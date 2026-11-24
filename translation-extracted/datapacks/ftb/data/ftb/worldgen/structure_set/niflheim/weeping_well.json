@@ -1,0 +1,11 @@
+{
+  "structures": [
+    { "structure": "ftb:niflheim/weeping_well", "weight": 1 }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19930913,
+    "spacing": 32,
+    "separation": 8
+  }
+}

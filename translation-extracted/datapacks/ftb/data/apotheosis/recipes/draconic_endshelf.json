@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "apotheosis:module",
+      "module": "enchantment"
+    }
+  ],
+  "pattern": [
+    " D ",
+    "PSP",
+    "PPP"
+  ],
+  "key": {
+    "D": {
+      "tag": "ftb:dragon_head"
+    },
+    "P": {
+      "tag": "forge:ender_pearls"
+    },
+    "S": {
+      "item": "apotheosis:endshelf"
+    }
+  },
+  "result": {
+    "item": "apotheosis:draconic_endshelf",
+    "count": 1
+  }
+}

@@ -1,0 +1,164 @@
+{
+	"40of0471046xc8mx": {
+		"definition": "root_fortune_+2",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"vnrodzyuv4x707ip": {
+		"definition": "luck+1",
+		"x": 32,
+		"y": 32,
+		"root": false
+	},
+	"9477f8lfde1q2rkt": {
+		"definition": "luck+1",
+		"x": -32,
+		"y": -32,
+		"root": false
+	},
+	"0hpshs92fb4xspis": {
+		"definition": "fortune+1",
+		"x": -32,
+		"y": 32,
+		"root": false
+	},
+	"eg3ll0w3g3j9a7tz": {
+		"definition": "fortune+1",
+		"x": 32,
+		"y": -32,
+		"root": false
+	},
+	"u9765o8hnbadbp61": {
+		"definition": "magic_resistance+5%",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"hinl2d4arrtlh85g": {
+		"definition": "ranged_resistance_+5%",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"r5ammvle1gg0xesf": {
+		"definition": "stamina+5%",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"7xwodqzjuy4yy4fr": {
+		"definition": "stamina+5%",
+		"x": 128,
+		"y": 128,
+		"root": false
+	},
+	"bjkmo9gopjzwoek8": {
+		"definition": "armor+1",
+		"x": -96,
+		"y": 32,
+		"root": false
+	},
+	"fahui4kxv0wku6es": {
+		"definition": "max_health_+2",
+		"x": -96,
+		"y": 192,
+		"root": false
+	},
+	"fx28nvd6ozivubab": {
+		"definition": "armor_toughness+1",
+		"x": 96,
+		"y": -192,
+		"root": false
+	},
+	"km25is4w1hg8jars": {
+		"definition": "armor+2",
+		"x": 96,
+		"y": -32,
+		"root": false
+	},
+	"09ajl0avj3k5da05": {
+		"definition": "fortune+2",
+		"x": 0,
+		"y": 160,
+		"root": false
+	},
+	"iggqjkqqph8o6bo9": {
+		"definition": "luck+2",
+		"x": 0,
+		"y": 64,
+		"root": false
+	},
+	"exsc7chkqxxa0raf": {
+		"definition": "max_health_+3",
+		"x": -32,
+		"y": 224,
+		"root": false
+	},
+	"jb48xscwaohdboqs": {
+		"definition": "max_health_+3",
+		"x": 32,
+		"y": 224,
+		"root": false
+	},
+	"t65k1ebxbdx8xkj4": {
+		"definition": "fortune+3",
+		"x": 0,
+		"y": 288,
+		"root": false
+	},
+	"94n091mibr4jtezr": {
+		"definition": "magic_resistance+2%",
+		"x": 0,
+		"y": -64,
+		"root": false
+	},
+	"ctpe832jeeu8i9ct": {
+		"definition": "ranged_resistance_+2%",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"044tw7veanix95lu": {
+		"definition": "ranged_resistance_+2%",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"shl72xn1jfhj9twa": {
+		"definition": "stamina+10%",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"bucs6t3173vi6fpr": {
+		"definition": "max_health_+1",
+		"x": -32,
+		"y": -160,
+		"root": false
+	},
+	"q7qo71srroigg6qk": {
+		"definition": "max_health_+1",
+		"x": 32,
+		"y": -160,
+		"root": false
+	},
+	"km1xsvngipovj976": {
+		"definition": "ultimine+8",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"umyrp7m8hrko1tn0": {
+		"definition": "max_health_+1",
+		"x": -96,
+		"y": 96,
+		"root": false
+	},
+	"3k8xq2trc88jjh3j": {
+		"definition": "max_health_+1",
+		"x": 96,
+		"y": -96,
+		"root": false
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ftb:is_midgard",
+  "features": "mysticalagriculture:prosperity_ore",
+  "step": "underground_ores"
+}

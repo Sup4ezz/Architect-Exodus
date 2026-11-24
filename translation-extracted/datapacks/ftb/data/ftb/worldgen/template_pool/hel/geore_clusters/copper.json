@@ -1,0 +1,33 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "ftb:geore_clusters/copper/cluster1",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "ftb:geore_clusters/copper/cluster2",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "ftb:geore_clusters/copper/cluster3",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

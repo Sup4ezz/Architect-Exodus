@@ -1,0 +1,71 @@
+[*]
+background: ftb:textures/quests/bgs/white_bg.png; color=#F5160f1f; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #F5FFFFFF
+widget_background: #F5333459
+context_menu: color:#F5333459; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#F5FFFFFF
+
+quest_view_background: color:#F5333459; border=#F5FFFFFF
+quest_view_border: #F5FFFFFF
+quest_started_color: #E5E4E2
+quest_not_started_color: #E5E4E2
+quest_completed_color: #D4AF37
+quest_locked_color: #7d7d8c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_rune_ftb.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.5d
+dependency_line_unselected_speed: 0.2d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: #F5eccb00
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+extra_quest_shapes: diamond, pentagon, octagon, heart, gear, hexagon, fancycircle, fancysquare, fancyroundedsquare, fancygildedsquare, fancyframe, fancydecosquare, fancydiamond
+
+#Path
+[16FC23E75EF92564]
+background: ftb:textures/quests/bgs/yggdrasil_bg.png; color=#D9ffffff
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_rune_ftb.png
+
+#Hel
+[195B47E326901A65]
+background: ftb:textures/quests/bgs/helbgtp.png
+quest_started_color: #E5E4E2
+quest_not_started_color: #E5E4E2
+quest_completed_color: #D4AF37
+quest_locked_color: #7d7d8c
+
+#FirstRealms
+[539B4F7FBF3ECB28]
+background: ftb:textures/quests/bgs/firstrealmbg.png
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_rune_giant.png
+quest_started_color: #E5E4E2
+quest_not_started_color: #E5E4E2
+quest_completed_color: #F7B169
+quest_locked_color: #7d7d8c
+
+#Muspelheim
+[023AA7FE2BF4B64A]
+background: ftb:textures/quests/bgs/muspbg.png
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_rune_fire.png
+quest_started_color: #d1d1d1
+quest_not_started_color: #ff0000
+quest_completed_color: #D4AF37
+quest_locked_color: #292929
+
+#Midgard
+[504A0E8D8C287D52]
+background: ftb:textures/quests/bgs/midgardbg.png
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_rune_man.png
+
+#Asgard
+[26B5B78720BB3DA1]
+background: ftb:textures/quests/bgs/asgardbg.png
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_rune_wryd.png
+dependency_line_selected_speed: 1.0d
+dependency_line_thickness: 0.3d
+dependency_line_unselected_speed: 0.5d

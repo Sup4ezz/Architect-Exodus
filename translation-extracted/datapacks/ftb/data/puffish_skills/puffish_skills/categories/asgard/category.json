@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": false,
+	"title": {"translate": "puffish_skills.category.asgard"},
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "cataclysm:goddess_statue"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/skills/bgs/bg_asgard.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_width"
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_cold/overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "ftb:is_jotunheim"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "ftb:is_niflheim"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:shattered_glacier"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:frosted_taiga"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:frosted_coniferous_forest"
+      }
+    ]
+  ]
+}

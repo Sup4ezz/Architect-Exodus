@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 },
+      "entries": [
+        { "type": "minecraft:item", "weight": 20, "name": "minecraft:iron_ingot", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 } }] },
+        { "type": "minecraft:item", "weight": 20, "name": "minecraft:nether_wart", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3.0, "max": 7.0 } }] },
+        { "type": "minecraft:item", "weight": 15, "name": "minecraft:bone", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3.0, "max": 8.0 } }] },
+        { "type": "minecraft:item", "weight": 15, "name": "minecraft:iron_ingot", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 5.0 } }] },
+        { "type": "minecraft:item", "weight": 10, "name": "minecraft:gold_ingot", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } }] },
+        { "type": "minecraft:item", "weight": 10, "name": "minecraft:string", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3.0, "max": 8.0 } }] },
+        { "type": "minecraft:item", "weight": 5, "name": "minecraft:diamond", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 } }] },
+        { "type": "minecraft:item", "weight": 8, "name": "minecraft:crying_obsidian", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 } }] },
+        { "type": "minecraft:item", "weight": 10, "name": "minecraft:arrow", "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 } }] }
+      ]
+    },
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 },
+      "entries": [
+        { "type": "minecraft:item", "weight": 8, "name": "minecraft:golden_apple" },
+        { "type": "minecraft:item", "weight": 3, "name": "minecraft:book", "functions": [{ "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 15.0, "max": 30.0 }, "treasure": true }] },
+        { "type": "minecraft:empty", "weight": 10 }
+      ]
+    }
+  ]
+}

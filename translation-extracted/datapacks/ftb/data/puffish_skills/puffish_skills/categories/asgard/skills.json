@@ -1,0 +1,218 @@
+{
+	"iwz48zktcucgjp3d": {
+		"definition": "root_current_hp_damage+3%",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"k0iftxxxaos49p4m": {
+		"definition": "dodge_chance+2%",
+		"x": -64,
+		"y": 32,
+		"root": false
+	},
+	"jfvgitbmezv7fxzq": {
+		"definition": "dodge_chance+2%",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"hzhc42aacgpaoex0": {
+		"definition": "dodge_chance+2%",
+		"x": 0,
+		"y": 96,
+		"root": false
+	},
+	"nis0cksufk0dg994": {
+		"definition": "dodge_chance+2%",
+		"x": 0,
+		"y": -96,
+		"root": false
+	},
+	"41x0i67c0oqhzn23": {
+		"definition": "dodge_chance+3%",
+		"x": -64,
+		"y": -64,
+		"root": false
+	},
+	"y7imamywyg8a5s2p": {
+		"definition": "dodge_chance+3%",
+		"x": 64,
+		"y": -64,
+		"root": false
+	},
+	"q9qv06am0eiu74dt": {
+		"definition": "overheal+4",
+		"x": -160,
+		"y": 224,
+		"root": false
+	},
+	"9w2pi6ado3evxptd": {
+		"definition": "overheal+4",
+		"x": 160,
+		"y": 224,
+		"root": false
+	},
+	"en3nxctctz691tc6": {
+		"definition": "armor+1",
+		"x": 0,
+		"y": -160,
+		"root": false
+	},
+	"3qjj4qltd14phgyy": {
+		"definition": "overheal+4",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"jjsd5ilzmgez6jjr": {
+		"definition": "overheal+2",
+		"x": 0,
+		"y": 192,
+		"root": false
+	},
+	"6oaam1vt938z6m1o": {
+		"definition": "overheal+3",
+		"x": -64,
+		"y": 224,
+		"root": false
+	},
+	"6vbss0ezecphiyie": {
+		"definition": "overheal+3",
+		"x": 64,
+		"y": 224,
+		"root": false
+	},
+	"ow240tntc5ephc0b": {
+		"definition": "ultimine+8",
+		"x": 160,
+		"y": -128,
+		"root": false
+	},
+	"t14kn7u3ysinmm6a": {
+		"definition": "reach+3",
+		"x": -256,
+		"y": -224,
+		"root": false
+	},
+	"pfi48ch8zbozuf2m": {
+		"definition": "reach+3",
+		"x": 256,
+		"y": -224,
+		"root": false
+	},
+	"kycvqfdmmoyr9oit": {
+		"definition": "armor+2",
+		"x": 0,
+		"y": -288,
+		"root": false
+	},
+	"nluzxrhztsvni6tn": {
+		"definition": "dodge_chance+5%",
+		"x": 0,
+		"y": -352,
+		"root": false
+	},
+	"2hqbkxzeh79vrtc4": {
+		"definition": "max_health_+1",
+		"x": -32,
+		"y": -256,
+		"root": false
+	},
+	"27ixsokpx4hxgvc5": {
+		"definition": "max_health_+2",
+		"x": 32,
+		"y": -320,
+		"root": false
+	},
+	"h7eqxumc28tqppnj": {
+		"definition": "overheal+3",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"m7yu3g08fuzk19x6": {
+		"definition": "current_hp_damage+5%",
+		"x": -160,
+		"y": -64,
+		"root": false
+	},
+	"86qz3hg16oreyigg": {
+		"definition": "stamina+3%",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"mfu23s7griy6mxjo": {
+		"definition": "stamina+5%",
+		"x": 160,
+		"y": 0,
+		"root": false
+	},
+	"q82epi760m52ccyc": {
+		"definition": "reach+2",
+		"x": -160,
+		"y": -128,
+		"root": false
+	},
+	"lzrluvnl82ppdqkh": {
+		"definition": "reach+3",
+		"x": -160,
+		"y": -192,
+		"root": false
+	},
+	"452j01t7sr74wddq": {
+		"definition": "current_hp_damage+8%",
+		"x": 160,
+		"y": -192,
+		"root": false
+	},
+	"d0f0zmprb3a98axf": {
+		"definition": "armor+2",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"heu83njhtzl8t6kj": {
+		"definition": "armor_toughness+1",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"u1831l9yivk2snzt": {
+		"definition": "max_health_+1",
+		"x": -64,
+		"y": -224,
+		"root": false
+	},
+	"bxn6n69epb24hksr": {
+		"definition": "max_health_+2",
+		"x": 64,
+		"y": -224,
+		"root": false
+	},
+	"g0v43d6jyoxevq1c": {
+		"definition": "max_health_+5",
+		"x": -288,
+		"y": -192,
+		"root": false
+	},
+	"dzhvsm95hlynh7mv": {
+		"definition": "stamina+3%",
+		"x": -96,
+		"y": 0,
+		"root": false
+	},
+	"6sbxsoje7orr0d4h": {
+		"definition": "current_hp_damage+8%",
+		"x": 288,
+		"y": -192,
+		"root": false
+	},
+	"5ner3ttpxalkdmii": {
+		"definition": "stamina+5%",
+		"x": 96,
+		"y": 0,
+		"root": false
+	}
+}

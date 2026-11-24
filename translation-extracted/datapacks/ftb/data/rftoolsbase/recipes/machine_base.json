@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "s": {
+      "tag": "forge:stone"
+    },
+    "b": {
+      "item": "actuallyadditions:black_quartz"
+    }
+  },
+  "pattern": [
+    "gbg",
+    "sss"
+  ],
+  "result": {
+    "item": "rftoolsbase:machine_base"
+  }
+}

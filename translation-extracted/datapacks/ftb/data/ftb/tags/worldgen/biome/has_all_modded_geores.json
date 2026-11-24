@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#ftb:is_midgard",
+    "#ftb:is_alfheim",
+    "#ftb:is_asgard"
+  ]
+}

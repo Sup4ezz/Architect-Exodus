@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#ftb:is_niflheim",
+        "ftb:jotunheim/glacial_ocean"
+    ]
+}
